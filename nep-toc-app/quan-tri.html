@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quản trị | NẾP TÓC</title>
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#8A5A3B">
+<link rel="icon" href="/icon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap&subset=vietnamese" rel="stylesheet">
+<link rel="stylesheet" href="/chung.css">
+</head>
+<body>
+
+<header class="hero">
+  <div class="container">
+    <div class="brandrow">
+      <span class="mark"><svg viewBox="0 0 24 24"><path d="M4 19V9M10 19V5M16 19v-7M22 19H2"/></svg></span>
+      <span class="who-brand"><b>Vũ Hải</b><small>Vận hành Xuất sắc cho ngành dịch vụ</small></span>
+    </div>
+    <span class="eyebrow">Lịch sử &amp; số liệu</span>
+    <h1>QUẢN TRỊ<span class="u"></span></h1>
+    <p class="lead"><span class="d1">Ai đang dùng, dùng bao nhiêu, tạo content kiểu gì, bài nào được dùng nhiều nhất.</span><span class="d2"><a href="/">Về trang tin</a></span></p>
+  </div>
+</header>
+
+<main>
+<div class="container">
+
+  <!-- Màn đăng nhập -->
+  <div class="qt-vao" id="manVao">
+    <h2>Nhập mã quản trị</h2>
+    <p>Mã này khác mã truy cập của nhân sự. Chỉ người quản lý có.</p>
+    <form id="formVao">
+      <input type="password" id="oMa" autocomplete="current-password" placeholder="Mã quản trị" required>
+      <button class="btn" type="submit" id="nutVao">Xem số liệu</button>
+    </form>
+    <p class="qt-loi" id="loiVao" hidden></p>
+  </div>
+
+  <!-- Bảng số liệu -->
+  <div id="manSo" hidden>
+    <div class="qt-hang">
+      <select class="sel" id="chonNgay">
+        <option value="7">7 ngày gần nhất</option>
+        <option value="30" selected>30 ngày gần nhất</option>
+        <option value="90">90 ngày gần nhất</option>
+      </select>
+      <button class="btn btn--phu" type="button" id="nutTai">Tải lại</button>
+      <button class="btn btn--phu" type="button" id="nutXuat">Tải lịch sử về máy (CSV)</button>
+      <span class="nho" id="capNhat"></span>
+    </div>
+
+    <div class="noibat-stats" id="oSo"></div>
+
+    <div class="qt-o" style="margin-bottom:26px">
+      <h3>Góp ý từ người dùng</h3>
+      <div class="bang-cuon bang-cao"><table class="bang" id="bangGopY"></table></div>
+      <p class="nho" id="demGopY" style="margin-top:9px"></p>
+    </div>
+
+    <div class="qt-o" style="margin-bottom:26px">
+      <h3>Lượt dùng theo ngày</h3>
+      <div class="daychart" id="bieuDoNgay"></div>
+      <p class="nho" id="chuThichNgay" style="margin-top:9px"></p>
+    </div>
+
+    <div class="qt-luoi">
+      <div class="qt-o">
+        <h3>Theo người dùng</h3>
+        <div class="bang-cuon"><table class="bang" id="bangNguoi"></table></div>
+      </div>
+      <div class="qt-o">
+        <h3>Content đã tạo theo kiểu</h3>
+        <div class="bang-cuon"><table class="bang" id="bangKieu"></table></div>
+      </div>
+    </div>
+
+    <div class="qt-luoi">
+      <div class="qt-o">
+        <h3>Bài được dùng nhiều nhất</h3>
+        <div class="bang-cuon"><table class="bang" id="bangBai"></table></div>
+      </div>
+      <div class="qt-o">
+        <h3>Lỗi hay gặp</h3>
+        <div class="bang-cuon"><table class="bang" id="bangLoi"></table></div>
+      </div>
+    </div>
+
+    <div class="qt-o" style="margin-bottom:26px">
+      <h3>Người dùng đã đăng ký</h3>
+      <div class="bang-cuon"><table class="bang" id="bangDangKy"></table></div>
+      <p class="nho" style="margin-top:9px">Khóa một người thì họ về màn đăng ký, mà cả nhóm không phải đổi mã truy cập.</p>
+    </div>
+
+    <div class="qt-o">
+      <h3>Lịch sử gần đây</h3>
+      <div class="qt-hang">
+        <label class="search" style="flex:1;min-width:220px;margin:0">
+          <svg class="icon" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+          <input id="oTim" type="search" placeholder="Lọc theo tên người, bài, phong cách…" aria-label="Lọc lịch sử">
+        </label>
+        <select class="sel" id="chonViec">
+          <option value="all">Tất cả việc</option>
+          <option value="content">Tạo content</option>
+          <option value="hoi">Hỏi nhanh</option>
+        </select>
+        <select class="sel" id="chonKQ">
+          <option value="all">Tất cả kết quả</option>
+          <option value="ok">Thành công</option>
+          <option value="loi">Lỗi</option>
+        </select>
+      </div>
+      <div class="bang-cuon bang-cao"><table class="bang" id="bangLichSu"></table></div>
+      <p class="nho" id="demLichSu" style="margin-top:10px"></p>
+    </div>
+  </div>
+
+</div>
+</main>
+
+<footer class="foot">
+  <div class="container">
+    <p><b>NẾP TÓC · Quản trị</b> · Nhật ký giữ 90 ngày, tự dọn phần cũ hơn.</p>
+    <p>Số liệu tính từ lúc bật tính năng ghi nhật ký, không có dữ liệu của những ngày trước đó.</p>
+  </div>
+</footer>
+
+<script>
+"use strict";
+const $=(s,r=document)=>r.querySelector(s);
+const $$=(s,r=document)=>[...r.querySelectorAll(s)];
+const esc=t=>String(t==null?"":t).replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+
+/* Mã quản trị giữ trong sessionStorage chứ KHÔNG phải localStorage.
+   Đóng tab là mất, phải nhập lại. Trang này xem được ai dùng bao nhiêu, để dính lại
+   trên một máy dùng chung thì hớ. */
+const KHOA="nep-toc-ma-quan-tri";
+const layMa=()=>{ try{ return sessionStorage.getItem(KHOA)||""; }catch(e){ return ""; } };
+const datMa=v=>{ try{ v?sessionStorage.setItem(KHOA,v):sessionStorage.removeItem(KHOA); }catch(e){} };
+
+let DU_LIEU=null;
+
+const gioVN=iso=>{
+  if(!iso) return "";
+  const d=new Date(iso);
+  if(isNaN(d)) return esc(iso);
+  // Máy chủ ghi giờ UTC. Cộng 7 tiếng để hiện đúng giờ Việt Nam.
+  const t=new Date(d.getTime()+7*3600*1000);
+  const p=n=>String(n).padStart(2,"0");
+  return p(t.getUTCDate())+"/"+p(t.getUTCMonth()+1)+" "+p(t.getUTCHours())+":"+p(t.getUTCMinutes());
+};
+const ngayGon=d=>{const p=String(d).split("-");return p.length===3?p[2]+"/"+p[1]:d;};
+const TEN_DD={facebook:"Facebook",tiktok:"TikTok"};
+const TEN_VIEC={content:"Tạo content",hoi:"Hỏi nhanh"};
+
+const TEN_LOAI={"noi-dung":"Nội dung","loi":"Lỗi","y-tuong":"Ý tưởng","khac":"Khác"};
+let GOP_Y=[];
+
+async function napGopY(){
+  try{
+    const r=await fetch("/.netlify/functions/gop-y",{
+      method:"POST", headers:{"content-type":"application/json"},
+      body:JSON.stringify({viec:"doc",ma:layMa()})
+    });
+    const j=await r.json();
+    if(j.loi){ veBang("#bangGopY",[{ten:"Góp ý"}],[],"Chưa đọc được góp ý."); return; }
+    GOP_Y=j.ds||[];
+    veGopY();
+    $("#demGopY").textContent="Tổng "+j.tong+" góp ý. Xóa đi sau khi đã xử lý xong.";
+  }catch(e){ veBang("#bangGopY",[{ten:"Góp ý"}],[],"Mất kết nối."); }
+}
+
+function veGopY(){
+  veBang("#bangGopY",
+    [{ten:"Lúc"},{ten:"Loại"},{ten:"Nội dung"},{ten:"Người gửi"},{ten:"Ở đâu"},{ten:""}],
+    GOP_Y.map(x=>[
+      '<span class="mo">'+gioVN(x.t)+"</span>",
+      '<span class="nhan-dd">'+esc(TEN_LOAI[x.loai]||x.loai||"")+"</span>",
+      esc(x.noiDung||""),
+      (x.ten?'<span class="ten">'+esc(x.ten)+"</span>":'<span class="mo">(ẩn danh)</span>')
+        +(x.lienHe?'<br><span class="mo">'+esc(x.lienHe)+"</span>":"")
+        +(x.daDangKy?' <span class="nhan-ok">đã đăng ký</span>':""),
+      '<span class="mo">'+esc(x.boiCanh||"")+(x.manHinh==="dien-thoai"?" · điện thoại":"")+"</span>",
+      '<button class="lien" type="button" data-xoa-gy="'+esc(x.khoa)+'">xóa</button>',
+    ]),
+    "Chưa có góp ý nào.");
+}
+
+$("#bangGopY").addEventListener("click",async e=>{
+  const b=e.target.closest("[data-xoa-gy]"); if(!b) return;
+  if(!window.confirm("Xóa góp ý này? Chỉ xóa sau khi đã xử lý xong.")) return;
+  try{
+    await fetch("/.netlify/functions/gop-y",{method:"POST",headers:{"content-type":"application/json"},
+      body:JSON.stringify({viec:"xoa",ma:layMa(),khoa:b.dataset.xoaGy})});
+  }catch(err){}
+  GOP_Y=GOP_Y.filter(x=>x.khoa!==b.dataset.xoaGy);
+  veGopY();
+});
+
+async function goiThongKe(soNgay){
+  const r=await fetch("/.netlify/functions/thong-ke",{
+    method:"POST", headers:{"content-type":"application/json"},
+    body:JSON.stringify({ma:layMa(),soNgay})
+  });
+  return r.json();
+}
+
+function veBang(dich,cot,hang,trong){
+  const el=$(dich);
+  if(!hang.length){ el.innerHTML=`<tbody><tr><td class="mo">${esc(trong)}</td></tr></tbody>`; return; }
+  el.innerHTML="<thead><tr>"+cot.map(c=>`<th${c.so?' class="so"':''}>${esc(c.ten)}</th>`).join("")+"</tr></thead>"
+    +"<tbody>"+hang.map(h=>"<tr>"+h.map((o,i)=>`<td${cot[i].so?' class="so"':''}>${o}</td>`).join("")+"</tr>").join("")+"</tbody>";
+}
+
+function ve(d){
+  DU_LIEU=d;
+  const s=d.soLieu;
+
+  $("#oSo").innerHTML=[
+    ["Hôm nay",s.homNay,""],
+    ["7 ngày qua",s.tuan,""],
+    ["Tổng "+d.soNgay+" ngày",s.tong,"stat--cao"],
+    ["Người dùng",s.soNguoi,""],
+    ["Lỗi",s.soLoi,""],
+    ["Đã đăng ký",(d.nguoiDung||[]).length,""],
+  ].map(([n,v,c])=>`<div class="stat ${c}"><b>${v}</b><span>${esc(n)}</span></div>`).join("");
+
+  // Biểu đồ ngày: chỉ vẽ 14 ngày cuối cho vừa mắt, dù dữ liệu có thể nhiều hơn.
+  const ds=s.theoNgay.slice(-14);
+  const max=Math.max(1,...ds.map(x=>x.content+x.hoi));
+  $("#bieuDoNgay").innerHTML=ds.map(x=>{
+    const t=x.content+x.hoi;
+    return `<div class="daycol" title="${esc(x.ngay)}: ${x.content} content, ${x.hoi} hỏi nhanh">
+      <span class="daycol__c">${t||""}</span>
+      <span class="daycol__fill" style="height:${Math.round(t/max*88)}%"></span>
+      <span class="daycol__d">${esc(ngayGon(x.ngay))}</span></div>`;
+  }).join("");
+  $("#chuThichNgay").textContent="Cột là tổng lượt mỗi ngày. Rê chuột để xem tách riêng tạo content và hỏi nhanh.";
+
+  veBang("#bangNguoi",
+    [{ten:"Tên"},{ten:"Content",so:1},{ten:"Hỏi",so:1},{ten:"Tổng",so:1},{ten:"Lần cuối"}],
+    s.theoNguoi.map(x=>[`<span class="ten">${esc(x.ten)}</span>`,x.content,x.hoi,`<b>${x.n}</b>`,`<span class="mo">${gioVN(x.lanCuoi)}</span>`]),
+    "Chưa có ai dùng trong khoảng này.");
+
+  const kieu=[];
+  s.theoDinhDang.forEach(([k,n])=>kieu.push([`<span class="nhan-dd">${esc(TEN_DD[k]||k||"?")}</span>`,`<b>${n}</b>`]));
+  s.theoPhongCach.forEach(([k,n])=>{
+    const p=String(k).split(" · ");
+    kieu.push([`<span class="mo">${esc(TEN_DD[p[0]]||p[0])} · ${esc(p[1]||"")}</span>`,n]);
+  });
+  veBang("#bangKieu",[{ten:"Định dạng và phong cách"},{ten:"Lượt",so:1}],kieu,"Chưa tạo content nào.");
+
+  veBang("#bangBai",[{ten:"Bài"},{ten:"Lượt",so:1}],
+    s.baiDungNhieu.map(([b,n])=>[esc(b),`<b>${n}</b>`]),
+    "Chưa có bài nào được dùng.");
+
+  veBang("#bangLoi",[{ten:"Lỗi"},{ten:"Lượt",so:1}],
+    s.loiHayGap.map(([b,n])=>[`<span class="nhan-loi">${esc(b||"không rõ")}</span>`,`<b>${n}</b>`]),
+    "Không có lỗi nào. Tốt.");
+
+  veBang("#bangDangKy",
+    [{ten:"Tên"},{ten:"Số liên lạc"},{ten:"Email"},{ten:"Lượt",so:1},{ten:"Đăng ký"},{ten:"Lần cuối"},{ten:""}],
+    (d.nguoiDung||[]).map(x=>[
+      (x.khoa?'<span class="nhan-loi">đã khóa</span> ':"")+'<span class="ten">'+esc(x.ten)+"</span>",
+      // Dấu tích Zalo hiện thành nhãn, để Vũ Hải nhìn phát biết nhắn Zalo được hay không.
+      '<span class="mo">'+esc(x.dienThoai||"")+"</span>"
+        +(x.dungZalo?' <span class="nhan-dd">Zalo</span>':""),
+      '<span class="mo">'+esc(x.email||"")+"</span>",
+      "<b>"+(x.soLuot||0)+"</b>",
+      '<span class="mo">'+gioVN(x.tao)+"</span>",
+      '<span class="mo">'+gioVN(x.lanCuoi)+"</span>",
+      '<button class="lien" type="button" data-khoa="'+esc(x.token)+'" data-dang="'+(x.khoa?"1":"0")+'">'+(x.khoa?"mở khóa":"khóa")+"</button>"
+       +' <button class="lien" type="button" data-xoa-nguoi="'+esc(x.token)+'">xóa</button>',
+    ]),
+    "Chưa ai đăng ký.");
+
+  veLichSu();
+  $("#capNhat").textContent="Nhật ký giữ "+d.soNgayGiu+" ngày · tổng "+d.tongSuKien+" lượt trong khoảng đang xem";
+}
+
+function veLichSu(){
+  if(!DU_LIEU) return;
+  const q=$("#oTim").value.trim().toLowerCase();
+  const fv=$("#chonViec").value, fk=$("#chonKQ").value;
+  const ds=DU_LIEU.lichSu.filter(x=>{
+    if(fv!=="all"&&x.v!==fv) return false;
+    if(fk==="ok"&&!x.ok) return false;
+    if(fk==="loi"&&x.ok) return false;
+    if(!q) return true;
+    return (x.ng+" "+(x.b||"")+" "+(x.pc||"")+" "+(x.dd||"")+" "+(x.loi||"")).toLowerCase().includes(q);
+  });
+  veBang("#bangLichSu",
+    [{ten:"Lúc"},{ten:"Người"},{ten:"Việc"},{ten:"Kiểu"},{ten:"Bài"},{ten:"Kết quả"},{ten:"Giây",so:1}],
+    ds.map(x=>[
+      `<span class="mo">${gioVN(x.t)}</span>`,
+      `<span class="ten">${esc(x.ng)}</span>`,
+      esc(TEN_VIEC[x.v]||x.v),
+      x.v==="content"
+        ? `<span class="nhan-dd">${esc(TEN_DD[x.dd]||x.dd||"")}</span> <span class="mo">${esc(x.pc||"")} ${esc(x.kc||"")}</span>`
+        : `<span class="mo">.</span>`,
+      `<span class="mo">${esc(x.b||"")}</span>`,
+      x.ok?`<span class="nhan-ok">xong</span>`:`<span class="nhan-loi">${esc(x.loi||"lỗi")}</span>`,
+      x.ms?Math.round(x.ms/1000):"",
+    ]),
+    "Không có dòng nào khớp bộ lọc.");
+  $("#demLichSu").textContent="Đang xem "+ds.length+" trên "+DU_LIEU.lichSu.length+" dòng gần nhất.";
+}
+
+/* Xuất CSV để mở bằng Excel.
+   Có BOM ở đầu file, bắt buộc: thiếu nó thì Excel trên Windows đọc UTF-8 thành ký tự
+   lạ, tên tiếng Việt nát hết. */
+function xuatCSV(){
+  if(!DU_LIEU) return;
+  const cot=["Lúc (giờ VN)","Người","Việc","Định dạng","Phong cách","Kích cỡ","Bài","Kết quả","Lỗi","Giây"];
+  const o=v=>'"'+String(v==null?"":v).replace(/"/g,'""')+'"';
+  const dong=DU_LIEU.lichSu.map(x=>[
+    gioVN(x.t),x.ng,TEN_VIEC[x.v]||x.v,TEN_DD[x.dd]||x.dd||"",x.pc||"",x.kc||"",
+    x.b||"",x.ok?"xong":"lỗi",x.loi||"",x.ms?Math.round(x.ms/1000):""
+  ].map(o).join(","));
+  const csv="﻿"+[cot.map(o).join(",")].concat(dong).join("\r\n");
+  const a=document.createElement("a");
+  a.href=URL.createObjectURL(new Blob([csv],{type:"text/csv;charset=utf-8"}));
+  a.download="nep-toc-lich-su-"+new Date().toISOString().slice(0,10)+".csv";
+  document.body.appendChild(a); a.click();
+  setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove();},500);
+}
+
+async function nap(){
+  const soNgay=Number($("#chonNgay").value)||30;
+  $("#nutTai").disabled=true; $("#nutTai").textContent="Đang tải…";
+  try{
+    const d=await goiThongKe(soNgay);
+    if(d.loi){ baoLoi(d.loi); return; }
+    $("#manVao").hidden=true; $("#manSo").hidden=false;
+    ve(d);
+    napGopY();
+  }catch(e){ baoLoi("mang"); }
+  finally{ $("#nutTai").disabled=false; $("#nutTai").textContent="Tải lại"; }
+}
+
+function baoLoi(ma){
+  const o=$("#loiVao");
+  o.hidden=false;
+  o.textContent = ma==="sai_ma" ? "Mã không đúng."
+    : ma==="chua_dat_ma_quan_tri" ? "Chưa mở trang này. Cần đặt biến MA_QUAN_TRI trên Netlify rồi deploy lại."
+    : ma==="doc_hong" ? "Đọc nhật ký hỏng. Thử lại sau."
+    : "Không gọi được máy chủ. Kiểm tra mạng.";
+  if(ma==="sai_ma") datMa("");
+  $("#manVao").hidden=false; $("#manSo").hidden=true;
+}
+
+$("#formVao").addEventListener("submit",e=>{
+  e.preventDefault();
+  const v=$("#oMa").value.trim();
+  if(!v) return;
+  datMa(v); $("#oMa").value=""; $("#loiVao").hidden=true;
+  nap();
+});
+/* Khóa, mở khóa, xóa một người đã đăng ký. Khóa xong họ về màn đăng ký, còn cả nhóm
+   KHÔNG phải đổi mã truy cập, đó là điểm hơn hẳn cách dùng chung một mã. */
+$("#bangDangKy").addEventListener("click",async e=>{
+  const bK=e.target.closest("[data-khoa]"), bX=e.target.closest("[data-xoa-nguoi]");
+  if(!bK&&!bX) return;
+  if(bX && !window.confirm("Xóa hẳn người này? Họ sẽ phải đăng ký lại từ đầu.")) return;
+  const than = bX
+    ? {ma:layMa(),viec:"xoa-nguoi",token:bX.dataset.xoaNguoi}
+    : {ma:layMa(),viec:"khoa",token:bK.dataset.khoa,khoa:bK.dataset.dang!=="1"};
+  try{
+    await fetch("/.netlify/functions/thong-ke",{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify(than)});
+  }catch(err){}
+  nap();
+});
+$("#nutTai").addEventListener("click",nap);
+$("#chonNgay").addEventListener("change",nap);
+$("#nutXuat").addEventListener("click",xuatCSV);
+$("#oTim").addEventListener("input",veLichSu);
+$("#chonViec").addEventListener("change",veLichSu);
+$("#chonKQ").addEventListener("change",veLichSu);
+
+// Đã nhập mã trong phiên này rồi thì vào thẳng, khỏi gõ lại mỗi lần bấm Tải lại.
+if(layMa()) nap();
+</script>
+</body>
+</html>

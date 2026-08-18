@@ -1,0 +1,1871 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Tin ngành Tóc & Vận hành salon | NẾP TÓC</title>
+<meta name="description" content="NẾP TÓC gom tin nghề, nghiên cứu da liễu và xu hướng ngành tóc từ nguồn quốc tế và báo Việt, dịch sang tiếng Việt, kèm câu mở bài và góc triển khai để viết content nói với chủ salon.">
+<meta name="keywords" content="ngành tóc, salon tóc, vận hành salon, quản lý salon, giữ thợ tóc, giá dịch vụ salon, rụng tóc, da đầu, content salon, Vũ Hải">
+<meta name="author" content="Vũ Hải">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#8A5A3B">
+<link rel="canonical" href="https://nep-toc.netlify.app/">
+
+<!-- Favicon và icon cài app. PHẢI có PNG 192 và 512: Chrome chỉ mời cài app khi manifest
+     khai icon PNG, icon SVG một mình thì không đủ điều kiện. -->
+<link rel="icon" href="/icon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<!-- Cho iPhone: chạy toàn màn hình khi mở từ màn hình chính -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="NẾP TÓC">
+
+<!-- Open Graph (Zalo, Facebook, Messenger) khi chuyền link cho nhau trong nhóm -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="NẾP TÓC — Tin ngành Tóc & Vận hành salon">
+<meta property="og:locale" content="vi_VN">
+<meta property="og:url" content="https://nep-toc.netlify.app/">
+<meta property="og:title" content="Tin ngành Tóc & Vận hành salon | NẾP TÓC">
+<meta property="og:description" content="Tin nghề, nghiên cứu và xu hướng ngành tóc, dịch sang tiếng Việt, kèm câu mở bài viết sẵn và công cụ tạo content cho chủ salon.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap&subset=vietnamese" rel="stylesheet">
+<link rel="stylesheet" href="/chung.css">
+</head>
+<body>
+
+<!-- ===== MÀN ĐĂNG KÝ =====
+     Hiện MỘT LẦN, trước khi dùng app. Thay cho hai hộp thoại prompt của trình duyệt
+     trước đây bật lên giữa lúc đang bấm tạo content, và mất mỗi khi xóa lịch sử duyệt.
+     Ẩn sẵn bằng hidden để người đã đăng ký không thấy nó nháy lên lúc trang đang tải. -->
+<div class="dk-lop" id="manDangKy" hidden>
+  <div class="dk">
+    <div class="dk__dau">
+      <span class="mark"><svg viewBox="0 0 24 24"><path d="M4 4.5h16v3.2H4z"/><path d="M5.6 7.7v11.8M9.2 7.7v11.8M12.8 7.7v11.8M16.4 7.7v11.8M20 7.7v11.8"/></svg></span>
+      <span class="who-brand"><b>Vũ Hải</b><small>Vận hành Xuất sắc cho ngành dịch vụ</small></span>
+    </div>
+    <h1>NẾP TÓC</h1>
+    <p class="dk__mo" id="dkMo">Đăng ký một lần để dùng Tạo content và Hỏi nhanh. Lần sau mở lên là vào thẳng, không phải nhập lại gì.</p>
+
+    <form class="dk__the" id="formDangKy">
+      <label class="dk__o">
+        <span>Họ và tên</span>
+        <input type="text" id="dkTen" autocomplete="name" required maxlength="60" placeholder="Ví dụ: Nguyễn Văn Dũng">
+      </label>
+      <label class="dk__o">
+        <span>Số liên lạc</span>
+        <input type="tel" id="dkSdt" autocomplete="tel" required maxlength="30" placeholder="Ví dụ: 0912 345 678">
+      </label>
+      <!-- Ô tích Zalo để riêng ra ngoài label của ô số, không thì bấm vào chữ là nhảy
+           con trỏ vào ô nhập số chứ không tích được. -->
+      <div class="dk__tich">
+        <label><input type="checkbox" id="dkZalo" checked> <span>Số này có dùng Zalo</span></label>
+      </div>
+      <label class="dk__o">
+        <span>Email</span>
+        <input type="email" id="dkEmail" autocomplete="email" required maxlength="80" placeholder="Ví dụ: dung@gmail.com">
+      </label>
+      <label class="dk__o">
+        <span>Mã truy cập</span>
+        <input type="password" id="dkMa" autocomplete="one-time-code" required maxlength="60" placeholder="Mã do Vũ Hải cấp">
+        <small>Chỉ nhập lần này. Sau khi đăng ký xong thì không cần nữa.</small>
+      </label>
+      <button class="btn" type="submit" id="dkGui">Bắt đầu dùng</button>
+      <p class="dk__loi" id="dkLoi" hidden></p>
+    </form>
+
+    <p class="dk__chan">Đọc tin thì không cần đăng ký. Thông tin chỉ dùng để biết ai đang tạo content và để phản hồi khi cần, không dùng vào việc gì khác.</p>
+  </div>
+</div>
+
+<header class="hero">
+  <div class="container">
+    <div class="brandrow">
+      <span class="mark"><svg viewBox="0 0 24 24"><path d="M4 4.5h16v3.2H4z"/><path d="M5.6 7.7v11.8M9.2 7.7v11.8M12.8 7.7v11.8M16.4 7.7v11.8M20 7.7v11.8"/></svg></span>
+      <span class="who-brand"><b>Vũ Hải</b><small>Vận hành Xuất sắc cho ngành dịch vụ</small></span>
+    </div>
+    <span class="eyebrow">Ngành Tóc &amp; Vận hành salon</span>
+    <h1>NẾP TÓC<span class="u"></span></h1>
+    <p class="lead"><span class="d1">Tin nghề, nghiên cứu và xu hướng ngành tóc, gom từ báo nghề quốc tế và báo Việt mỗi ngày.</span><span class="d2">Mỗi bài có tóm tắt tiếng Việt, một câu mở bài viết sẵn và góc triển khai để nói chuyện với chủ salon.</span></p>
+  </div>
+</header>
+
+<nav class="tabbar" aria-label="Điều hướng">
+  <div class="container">
+    <div class="tabbar__inner" role="tablist">
+      <button class="tab" role="tab" id="tab-nghe" aria-controls="p-nghe" aria-selected="true">
+        <svg class="icon icon--sm" viewBox="0 0 24 24"><circle cx="6" cy="7" r="2.6"/><circle cx="6" cy="17" r="2.6"/><path d="M20 5L8.3 15.5M8.3 8.5L20 19"/></svg>Nghề & Salon</button>
+      <button class="tab" role="tab" id="tab-kh" aria-controls="p-kh" aria-selected="false">
+        <svg class="icon icon--sm" viewBox="0 0 24 24"><path d="M9 3v6l-5 9a2 2 0 002 3h12a2 2 0 002-3l-5-9V3"/><path d="M8 3h8M7.5 15h9"/></svg>Khoa học</button>
+      <button class="tab" role="tab" id="tab-xh" aria-controls="p-xh" aria-selected="false">
+        <svg class="icon icon--sm" viewBox="0 0 24 24"><path d="M3 17l6-6 4 4 8-8"/><path d="M17 7h4v4"/></svg>Xu hướng & Khách</button>
+      <button class="tab" role="tab" id="tab-vn" aria-controls="p-vn" aria-selected="false">
+        <svg class="icon icon--sm" viewBox="0 0 24 24"><path d="M3 5h13v14H5a2 2 0 01-2-2z"/><path d="M16 9h5v8a2 2 0 01-2 2h-3z"/><path d="M6 9h7M6 13h7"/></svg>Việt Nam</button>
+      <button class="tab" role="tab" id="tab-dt" aria-controls="p-dt" aria-selected="false">
+        <svg class="icon icon--sm" viewBox="0 0 24 24"><path d="M5 4h11l4 4v12H5z"/><path d="M9 12h7M9 16h5"/></svg>Đã tạo</button>
+      <button class="tab" role="tab" id="tab-hoi" aria-controls="p-hoi" aria-selected="false">
+        <svg class="icon icon--sm" viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4V5z"/></svg>Hỏi nhanh</button>
+    </div>
+  </div>
+</nav>
+
+<main>
+
+<!-- ===== TAB 1: KHOA HỌC & BẰNG CHỨNG ===== -->
+<section class="panel" id="p-nghe" role="tabpanel" aria-labelledby="tab-nghe">
+  <div class="band band--noibat">
+    <div class="container">
+      <div class="watch">
+        <div class="watch__top">Nổi bật tuần này</div>
+        <div class="noibat-stats" id="noibatStats"></div>
+        <div class="noibat">
+          <div>
+            <div class="noibat__h">Chủ đề đang dày tin</div>
+            <div class="kw-chart" id="kwChart"></div>
+          </div>
+          <div>
+            <div class="noibat__h">Ba bài đáng viết nhất tuần</div>
+            <ol class="top3" id="top3"></ol>
+          </div>
+          <div>
+            <div class="noibat__h">Nhịp tin 7 ngày</div>
+            <div class="daychart" id="dayChart"></div>
+          </div>
+        </div>
+        <details class="more">
+          <summary>Năm câu hỏi trước khi biến một bài thành content
+            <svg class="icon icon--sm" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg></summary>
+          <ol class="tl" id="tlist"></ol>
+        </details>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <p class="lead-line">Nhân sự, giá dịch vụ, khách quay lại, mô hình kinh doanh salon. Đây là tab <b>trúng đích nhất</b> với người đang điều hành một cái tiệm.</p>
+    <label class="search"><svg class="icon" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+      <input id="q-nghe" type="search" placeholder="Tìm: giữ thợ, giá dịch vụ, khách quay lại…" aria-label="Tìm trong tab Nghề và Salon"></label>
+    <div class="chips">
+      <button class="chip" data-f="all" aria-pressed="true">Tất cả</button>
+      <button class="chip" data-f="cao" aria-pressed="false">Nên dùng</button>
+      <button class="chip" data-f="hook" aria-pressed="false">Đã có gợi ý content</button>
+    </div>
+    <div class="list" id="nghelist"></div>
+    <div class="pager" id="pg-nghe"></div>
+  </div>
+</section>
+
+<!-- ===== TAB 2: PHỤ NỮ & CHU KỲ ĐỜI ===== -->
+<section class="panel" id="p-kh" role="tabpanel" aria-labelledby="tab-kh" hidden>
+  <div class="container">
+    <div class="status" id="status"><span class="led"></span><span id="statusText">Đang nạp dữ liệu…</span></div>
+    <p class="lead-line">Nghiên cứu da liễu và tin khoa học về tóc. Đây là chỗ lấy <b>dẫn chứng thật</b> để đào tạo thợ và trả lời khách hỏi khó.</p>
+    <label class="search"><svg class="icon" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+      <input id="q-kh" type="search" placeholder="Tìm trong bài khoa học: rụng tóc, da đầu, keratin…" aria-label="Tìm trong tab Khoa học"></label>
+    <div class="chips">
+      <button class="chip" data-f="all" aria-pressed="true">Tất cả</button>
+      <button class="chip" data-f="cao" aria-pressed="false">Nên dùng</button>
+      <button class="chip" data-f="hook" aria-pressed="false">Đã có gợi ý content</button>
+    </div>
+    <div class="list" id="khlist"></div>
+    <div class="pager" id="pg-kh"></div>
+  </div>
+</section>
+
+<!-- ===== TAB 3: XU HƯỚNG & TÂM LÝ ===== -->
+<section class="panel" id="p-xh" role="tabpanel" aria-labelledby="tab-xh" hidden>
+  <div class="container">
+    <p class="lead-line">Khách đang muốn gì và đang tin gì trước khi bước vào ghế. Mảng <b>dễ viral nhất nhưng cũng dễ sai nhất</b>, nhớ đọc kỹ câu Lưu ý.</p>
+    <label class="search"><svg class="icon" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+      <input id="q-xh" type="search" placeholder="Tìm: xu hướng màu, tóc bạc, chăm da đầu…" aria-label="Tìm trong tab Xu hướng và Khách"></label>
+    <div class="chips">
+      <button class="chip" data-f="all" aria-pressed="true">Tất cả</button>
+      <button class="chip" data-f="cao" aria-pressed="false">Nên dùng</button>
+      <button class="chip" data-f="congdong" aria-pressed="false">Thợ và khách nói</button>
+    </div>
+    <div class="list" id="xhlist"></div>
+    <div class="pager" id="pg-xh"></div>
+  </div>
+</section>
+
+<!-- ===== TAB 4: VIỆT NAM ===== -->
+<section class="panel" id="p-vn" role="tabpanel" aria-labelledby="tab-vn" hidden>
+  <div class="container">
+    <p class="lead-line">Tin trong nước, bối cảnh gần nên chủ salon thấy tiệm mình trong đó. Tin thu hồi sản phẩm hay xử phạt quảng cáo sai thì viết theo hướng <b>chọn hàng nhập cho đúng</b>, không công kích ai.</p>
+    <label class="search"><svg class="icon" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+      <input id="q-vn" type="search" placeholder="Tìm: dầu gội, rụng tóc, salon, nhuộm…" aria-label="Tìm trong tab Việt Nam"></label>
+    <div class="chips">
+      <button class="chip" data-f="all" aria-pressed="true">Tất cả</button>
+      <button class="chip" data-f="cao" aria-pressed="false">Nên dùng</button>
+      <button class="chip" data-f="hook" aria-pressed="false">Đã có gợi ý content</button>
+    </div>
+    <div class="list" id="vnlist"></div>
+    <div class="pager" id="pg-vn"></div>
+  </div>
+</section>
+
+<!-- ===== TAB 5: ĐÃ TẠO =====
+     Sinh ra vì lỗi thật: content tạo xong không lưu ở đâu, đóng hộp là mất. -->
+<section class="panel" id="p-dt" role="tabpanel" aria-labelledby="tab-dt" hidden>
+  <div class="container">
+    <p class="lead-line">Mọi bài content đã tạo đều được lưu ở đây, <b>kể cả khi đóng hộp giữa chừng</b>. Lưu ở máy chủ nên đổi máy hay đổi trình duyệt vẫn còn.</p>
+    <div class="qt-hang">
+      <label class="search" style="flex:1;min-width:220px;margin:0">
+        <svg class="icon" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+        <input id="q-dt" type="search" placeholder="Tìm theo bài, người tạo, nội dung…" aria-label="Tìm trong bài đã tạo">
+      </label>
+      <select class="sel" id="dt-dinhDang">
+        <option value="all">Cả hai định dạng</option>
+        <option value="facebook">Facebook</option>
+        <option value="tiktok">TikTok</option>
+      </select>
+      <button class="btn btn--phu" type="button" id="dt-tai">Tải lại</button>
+    </div>
+    <p class="nho" id="dt-dem" style="margin-bottom:14px"></p>
+    <div class="list" id="dtlist"></div>
+  </div>
+</section>
+
+<!-- ===== TAB 6: HỎI NHANH ===== -->
+<section class="panel" id="p-hoi" role="tabpanel" aria-labelledby="tab-hoi" hidden>
+  <div class="container">
+    <p class="lead-line">Hỏi trợ lý về cách viết bài, cách chọn góc, hoặc kiểm chứng một thông tin. Trợ lý <b>có tra web thật</b> nên trả lời chậm hơn chat thường, đổi lại có dẫn nguồn.</p>
+    <div class="qsug" id="qsug"></div>
+    <div class="chatlog" id="chatlog"></div>
+    <form class="askrow" id="askform">
+      <input id="ask" type="text" placeholder="Ví dụ: thợ chính xin nghỉ ra mở riêng thì viết bài thế nào?" aria-label="Câu hỏi">
+      <button class="btn" type="submit">Hỏi</button>
+      <button class="btn btn--phu" type="button" id="chepHoi">Chép để hỏi Claude</button>
+    </form>
+    <p class="chep-ok" id="chepOk">Đã chép vào bộ nhớ tạm.</p>
+  </div>
+</section>
+
+</main>
+
+<!-- ===== HỘP TẠO CONTENT =====
+     Ba bước trong một hộp: chọn định dạng, chọn phong cách, rồi mới sinh bài.
+     Cố ý bắt chọn phong cách trước khi gọi AI: một bài tin có thể lên năm kiểu bài rất
+     khác nhau, để AI tự chọn thì lần nào cũng ra một giọng. -->
+<div class="lop-phu" id="hopTao" hidden role="dialog" aria-modal="true" aria-labelledby="hopTaoTieuDe">
+  <div class="hop">
+    <div class="hop__dau">
+      <div>
+        <h2 id="hopTaoTieuDe">Tạo content từ bài này</h2>
+        <p class="hop__bai" id="hopTaoBai"></p>
+      </div>
+      <button class="hop__dong" type="button" id="hopTaoDong" aria-label="Đóng">&times;</button>
+    </div>
+
+    <div class="hop__than" id="hopTaoThan">
+      <div class="hop__buoc">
+        <div class="hop__nhan">1 · Đăng ở đâu</div>
+        <div class="dd-luoi">
+          <button class="dd" type="button" data-dd="facebook" aria-pressed="true">
+            <b>Bài Facebook</b><span>Bài đăng hoàn chỉnh, dán lên trang là đăng được ngay</span></button>
+          <button class="dd" type="button" data-dd="tiktok" aria-pressed="false">
+            <b>Kịch bản TikTok</b><span>Chia theo giây, có lời thoại và chữ trên màn hình</span></button>
+        </div>
+      </div>
+
+      <div class="hop__buoc">
+        <div class="hop__nhan">2 · Phong cách</div>
+        <div class="pc-hang" id="hopTaoPC"></div>
+      </div>
+
+      <div class="hop__buoc">
+        <div class="hop__nhan" id="hopTaoNhanCo">3 · Độ dài</div>
+        <div class="pc-hang" id="hopTaoCo"></div>
+      </div>
+
+      <div id="hopTaoKQ"></div>
+    </div>
+
+    <div class="hop__chan">
+      <button class="btn" type="button" id="hopTaoChay">Tạo content</button>
+      <button class="btn btn--phu" type="button" id="hopTaoChep" hidden>Chép toàn bộ</button>
+      <span class="nho" id="hopTaoNho">Chọn xong bấm Tạo content.</span>
+    </div>
+  </div>
+</div>
+
+<!-- ===== NÚT GÓP Ý ===== -->
+<button class="gy-nut" type="button" id="gyNut" aria-label="Gửi góp ý">
+  <svg viewBox="0 0 24 24"><path d="M20 4H8a2 2 0 00-2 2v7a2 2 0 002 2h7l5 4V6a2 2 0 00-2-2z"/><path d="M6 17H4V9"/></svg>
+  <span>Góp ý</span>
+</button>
+
+<!-- ===== HỘP GÓP Ý =====
+     Không đòi đăng ký. Bắt người ta đăng ký mới cho góp ý thì phần lớn sẽ bỏ đi, mà đúng
+     những người bỏ đi mới là người có điều đáng nói nhất. -->
+<div class="lop-phu" id="hopGopY" hidden role="dialog" aria-modal="true" aria-labelledby="gyTieuDe">
+  <div class="hop">
+    <div class="hop__dau">
+      <div>
+        <h2 id="gyTieuDe">Góp ý cho NẾP TÓC</h2>
+        <p class="hop__bai">Chỗ nào khó dùng, chỗ nào sai, hay anh chị muốn có thêm gì. Nói thẳng giúp mình.</p>
+      </div>
+      <button class="hop__dong" type="button" id="gyDong" aria-label="Đóng">&times;</button>
+    </div>
+
+    <div class="hop__than" id="gyThan">
+      <div class="hop__buoc">
+        <div class="hop__nhan">Góp ý về</div>
+        <div class="gy-loai" id="gyLoai">
+          <button class="pc" type="button" data-loai="noi-dung" aria-pressed="true">Nội dung, bài viết</button>
+          <button class="pc" type="button" data-loai="loi" aria-pressed="false">Lỗi, chỗ hỏng</button>
+          <button class="pc" type="button" data-loai="y-tuong" aria-pressed="false">Ý tưởng thêm</button>
+          <button class="pc" type="button" data-loai="khac" aria-pressed="false">Khác</button>
+        </div>
+      </div>
+
+      <label class="gy-o">
+        <span>Nội dung góp ý</span>
+        <textarea id="gyNoiDung" maxlength="2000" placeholder="Ví dụ: bài ở tab Xu hướng hơi giống nhau, mong có thêm chủ đề về ăn uống cho người bận."></textarea>
+      </label>
+
+      <!-- Hai ô này chỉ hiện với người CHƯA đăng ký. Người đã đăng ký thì lấy sẵn từ hồ sơ. -->
+      <div id="gyChuaDangKy">
+        <label class="gy-o">
+          <span>Tên của anh chị <small style="font-weight:400;color:var(--dim)">(không bắt buộc)</small></span>
+          <input type="text" id="gyTen" maxlength="60" placeholder="Để mình biết ai đang góp ý">
+        </label>
+        <label class="gy-o">
+          <span>Số điện thoại hoặc email <small style="font-weight:400;color:var(--dim)">(không bắt buộc)</small></span>
+          <input type="text" id="gyLienHe" maxlength="60" placeholder="Để mình phản hồi lại khi cần">
+        </label>
+      </div>
+      <p class="nho" id="gyDaBiet" hidden></p>
+    </div>
+
+    <div class="hop__chan">
+      <button class="btn" type="button" id="gyGui">Gửi góp ý</button>
+      <span class="nho" id="gyNho">Mình đọc hết, không bỏ sót cái nào.</span>
+    </div>
+  </div>
+</div>
+
+<!-- ===== DẢI MỜI CÀI APP =====
+     Chỉ hiện trên điện thoại, và chỉ khi chưa cài. -->
+<div class="cai-app" id="daiCaiApp" hidden>
+  <span class="cai-app__bieu">
+    <svg viewBox="0 0 24 24"><path d="M12 3v12"/><path d="M8 11l4 4 4-4"/><path d="M4 17v2a2 2 0 002 2h12a2 2 0 002-2v-2"/></svg>
+  </span>
+  <span class="cai-app__chu">
+    <b>Cài NẾP TÓC về máy</b>
+    <span id="caiAppMo">Mở nhanh hơn, dùng được cả khi mạng yếu.</span>
+  </span>
+  <span class="cai-app__nut">
+    <button class="btn" type="button" id="caiAppNut">Cài đặt</button>
+    <button class="cai-app__dong" type="button" id="caiAppDong" aria-label="Để sau">&times;</button>
+  </span>
+  <p class="cai-app__ios" id="caiAppIos" hidden></p>
+</div>
+
+<!-- Bản tĩnh cho lần tải đầu và cho công cụ đọc trang. Bộ quét tự ghi đè phần giữa. -->
+<div hidden>
+<!--TIN-SSR-START-->
+<article class="news"><div class="news__meta"><span class="d">18/08/2026</span><span>Cosmetics Business</span><span class="dot dot--thap">Tham khảo</span></div><h3><a href="https://www.cosmeticsbusiness.com/dreame-technology-ordered-to-modify-drying-claims" target="_blank" rel="noopener">Dreame Technology ordered to modify &#39;two-minute&#39; hair drying claims following NAD investigation</a></h3><div class="why"><b>Tóm tắt tiếng Việt</b><p>Tin nghề và vận hành salon. Liên quan tới hair. Gợi ý content sẽ có sau lần chạy phân tích tới.</p></div><a class="go" href="https://www.cosmeticsbusiness.com/dreame-technology-ordered-to-modify-drying-claims" target="_blank" rel="noopener">Đọc bản gốc</a></article>
+<article class="news"><div class="news__meta"><span class="d">18/08/2026</span><span>Derbyshire Times</span><span class="dot dot--thap">Tham khảo</span></div><h3><a href="https://news.google.com/rss/articles/CBMixwFBVV95cUxNNjhLZTVTYXBYQkdCZkVvazBTdlNQZkQ5NTZPZ2FBcmdCaXdUV3RrSzVjVGFUZHRqZ19EWXBVQkJINndPZGJKMUlDbU9mY2luczdGT1lMOXVwMUd4WExnWWdqRTllVU8xQnlXckZoYjVMT0hOSDczWWpNMEE3YmxKR1BJOU1pTU50NkNYbldaM2tOM3YzX1U0bGVmTEE4dVdnZTdRRTBmaU5JbE5xMzJhc1VDNndidE5zSEJScXhWdWVxOXVTUkFz?oc=5" target="_blank" rel="noopener">&#39;The best part of my day is making someone look and feel better&#39; says owner reflecting on the highlights - and lowlights - of running a hair salon near Chesterfield for 30 years</a></h3><div class="why"><b>Tóm tắt tiếng Việt</b><p>Tin nghề và vận hành salon. Liên quan tới hair, salon. Gợi ý content sẽ có sau lần chạy phân tích tới.</p></div><a class="go" href="https://news.google.com/rss/articles/CBMixwFBVV95cUxNNjhLZTVTYXBYQkdCZkVvazBTdlNQZkQ5NTZPZ2FBcmdCaXdUV3RrSzVjVGFUZHRqZ19EWXBVQkJINndPZGJKMUlDbU9mY2luczdGT1lMOXVwMUd4WExnWWdqRTllVU8xQnlXckZoYjVMT0hOSDczWWpNMEE3YmxKR1BJOU1pTU50NkNYbldaM2tOM3YzX1U0bGVmTEE4dVdnZTdRRTBmaU5JbE5xMzJhc1VDNndidE5zSEJScXhWdWVxOXVTUkFz?oc=5" target="_blank" rel="noopener">Đọc bản gốc</a></article>
+<article class="news"><div class="news__meta"><span class="d">17/08/2026</span><span>Cosmetics Business</span><span class="dot dot--thap">Tham khảo</span></div><h3><a href="https://www.cosmeticsbusiness.com/tracee-ellis-ross-pattern-beauty-expands-range-straight-styling" target="_blank" rel="noopener">Tracee Ellis Ross’ Pattern Beauty expands range for straight styling</a></h3><div class="why"><b>Tóm tắt tiếng Việt</b><p>Tin nghề và vận hành salon. Liên quan tới hair, hair care, shampoo. Gợi ý content sẽ có sau lần chạy phân tích tới.</p></div><a class="go" href="https://www.cosmeticsbusiness.com/tracee-ellis-ross-pattern-beauty-expands-range-straight-styling" target="_blank" rel="noopener">Đọc bản gốc</a></article>
+<article class="news"><div class="news__meta"><span class="d">17/08/2026</span><span>Reddit · r/Hairstylist</span><span class="dot dot--vua">Đáng chú ý</span></div><h3><a href="https://www.reddit.com/r/hairstylist/comments/1vqjjkn/update_difficult_client/" target="_blank" rel="noopener">UPDATE: Difficult client</a></h3><div class="why"><b>Tóm tắt tiếng Việt</b><p>Tin nghề và vận hành salon. Liên quan tới hair, haircut, stylist. Gợi ý content sẽ có sau lần chạy phân tích tới.</p></div><a class="go" href="https://www.reddit.com/r/hairstylist/comments/1vqjjkn/update_difficult_client/" target="_blank" rel="noopener">Đọc bản gốc</a></article>
+<article class="news"><div class="news__meta"><span class="d">17/08/2026</span><span>Reddit · r/Hairstylist</span><span class="dot dot--thap">Tham khảo</span></div><h3><a href="https://www.reddit.com/r/hairstylist/comments/1vqn9yp/taking_childrens_cutscolours_off_my_service_list/" target="_blank" rel="noopener">Taking children&#39;s cuts/colours off my service list?</a></h3><div class="why"><b>Tóm tắt tiếng Việt</b><p>Tin nghề và vận hành salon. Liên quan tới haircut. Gợi ý content sẽ có sau lần chạy phân tích tới.</p></div><a class="go" href="https://www.reddit.com/r/hairstylist/comments/1vqn9yp/taking_childrens_cutscolours_off_my_service_list/" target="_blank" rel="noopener">Đọc bản gốc</a></article>
+<article class="news"><div class="news__meta"><span class="d">16/08/2026</span><span>Reddit · r/Hairstylist</span><span class="dot dot--vua">Đáng chú ý</span></div><h3><a href="https://www.reddit.com/r/hairstylist/comments/1vp8b5v/difficult_client/" target="_blank" rel="noopener">Difficult client</a></h3><div class="why"><b>Tóm tắt tiếng Việt</b><p>Tin nghề và vận hành salon. Liên quan tới stylist. Gợi ý content sẽ có sau lần chạy phân tích tới.</p></div><a class="go" href="https://www.reddit.com/r/hairstylist/comments/1vp8b5v/difficult_client/" target="_blank" rel="noopener">Đọc bản gốc</a></article>
+<article class="news"><div class="news__meta"><span class="d">16/08/2026</span><span>Reddit · r/Hairstylist</span><span class="dot dot--thap">Tham khảo</span></div><h3><a href="https://www.reddit.com/r/hairstylist/comments/1vp8cgu/i_had_a_client_today_with_incredibly_thick_hair_i/" target="_blank" rel="noopener">I had a client today with incredibly thick hair &amp; I don’t think I did as well as I normally would have</a></h3><div class="why"><b>Tóm tắt tiếng Việt</b><p>Tin nghề và vận hành salon. Liên quan tới hair. Gợi ý content sẽ có sau lần chạy phân tích tới.</p></div><a class="go" href="https://www.reddit.com/r/hairstylist/comments/1vp8cgu/i_had_a_client_today_with_incredibly_thick_hair_i/" target="_blank" rel="noopener">Đọc bản gốc</a></article>
+<article class="news"><div class="news__meta"><span class="d">15/08/2026</span><span>Manchester Evening News</span><span class="dot dot--thap">Tham khảo</span></div><h3><a href="https://news.google.com/rss/articles/CBMiqgFBVV95cUxOcXg3XzZXSVUySXo4QXEtNHI5YWszd2VyWnRLWGxaWWJZV0JTUWxkTVJJd3d6UFJCRTBJZHRMYXN0YXo2NzRIUWdITGR6MGEzQmN2MllHdTU4bWVUOGNibTlJTk5DYmJaRjJnTEF4NE00bjFnUGFxWGlpVHo5T0dtZC11UTRobFZ3Z09YSVRmLU10REJPMlE3VWlnMDdXZXVWeUluX21DamhBdw?oc=5" target="_blank" rel="noopener">&#39;You can&#39;t get your haircut online&#39;: Salon owner warns high street faces crisis over tax rules</a></h3><div class="why"><b>Tóm tắt tiếng Việt</b><p>Tin nghề và vận hành salon. Liên quan tới haircut, salon, salon owner. Gợi ý content sẽ có sau lần chạy phân tích tới.</p></div><a class="go" href="https://news.google.com/rss/articles/CBMiqgFBVV95cUxOcXg3XzZXSVUySXo4QXEtNHI5YWszd2VyWnRLWGxaWWJZV0JTUWxkTVJJd3d6UFJCRTBJZHRMYXN0YXo2NzRIUWdITGR6MGEzQmN2MllHdTU4bWVUOGNibTlJTk5DYmJaRjJnTEF4NE00bjFnUGFxWGlpVHo5T0dtZC11UTRobFZ3Z09YSVRmLU10REJPMlE3VWlnMDdXZXVWeUluX21DamhBdw?oc=5" target="_blank" rel="noopener">Đọc bản gốc</a></article>
+<article class="news"><div class="news__meta"><span class="d">15/08/2026</span><span>Reddit · r/Hairstylist</span><span class="dot dot--thap">Tham khảo</span></div><h3><a href="https://www.reddit.com/r/hairstylist/comments/1vop4ws/thank_you/" target="_blank" rel="noopener">Thank you.</a></h3><div class="why"><b>Tóm tắt tiếng Việt</b><p>Tin nghề và vận hành salon. Liên quan tới hairstylist. Gợi ý content sẽ có sau lần chạy phân tích tới.</p></div><a class="go" href="https://www.reddit.com/r/hairstylist/comments/1vop4ws/thank_you/" target="_blank" rel="noopener">Đọc bản gốc</a></article>
+<article class="news"><div class="news__meta"><span class="d">14/08/2026</span><span>Salon Today</span><span class="dot dot--cao">Nên dùng</span></div><h3><a href="https://www.salontoday.com/articles/from-resilience-to-revenue-using-mid-year-data-to-drive-your-salons-growth" target="_blank" rel="noopener">From Resilience to Revenue: Using Mid-Year Data to Drive Your Salon&#39;s Growth</a></h3><div class="why"><b>Tóm tắt tiếng Việt</b><p>Tin nghề và vận hành salon. Có tín hiệu bằng chứng: report. Gợi ý content sẽ có sau lần chạy phân tích tới.</p></div><a class="go" href="https://www.salontoday.com/articles/from-resilience-to-revenue-using-mid-year-data-to-drive-your-salons-growth" target="_blank" rel="noopener">Đọc bản gốc</a></article>
+<article class="news"><div class="news__meta"><span class="d">13/08/2026</span><span>Salon Today</span><span class="dot dot--vua">Đáng chú ý</span></div><h3><a href="https://www.salontoday.com/whitepapers/5-essential-hair-beauty-industry-kpis-and-how-to-master-them" target="_blank" rel="noopener">5 Essential Hair &amp; Beauty Industry KPIs And How to Master Them</a></h3><div class="why"><b>Tóm tắt tiếng Việt</b><p>Tin nghề và vận hành salon. Liên quan tới hair, beauty industry. Gợi ý content sẽ có sau lần chạy phân tích tới.</p></div><a class="go" href="https://www.salontoday.com/whitepapers/5-essential-hair-beauty-industry-kpis-and-how-to-master-them" target="_blank" rel="noopener">Đọc bản gốc</a></article>
+<article class="news"><div class="news__meta"><span class="d">13/08/2026</span><span>American Salon</span><span class="dot dot--thap">Tham khảo</span></div><h3><a href="https://news.google.com/rss/articles/CBMiiwFBVV95cUxPMTl1Ung1a1JMMkl3Q0VXRXhaVWJDTTJrbWk5VF9JRE9rTlVvMVdjemVKb2c2MmlDNjZRSlF1MV9SSFUwN1Jpb01DZUEtVXBNV0R2MmVpUGdXZEJvdklRYU5Jc3ByOWItUkFxWmhuSTVoQ05WdVpxUG9DLTRTWUwxWm1IN3V2bW5ickZR?oc=5" target="_blank" rel="noopener">Black Hair Reimagined is Back (and Teaching) in NYC</a></h3><div class="why"><b>Tóm tắt tiếng Việt</b><p>Tin nghề và vận hành salon. Liên quan tới hair, salon. Gợi ý content sẽ có sau lần chạy phân tích tới.</p></div><a class="go" href="https://news.google.com/rss/articles/CBMiiwFBVV95cUxPMTl1Ung1a1JMMkl3Q0VXRXhaVWJDTTJrbWk5VF9JRE9rTlVvMVdjemVKb2c2MmlDNjZRSlF1MV9SSFUwN1Jpb01DZUEtVXBNV0R2MmVpUGdXZEJvdklRYU5Jc3ByOWItUkFxWmhuSTVoQ05WdVpxUG9DLTRTWUwxWm1IN3V2bW5ickZR?oc=5" target="_blank" rel="noopener">Đọc bản gốc</a></article>
+<article class="news"><div class="news__meta"><span class="d">13/08/2026</span><span>Hairdressers Journal</span><span class="dot dot--thap">Tham khảo</span></div><h3><a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE9HVlJUQ0I1SS1oVlF4TzVEc2p3ZS05QzF2UmR6U05rMnlGZGhwVDZQVkw3RXpSMWRSVVB1RWN6NlZVZ3EwUWlwdVVpeWxRclBxZzVPX3BWN1JjLW1xMUtR?oc=5" target="_blank" rel="noopener">EXTENSIONS ERA</a></h3><div class="why"><b>Tóm tắt tiếng Việt</b><p>Tin nghề và vận hành salon. Liên quan tới extensions. Gợi ý content sẽ có sau lần chạy phân tích tới.</p></div><a class="go" href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE9HVlJUQ0I1SS1oVlF4TzVEc2p3ZS05QzF2UmR6U05rMnlGZGhwVDZQVkw3RXpSMWRSVVB1RWN6NlZVZ3EwUWlwdVVpeWxRclBxZzVPX3BWN1JjLW1xMUtR?oc=5" target="_blank" rel="noopener">Đọc bản gốc</a></article>
+<article class="news"><div class="news__meta"><span class="d">13/08/2026</span><span>Hairdressers Journal</span><span class="dot dot--thap">Tham khảo</span></div><h3><a href="https://news.google.com/rss/articles/CBMiY0FVX3lxTE91ZmJiRWJIeTEzbHdULU9BZTJUQUxqUnpZOEVOSHc2ZmYxZ2FOXzBOM0ZKaHlHOGRoS1B4Ml9pTmJSd0Jjek9sdjNlS0M2cnpPOVE5MEZXalBlUGxQOUZPalpGcw?oc=5" target="_blank" rel="noopener">What is the AirTouch Hair Colouring Technique?</a></h3><div class="why"><b>Tóm tắt tiếng Việt</b><p>Tin nghề và vận hành salon. Liên quan tới hair. Gợi ý content sẽ có sau lần chạy phân tích tới.</p></div><a class="go" href="https://news.google.com/rss/articles/CBMiY0FVX3lxTE91ZmJiRWJIeTEzbHdULU9BZTJUQUxqUnpZOEVOSHc2ZmYxZ2FOXzBOM0ZKaHlHOGRoS1B4Ml9pTmJSd0Jjek9sdjNlS0M2cnpPOVE5MEZXalBlUGxQOUZPalpGcw?oc=5" target="_blank" rel="noopener">Đọc bản gốc</a></article>
+<article class="news"><div class="news__meta"><span class="d">13/08/2026</span><span>Annandale Today</span><span class="dot dot--thap">Tham khảo</span></div><h3><a href="https://news.google.com/rss/articles/CBMic0FVX3lxTFBDLUFBTXVjZEpYYU81QUJDX0ZMVVFGVUN1STkzWVF2WkIyNmcyYllsMmdqTks0SlVnV3JpZy15S05aaERIMVZkNHRDUEhoSVh1M2kxZElqSDUtX2ZBYTFrZTk4elJqVjFqRUlFZlQ2MzhsWWc?oc=5" target="_blank" rel="noopener">Business spotlight: Sergio’s Hair Salon</a></h3><div class="why"><b>Tóm tắt tiếng Việt</b><p>Tin nghề và vận hành salon. Liên quan tới hair, salon. Gợi ý content sẽ có sau lần chạy phân tích tới.</p></div><a class="go" href="https://news.google.com/rss/articles/CBMic0FVX3lxTFBDLUFBTXVjZEpYYU81QUJDX0ZMVVFGVUN1STkzWVF2WkIyNmcyYllsMmdqTks0SlVnV3JpZy15S05aaERIMVZkNHRDUEhoSVh1M2kxZElqSDUtX2ZBYTFrZTk4elJqVjFqRUlFZlQ2MzhsWWc?oc=5" target="_blank" rel="noopener">Đọc bản gốc</a></article>
+<article class="news"><div class="news__meta"><span class="d">13/08/2026</span><span>매일경제</span><span class="dot dot--thap">Tham khảo</span></div><h3><a href="https://news.google.com/rss/articles/CBMiU0FVX3lxTE53a1JrdzJ0TGxqakNyQndyYjNLRm9GLVNCZklBRDlmMHhUNmlTSE9iVFdJMWphRmxNUDZCV0tQRGpEeEtlZndiblplUm5hbW14RDFZ?oc=5" target="_blank" rel="noopener">LiveX, which has grown based on the domestic hair salon business, is expanding its scope to the eyel..</a></h3><div class="why"><b>Tóm tắt tiếng Việt</b><p>Tin nghề và vận hành salon. Liên quan tới hair, salon. Gợi ý content sẽ có sau lần chạy phân tích tới.</p></div><a class="go" href="https://news.google.com/rss/articles/CBMiU0FVX3lxTE53a1JrdzJ0TGxqakNyQndyYjNLRm9GLVNCZklBRDlmMHhUNmlTSE9iVFdJMWphRmxNUDZCV0tQRGpEeEtlZndiblplUm5hbW14RDFZ?oc=5" target="_blank" rel="noopener">Đọc bản gốc</a></article>
+<article class="news"><div class="news__meta"><span class="d">13/08/2026</span><span>Reddit · r/Hairstylist</span><span class="dot dot--thap">Tham khảo</span></div><h3><a href="https://www.reddit.com/r/hairstylist/comments/1vn0ewe/color/" target="_blank" rel="noopener">Color</a></h3><div class="why"><b>Tóm tắt tiếng Việt</b><p>Tin nghề và vận hành salon. Liên quan tới hair, balayage, stylist. Gợi ý content sẽ có sau lần chạy phân tích tới.</p></div><a class="go" href="https://www.reddit.com/r/hairstylist/comments/1vn0ewe/color/" target="_blank" rel="noopener">Đọc bản gốc</a></article>
+<article class="news"><div class="news__meta"><span class="d">13/08/2026</span><span>Reddit · r/Hairstylist</span><span class="dot dot--thap">Tham khảo</span></div><h3><a href="https://www.reddit.com/r/hairstylist/comments/1vmohnj/new_dual_headed_haircutting_cape/" target="_blank" rel="noopener">New Dual headed haircutting cape</a></h3><div class="why"><b>Tóm tắt tiếng Việt</b><p>Tin nghề và vận hành salon. Gợi ý content sẽ có sau lần chạy phân tích tới.</p></div><a class="go" href="https://www.reddit.com/r/hairstylist/comments/1vmohnj/new_dual_headed_haircutting_cape/" target="_blank" rel="noopener">Đọc bản gốc</a></article>
+<article class="news"><div class="news__meta"><span class="d">12/08/2026</span><span>Modern Salon</span><span class="dot dot--vua">Đáng chú ý</span></div><h3><a href="https://www.modernsalon.com/articles/the-modern-artist-ellie-block-believe-in-yourself-and-build-a-career-you-love" target="_blank" rel="noopener">The MODERN Artist Ellie Block: Believe in Yourself and Build a Career You Love</a></h3><div class="why"><b>Tóm tắt tiếng Việt</b><p>Tin nghề và vận hành salon. Liên quan tới colorist. Gợi ý content sẽ có sau lần chạy phân tích tới.</p></div><a class="go" href="https://www.modernsalon.com/articles/the-modern-artist-ellie-block-believe-in-yourself-and-build-a-career-you-love" target="_blank" rel="noopener">Đọc bản gốc</a></article>
+<article class="news"><div class="news__meta"><span class="d">12/08/2026</span><span>Salon Today</span><span class="dot dot--thap">Tham khảo</span></div><h3><a href="https://www.salontoday.com/news/black-hair-reimagined-the-new-era-of-beauty" target="_blank" rel="noopener">Black Hair Reimagined: The New Era of Beauty</a></h3><div class="why"><b>Tóm tắt tiếng Việt</b><p>Tin nghề và vận hành salon. Liên quan tới hair. Gợi ý content sẽ có sau lần chạy phân tích tới.</p></div><a class="go" href="https://www.salontoday.com/news/black-hair-reimagined-the-new-era-of-beauty" target="_blank" rel="noopener">Đọc bản gốc</a></article>
+<article class="news"><div class="news__meta"><span class="d">12/08/2026</span><span>Reddit · r/Hairstylist</span><span class="dot dot--thap">Tham khảo</span></div><h3><a href="https://www.reddit.com/r/hairstylist/comments/1vmcjpe/should_i_book_this_client/" target="_blank" rel="noopener">Should I book this client??</a></h3><div class="why"><b>Tóm tắt tiếng Việt</b><p>Tin nghề và vận hành salon. Liên quan tới balayage, stylist. Gợi ý content sẽ có sau lần chạy phân tích tới.</p></div><a class="go" href="https://www.reddit.com/r/hairstylist/comments/1vmcjpe/should_i_book_this_client/" target="_blank" rel="noopener">Đọc bản gốc</a></article>
+<article class="news"><div class="news__meta"><span class="d">12/08/2026</span><span>Reddit · r/Hairstylist</span><span class="dot dot--thap">Tham khảo</span></div><h3><a href="https://www.reddit.com/r/hairstylist/comments/1vm5mr8/just_wanted_to_share_my_first_grey_blending/" target="_blank" rel="noopener">just wanted to share my first grey blending appointment!</a></h3><div class="why"><b>Tóm tắt tiếng Việt</b><p>Tin nghề và vận hành salon. Liên quan tới toner. Gợi ý content sẽ có sau lần chạy phân tích tới.</p></div><a class="go" href="https://www.reddit.com/r/hairstylist/comments/1vm5mr8/just_wanted_to_share_my_first_grey_blending/" target="_blank" rel="noopener">Đọc bản gốc</a></article>
+<article class="news"><div class="news__meta"><span class="d">11/08/2026</span><span>Salon Today</span><span class="dot dot--thap">Tham khảo</span></div><h3><a href="https://www.salontoday.com/articles/bella-style-salons-ride-or-die" target="_blank" rel="noopener">Bella Style Salon&#39;s Ride or Die</a></h3><div class="why"><b>Tóm tắt tiếng Việt</b><p>Tin nghề và vận hành salon. Liên quan tới salon. Gợi ý content sẽ có sau lần chạy phân tích tới.</p></div><a class="go" href="https://www.salontoday.com/articles/bella-style-salons-ride-or-die" target="_blank" rel="noopener">Đọc bản gốc</a></article>
+<article class="news"><div class="news__meta"><span class="d">11/08/2026</span><span>Salon Today</span><span class="dot dot--thap">Tham khảo</span></div><h3><a href="https://www.salontoday.com/news/uv-hair-protection-from-jvn-hair" target="_blank" rel="noopener">UV Hair Protection from JVN Hair</a></h3><div class="why"><b>Tóm tắt tiếng Việt</b><p>Tin nghề và vận hành salon. Liên quan tới hair. Gợi ý content sẽ có sau lần chạy phân tích tới.</p></div><a class="go" href="https://www.salontoday.com/news/uv-hair-protection-from-jvn-hair" target="_blank" rel="noopener">Đọc bản gốc</a></article>
+<article class="news"><div class="news__meta"><span class="d">11/08/2026</span><span>Reddit · r/Hairstylist</span><span class="dot dot--vua">Đáng chú ý</span></div><h3><a href="https://www.reddit.com/r/hairstylist/comments/1vlhu31/i_cant_even/" target="_blank" rel="noopener">I can’t even 🤦‍♀️</a></h3><div class="why"><b>Tóm tắt tiếng Việt</b><p>Tin nghề và vận hành salon. Liên quan tới salon, stylist. Gợi ý content sẽ có sau lần chạy phân tích tới.</p></div><a class="go" href="https://www.reddit.com/r/hairstylist/comments/1vlhu31/i_cant_even/" target="_blank" rel="noopener">Đọc bản gốc</a></article>
+<article class="news"><div class="news__meta"><span class="d">10/08/2026</span><span>Hairdressers Journal</span><span class="dot dot--thap">Tham khảo</span></div><h3><a href="https://news.google.com/rss/articles/CBMickFVX3lxTE12MlRJUGluMW92VlBTeWh4R3UtcURpZVNHY2ZoR0lWVEpSWkJ0a1Znc0FhUFRiNEV4cWpvN1ZqOVZLWklybW1NUWltampJVkNlNFljT05lYUxwTENiclhnbTBwT2pjbFo3eHhYOThGbEpEZw?oc=5" target="_blank" rel="noopener">Supporting Neurodiversity in the Hair Industry</a></h3><div class="why"><b>Tóm tắt tiếng Việt</b><p>Tin nghề và vận hành salon. Liên quan tới hair. Gợi ý content sẽ có sau lần chạy phân tích tới.</p></div><a class="go" href="https://news.google.com/rss/articles/CBMickFVX3lxTE12MlRJUGluMW92VlBTeWh4R3UtcURpZVNHY2ZoR0lWVEpSWkJ0a1Znc0FhUFRiNEV4cWpvN1ZqOVZLWklybW1NUWltampJVkNlNFljT05lYUxwTENiclhnbTBwT2pjbFo3eHhYOThGbEpEZw?oc=5" target="_blank" rel="noopener">Đọc bản gốc</a></article>
+<article class="news"><div class="news__meta"><span class="d">09/08/2026</span><span>Modern Salon</span><span class="dot dot--cao">Nên dùng</span></div><h3><a href="https://www.modernsalon.com/news/pro-beauty-pulse-a-monthly-view-of-industry-confidence" target="_blank" rel="noopener">Pro Beauty Pulse: A Monthly View of Industry Confidence</a></h3><div class="why"><b>Tóm tắt tiếng Việt</b><p>Tin nghề và vận hành salon. Có tín hiệu bằng chứng: study. Gợi ý content sẽ có sau lần chạy phân tích tới.</p></div><a class="go" href="https://www.modernsalon.com/news/pro-beauty-pulse-a-monthly-view-of-industry-confidence" target="_blank" rel="noopener">Đọc bản gốc</a></article>
+<article class="news"><div class="news__meta"><span class="d">08/08/2026</span><span>The Daily Telegraph</span><span class="dot dot--thap">Tham khảo</span></div><h3><a href="https://news.google.com/rss/articles/CBMi9AFBVV95cUxOZENWdnNtellTRlZ6S0NOWG91VU1VSmpacjNEbzYzT2NEdVBObjBvSVltRjVrQzl3eDRtU1Y2ZEhYVzdFdmVOcmhBRTU4bUJST2h0SlVNYUtBc3pIWG1BWlVTMmZ3MG9yRGJpRW9YMTJJbDFKOG9vQkFyVy1rMUtKdTB3X1pXTUN2UXVoNFpDY09XYU5LWU5ZTW9XMHJvTFJFTVF3X29saGJtLVB4NFk2RnV3bXVOQmN6MnMtUkEtOE9EZFRhS0ZMaGd3RmxWTkxyazctdV9GVjNTXzl5MFFzdGVuODBpTnA4VlpOb1E1QUpnTmQ20gH6AUFVX3lxTE9qQ2trV3YtU0FRQjQ2bXJYWTRCSzZOaU50QVF5cWdLN2NRTFJaTkhRcDRYX2gxS2NBc09lZFpPZVdRYzVIQ0dXVFNkeUU1N20zRjg4dVVqeVotTEhDY28xMFlwM2xUd1A5RlhDUl9wbElUeG1RSFZxM01ETDE3eTVsWDlvYzVDODQzblRUOGd2alJkNHNUcnVnWU5ZZzhfX1g2eHlEaWhic18zamtOUW1iZG1RME9Dd0pUOXpRa25KV1JqUGpqYTJpejhlUFpYNWIzeWJKQ0xkTk0wRU16aGRVVXpNR0kxc19LanJrTXdKaUl5NGFGY0FkMWc?oc=5" target="_blank" rel="noopener">Salon owner allegedly drugged Grindr dates before raping them</a></h3><div class="why"><b>Tóm tắt tiếng Việt</b><p>Tin nghề và vận hành salon. Liên quan tới salon, salon owner. Gợi ý content sẽ có sau lần chạy phân tích tới.</p></div><a class="go" href="https://news.google.com/rss/articles/CBMi9AFBVV95cUxOZENWdnNtellTRlZ6S0NOWG91VU1VSmpacjNEbzYzT2NEdVBObjBvSVltRjVrQzl3eDRtU1Y2ZEhYVzdFdmVOcmhBRTU4bUJST2h0SlVNYUtBc3pIWG1BWlVTMmZ3MG9yRGJpRW9YMTJJbDFKOG9vQkFyVy1rMUtKdTB3X1pXTUN2UXVoNFpDY09XYU5LWU5ZTW9XMHJvTFJFTVF3X29saGJtLVB4NFk2RnV3bXVOQmN6MnMtUkEtOE9EZFRhS0ZMaGd3RmxWTkxyazctdV9GVjNTXzl5MFFzdGVuODBpTnA4VlpOb1E1QUpnTmQ20gH6AUFVX3lxTE9qQ2trV3YtU0FRQjQ2bXJYWTRCSzZOaU50QVF5cWdLN2NRTFJaTkhRcDRYX2gxS2NBc09lZFpPZVdRYzVIQ0dXVFNkeUU1N20zRjg4dVVqeVotTEhDY28xMFlwM2xUd1A5RlhDUl9wbElUeG1RSFZxM01ETDE3eTVsWDlvYzVDODQzblRUOGd2alJkNHNUcnVnWU5ZZzhfX1g2eHlEaWhic18zamtOUW1iZG1RME9Dd0pUOXpRa25KV1JqUGpqYTJpejhlUFpYNWIzeWJKQ0xkTk0wRU16aGRVVXpNR0kxc19LanJrTXdKaUl5NGFGY0FkMWc?oc=5" target="_blank" rel="noopener">Đọc bản gốc</a></article>
+<article class="news"><div class="news__meta"><span class="d">06/08/2026</span><span>Modern Salon</span><span class="dot dot--vua">Đáng chú ý</span></div><h3><a href="https://www.modernsalon.com/articles/in-dubai-clients-visit-the-salon-every-week-heres-what-that-market-can-teach-you" target="_blank" rel="noopener">In Dubai, Clients Visit the Salon Every Week. Here’s What That Market Can Teach You</a></h3><div class="why"><b>Tóm tắt tiếng Việt</b><p>Tin nghề và vận hành salon. Liên quan tới salon. Gợi ý content sẽ có sau lần chạy phân tích tới.</p></div><a class="go" href="https://www.modernsalon.com/articles/in-dubai-clients-visit-the-salon-every-week-heres-what-that-market-can-teach-you" target="_blank" rel="noopener">Đọc bản gốc</a></article>
+<article class="news"><div class="news__meta"><span class="d">06/08/2026</span><span>American Salon</span><span class="dot dot--thap">Tham khảo</span></div><h3><a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxPeVBtSl9rZmpfbXZXaTVqVkJyVm5NU0tGakxQTnlsUzFjckVrWEpXZXdaa3VRX3VnZU42TGN0eU5hbnV2Mkx4WGdKaW5sLUZjbEZzN0p4QllMX1JoMTFTOEE5b0JDT1BKdVdoM3hqNThjSUlTN293YjAyS0UwLTdmdkExeUl5ZzAwZV8yQU1pWQ?oc=5" target="_blank" rel="noopener">Zendaya&#39;s Best Summer Press Tour Hair Looks</a></h3><div class="why"><b>Tóm tắt tiếng Việt</b><p>Tin nghề và vận hành salon. Liên quan tới hair, salon. Gợi ý content sẽ có sau lần chạy phân tích tới.</p></div><a class="go" href="https://news.google.com/rss/articles/CBMijwFBVV95cUxPeVBtSl9rZmpfbXZXaTVqVkJyVm5NU0tGakxQTnlsUzFjckVrWEpXZXdaa3VRX3VnZU42TGN0eU5hbnV2Mkx4WGdKaW5sLUZjbEZzN0p4QllMX1JoMTFTOEE5b0JDT1BKdVdoM3hqNThjSUlTN293YjAyS0UwLTdmdkExeUl5ZzAwZV8yQU1pWQ?oc=5" target="_blank" rel="noopener">Đọc bản gốc</a></article>
+<!--TIN-SSR-END-->
+</div>
+
+<footer class="foot">
+  <div class="container">
+    <p><b>NẾP TÓC</b> · Công cụ nội bộ của Vũ Hải. Tin tự quét lúc 7h sáng mỗi ngày.</p>
+    <p id="dongTen"></p>
+    <p>Nội dung trong app là <b>nguyên liệu viết bài</b>, không phải lời khuyên y tế. Rụng tóc có thể là dấu hiệu bệnh. Bài về thuốc, bệnh da đầu và can thiệp y tế phải kiểm lại với người có chuyên môn trước khi đăng.</p>
+  </div>
+</footer>
+
+<script>
+"use strict";
+
+/* Bốn kho dữ liệu, tương ứng bốn tab nội dung. App này KHÔNG có tầng trả phí nên chỉ
+   nạp một file duy nhất: du-lieu/tin-tuc.json. */
+const KH=[], NGHE=[], XH=[], VN=[];
+
+/* Năm câu hỏi soi lại một bài tin trước khi biến nó thành content.
+   Viết cho người đọc là chủ salon, nên câu nào cũng quy về cái tiệm chứ không quy về
+   kiến thức. Một bài đúng mà chủ salon không làm gì được thì vẫn là bài bỏ đi. */
+const TL=[
+ {t:"Bài này có bằng chứng không?",d:"Có tên nghiên cứu, cỡ mẫu, con số cụ thể hay chỉ là ý kiến một người?"},
+ {t:"Chủ salon dùng nó để làm gì?",d:"Dạy thợ tư vấn đúng hơn, trả lời khách hỏi khó, chọn hàng nhập, hay bỏ một dịch vụ đang hứa quá lời?"},
+ {t:"Có đang hứa gì không?",d:"Số liệu nghiên cứu phải gắn với nghiên cứu. Đừng biến nó thành cam kết của tiệm."},
+ {t:"Có chê ai không?",d:"Bài có lấy hói, tóc thưa, hay người thợ ra làm trò không? Có thì viết lại."},
+ {t:"Đọc xong làm được gì trong tuần này?",d:"Một việc nhỏ mở sổ ra làm được ngay, hay chỉ là thông tin đọc cho biết?"}
+];
+
+/* Câu trả lời dự phòng khi chưa có khóa AI. Cố ý ít mà đúng, không cố nhồi. */
+const QA=[
+ {q:"Thợ chính xin nghỉ ra mở riêng thì viết bài thế nào?",
+  a:["Đừng viết bài trách thợ. Người thợ đi vì thấy hết đường lên, đó là lỗi của lộ trình chứ không phải lỗi lòng dạ.",
+     "Góc viết: kể lại đúng cái ngày nhận tin, rồi hỏi thẳng một câu chủ salon nào cũng né, là trong tiệm mình một người thợ giỏi sau ba năm thì lên được tới đâu. Giữ người bằng lộ trình, không bằng dây trói."]},
+ {q:"Khách hỏi dầu gội nào hết rụng tóc thì tư vấn sao?",
+  a:["Nói thẳng giới hạn: dầu gội chăm phần tóc đã mọc ra, không đổi được nang tóc. Hứa quá lời một lần thì mất khách cả năm.",
+     "Rụng tóc nhiều và kéo dài có thể là dấu hiệu bệnh, khuyên khách đi khám da liễu. Thợ tư vấn đúng vai thì khách tin lâu hơn là thợ bán được thêm một chai."]},
+ {q:"Viết bài về rụng tóc mà không chê ai thì viết kiểu gì?",
+  a:["Đừng lấy hói hay tóc thưa ra làm trò, đừng gán tóc xấu với ế hay với thất bại. Rụng tóc là chuyện sức khỏe và tuổi tác.",
+     "Đổi chủ ngữ: thay vì nói mái tóc bạn có vấn đề, nói cơ thể đang báo một chuyện gì đó. Hệ thống hỗ trợ con người, không bẻ con người."]},
+ {q:"Bài nghiên cứu tiếng Anh thì dùng thế nào cho an toàn?",
+  a:["Giữ đúng phát hiện của nghiên cứu, đừng nói quá. Nghiên cứu nói có liên hệ thì viết là có liên hệ, không viết thành nguyên nhân.",
+     "Luôn dẫn nguồn trong bài đăng. Chủ salon tra lại được thì tin mình lâu dài, còn hơn viết mạnh một lần rồi bị bắt lỗi."]},
+ {q:"Một tuần nên đăng những mạch nội dung nào?",
+  a:["Xoay bốn mạch cho đỡ nhàm: một bài chuyện nghề và nhân sự, một bài có dẫn chứng nghiên cứu, một bài về thứ khách đang muốn, một bài bám tin trong nước.",
+     "Bốn tab của app đang xếp đúng theo bốn mạch đó, lấy mỗi tab một bài là đủ tuần."]}
+];
+
+const scrollTo=(el,block)=>{try{if(el&&typeof el.scrollIntoView==="function")el.scrollIntoView({behavior:"smooth",block:block});}catch(e){}};
+const $=(s,r=document)=>r.querySelector(s);
+const $$=(s,r=document)=>[...r.querySelectorAll(s)];
+const esc=t=>String(t).replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+const fd=iso=>{const p=String(iso).split("-");return p.length===3?p[2]+"/"+p[1]+"/"+p[0]:iso;};
+const IMP={cao:"Nên dùng",vua:"Đáng chú ý",thap:"Tham khảo"};
+const laCongDong=n=>n.hang==="Cộng đồng";
+
+/* tabs */
+$$(".tab").forEach(t=>t.addEventListener("click",()=>{
+  $$(".tab").forEach(x=>x.setAttribute("aria-selected",String(x===t)));
+  $$(".panel").forEach(p=>{p.hidden=(p.id!==t.getAttribute("aria-controls"));});
+  window.scrollTo({top:$(".tabbar").offsetTop-4,behavior:"smooth"});
+}));
+
+/* ---- chép vào bộ nhớ tạm ----
+   navigator.clipboard chỉ chạy ở ngữ cảnh an toàn (https hoặc localhost). Mở app bằng
+   cách bấm đúp file index.html thì nó không có, nên phải có đường lùi bằng textarea. */
+function chep(text){
+  const lui=()=>{
+    const ta=document.createElement("textarea");
+    ta.value=text; ta.style.position="fixed"; ta.style.opacity="0";
+    document.body.appendChild(ta); ta.select();
+    try{ document.execCommand("copy"); }catch(e){}
+    document.body.removeChild(ta);
+  };
+  if(navigator.clipboard&&window.isSecureContext){
+    return navigator.clipboard.writeText(text).catch(lui);
+  }
+  lui();
+  return Promise.resolve();
+}
+
+/* ---- thẻ bài dùng chung cho cả bốn tab ---- */
+/* Tiêu đề gốc để dòng nhỏ dưới tiêu đề đã dịch. Giữ lại vì hai lý do: nhân sự đối chiếu
+   được bản dịch, và tìm lại bài trên Google thì phải có đúng tên gốc. Tin nguồn tiếng
+   Việt thì bản dịch trùng bản gốc, khi đó bỏ đi cho khỏi in hai lần. */
+const tieuDeGoc = n => (n.tv && n.tv !== n.t) ? `<p class="tg">${esc(n.t)}</p>` : "";
+
+/* Khối gợi ý content. Chỉ vẽ khi AI đã viết xong (có n.hook), còn chưa thì thẻ vẫn dùng
+   được với phần tóm tắt, không để lỗ trống. */
+function khoiGoiY(n){
+  if(!n.hook) return "";
+  return `
+    <div class="goiy">
+      <div class="goiy__top">
+        <span class="goiy__nhan">Câu mở bài gợi ý</span>
+        <button class="chep-nghet" type="button" data-chep="${esc(n.u)}">
+          <svg class="icon" viewBox="0 0 24 24"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V5a2 2 0 012-2h10"/></svg>Chép</button>
+      </div>
+      <p class="goiy__hook">${esc(n.hook)}</p>
+      ${n.goc?`<p class="goiy__goc"><b>Góc triển khai</b>${esc(n.goc)}</p>`:""}
+    </div>`;
+}
+
+/* Câu lưu ý. Chỉ có ở bài về thuốc, y tế, hoặc bài có số liệu dễ bị viết thành lời hứa.
+   Để NGAY DƯỚI khối gợi ý, cố ý: người chép hook xong là đọc thấy ngay, không phải cuộn. */
+function khoiLuuY(n){
+  if(!n.lu) return "";
+  return `
+    <div class="luuy">
+      <svg viewBox="0 0 24 24"><path d="M12 9v4M12 17h.01"/><path d="M10.3 3.9L1.8 18a2 2 0 001.7 3h17a2 2 0 001.7-3L13.7 3.9a2 2 0 00-3.4 0z"/></svg>
+      <span><b>Lưu ý khi viết:</b> ${esc(n.lu)}</span>
+    </div>`;
+}
+
+function theBai(n){
+  return `
+    <article class="news">
+      <div class="news__meta">
+        <span class="d">${fd(n.d)}</span><span>${esc(n.src||"")}</span>
+        <span class="dot dot--${esc(n.imp)}">${IMP[n.imp]||""}</span>
+      </div>
+      <h3><a href="${esc(n.u)}" target="_blank" rel="noopener">${esc(n.tv||n.t)}</a></h3>
+      ${tieuDeGoc(n)}
+      ${(!n.w&&n.s)?`<p>${esc(n.s)}</p>`:""}
+      <div class="why"><b>Tóm tắt tiếng Việt</b><p>${esc(n.w||"")}</p></div>
+      ${khoiGoiY(n)}
+      ${khoiLuuY(n)}
+      <div class="news__actions">
+        <button class="tao-nut" type="button" data-tao="${esc(n.u)}">
+          <svg class="icon icon--sm" viewBox="0 0 24 24"><path d="M12 4v16M4 12h16"/></svg>Tạo content</button>
+        <a class="go" href="${esc(n.u)}" target="_blank" rel="noopener">Đọc bản gốc
+          <svg class="icon icon--sm" viewBox="0 0 24 24"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a>
+        <button class="ask-tin" type="button" data-u="${esc(n.u)}">
+          <svg class="icon icon--sm" viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4V5z"/></svg>Hỏi trợ lý</button>
+      </div>
+    </article>`;
+}
+
+/* ===== PHÂN TRANG =====
+ * Mỗi tab có tới trăm hai bài, đổ hết ra một trang thì cuộn mỏi tay mà vẫn chưa hết.
+ * Hai cách đi tới bài cũ, cùng tồn tại:
+ *   - Nút "Xem thêm": nối thêm một trang vào ngay dưới, giữ nguyên chỗ đang đọc.
+ *   - Dãy số trang: nhảy hẳn tới trang đó, rồi cuộn lên đầu danh sách.
+ * Vì vậy mỗi tab nhớ hai con số: đang bắt đầu từ trang nào, và đã nối thêm bao nhiêu trang.
+ */
+const MOI_TRANG = 15;
+const trangTab = { kh:{trang:1,daNoi:1}, nghe:{trang:1,daNoi:1}, xh:{trang:1,daNoi:1}, vn:{trang:1,daNoi:1} };
+/* Đổi bộ lọc hay gõ tìm kiếm thì phải về trang đầu, không thì đang ở trang 7 mà kết quả
+   mới chỉ có 2 trang là màn hình trống trơn. */
+function veTrangDau(khoa){ trangTab[khoa].trang = 1; trangTab[khoa].daNoi = 1; }
+
+/* Dãy số trang có rút gọn: luôn hiện trang đầu, trang cuối, cả khoảng đang xem, và hai
+   trang đệm mỗi bên. Nhận CẢ KHOẢNG chứ không chỉ một trang, vì bấm "Xem thêm" nhiều lần
+   thì màn hình đang hiện liền mấy trang một lúc. */
+const DEM_TRANG = 2;
+function daySoTrang(tuTrang, denTrang, tong){
+  const ra = [];
+  const them = n => { if (n >= 1 && n <= tong && !ra.includes(n)) ra.push(n); };
+  them(1);
+  for (let i = tuTrang - DEM_TRANG; i <= denTrang + DEM_TRANG; i++) them(i);
+  them(tong);
+  ra.sort((a, b) => a - b);
+  const co = [];
+  for (let i = 0; i < ra.length; i++){
+    if (i && ra[i] - ra[i-1] > 1) co.push("…");
+    co.push(ra[i]);
+  }
+  return co;
+}
+
+function vePhanTrang(khoa, hopPager, tongBai, dau, cuoi){
+  const box = $(hopPager); if(!box) return;
+  const st = trangTab[khoa];
+  const tongTrang = Math.max(1, Math.ceil(tongBai / MOI_TRANG));
+  if (tongBai <= MOI_TRANG){ box.innerHTML = ""; return; }
+
+  const conLai = tongBai - cuoi;
+  const nutThem = conLai > 0
+    ? `<button class="them" type="button" data-them="1">Xem thêm ${Math.min(conLai, MOI_TRANG)} bài
+         <svg class="icon icon--sm" viewBox="0 0 24 24"><path d="M12 5v14M6 13l6 6 6-6"/></svg></button>`
+    : "";
+
+  const trangCuoi = Math.min(tongTrang, st.trang + st.daNoi - 1);
+  const so = daySoTrang(st.trang, trangCuoi, tongTrang).map(x =>
+    x === "…"
+      ? `<span class="pg pg--nhay">…</span>`
+      : `<button class="pg" type="button" data-trang="${x}"${(x>=st.trang&&x<=trangCuoi)?' aria-current="true"':''}>${x}</button>`
+  ).join("");
+
+  box.innerHTML =
+    `<p class="pager__dem">Đang xem <b>${dau+1}</b> tới <b>${cuoi}</b> trong <b>${tongBai}</b> bài</p>`
+    + nutThem
+    + `<div class="pager__so">`
+    +   `<button class="pg" type="button" data-trang="${st.trang-1}"${st.trang<=1?" disabled":""} aria-label="Trang trước">‹</button>`
+    +   so
+    +   `<button class="pg" type="button" data-trang="${trangCuoi+1}"${trangCuoi>=tongTrang?" disabled":""} aria-label="Trang sau">›</button>`
+    + `</div>`;
+}
+
+function veDanhSach(khoa, hopId, hopPager, ds, trong){
+  const box=$(hopId); if(!box) return;
+  const st = trangTab[khoa];
+  const tongTrang = Math.max(1, Math.ceil(ds.length / MOI_TRANG));
+  if (st.trang > tongTrang) veTrangDau(khoa);
+
+  const dau = (st.trang - 1) * MOI_TRANG;
+  const cuoi = Math.min(ds.length, dau + st.daNoi * MOI_TRANG);
+  const phan = ds.slice(dau, cuoi);
+
+  box.innerHTML = phan.length ? phan.map(theBai).join("") : `<div class="empty">${trong}</div>`;
+  vePhanTrang(khoa, hopPager, ds.length, dau, cuoi);
+}
+
+function noiPhanTrang(khoa, hopPager, hopId, veLai){
+  const box = $(hopPager); if(!box) return;
+  box.addEventListener("click", e => {
+    const st = trangTab[khoa];
+    const bThem = e.target.closest("[data-them]");
+    if (bThem){
+      // Nối thêm một trang. KHÔNG cuộn: phần đang đọc nằm nguyên chỗ cũ, bài mới hiện ở dưới.
+      st.daNoi++;
+      veLai();
+      return;
+    }
+    const bTrang = e.target.closest("[data-trang]");
+    if (!bTrang || bTrang.disabled) return;
+    st.trang = Math.max(1, Number(bTrang.dataset.trang) || 1);
+    st.daNoi = 1;
+    veLai();
+    scrollTo($(hopId), "start");
+  });
+}
+
+const khopTim=(n,q)=>!q||(n.t+" "+(n.tv||"")+" "+(n.s||"")+" "+(n.w||"")+" "+(n.hook||"")+" "+(n.goc||"")+" "+(n.src||"")).toLowerCase().includes(q);
+const moiTruoc=(a,b)=>String(b.d).localeCompare(String(a.d));
+
+/* Một hàm dựng cho cả bốn tab, vì bốn tab khác nhau đúng ở bộ lọc chip. */
+function lamTab(khoa, kho, hopId, hopPager, panelSel, qSel, trong){
+  let f="all";
+  const render=()=>{
+    const q=$(qSel).value.trim().toLowerCase();
+    const ds=kho.filter(n=>{
+      if(f==="cao"&&n.imp!=="cao")return false;
+      if(f==="hook"&&!n.hook)return false;
+      if(f==="congdong"&&!laCongDong(n))return false;
+      return khopTim(n,q);
+    }).slice().sort(moiTruoc);
+    veDanhSach(khoa,hopId,hopPager,ds,trong);
+  };
+  $$(panelSel+' .chips [data-f]').forEach(c=>c.addEventListener("click",()=>{
+    $$(panelSel+' .chips [data-f]').forEach(x=>x.setAttribute("aria-pressed","false"));
+    c.setAttribute("aria-pressed","true"); f=c.dataset.f; veTrangDau(khoa); render();
+  }));
+  $(qSel).addEventListener("input",()=>{ veTrangDau(khoa); render(); });
+  noiPhanTrang(khoa,hopPager,hopId,render);
+  return render;
+}
+
+const renderKH=lamTab("kh",KH,"#khlist","#pg-kh","#p-kh","#q-kh","Chưa có bài nào khớp. Thử bỏ bớt từ khóa.");
+const renderNGHE=lamTab("nghe",NGHE,"#nghelist","#pg-nghe","#p-nghe","#q-nghe","Chưa có bài nào ở nhóm này. Chờ bộ quét chạy lúc 7h sáng.");
+const renderXH=lamTab("xh",XH,"#xhlist","#pg-xh","#p-xh","#q-xh","Chưa có bài nào ở nhóm này. Chờ bộ quét chạy lúc 7h sáng.");
+const renderVN=lamTab("vn",VN,"#vnlist","#pg-vn","#p-vn","#q-vn","Chưa có tin trong nước nào khớp.");
+const veLaiHet=()=>{renderKH();renderNGHE();renderXH();renderVN();};
+
+/* Bấm nút Chép hoặc nút Hỏi trợ lý, ở bất kỳ tab nào. Gắn một lần cho cả bốn danh sách. */
+["#khlist","#nghelist","#xhlist","#vnlist"].forEach(sel=>{
+  const box=$(sel); if(!box) return;
+  box.addEventListener("click",e=>{
+    const bChep=e.target.closest("[data-chep]");
+    if(bChep){
+      const n=[...KH,...NGHE,...XH,...VN].find(x=>x.u===bChep.dataset.chep);
+      if(!n) return;
+      // Chép cả gói: câu mở, góc triển khai, lưu ý, và đường dẫn nguồn để dẫn lại trong bài.
+      const goi=[n.hook, n.goc?("Góc triển khai: "+n.goc):"", n.lu?("Lưu ý: "+n.lu):"",
+                 "Nguồn: "+(n.tv||n.t)+" — "+n.u].filter(Boolean).join("\n\n");
+      chep(goi).then(()=>{
+        bChep.classList.add("xong");
+        const cu=bChep.innerHTML;
+        bChep.innerHTML='<svg class="icon" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>Đã chép';
+        setTimeout(()=>{bChep.classList.remove("xong");bChep.innerHTML=cu;},1800);
+      });
+      return;
+    }
+    const bTao=e.target.closest("[data-tao]");
+    if(bTao){
+      const n=[...KH,...NGHE,...XH,...VN].find(x=>x.u===bTao.dataset.tao);
+      if(n) moHopTao(n);
+      return;
+    }
+    const b=e.target.closest(".ask-tin"); if(!b)return;
+    const n=[...KH,...NGHE,...XH,...VN].find(x=>x.u===b.dataset.u); if(n) hoiVeBai(n);
+  });
+});
+
+/* ===== TẠO CONTENT =====
+ * Ba bước: chọn định dạng, chọn phong cách, rồi mới gọi AI.
+ *
+ * Bắt chọn phong cách trước là CÓ CHỦ Ý. Một bài tin lên được năm kiểu bài rất khác nhau
+ * (kể chuyện, chuyên gia, gỡ hiểu lầm...). Để AI tự chọn thì lần nào cũng ra cùng một
+ * giọng, mà cả trang đọc đều đều thì không ai xem.
+ *
+ * Danh sách phong cách nằm ở netlify/functions/loi-nhac-content.js. Chép sang đây vì
+ * trang tĩnh không import được file CommonJS. Thêm bớt phong cách phải sửa CẢ HAI chỗ;
+ * `ma` phải khớp đúng, sai một chữ là hàm nền lặng lẽ rơi về phong cách đầu tiên.
+ */
+const PHONG_CACH={
+  facebook:[
+    {ma:"ca-benh",ten:"Ca bệnh salon"},
+    {ma:"con-so",ten:"Đọc con số"},
+    {ma:"go-hieu-lam",ten:"Gỡ hiểu lầm"},
+    {ma:"lam-ngay",ten:"Làm được ngay tuần này"},
+    {ma:"noi-that",ten:"Nói thật với nhau"},
+  ],
+  tiktok:[
+    {ma:"hau-truong",ten:"Hậu trường nghề"},
+    {ma:"chuyen-gia",ten:"Chuyên gia"},
+    {ma:"thong-tin",ten:"Thông tin nhanh"},
+    {ma:"ke-chuyen",ten:"Kể chuyện"},
+    {ma:"bat-trend",ten:"Bắt trend"},
+  ],
+};
+const KICH_CO={
+  facebook:[{ma:"ngan",ten:"Ngắn"},{ma:"vua",ten:"Vừa"},{ma:"dai",ten:"Dài"}],
+  tiktok:[{ma:"15",ten:"15 giây"},{ma:"30",ten:"30 giây"},{ma:"60",ten:"60 giây"}],
+};
+
+let baiDangTao=null, ddChon="facebook", pcChon="ca-benh", coChon="vua", kqHienTai=null;
+
+function veChip(hop,ds,dangChon,thuoc){
+  $(hop).innerHTML=ds.map(x=>
+    `<button class="pc" type="button" data-${thuoc}="${esc(x.ma)}" aria-pressed="${x.ma===dangChon}">${esc(x.ten)}</button>`
+  ).join("");
+}
+/* Đổi định dạng thì phong cách và kích cỡ phải đặt lại, vì hai bên có mã khác nhau.
+   Không đặt lại thì gửi lên mã "ngan" cho TikTok, hàm nền rơi về mặc định mà không báo. */
+function veLuaChon(){
+  $$('#hopTao [data-dd]').forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.dd===ddChon)));
+  const dsPC=PHONG_CACH[ddChon], dsCo=KICH_CO[ddChon];
+  if(!dsPC.some(x=>x.ma===pcChon)) pcChon=dsPC[0].ma;
+  if(!dsCo.some(x=>x.ma===coChon)) coChon=dsCo[1].ma;
+  veChip("#hopTaoPC",dsPC,pcChon,"pc");
+  veChip("#hopTaoCo",dsCo,coChon,"co");
+  $("#hopTaoNhanCo").textContent = ddChon==="tiktok" ? "3 · Thời lượng" : "3 · Độ dài";
+}
+
+function moHopTao(n){
+  baiDangTao=n; kqHienTai=null;
+  $("#hopTaoBai").textContent=(n.tv||n.t);
+  $("#hopTaoKQ").innerHTML="";
+  $("#hopTaoChep").hidden=true;
+  $("#hopTaoChay").textContent="Tạo content";
+  $("#hopTaoChay").disabled=false;
+  $("#hopTaoNho").textContent="Chọn xong bấm Tạo content.";
+  veLuaChon();
+  $("#hopTao").hidden=false;
+  document.body.style.overflow="hidden";
+}
+/* Đóng hộp Tạo content.
+ *
+ * LỖI ĐÃ SỬA: trước đây bấm ra ngoài hộp là đóng ngay và mất trắng bài vừa tạo. Mỗi lần
+ * tạo tốn một lượt gọi API và nửa phút chờ, nên mất vì lỡ tay là quá đắt.
+ *
+ * Nay bấm nền KHÔNG đóng nữa. Muốn đóng thì bấm dấu nhân hoặc phím Esc, và nếu đang tạo
+ * dở thì phải xác nhận. Bỏ hẳn đường đóng do lỡ tay còn chắc hơn là hỏi lại mỗi lần.
+ */
+let dangTao=false;
+function dongHopTao(){
+  if(dangTao && !window.confirm("Đang tạo content. Đóng bây giờ là mất lượt này và vẫn bị tính phí. Vẫn đóng?")) return;
+  dangTao=false;
+  ttDung();
+  $("#hopTao").hidden=true;
+  document.body.style.overflow="";
+}
+$("#hopTaoDong").addEventListener("click",dongHopTao);
+document.addEventListener("keydown",e=>{ if(e.key==="Escape"&&!$("#hopTao").hidden) dongHopTao(); });
+
+$("#hopTao").addEventListener("click",e=>{
+  const bDD=e.target.closest("[data-dd]");
+  if(bDD){ ddChon=bDD.dataset.dd; veLuaChon(); return; }
+  const bPC=e.target.closest("[data-pc]");
+  if(bPC){ pcChon=bPC.dataset.pc; veLuaChon(); return; }
+  const bCo=e.target.closest("[data-co]");
+  if(bCo){ coChon=bCo.dataset.co; veLuaChon(); return; }
+});
+
+/* Dựng phần kết quả. Hai định dạng vẽ khác hẳn nhau nên tách hai hàm. */
+/* Khối ảnh đi kèm. Dùng chung cho cả hai định dạng: bài Facebook thì là ảnh minh họa,
+   kịch bản TikTok thì là ảnh bìa video. */
+function khoiAnh(c){
+  if(!c.goiYAnh && !c.promptAnh) return "";
+  const nutGui = coExtension()
+    ? `<button class="nut-nho" type="button" data-gui-anh="1">
+         <svg class="icon icon--sm" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg>Gửi sang ChatGPT Auto Ảnh</button>`
+    : `<span class="nho">Cài extension ChatGPT Auto Ảnh rồi tải lại trang là gửi thẳng được.</span>`;
+  return `<div class="anh">
+    <div class="anh__nhan">Ảnh đi kèm</div>
+    ${c.goiYAnh?`<p class="anh__mo">${esc(c.goiYAnh)}</p>`:""}
+    ${c.promptAnh?`<p class="anh__prompt" id="promptAnh">${esc(c.promptAnh)}</p>
+      <div class="anh__nut">
+        ${nutGui}
+        <button class="nut-nho" type="button" data-chep-anh="1">
+          <svg class="icon icon--sm" viewBox="0 0 24 24"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V5a2 2 0 012-2h10"/></svg>Chép prompt</button>
+        <span class="nho" id="anhTinNhan"></span>
+      </div>`:""}
+  </div>`;
+}
+
+function veKQFacebook(c){
+  return `<div class="kq">
+    <div class="kq__dau"><span class="kq__ten">Bài Facebook · ${esc(c.tenPhongCach||"")}</span></div>
+    <p class="kq__bai">${esc(c.baiViet||"")}</p>
+    ${c.hashtag?`<p class="kq__ht">${esc(c.hashtag)}</p>`:""}
+    ${c.canKiem?`<p class="kq__phu"><b>Kiểm trước khi đăng:</b> ${esc(c.canKiem)}</p>`:""}
+    ${khoiAnh(c)}
+  </div>`;
+}
+function veKQTiktok(c){
+  const hang=(c.canh||[]).map(x=>
+    `<tr><td class="t">${esc(x.thoiGian||"")}</td><td>${esc(x.hinhAnh||"")}</td>
+     <td>${esc(x.loiThoai||"")}</td><td class="cm">${esc(x.chuTrenMan||"")}</td></tr>`).join("");
+  return `<div class="kq">
+    <div class="kq__dau"><span class="kq__ten">Kịch bản TikTok · ${esc(c.tenPhongCach||"")}</span></div>
+    <div class="kb-hook"><b>Hook 3 giây đầu</b><p>${esc(c.hook||"")}</p></div>
+    <div class="kb-cuon"><table class="kb">
+      <thead><tr><th>Giây</th><th>Hình ảnh</th><th>Lời thoại</th><th>Chữ trên màn</th></tr></thead>
+      <tbody>${hang}</tbody></table></div>
+    ${c.caption?`<p class="kq__phu"><b>Caption:</b> ${esc(c.caption)}</p>`:""}
+    ${c.hashtag?`<p class="kq__ht">${esc(c.hashtag)}</p>`:""}
+    ${c.canKiem?`<p class="kq__phu"><b>Kiểm trước khi đăng:</b> ${esc(c.canKiem)}</p>`:""}
+    ${khoiAnh(c)}
+  </div>`;
+}
+/* Bản chữ để chép ra. Kịch bản TikTok phải chép thành text đọc được, không phải bảng HTML. */
+function kqRaChu(c){
+  if(c.dinhDang==="tiktok"){
+    const d=["KỊCH BẢN TIKTOK · "+(c.tenPhongCach||""),"","HOOK (3 giây đầu): "+(c.hook||""),""];
+    (c.canh||[]).forEach(x=>{
+      d.push("["+(x.thoiGian||"")+"]");
+      d.push("  Hình: "+(x.hinhAnh||""));
+      d.push("  Thoại: "+(x.loiThoai||""));
+      if(x.chuTrenMan) d.push("  Chữ trên màn: "+x.chuTrenMan);
+      d.push("");
+    });
+    if(c.caption) d.push("CAPTION: "+c.caption);
+    if(c.hashtag) d.push(c.hashtag);
+    if(c.canKiem) d.push("","Kiểm trước khi đăng: "+c.canKiem);
+    d.push(...phanAnhRaChu(c));
+    if(baiDangTao) d.push("","Nguồn: "+(baiDangTao.tv||baiDangTao.t)+" — "+baiDangTao.u);
+    return d.join("\n");
+  }
+  const d=[c.baiViet||""];
+  if(c.hashtag) d.push("",c.hashtag);
+  if(c.canKiem) d.push("","Kiểm trước khi đăng: "+c.canKiem);
+  d.push(...phanAnhRaChu(c));
+  if(baiDangTao) d.push("","Nguồn: "+(baiDangTao.tv||baiDangTao.t)+" — "+baiDangTao.u);
+  return d.join("\n");
+}
+/* Prompt ảnh phải nằm TRÊN MỘT DÒNG riêng khi chép ra, không kèm nhãn ở đầu dòng.
+   Lý do: người ta hay chép cả khối này rồi cắt lấy dòng prompt dán sang công cụ tạo ảnh.
+   Dán nhầm cả chữ "Prompt ảnh:" vào là máy vẽ luôn mấy chữ đó lên hình. */
+function phanAnhRaChu(c){
+  const d=[];
+  if(c.goiYAnh) d.push("","Ảnh đi kèm: "+c.goiYAnh);
+  if(c.promptAnh) d.push("","Prompt tạo ảnh (dán nguyên dòng dưới đây):",c.promptAnh);
+  return d;
+}
+
+/* ===== BẮT TAY VỚI EXTENSION "ChatGPT Auto Ảnh" =====
+ *
+ * Extension có một content script chạy trên chính trang này. Khi có mặt, nó cắm cờ
+ * data-chatgpt-auto-anh lên thẻ <html>. Trang chỉ cần nhìn cờ đó để biết có nên hiện
+ * nút "Gửi sang ChatGPT Auto Ảnh" hay không.
+ *
+ * Trang KHÔNG cần biết mã ID của extension. Cách kia (externally_connectable) bắt phải
+ * điền ID, mà extension cài dạng unpacked thì ID đổi theo đường dẫn thư mục trên từng
+ * máy, nhân sự sẽ phải tự đi tìm rồi điền, sai một chữ là im lặng không chạy.
+ *
+ * Gửi đi rồi vẫn phải sang bảng điều khiển bấm Bắt đầu. Cố ý: sinh ảnh tốn hạn mức
+ * ChatGPT, không tự động bấm thay người.
+ */
+const coExtension=()=>document.documentElement.dataset.chatgptAutoAnh==="1";
+
+function guiPromptSangExtension(prompt){
+  return new Promise(giai=>{
+    let xong=false;
+    const nghe=e=>{
+      if(e.source!==window) return;
+      const d=e.data;
+      if(!d||d.nguon!=="chatgpt-auto-anh") return;
+      xong=true; window.removeEventListener("message",nghe);
+      giai({ok:!!d.ok,chiTiet:d.chiTiet||""});
+    };
+    window.addEventListener("message",nghe);
+    window.postMessage({nguon:"nep-toc",viec:"themPrompt",prompt},window.location.origin);
+    // Extension có cắm cờ nhưng không trả lời thì cũng phải thoát, đừng treo nút mãi.
+    setTimeout(()=>{
+      if(xong) return;
+      window.removeEventListener("message",nghe);
+      giai({ok:false,chiTiet:"extension không trả lời"});
+    },4000);
+  });
+}
+
+/* Hai nút trong khối ảnh. Gắn một lần trên hộp, vì khối ảnh được vẽ lại mỗi lần tạo. */
+$("#hopTaoKQ").addEventListener("click",async e=>{
+  const bChep=e.target.closest("[data-chep-anh]");
+  const bGui=e.target.closest("[data-gui-anh]");
+  if(!bChep&&!bGui) return;
+  const prompt=(kqHienTai&&kqHienTai.promptAnh)||"";
+  if(!prompt) return;
+  const tin=$("#anhTinNhan");
+
+  if(bChep){
+    chep(prompt).then(()=>{
+      bChep.classList.add("xong");
+      const cu=bChep.innerHTML;
+      bChep.innerHTML='<svg class="icon icon--sm" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>Đã chép';
+      setTimeout(()=>{bChep.classList.remove("xong");bChep.innerHTML=cu;},1800);
+    });
+    return;
+  }
+
+  bGui.disabled=true;
+  if(tin) tin.textContent="đang gửi…";
+  const kq=await guiPromptSangExtension(prompt);
+  bGui.disabled=false;
+  if(kq.ok){
+    bGui.classList.add("xong");
+    const cu=bGui.innerHTML;
+    bGui.innerHTML='<svg class="icon icon--sm" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>Đã gửi';
+    if(tin) tin.textContent=kq.chiTiet+". Mở bảng ChatGPT Auto Ảnh rồi bấm Bắt đầu.";
+    setTimeout(()=>{bGui.classList.remove("xong");bGui.innerHTML=cu;},2600);
+  }else{
+    if(tin) tin.textContent="Chưa gửi được ("+kq.chiTiet+"). Dùng nút Chép prompt.";
+  }
+});
+
+$("#hopTaoChep").addEventListener("click",()=>{
+  if(!kqHienTai) return;
+  chep(kqRaChu(kqHienTai)).then(()=>{
+    const b=$("#hopTaoChep"), cu=b.textContent;
+    b.textContent="Đã chép"; setTimeout(()=>{b.textContent=cu;},1800);
+  });
+});
+
+$("#hopTaoChay").addEventListener("click",async()=>{
+  if(!baiDangTao) return;
+  const nut=$("#hopTaoChay"), kq=$("#hopTaoKQ");
+  // Chưa đăng ký thì mở màn đăng ký, không hỏi bằng hộp thoại của trình duyệt nữa.
+  if(!daVao()){ moDangKy("content"); return; }
+
+  nut.disabled=true; nut.textContent="Đang tạo…";
+  dangTao=true;
+  $("#hopTaoChep").hidden=true;
+  kq.innerHTML=ttVe(ddChon);
+  ttChay(ddChon);
+
+  const nghi=(ms)=>new Promise(r=>setTimeout(r,ms));
+  const id="c"+Date.now().toString(36)+Math.random().toString(36).slice(2,8);
+  // ttDung() ở đây là chốt chặn: mọi đường ra khỏi vòng tạo đều đi qua xong(), nên đặt
+  // một chỗ này là chắc chắn không còn bộ đếm nào chạy lẻ phía sau.
+  const xong=(html)=>{ ttDung(); dangTao=false; kq.innerHTML=html; nut.disabled=false; nut.textContent="Tạo lại"; };
+
+  try{
+    const r=await fetch("/.netlify/functions/hoi-background",{
+      method:"POST", headers:{"content-type":"application/json"},
+      body:JSON.stringify({
+        id, ...danhTinh(), viec:"content",
+        dinhDang:ddChon, phongCach:pcChon, kichCo:coChon,
+        bai:{
+          tieuDe:baiDangTao.t, tieuDeViet:baiDangTao.tv||"", tomTat:baiDangTao.w||"",
+          trichDan:baiDangTao.s||"", nguon:baiDangTao.src||"", hook:baiDangTao.hook||"",
+          goc:baiDangTao.goc||"", luuY:baiDangTao.lu||"",
+          url:baiDangTao.u||"", nhom:baiDangTao.g||"",
+        },
+      })
+    });
+    if(!(r.status===202||r.ok)) throw new Error("khong_kich_hoat");
+
+    for(let i=0;i<80;i++){
+      await nghi(2500);
+      let j=null;
+      try{
+        const rk=await fetch("/.netlify/functions/hoi-ket-qua?id="+encodeURIComponent(id));
+        j=await rk.json();
+      }catch(e){ continue; }
+      if(!j||!j.xong) continue;
+
+      if(j.content){
+        dangTao=false;
+        kqHienTai=j.content;
+        // Kéo thanh đầy nốt rồi mới thay bằng kết quả, để mắt kịp thấy nó chạm 100%.
+        ttXong();
+        await nghi(260);
+        xong(j.content.dinhDang==="tiktok"?veKQTiktok(j.content):veKQFacebook(j.content));
+        $("#hopTaoChep").hidden=false;
+        // Nói rõ bài đã được lưu, để người dùng yên tâm đóng hộp. Trước đây đóng là mất,
+        // nên câu này quan trọng ngang chính việc lưu.
+        $("#hopTaoNho").innerHTML = j.idLuu
+          ? "Đã lưu vào tab <b>Đã tạo</b>, đóng hộp vẫn xem lại được. Đọc lại một lượt trước khi đăng."
+          : "Đọc lại một lượt trước khi đăng. Đây là bản nháp, không phải bản duyệt.";
+        napDaTao(true);
+        return;
+      }
+      if(j.loi==="sai_ma"){ datMa(""); xong(`<p class="nho">Mã truy cập không đúng. Bấm Tạo lại rồi nhập mã mới.</p>`); return; }
+      if(j.loi==="chua_dat_ma"){ xong(`<p class="nho">Chức năng chưa mở. Người quản trị cần đặt biến <b>MA_TRUY_CAP</b> trên Netlify rồi deploy lại.</p>`); return; }
+      if(j.loi==="chua_co_key"){ xong(`<p class="nho">Chưa bật AI. Cần khóa <b>ANTHROPIC_API_KEY</b>.</p>`); return; }
+      if(j.loi==="het_luot"){ xong(`<p class="nho">Hôm nay đã dùng hết <b>${j.tran}</b> lượt. Mai lại có tiếp.</p>`); return; }
+      xong(`<p class="nho">Chưa tạo được lúc này (${esc(j.chiTiet||j.loi||"lỗi")}). Thử lại giúp tôi.</p>`);
+      return;
+    }
+    xong(`<p class="nho">Tạo lâu hơn dự kiến. Thử lại nhé.</p>`);
+  }catch(e){
+    xong(`<p class="nho">Mất kết nối tới trợ lý. Thử lại nhé.</p>`);
+  }
+});
+
+/* ---- Nổi bật tuần này ---- */
+/* Bỏ những từ khóa quá chung, vì bài nào cũng có nên chúng luôn đứng đầu bảng mà
+   không nói lên điều gì. */
+const KW_BO=new Set(["hair","haircare","hair care","salon","stylist","beauty industry",
+  "health","tóc","làm tóc","chăm sóc tóc","salon tóc","tiệm tóc","ngành làm đẹp"]);
+function capNhatNoiBat(){
+  const het=[...KH,...NGHE,...XH,...VN];
+  if(!het.length) return;
+  // Neo vào ngày mới nhất trong kho rồi lùi 7 ngày. Neo vào hôm nay thì hôm nào bộ quét
+  // chưa chạy là khối này trống trơn.
+  const ngayMax=het.map(x=>x.d).sort().pop();
+  const moc=new Date(ngayMax); moc.setDate(moc.getDate()-7);
+  const mocISO=moc.toISOString().slice(0,10);
+  let tuan=het.filter(x=>x.d>=mocISO);
+  if(tuan.length<20) tuan=het.slice().sort(moiTruoc).slice(0,40);
+
+  // Bốn ô số liệu
+  $("#noibatStats").innerHTML=[
+    ["Bài trong tuần",tuan.length,""],
+    ["Nên dùng",tuan.filter(x=>x.imp==="cao").length,"stat--cao"],
+    ["Đã có gợi ý",tuan.filter(x=>x.hook).length,""],
+    ["Cần lưu ý",tuan.filter(x=>x.lu).length,""],
+  ].map(([nhan,so,cls])=>`<div class="stat ${cls}"><b>${so}</b><span>${esc(nhan)}</span></div>`).join("");
+
+  // Biểu đồ từ khóa, bấm được để lọc thẳng vào feed
+  const dem={};
+  tuan.forEach(x=>(x.khoa||[]).forEach(k=>{
+    const kk=String(k).trim().toLowerCase();
+    if(kk&&!KW_BO.has(kk)) dem[kk]=(dem[kk]||0)+1;
+  }));
+  const top=Object.entries(dem).sort((a,b)=>b[1]-a[1]).slice(0,10);
+  const max=top.length?top[0][1]:1;
+  $("#kwChart").innerHTML=top.map(([k,v])=>
+    `<button class="kwbar" type="button" data-kw="${esc(k)}">
+       <span class="kwbar__label">${esc(k)}</span><span class="kwbar__n">${v}</span>
+       <span class="kwbar__track"><span class="kwbar__fill" style="width:${Math.round(v/max*100)}%"></span></span>
+     </button>`).join("") || `<p class="nho">Chưa đủ dữ liệu.</p>`;
+  $$("#kwChart .kwbar").forEach(b=>b.addEventListener("click",()=>{
+    // Đổ từ khóa vào ô tìm của cả bốn tab rồi vẽ lại, để bấm ở đâu cũng ra kết quả.
+    ["#q-kh","#q-nghe","#q-xh","#q-vn"].forEach(s=>{$(s).value=b.dataset.kw;});
+    ["kh","nghe","xh","vn"].forEach(veTrangDau);
+    veLaiHet();
+    scrollTo($("#khlist"),"start");
+  }));
+
+  // Ba bài đáng viết nhất: ưu tiên bài đã có gợi ý content và mức "Nên dùng"
+  const diem=x=>(x.imp==="cao"?4:x.imp==="vua"?2:0)+(x.hook?2:0);
+  const top3=tuan.slice().sort((a,b)=>diem(b)-diem(a)||moiTruoc(a,b)).slice(0,3);
+  $("#top3").innerHTML=top3.map((n,i)=>
+    `<li><span class="top3__n">${i+1}</span><span>
+       <span class="top3__meta">${fd(n.d)} · ${esc(n.src||"")}<span class="dot dot--${esc(n.imp)}">${IMP[n.imp]||""}</span></span>
+       <a class="top3__t" href="${esc(n.u)}" target="_blank" rel="noopener">${esc(n.tv||n.t)}</a>
+     </span></li>`).join("");
+
+  // Nhịp tin 7 ngày
+  const ngay=[];
+  for(let i=6;i>=0;i--){const d=new Date(ngayMax);d.setDate(d.getDate()-i);ngay.push(d.toISOString().slice(0,10));}
+  const demNgay=ngay.map(d=>het.filter(x=>x.d===d).length);
+  const maxN=Math.max(1,...demNgay);
+  $("#dayChart").innerHTML=ngay.map((d,i)=>
+    `<div class="daycol"><span class="daycol__c">${demNgay[i]}</span>
+       <span class="daycol__fill" style="height:${Math.round(demNgay[i]/maxN*88)}%"></span>
+       <span class="daycol__d">${d.slice(8)}/${d.slice(5,7)}</span></div>`).join("");
+}
+
+/* ---- năm câu hỏi ---- */
+$("#tlist").innerHTML=TL.map((x,i)=>
+  `<li><span class="n">${i+1}</span><span class="x"><b>${esc(x.t)}</b> ${esc(x.d)}</span></li>`).join("");
+
+/* ---- hỏi đáp ---- */
+let cauHoiCuoi="";
+function soanLoiHoi(q){
+  return ["Tôi viết nội dung cho Vũ Hải, chuyên gia tư vấn Vận hành Xuất sắc. Người đọc là chủ salon tóc.",
+    "Giọng ngang hàng, không dạy đời, không chê ngoại hình, không hứa con số về tóc lẫn về doanh thu.",
+    "", "Câu hỏi của tôi: "+q].join("\n");
+}
+function push(role,html,cauHoi){
+  const log=$("#chatlog"), div=document.createElement("div");
+  div.className="msg msg--"+role;
+  div.innerHTML='<span class="who">'+(role==="user"?"Bạn hỏi":"NẾP TÓC trả lời")+'</span>'+html;
+  if(role==="bot"&&cauHoiCuoi){
+    const b=document.createElement("button");
+    b.type="button"; b.className="chep-sau"; b.textContent="Chép câu này để hỏi Claude sâu hơn";
+    const ch=cauHoiCuoi;
+    b.addEventListener("click",()=>chep(soanLoiHoi(ch)));
+    div.appendChild(b);
+  }
+  if(role==="user") cauHoiCuoi=String(cauHoi||div.textContent||"").replace("Bạn hỏi","").trim();
+  log.appendChild(div);
+  scrollTo(div,"nearest");
+}
+function answer(text){
+  const k=text.toLowerCase().trim();
+  let hit=QA.find(x=>x.q.toLowerCase()===k);
+  if(!hit){
+    const words=k.split(/\s+/).filter(w=>w.length>3);
+    let best=null,bs=0;
+    QA.forEach(x=>{
+      const hay=(x.q+" "+x.a.join(" ")).toLowerCase();
+      const s=words.reduce((n,w)=>n+(hay.includes(w)?1:0),0);
+      if(s>bs){bs=s;best=x;}
+    });
+    if(bs>=Math.max(2,Math.ceil(words.length*0.4)))hit=best;
+  }
+  if(hit) push("bot",hit.a.map(p=>"<p>"+esc(p)+"</p>").join(""));
+  else push("bot",
+    "<p>Câu này chưa có sẵn câu trả lời mẫu trong app.</p>"+
+    "<p>Bấm <b>Chép để hỏi Claude</b> để hỏi sâu hơn, hoặc thử hỏi gọn về một việc cụ thể: cách mở bài, cách chọn góc, cách viết về thuốc mọc tóc cho an toàn.</p>");
+}
+$("#qsug").innerHTML=QA.slice(0,4).map(x=>
+  `<button type="button" data-q="${esc(x.q)}">
+     <svg class="icon icon--sm" viewBox="0 0 24 24"><path d="M9 9a3 3 0 116 0c0 2-3 2.5-3 4"/><path d="M12 17h.01"/></svg>${esc(x.q)}</button>`).join("");
+$$("#qsug button").forEach(b=>b.addEventListener("click",()=>{
+  push("user","<p>"+esc(b.dataset.q)+"</p>",b.dataset.q); traLoiAI(b.dataset.q);
+}));
+
+/* ---- Hỏi nhanh trả lời bằng AI qua hàm nền ---- */
+const lichSuChat=[];
+function khoText(){
+  return TL.map(x=>"- "+x.t+" "+x.d).join("\n");
+}
+/* Render markdown an toàn: escape TRƯỚC, rồi mới định dạng tiêu đề, in đậm, danh sách. */
+function mdInline(s){
+  return esc(s)
+    .replace(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g,'<a href="$2" target="_blank" rel="noopener">$1</a>')
+    .replace(/\*\*(.+?)\*\*/g,"<strong>$1</strong>")
+    .replace(/`([^`]+)`/g,"<code>$1</code>")
+    .replace(/(^|[^*])\*(?!\s)([^*]+?)\*(?!\*)/g,"$1<em>$2</em>");
+}
+function mdToHtml(raw){
+  const lines=String(raw).replace(/\r/g,"").split("\n");
+  let html="",list=null,para=[];
+  const dongList=()=>{ if(list){ html+="</"+list+">"; list=null; } };
+  const xaPara=()=>{ if(para.length){ html+="<p>"+mdInline(para.join(" "))+"</p>"; para=[]; } };
+  for(const ln of lines){
+    const t=ln.trim(); let m;
+    // Dòng trống: kết thúc đoạn văn nhưng GIỮ danh sách mở, để các mục cách nhau bằng
+    // dòng trống vẫn đánh số liên tục 1,2,3 thay vì reset về 1.
+    if(!t){ xaPara(); continue; }
+    if(m=t.match(/^(#{1,6})\s+(.*)$/)){ xaPara(); dongList();
+      const lvl=Math.min(m[1].length+2,6); html+="<h"+lvl+' class="md-h">'+mdInline(m[2])+"</h"+lvl+">"; continue; }
+    if(m=t.match(/^[-*•]\s+(.*)$/)){ xaPara(); if(list!=="ul"){ dongList(); html+="<ul>"; list="ul"; } html+="<li>"+mdInline(m[1])+"</li>"; continue; }
+    if(m=t.match(/^\d+[.)]\s+(.*)$/)){ xaPara(); if(list!=="ol"){ dongList(); html+="<ol>"; list="ol"; } html+="<li>"+mdInline(m[1])+"</li>"; continue; }
+    dongList(); para.push(t);
+  }
+  xaPara(); dongList();
+  return html || "<p>"+mdInline(String(raw))+"</p>";
+}
+/* ===== DANH TÍNH NGƯỜI DÙNG =====
+ *
+ * ĐỔI TỪ 18/08/2026. Trước đây có hai hộp thoại prompt của trình duyệt: một hỏi mã truy
+ * cập, một hỏi tên, và cả hai bật lên GIỮA LÚC đang bấm tạo content. Xóa lịch sử duyệt
+ * web hay đổi máy là hỏi lại từ đầu. Prompt còn bị chặn hẳn trong webview Zalo.
+ *
+ * Nay đăng ký MỘT LẦN ở màn riêng, đổi mã dùng chung lấy một mã thông hành (token) riêng
+ * cho từng người. Từ đó mọi lời gọi gửi token, không gửi mã dùng chung, và tên lấy từ hồ
+ * sơ đã đăng ký chứ không phải chuỗi trình duyệt tự khai.
+ *
+ * Vẫn đọc khóa mã cũ trong localStorage: trình duyệt nào còn nhớ mã từ hôm trước thì dùng
+ * tiếp được, khỏi bắt cả nhóm đăng ký lại trong cùng một ngày.
+ */
+const KHOA_TOKEN="nep-toc-token";
+const KHOA_MA="nep-toc-ma";      // đường cũ, giữ để không đá ai ra giữa chừng
+const KHOA_TEN="nep-toc-ten";
+
+const doc=k=>{ try{ return localStorage.getItem(k)||""; }catch(e){ return ""; } };
+const ghiKho=(k,v)=>{ try{ v?localStorage.setItem(k,v):localStorage.removeItem(k); }catch(e){} };
+
+const layToken=()=>doc(KHOA_TOKEN);
+const layMa=()=>doc(KHOA_MA);
+const layTen=()=>doc(KHOA_TEN);
+const datMa=v=>ghiKho(KHOA_MA,v);
+const datTen=v=>ghiKho(KHOA_TEN,v);
+
+/* Chạy tại máy thì không cần đăng ký, giống mọi đường chạy tại chỗ khác. */
+const taiMay=/^(localhost|127\.0\.0\.1|\[::1\])$/.test(location.hostname);
+/* Đã đăng ký, HOẶC còn nhớ mã cũ, HOẶC đang chạy ở máy. */
+const daVao=()=>taiMay||!!layToken()||!!layMa();
+
+/* Gói danh tính gửi kèm mọi lời gọi. Một chỗ duy nhất, để sau này đổi cách nhận diện
+   thì chỉ phải sửa ở đây. */
+function danhTinh(){
+  const t=layToken();
+  return t ? {token:t} : {ma:layMa(),nguoiDung:layTen()};
+}
+
+function moDangKy(viec){
+  // Nói rõ họ đang đăng ký để làm gì. Người bấm Tạo content và người bấm Hỏi nhanh có
+  // mong đợi khác nhau, câu mở chung chung thì ai cũng thấy lạc.
+  const mo=$("#dkMo");
+  if(mo) mo.textContent = viec==="hoi"
+    ? "Đăng ký một lần để dùng Hỏi nhanh. Lần sau mở lên là vào thẳng, không phải nhập lại gì."
+    : viec==="content"
+      ? "Đăng ký một lần để tạo bài Facebook và kịch bản TikTok. Lần sau mở lên là vào thẳng."
+      : "Đăng ký một lần để dùng Tạo content và Hỏi nhanh. Lần sau mở lên là vào thẳng, không phải nhập lại gì.";
+  $("#manDangKy").hidden=false;
+  document.body.style.overflow="hidden";
+  setTimeout(()=>{ try{ $("#dkTen").focus(); }catch(e){} },60);
+}
+function dongDangKy(){
+  $("#manDangKy").hidden=true;
+  document.body.style.overflow="";
+}
+
+$("#formDangKy").addEventListener("submit",async e=>{
+  e.preventDefault();
+  const nut=$("#dkGui"), loi=$("#dkLoi");
+  const ten=$("#dkTen").value.trim(), ma=$("#dkMa").value.trim();
+  const sdt=$("#dkSdt").value.trim(), mail=$("#dkEmail").value.trim();
+  // Kiểm ngay ở trang cho người dùng biết sớm, nhưng máy chủ vẫn kiểm lại. Kiểm ở trang
+  // là để đỡ phải chờ một vòng mạng, không phải để tin.
+  if(ten.length<2){ loi.hidden=false; loi.textContent="Nhập họ và tên giúp mình nhé."; return; }
+  if(!/^\+?\d{8,15}$/.test(sdt.replace(/[\s.()-]/g,""))){ loi.hidden=false; loi.textContent="Số liên lạc chưa đúng. Nhập số điện thoại giúp mình nhé."; return; }
+  if(!/^[^@\s]+@[^@\s]+\.[^@\s]{2,}$/.test(mail)){ loi.hidden=false; loi.textContent="Email chưa đúng."; return; }
+  if(!ma){ loi.hidden=false; loi.textContent="Cần mã truy cập để đăng ký."; return; }
+
+  loi.hidden=true; nut.disabled=true; nut.textContent="Đang đăng ký…";
+  try{
+    const r=await fetch("/.netlify/functions/dang-ky",{
+      method:"POST", headers:{"content-type":"application/json"},
+      body:JSON.stringify({ten,dienThoai:sdt,dungZalo:$("#dkZalo").checked,email:mail,ma})
+    });
+    const j=await r.json();
+    if(j.ok&&j.token){
+      ghiKho(KHOA_TOKEN,j.token); datTen(j.ten||ten);
+      // Xóa mã dùng chung khỏi máy sau khi đã có token. Không giữ thứ không cần nữa.
+      datMa("");
+      dongDangKy(); veDongTen();
+      return;
+    }
+    loi.hidden=false;
+    loi.textContent = j.loi==="sai_ma" ? "Mã truy cập không đúng. Hỏi lại Vũ Hải nhé."
+      : j.loi==="chua_dat_ma" ? "Chức năng chưa mở. Người quản trị cần đặt biến MA_TRUY_CAP trên Netlify rồi deploy lại."
+      : j.loi==="thieu_ten" ? "Nhập họ và tên giúp mình nhé."
+      : j.loi==="sai_so_lien_lac" ? "Số liên lạc chưa đúng. Nhập số điện thoại giúp mình nhé."
+      : j.loi==="sai_email" ? "Email chưa đúng."
+      : "Chưa đăng ký được ("+(j.chiTiet||j.loi||"lỗi")+"). Thử lại nhé.";
+  }catch(err){
+    loi.hidden=false; loi.textContent="Mất kết nối. Kiểm tra mạng rồi thử lại.";
+  }finally{
+    nut.disabled=false; nut.textContent="Bắt đầu dùng";
+  }
+});
+
+/* Dòng danh tính ở chân trang. */
+function veDongTen(){
+  const o=$("#dongTen"); if(!o) return;
+  const t=layTen();
+  if(taiMay&&!t){ o.textContent="Đang chạy ở máy, không cần đăng ký."; return; }
+  o.innerHTML = t
+    ? '<span class="ai-dung">Đang dùng với tên <b>'+esc(t)+'</b>'
+      +' <button class="lien" type="button" id="doiNguoi">đổi người dùng</button></span>'
+    : '<span class="ai-dung">Đọc tin không cần đăng ký. Muốn tạo content thì '
+      +'<button class="lien" type="button" id="doiNguoi">đăng ký ở đây</button>.</span>';
+  $("#doiNguoi").addEventListener("click",()=>{
+    if(layTen()&&!window.confirm("Đăng ký lại bằng người khác trên máy này?")) return;
+    ghiKho(KHOA_TOKEN,""); datMa(""); datTen("");
+    $("#dkTen").value=""; $("#dkSdt").value=""; $("#dkEmail").value=""; $("#dkMa").value="";
+    $("#dkLoi").hidden=true;
+    moDangKy();
+  });
+}
+
+/* Token có thể bị khóa ở trang Quản trị. Hỏi máy chủ một lần lúc mở trang để đưa người
+   bị khóa về màn đăng ký, thay vì để họ bấm mãi rồi nhận lỗi khó hiểu. */
+async function kiemDanhTinh(){
+  if(taiMay||!layToken()) return;
+  try{
+    const r=await fetch("/.netlify/functions/dang-ky",{
+      method:"POST", headers:{"content-type":"application/json"},
+      body:JSON.stringify({viec:"kiem",token:layToken()})
+    });
+    const j=await r.json();
+    if(j&&j.ok){ if(j.ten) datTen(j.ten); veDongTen(); return; }
+    if(j&&j.loi==="token_hong"){
+      // Bị khóa thì gỡ danh tính và vẽ lại dòng chân trang, nhưng KHÔNG tự mở màn đăng
+      // ký. App công khai, người ta có thể chỉ vào đọc tin, đừng chặn đường đọc.
+      ghiKho(KHOA_TOKEN,""); datTen("");
+      veDongTen();
+    }
+  }catch(e){ /* mất mạng thì cứ để dùng tiếp, đừng chặn người ta vì mạng chập */ }
+}
+
+async function traLoiAI(text){
+  const log=$("#chatlog");
+  const cho=document.createElement("div");
+  cho.className="msg msg--bot";
+  cho.innerHTML='<span class="who">NẾP TÓC trả lời</span><span class="typing"><i></i><i></i><i></i></span> <span class="nho">đang tra web và tổng hợp, có thể mất tới vài phút…</span>';
+  log.appendChild(cho); scrollTo(cho,"nearest");
+
+  const nghi=(ms)=>new Promise(r=>setTimeout(r,ms));
+  const khoFallback=(ghiChu)=>{ cho.remove(); answer(text); if(ghiChu) push("bot","<p class='nho'>"+ghiChu+"</p>"); };
+  const id="q"+Date.now().toString(36)+Math.random().toString(36).slice(2,8);
+
+  // Chưa đăng ký thì mở màn đăng ký, không hỏi bằng hộp thoại của trình duyệt nữa.
+  if(!daVao()){ cho.remove(); moDangKy("hoi"); return; }
+
+  try{
+    // 1) Kích hoạt bản nền (chạy tới 15 phút, đủ thời gian tra web).
+    //    KHÔNG gọi đồng bộ: hàm thường của Netlify hết giờ ở 26 giây, tra web luôn lâu hơn.
+    const r=await fetch("/.netlify/functions/hoi-background",{
+      method:"POST", headers:{"content-type":"application/json"},
+      body:JSON.stringify({id, ...danhTinh(), cauHoi:text, kho:khoText(), lichSu:lichSuChat.slice(-8)})
+    });
+    if(!(r.status===202||r.ok)) throw new Error("khong_kich_hoat");
+
+    // 2) Hỏi kết quả lặp lại tới khi bản nền ghi xong (tối đa ~3 phút).
+    for(let i=0;i<72;i++){
+      await nghi(2500);
+      let j=null;
+      try{
+        const rk=await fetch("/.netlify/functions/hoi-ket-qua?id="+encodeURIComponent(id));
+        j=await rk.json();
+      }catch(e){ continue; }
+      if(!j||!j.xong) continue;
+      if(j.traLoi){
+        cho.remove();
+        push("bot",mdToHtml(j.traLoi));
+        lichSuChat.push({role:"user",content:text},{role:"assistant",content:j.traLoi});
+        return;
+      }
+      if(j.loi==="chua_co_key"){
+        khoFallback("Phần trả lời bằng AI chưa bật. Cần thêm khóa <b>ANTHROPIC_API_KEY</b>. Trong lúc chờ, dùng nút <b>Chép để hỏi Claude</b>.");
+        return;
+      }
+      if(j.loi==="chua_dat_ma"){
+        khoFallback("Hỏi nhanh chưa mở. Người quản trị cần đặt biến <b>MA_TRUY_CAP</b> trên Netlify rồi deploy lại.");
+        return;
+      }
+      if(j.loi==="sai_ma"){
+        cho.remove();
+        datMa("");   // xóa mã sai để lần sau hỏi lại, không lặp mãi cùng một lỗi
+        push("bot","<p>Mã truy cập không đúng. Bấm hỏi lại rồi nhập mã mới.</p>");
+        return;
+      }
+      if(j.loi==="het_luot"){
+        cho.remove();
+        push("bot","<p>Hôm nay đã dùng hết <b>"+j.tran+" lượt hỏi</b>. Trần này để một mã lỡ lọt ra ngoài không đốt hết credit. Mai lại có tiếp.</p>");
+        return;
+      }
+      khoFallback("Chưa gọi được trợ lý AI lúc này. Đã trả lời tạm từ kho. Bấm <b>Chép để hỏi Claude</b> để hỏi sâu hơn.");
+      return;
+    }
+    // 3) Quá lâu: trả tạm từ kho, để người dùng thử lại.
+    khoFallback("Trợ lý tra web lâu hơn dự kiến. Đã trả lời tạm từ kho. Thử hỏi lại sau nhé.");
+  }catch(e){
+    khoFallback("Mất kết nối tới trợ lý AI. Đã trả lời tạm từ kho.");
+  }
+}
+$("#askform").addEventListener("submit",e=>{
+  e.preventDefault();
+  const v=$("#ask").value.trim(); if(!v)return;
+  push("user","<p>"+esc(v)+"</p>",v); $("#ask").value="";
+  traLoiAI(v);
+});
+$("#chepHoi").addEventListener("click",()=>{
+  const v=$("#ask").value.trim()||cauHoiCuoi;
+  if(!v) return;
+  chep(soanLoiHoi(v)).then(()=>{
+    const ok=$("#chepOk"); ok.classList.add("hien");
+    setTimeout(()=>ok.classList.remove("hien"),1800);
+  });
+});
+/* Hỏi trợ lý về một bài cụ thể: nhãn gọn cho người đọc, lời nhắc đầy đủ cho AI */
+function hoiVeBai(n){
+  $("#tab-hoi").click();
+  const nhan='Hỏi về bài: "'+(n.tv||n.t)+'"';
+  push("user","<p>"+esc(nhan)+"</p>",nhan);
+  const prompt=[
+    "Tôi viết nội dung cho Vũ Hải, chuyên gia tư vấn Vận hành Xuất sắc. Người đọc là chủ salon tóc.",
+    "Tôi đang định viết một bài đăng dựa trên bài dưới đây và muốn hiểu sâu hơn trước khi viết.",
+    "",
+    "Tiêu đề: "+n.t,
+    n.tv&&n.tv!==n.t?("Tiêu đề tiếng Việt: "+n.tv):"",
+    n.w?("Tóm tắt: "+n.w):"",
+    n.s?("Trích dẫn gốc: "+n.s):"",
+    "Đường dẫn: "+n.u,
+    "",
+    "Hãy cho tôi biết: bài này thực sự nói gì (kiểm lại nếu cần), chỗ nào dễ bị hiểu sai,",
+    "và ba góc viết khác nhau để nói với chủ salon tóc Việt Nam. Nhắc tôi nếu có gì không được phép hứa."
+  ].filter(Boolean).join("\n");
+  traLoiAI(prompt);
+}
+
+/* ===== TAB ĐÃ TẠO =====
+ * Đọc từ máy chủ, không phải từ trình duyệt. Để ở localStorage thì đổi máy hay xóa lịch
+ * sử duyệt web là mất sạch, tức là vẫn đúng cái lỗi cũ mà tab này sinh ra để chữa.
+ */
+let DA_TAO=[], daTaoDaNap=false;
+
+async function napDaTao(lamMoi){
+  if(daTaoDaNap && !lamMoi) return;
+  const box=$("#dtlist"), dem=$("#dt-dem");
+  if(!daVao()){
+    box.innerHTML = '<div class="empty">Đăng ký một lần để xem bài đã tạo. '
+      + '<button class="lien" type="button" id="dt-dk">Đăng ký ngay</button></div>';
+    const b=$("#dt-dk"); if(b) b.addEventListener("click",moDangKy);
+    return;
+  }
+  if(!lamMoi) box.innerHTML=`<div class="dang-tao"><span class="typing"><i></i><i></i><i></i></span> Đang tải…</div>`;
+  try{
+    const r=await fetch("/.netlify/functions/content-da-tao",{
+      method:"POST", headers:{"content-type":"application/json"},
+      body:JSON.stringify({...danhTinh(),soNgay:60})
+    });
+    const j=await r.json();
+    if(j.loi){
+      box.innerHTML=`<div class="empty">${j.loi==="sai_ma"?"Mã truy cập không đúng.":j.loi==="chua_dat_ma"?"Chức năng chưa mở.":"Chưa đọc được kho ("+esc(j.chiTiet||j.loi)+")."}</div>`;
+      return;
+    }
+    DA_TAO=j.ds||[]; daTaoDaNap=true;
+    dem.textContent="Giữ "+j.soNgayGiu+" ngày. Kho đang có "+j.tong+" bài.";
+    veDaTao();
+  }catch(e){ box.innerHTML=`<div class="empty">Mất kết nối. Bấm Tải lại.</div>`; }
+}
+
+function veDaTao(){
+  const box=$("#dtlist");
+  const q=$("#q-dt").value.trim().toLowerCase();
+  const f=$("#dt-dinhDang").value;
+  const ds=DA_TAO.filter(x=>{
+    const c=x.content||{};
+    if(f!=="all"&&c.dinhDang!==f) return false;
+    if(!q) return true;
+    return ((x.bai&&x.bai.tieuDe||"")+" "+x.ng+" "+(c.baiViet||"")+" "+(c.hook||"")+" "+(c.caption||"")+" "+(c.tenPhongCach||"")).toLowerCase().includes(q);
+  });
+  if(!ds.length){
+    box.innerHTML=`<div class="empty">${DA_TAO.length?"Không có bài nào khớp.":"Chưa tạo bài nào. Bấm Tạo content ở một thẻ tin bất kỳ."}</div>`;
+    return;
+  }
+  box.innerHTML=ds.map(x=>{
+    const c=x.content||{}, b=x.bai||{};
+    const laTT=c.dinhDang==="tiktok";
+    // Chỉ hiện phần đầu cho gọn, bấm mới mở hết. Danh sách trăm bài mà bung hết thì
+    // không lướt nổi.
+    const xemTruoc=laTT?(c.hook||""):(c.baiViet||"").split("\n").filter(Boolean)[0]||"";
+    return `<article class="news" data-dt="${esc(x.ngay)}|${esc(x.id)}">
+      <div class="news__meta">
+        <span class="d">${gioNgan(x.t)}</span>
+        <span>${esc(x.ng)}</span>
+        <span class="nhan-dd">${laTT?"TikTok":"Facebook"} · ${esc(c.tenPhongCach||"")}</span>
+        ${c.may?`<span class="mo" style="font-size:11.5px">${esc(String(c.may).split(":")[0])}</span>`:""}
+      </div>
+      <h3>${esc(b.tieuDe||"(không rõ bài gốc)")}</h3>
+      <p class="tg">${esc(xemTruoc.slice(0,150))}${xemTruoc.length>150?"…":""}</p>
+      <div class="news__actions">
+        <button class="tao-nut" type="button" data-mo="1">Xem đầy đủ</button>
+        <button class="ask-tin" type="button" data-chep-dt="1">
+          <svg class="icon icon--sm" viewBox="0 0 24 24"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V5a2 2 0 012-2h10"/></svg>Chép</button>
+        ${b.url?`<a class="go" href="${esc(b.url)}" target="_blank" rel="noopener">Bài gốc</a>`:""}
+        <button class="ask-tin" type="button" data-xoa-dt="1">Xóa</button>
+      </div>
+      <div class="dt-day" hidden></div>
+    </article>`;
+  }).join("");
+}
+
+const gioNgan=iso=>{
+  const d=new Date(iso); if(isNaN(d)) return "";
+  const t=new Date(d.getTime()+7*3600*1000), p=n=>String(n).padStart(2,"0");
+  return p(t.getUTCDate())+"/"+p(t.getUTCMonth()+1)+" "+p(t.getUTCHours())+":"+p(t.getUTCMinutes());
+};
+const timDaTao=el=>{
+  const [ngay,id]=(el.closest("[data-dt]").dataset.dt||"").split("|");
+  return DA_TAO.find(x=>x.ngay===ngay&&x.id===id);
+};
+
+$("#dtlist").addEventListener("click",async e=>{
+  const the=e.target.closest("[data-dt]"); if(!the) return;
+  const x=timDaTao(the); if(!x) return;
+  const c=x.content||{};
+
+  if(e.target.closest("[data-mo]")){
+    const o=the.querySelector(".dt-day"), nut=e.target.closest("[data-mo]");
+    if(o.hidden){
+      // Dựng lại bằng đúng hàm vẽ của hộp Tạo content, để hai nơi hiện giống hệt nhau.
+      o.innerHTML=(c.dinhDang==="tiktok"?veKQTiktok(c):veKQFacebook(c));
+      o.hidden=false; nut.textContent="Thu gọn";
+    }else{ o.hidden=true; nut.textContent="Xem đầy đủ"; }
+    return;
+  }
+  if(e.target.closest("[data-chep-dt]")){
+    const nut=e.target.closest("[data-chep-dt]");
+    // Dùng lại đúng hàm chép của hộp Tạo content. baiDangTao tạm trỏ vào bài gốc để
+    // dòng "Nguồn:" ở cuối vẫn đúng.
+    const luu=baiDangTao;
+    baiDangTao={tv:(x.bai&&x.bai.tieuDe)||"",t:(x.bai&&x.bai.tieuDe)||"",u:(x.bai&&x.bai.url)||""};
+    chep(kqRaChu(c)).then(()=>{
+      baiDangTao=luu;
+      const cu=nut.innerHTML; nut.textContent="Đã chép";
+      setTimeout(()=>{nut.innerHTML=cu;},1600);
+    });
+    return;
+  }
+  if(e.target.closest("[data-xoa-dt]")){
+    if(!window.confirm("Xóa bài này khỏi kho? Không lấy lại được.")) return;
+    try{
+      await fetch("/.netlify/functions/content-da-tao",{
+        method:"POST", headers:{"content-type":"application/json"},
+        body:JSON.stringify({...danhTinh(),viec:"xoa",ngay:x.ngay,id:x.id})
+      });
+    }catch(err){}
+    DA_TAO=DA_TAO.filter(y=>!(y.ngay===x.ngay&&y.id===x.id));
+    veDaTao();
+    return;
+  }
+});
+$("#q-dt").addEventListener("input",veDaTao);
+$("#dt-dinhDang").addEventListener("change",veDaTao);
+$("#dt-tai").addEventListener("click",()=>napDaTao(true));
+// Nạp lần đầu khi người dùng bấm vào tab, không nạp sẵn lúc mở trang cho nhẹ.
+$("#tab-dt").addEventListener("click",()=>napDaTao(false));
+
+/* ===== THANH TIẾN TRÌNH LÚC CHỜ TẠO CONTENT =====
+ *
+ * Chờ 20 tới 40 giây mà chỉ có ba chấm nhấp nháy thì dài lê thê, người ta tưởng treo.
+ *
+ * KHÔNG NÓI DỐI VỀ TIẾN ĐỘ. Đây là MỘT lời gọi API, máy chủ không báo về đang làm tới
+ * đâu, nên không thể biết phần trăm thật. Thanh này chạy theo THỜI GIAN đã trôi so với
+ * thời gian thường thấy, và **dừng ở 92%** chứ không bao giờ tự chạm 100%. Chỉ khi bài
+ * về thật mới đầy nốt. Thà thanh đứng chờ ở 92% còn hơn đầy 100% rồi vẫn quay, vì kiểu
+ * đó làm người ta mất tin vào mọi thanh tiến trình về sau.
+ *
+ * Các bước ghi ra là thứ AI thực sự phải làm để ra được bài, theo đúng thứ tự trong lời
+ * nhắc. Người đọc vừa đỡ sốt ruột vừa biết trước bài sắp có những phần gì.
+ */
+const TT_BUOC = {
+  facebook: [
+    { ten: "Đọc bài gốc", viec: "Đang đọc bài nghiên cứu gốc…" },
+    { ten: "Tìm góc", viec: "Đang tìm góc chạm tới chuyện trong tiệm…" },
+    { ten: "Viết mở bài", viec: "Đang viết câu mở để giữ chân người lướt…" },
+    { ten: "Viết thân bài", viec: "Đang viết phần thân, chia đoạn cho dễ đọc trên điện thoại…" },
+    { ten: "Ảnh và hashtag", viec: "Đang nghĩ ảnh đi kèm và hashtag…" },
+    { ten: "Soát an toàn", viec: "Đang soát lại: không hứa con số, không chê ngoại hình…" },
+  ],
+  tiktok: [
+    { ten: "Đọc bài gốc", viec: "Đang đọc bài nghiên cứu gốc…" },
+    { ten: "Tìm hook", viec: "Đang tìm hook cho 3 giây đầu…" },
+    { ten: "Chia cảnh", viec: "Đang chia cảnh theo từng giây…" },
+    { ten: "Viết lời thoại", viec: "Đang viết lời thoại và chữ trên màn hình…" },
+    { ten: "Ảnh bìa", viec: "Đang nghĩ ảnh bìa và caption…" },
+    { ten: "Soát an toàn", viec: "Đang soát lại: không hứa con số, không chê ngoại hình…" },
+  ],
+};
+
+/* Thời gian thường thấy cho một lượt. TỰ HỌC thay vì ghi cứng.
+ *
+ * Lý do: đo thật trên bản online thì Claude mất khoảng 30 giây, còn Gemini chỉ 7 giây.
+ * Ghi cứng một con số thì đổi máy là thanh chạy sai hẳn: hoặc bò như rùa rồi nhảy vọt,
+ * hoặc đầy ngay lập tức rồi đứng chờ. Nhớ vài lượt gần nhất là tự khớp, khỏi phải sửa
+ * mã mỗi lần đổi nhà cung cấp.
+ */
+const TT_KHOA_GIAY = "nep-toc-giay-tao";
+const TT_MAC_DINH = 12;    // giây, dùng cho lượt đầu khi chưa có gì để học
+const TT_TRAN = 92;        // phần trăm cao nhất khi chưa có kết quả thật
+
+function ttLayGiay(){
+  try{
+    const ds = JSON.parse(localStorage.getItem(TT_KHOA_GIAY) || "[]");
+    if(!Array.isArray(ds) || !ds.length) return TT_MAC_DINH;
+    // Trung vị chứ không trung bình: một lượt lỗi mạng kéo dài 90 giây sẽ kéo lệch hẳn
+    // trung bình, còn trung vị thì gần như không nhúc nhích.
+    const s = ds.slice().sort((a,b)=>a-b);
+    const giua = s[Math.floor(s.length/2)];
+    return Math.min(90, Math.max(4, giua));
+  }catch(e){ return TT_MAC_DINH; }
+}
+function ttNhoGiay(giay){
+  try{
+    const ds = JSON.parse(localStorage.getItem(TT_KHOA_GIAY) || "[]");
+    ds.push(Math.round(giay));
+    localStorage.setItem(TT_KHOA_GIAY, JSON.stringify(ds.slice(-5)));
+  }catch(e){}
+}
+
+let ttHen = null, ttBatDau = 0;
+
+function ttVe(dinhDang){
+  const ds = TT_BUOC[dinhDang === "tiktok" ? "tiktok" : "facebook"];
+  return `<div class="tt">
+    <div class="tt__hang">
+      <span class="tt__viec" id="ttViec">${esc(ds[0].viec)}</span>
+      <span class="tt__giay" id="ttGiay">0 giây</span>
+    </div>
+    <div class="tt__ray"><span class="tt__chay" id="ttChay"></span></div>
+    <div class="tt__buoc" id="ttBuoc">
+      ${ds.map((b,i)=>`<span class="tt__cham${i===0?" dang":""}"><i></i><span>${esc(b.ten)}</span></span>`).join("")}
+    </div>
+    <p class="tt__nhac">Bài viết ra sẽ tự lưu vào tab Đã tạo, đóng hộp giữa chừng cũng không mất.</p>
+  </div>`;
+}
+
+function ttChay(dinhDang){
+  ttDung();
+  const ds = TT_BUOC[dinhDang === "tiktok" ? "tiktok" : "facebook"];
+  const giayThuong = ttLayGiay();
+  const batDau = Date.now();
+  ttBatDau = batDau;
+  let buocCu = -1;
+
+  ttHen = setInterval(()=>{
+    const giay = (Date.now() - batDau) / 1000;
+
+    // Đường cong chậm dần: chạy nhanh lúc đầu, càng về sau càng bò, để lúc quá giờ thường
+    // thấy thanh vẫn nhích chứ không đứng chết.
+    const t = giay / giayThuong;
+    const phan = Math.min(TT_TRAN, TT_TRAN * (1 - Math.exp(-1.9 * t)));
+
+    const oChay = $("#ttChay"); if(oChay) oChay.style.width = phan.toFixed(1) + "%";
+    const oGiay = $("#ttGiay"); if(oGiay) oGiay.textContent = Math.round(giay) + " giây";
+
+    // Bước hiện tại suy từ phần trăm, để chữ và thanh luôn khớp nhau.
+    const b = Math.min(ds.length - 1, Math.floor(phan / (TT_TRAN / ds.length)));
+    if(b !== buocCu){
+      buocCu = b;
+      const oViec = $("#ttViec");
+      if(oViec){
+        // Thay hẳn nút để hiệu ứng mờ vào chạy lại từ đầu.
+        const moi = oViec.cloneNode(false);
+        moi.textContent = ds[b].viec;
+        oViec.replaceWith(moi);
+      }
+      $$("#ttBuoc .tt__cham").forEach((el,i)=>{
+        el.classList.toggle("xong", i < b);
+        el.classList.toggle("dang", i === b);
+      });
+    }
+
+    // Quá lâu bất thường thì nói thật, đừng để người ta ngồi đoán.
+    if(giay > Math.max(45, giayThuong * 3)){
+      const oNhac = document.querySelector(".tt__nhac");
+      if(oNhac && !oNhac.dataset.doi){
+        oNhac.dataset.doi = "1";
+        oNhac.textContent = "Lần này lâu hơn thường lệ. Vẫn đang chạy, chờ thêm chút nhé.";
+      }
+    }
+  }, 250);
+}
+
+/** Kéo thanh đầy nốt rồi dừng. Gọi khi bài đã về thật. */
+function ttXong(){
+  const oChay = $("#ttChay"); if(oChay) oChay.style.width = "100%";
+  if(ttBatDau) ttNhoGiay((Date.now() - ttBatDau) / 1000);
+  ttDung();
+}
+function ttDung(){
+  if(ttHen){ clearInterval(ttHen); ttHen = null; }
+  ttBatDau = 0;
+}
+
+/* ===== GÓP Ý =====
+ * App mở công khai để lấy phản hồi, nên đường góp ý phải ở chỗ dễ thấy nhất và KHÔNG
+ * đòi đăng ký. Bắt đăng ký mới cho góp ý thì phần lớn bỏ đi, mà đúng những người bỏ đi
+ * mới là người có điều đáng nói nhất.
+ */
+let gyLoaiChon="noi-dung";
+
+function moGopY(){
+  const daKy=!!layTen();
+  $("#gyChuaDangKy").hidden=daKy;
+  const oBiet=$("#gyDaBiet");
+  oBiet.hidden=!daKy;
+  if(daKy) oBiet.textContent="Gửi với tên "+layTen()+", mình biết liên hệ lại ở đâu rồi.";
+  $("#hopGopY").hidden=false;
+  document.body.style.overflow="hidden";
+  setTimeout(()=>{ try{ $("#gyNoiDung").focus(); }catch(e){} },60);
+}
+function dongGopY(){
+  $("#hopGopY").hidden=true;
+  document.body.style.overflow="";
+}
+$("#gyNut").addEventListener("click",moGopY);
+$("#gyDong").addEventListener("click",dongGopY);
+document.addEventListener("keydown",e=>{ if(e.key==="Escape"&&!$("#hopGopY").hidden) dongGopY(); });
+
+$("#gyLoai").addEventListener("click",e=>{
+  const b=e.target.closest("[data-loai]"); if(!b) return;
+  gyLoaiChon=b.dataset.loai;
+  $$("#gyLoai [data-loai]").forEach(x=>x.setAttribute("aria-pressed",String(x===b)));
+});
+
+/* Ghi lại người ta đang ở tab nào lúc góp ý. Biết bối cảnh thì đọc góp ý mới hiểu, chứ
+   "chỗ này khó dùng" mà không biết chỗ nào thì chịu. */
+function boiCanhHienTai(){
+  const t=document.querySelector('.tab[aria-selected="true"]');
+  return t ? t.textContent.trim() : "";
+}
+
+$("#gyGui").addEventListener("click",async()=>{
+  const nut=$("#gyGui"), nho=$("#gyNho");
+  const noiDung=$("#gyNoiDung").value.trim();
+  if(noiDung.length<5){ nho.textContent="Viết thêm vài chữ giúp mình nhé."; return; }
+
+  nut.disabled=true; nut.textContent="Đang gửi…"; nho.textContent="";
+  try{
+    const r=await fetch("/.netlify/functions/gop-y",{
+      method:"POST", headers:{"content-type":"application/json"},
+      body:JSON.stringify({
+        loai:gyLoaiChon, noiDung,
+        token:layToken()||"",
+        ten:$("#gyTen").value.trim(), lienHe:$("#gyLienHe").value.trim(),
+        boiCanh:boiCanhHienTai(),
+        manHinh:window.innerWidth<768?"dien-thoai":"may-tinh",
+      })
+    });
+    const j=await r.json();
+    if(j.ok){
+      $("#gyThan").innerHTML='<div class="gy-xong"><b>Cảm ơn anh chị.</b>'
+        +'<p>Mình đọc hết và sẽ sửa dần. Có gì cần hỏi lại mình sẽ liên hệ.</p></div>';
+      $("#gyGui").hidden=true; nho.textContent="";
+      setTimeout(dongGopY,2200);
+      return;
+    }
+    nho.textContent = j.loi==="qua_ngan" ? "Viết thêm vài chữ giúp mình nhé."
+      : j.loi==="qua_nhieu" ? "Hôm nay gửi khá nhiều rồi, mai gửi tiếp giúp mình nhé."
+      : "Chưa gửi được. Thử lại giúp mình.";
+  }catch(e){
+    nho.textContent="Mất kết nối. Thử lại giúp mình nhé.";
+  }finally{
+    nut.disabled=false; nut.textContent="Gửi góp ý";
+  }
+});
+
+/* ===== MỜI CÀI APP VỀ MÁY =====
+ *
+ * Hai đường khác hẳn nhau:
+ *   - Android và Chrome: trình duyệt bắn sự kiện beforeinstallprompt, ta giữ lại rồi gọi
+ *     ra khi người dùng bấm Cài đặt. Đây là hộp cài thật của hệ điều hành.
+ *   - iPhone và Safari: KHÔNG có sự kiện đó, Apple không cho. Chỉ còn cách chỉ tay cho
+ *     người ta tự bấm nút Chia sẻ rồi Thêm vào MH chính.
+ *
+ * Đã cài rồi thì không mời nữa: display-mode standalone nghĩa là đang chạy trong app.
+ */
+const laDienThoai=()=>window.innerWidth<768||/Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+const laIOS=()=>/iPhone|iPad|iPod/i.test(navigator.userAgent);
+const daCaiRoi=()=>window.matchMedia("(display-mode: standalone)").matches||navigator.standalone===true;
+const KHOA_TAT_CAI="nep-toc-tat-moi-cai";
+
+let sukienCai=null;
+
+function hienDaiCai(ios){
+  if(daCaiRoi()) return;
+  try{ if(localStorage.getItem(KHOA_TAT_CAI)) return; }catch(e){}
+  if(!laDienThoai()) return;
+  if(ios){
+    $("#caiAppNut").hidden=true;
+    $("#caiAppMo").textContent="Mở nhanh hơn, có biểu tượng ngoài màn hình chính.";
+    const o=$("#caiAppIos");
+    o.hidden=false;
+    o.innerHTML='Trên iPhone: bấm nút <b>Chia sẻ</b> ở thanh dưới, kéo xuống chọn <b>Thêm vào MH chính</b>.';
+  }
+  $("#daiCaiApp").hidden=false;
+  document.body.classList.add("co-cai-app");
+  dayNutGopYLen();
+}
+
+/* Dải cài app và nút Góp ý đều bám đáy màn hình, hiện cả hai là chồng lên nhau.
+ *
+ * ĐÃ THỬ cách đo chiều cao dải rồi đẩy nút lên, và bỏ. Lý do: dải trên iPhone cao gần
+ * gấp đôi trên Android vì có thêm hai dòng hướng dẫn, nên phải đo động; mà đo động thì
+ * phụ thuộc thời điểm trình duyệt tính xong bố cục, khó chắc chắn trên mọi máy.
+ *
+ * Nay chọn cách không thể hỏng: dải hiện thì ẨN hẳn nút góp ý. Dải chỉ hiện tạm, người
+ * ta cài hoặc bấm để sau là nút quay lại ngay. Xếp hai viên nổi chồng nhau ở đáy một màn
+ * hình 375px vốn cũng rối. */
+function dayNutGopYLen(){
+  const d=$("#daiCaiApp"), nut=$("#gyNut");
+  if(!d||!nut) return;
+  nut.hidden=!d.hidden;
+}
+function anDaiCai(nhoLuon){
+  $("#daiCaiApp").hidden=true;
+  document.body.classList.remove("co-cai-app");
+  // Trả nút góp ý lại. Thiếu dòng này thì đóng dải xong nút biến mất luôn, đã gặp thật.
+  dayNutGopYLen();
+  if(nhoLuon){ try{ localStorage.setItem(KHOA_TAT_CAI,"1"); }catch(e){} }
+}
+
+window.addEventListener("beforeinstallprompt",e=>{
+  // Chặn hộp mời mặc định của trình duyệt để tự chọn lúc hiện, đỡ làm người ta giật mình
+  // ngay khi vừa mở trang.
+  e.preventDefault();
+  sukienCai=e;
+  hienDaiCai(false);
+});
+
+$("#caiAppNut").addEventListener("click",async()=>{
+  if(!sukienCai) return;
+  anDaiCai(false);
+  sukienCai.prompt();
+  try{ await sukienCai.userChoice; }catch(e){}
+  sukienCai=null;
+});
+$("#caiAppDong").addEventListener("click",()=>anDaiCai(true));
+
+window.addEventListener("appinstalled",()=>anDaiCai(true));
+
+/* iPhone: không có beforeinstallprompt nên phải tự quyết lúc nào mời.
+   Chờ vài giây rồi mới mời, để người ta kịp xem app có gì trước đã. Mời ngay lúc vừa mở
+   thì gần như ai cũng tắt đi. */
+if(laIOS() && !daCaiRoi()){
+  setTimeout(()=>{ if($("#daiCaiApp").hidden) hienDaiCai(true); },6000);
+}
+
+/* Đăng ký service worker. Không có nó thì Chrome không bao giờ mời cài app.
+   Bọc try vì một số trình duyệt nhúng chặn hẳn, và chặn thì cũng không sao. */
+if("serviceWorker" in navigator){
+  window.addEventListener("load",()=>{
+    navigator.serviceWorker.register("/sw.js").catch(()=>{});
+  });
+}
+
+/* ---- nạp dữ liệu ---- */
+async function napTuDong(){
+  try{
+    const r=await fetch("du-lieu/tin-tuc.json",{cache:"no-store"});
+    if(!r.ok) throw new Error("HTTP "+r.status);
+    const j=await r.json();
+    const tin=Array.isArray(j.tin)?j.tin:[];
+    if(!tin.length) throw new Error("kho rỗng");
+
+    KH.length=NGHE.length=XH.length=VN.length=0;
+    tin.forEach(n=>{
+      if(n.g==="khoahoc")KH.push(n);
+      else if(n.g==="nghe")NGHE.push(n);
+      else if(n.g==="vn")VN.push(n);
+      else XH.push(n);
+    });
+
+    const st=$("#status"), coGoiY=tin.filter(x=>x.hook).length;
+    st.className="status status--auto";
+    const luc=j.capNhatLuc?new Date(j.capNhatLuc):null;
+    $("#statusText").innerHTML="Dữ liệu tự động: <b>"+tin.length+" bài</b> từ <b>"
+      +(j.nguonDaQuet?j.nguonDaQuet.length:0)+" nguồn</b>"
+      +(coGoiY?", <b>"+coGoiY+"</b> bài đã có gợi ý content":"")
+      +(luc?" · cập nhật "+luc.toLocaleString("vi-VN",{hour:"2-digit",minute:"2-digit",day:"2-digit",month:"2-digit"}):"");
+
+    veLaiHet();
+    capNhatNoiBat();
+  }catch(e){
+    const st=$("#status");
+    st.className="status status--mau";
+    $("#statusText").innerHTML="Chưa nạp được dữ liệu ("+esc(e.message)+"). Chạy <b>cap-nhat-tin.bat</b> để quét tin.";
+    veLaiHet();
+  }
+}
+veDongTen();
+napTuDong();
+kiemDanhTinh();
+// KHÔNG mở màn đăng ký lúc vào trang. App đã mở công khai: ai cũng đọc tin được, chỉ khi
+// bấm Tạo content hoặc Hỏi nhanh mới cần đăng ký. Hai chức năng đó tốn tiền API thật.
+</script>
+</body>
+</html>

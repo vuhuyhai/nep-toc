@@ -1,0 +1,33 @@
+# Netlify: publish trang tĩnh trong nep-toc-app, không build.
+# Hàm nền nằm ở netlify/functions.
+#
+# App này KHÔNG có tầng trả phí nên không cần tách dữ liệu riêng như ĐIỂM CHẠM và
+# DẪN DẮT. Toàn bộ kho tin nằm trong thư mục publish.
+
+[build]
+  publish = "nep-toc-app"
+  functions = "netlify/functions"
+
+[functions]
+  directory = "netlify/functions"
+
+# App mở công khai để lấy phản hồi, nhưng vẫn không muốn lên Google: ai có link thì dùng
+# được, thế là đủ. Muốn lên Google thì bỏ dòng này VÀ sửa robots.txt.
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
+
+# Netlify trả .webmanifest là application/octet-stream, sai kiểu. Chrome kén kiểu nội dung
+# khi xét điều kiện cài app, sai kiểu là không mời cài. Đã đo thật trên bản online.
+[[headers]]
+  for = "/site.webmanifest"
+  [headers.values]
+    Content-Type = "application/manifest+json; charset=utf-8"
+
+# Service worker KHÔNG được để trình duyệt nhớ tạm. Nhớ tạm thì sửa sw.js xong người dùng
+# vẫn chạy bản cũ hàng giờ, mà sw lại là thứ quyết định mọi file khác lấy ở đâu.
+[[headers]]
+  for = "/sw.js"
+  [headers.values]
+    Cache-Control = "no-cache"

@@ -1,0 +1,47 @@
+name: Quét tin ngành Tóc hằng ngày
+
+# Chạy tự động 07:00 giờ Việt Nam mỗi ngày, và cho phép bấm chạy tay.
+on:
+  schedule:
+    - cron: "0 0 * * *"      # 00:00 UTC = 07:00 giờ Việt Nam
+  workflow_dispatch: {}
+
+# Cho workflow quyền ghi để commit dữ liệu mới trở lại repo.
+permissions:
+  contents: write
+
+jobs:
+  quet:
+    runs-on: ubuntu-latest
+    env:
+      TZ: Asia/Ho_Chi_Minh
+    steps:
+      - name: Lấy mã nguồn
+        uses: actions/checkout@v4
+
+      - name: Cài Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      # Ở đây CỐ Ý không có ANTHROPIC_API_KEY. Khóa chỉ nằm ở Netlify, nên bộ quét tự
+      # đi đường gọi hàm nền phan-tich đã deploy để viết gợi ý content.
+      # KHOA_NOI_BO thì bắt buộc phải có, vì hàm phan-tich đòi nó. Đặt ở
+      # Settings > Secrets and variables > Actions, ĐÚNG giá trị đã đặt trên Netlify.
+      - name: Chạy bộ thu thập tin
+        working-directory: nep-toc-app
+        env:
+          KHOA_NOI_BO: ${{ secrets.KHOA_NOI_BO }}
+        run: node thu-thap.js
+
+      - name: Commit dữ liệu mới nếu có thay đổi
+        run: |
+          git config user.name "nep-toc-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add nep-toc-app/du-lieu nep-toc-app/index.html
+          if git diff --cached --quiet; then
+            echo "Không có tin mới, bỏ qua commit."
+          else
+            git commit -m "Cập nhật tin ngành Tóc ($(date +%F))"
+            git push
+          fi

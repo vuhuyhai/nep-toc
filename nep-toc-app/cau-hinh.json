@@ -1,0 +1,174 @@
+{
+  "gioChay": "07:00",
+  "muiGio": "Asia/Ho_Chi_Minh",
+  "soTinNghe": 120,
+  "soTinKhoaHoc": 120,
+  "soTinXuHuong": 120,
+  "soTinVN": 120,
+  "soNgayGiuLichSu": 180,
+
+  "_ghiChuNguon": "nhom = tab hien thi: 'nghe' (Nghe & Salon), 'khoahoc' (Khoa hoc & Bang chung), 'xuhuong' (Xu huong & Khach hang), 'vn' (Viet Nam). trangThai: 'bat' = dang dung, 'tat' = da thu that va hong, giu lai de khong thu lai. Chay 'node kiem-tra-nguon.js' de thu tung nguon. loai: bo trong = RSS/Atom; 'reddit' = Atom cua Reddit.",
+
+  "_ghiChuUrl": "URL viet dang doc hieu, KHONG ma hoa san. Da do that: bo phan tich URL cua Node tu doi dau cach thanh %20 va dau ngoac kep thanh %22 truoc khi goi. Viet the nay de sau nay sua truy van khong phai giai ma nguoc.",
+
+  "_ghiChuDaKiem": "TAT CA nguon 'bat' duoi day da tai that va doc that ngay 18/08/2026, kem tuoi cua item DAU TIEN. Khong bao gio kiem feed bang lastBuildDate, no noi doi; luon xem pubDate cua item dau.",
+
+  "_ghiChuSiteQuery": "BAI HOC DA TRA GIA, gap lai dung 3 lan trong lan kiem nay: truy van Google News dang 'site:ten-mien' kem tu khoa QUA CHUNG (hair, salon, stylist) van keo ve trang tinh cua site do. JAMA ra trang chu 5043 ngay tuoi, PubMed ra trang gioi thieu 2713 ngay, Behind the Chair ra trang su kien 3118 ngay. Cach chua: dung tu khoa DAC TRUNG NOI DUNG (blonding, alopecia areata, hair color formula), hoac bo han site: ma tra thang bang truy van noi dung.",
+
+  "_ghiChuFeedThieuNgay": "Feed tra 200 va co bai that nhung item KHONG co truong ngay nao (khong pubDate, khong dc:date, khong published). thu-thap.js gan ngay HOM NAY cho bai thieu ngay, nen feed kieu nay lam moi bai deu trong nhu tin moi, ke ca bai hai nam truoc. Da gap o Professional Beauty va Hairdressers Journal. Deu da tat, di vong qua Google News de lay ngay that.",
+
+  "nguon": [
+
+    { "_nhomNghe": "TAB 1 — NGHE & SALON. Tab CHINH cua app, vi nguoi doc content la CHU SALON chu khong phai khach. Day la cho lay chuyen van hanh, nhan su, gia dich vu, mo hinh kinh doanh cua nganh toc the gioi.",
+      "ten": "Modern Salon", "hang": "Nghề", "nhom": "nghe", "url": "https://www.modernsalon.com/rss", "trangThai": "bat", "ghiChu": "100 item, item dau 1 ngay. Feed nghe tot nhat tim duoc. KHONG duoc giuTatCa: da do that o lan quet dau, bao nay viet ca spa, mong, tham my (Hollywood Knees, Ultherapy, nen tam body), 143 bai lot vao kho ma khong he nhac toi toc." },
+    { "ten": "Salon Today", "hang": "Nghề", "nhom": "nghe", "url": "https://www.salontoday.com/rss", "trangThai": "bat", "ghiChu": "100 item, 5 ngay. Manh ve quan tri salon: doanh thu, nhan su, gia dich vu. Cung nha voi Modern Salon nen dang lai cua nhau rat nhieu, khu trung lap theo tieu de lo phan nay. Cung KHONG giuTatCa vi cung viet ca spa." },
+    { "ten": "American Salon", "hang": "Nghề", "nhom": "nghe", "url": "https://news.google.com/rss/search?q=site:americansalon.com (hair OR stylist OR salon OR color)&hl=en-US&gl=US&ceid=US:en", "trangThai": "bat", "ghiChu": "Feed goc /rss tra 403. Vong qua Google News, 100 item, 5 ngay." },
+    { "ten": "Hairdressers Journal", "hang": "Nghề", "nhom": "nghe", "url": "https://news.google.com/rss/search?q=site:hji.co.uk (hair OR salon OR stylist)&hl=en-US&gl=US&ceid=US:en", "trangThai": "bat", "ghiChu": "Bao nghe cua Anh. Vong qua Google News, 100 item, 5 ngay. Feed goc doc duoc nhung thieu truong ngay, xem _ghiChuFeedThieuNgay." },
+    { "ten": "Behind the Chair", "hang": "Nghề", "nhom": "nghe", "url": "https://news.google.com/rss/search?q=site:behindthechair.com (blonding OR \"hair color formula\" OR haircut OR extensions)&hl=en-US&gl=US&ceid=US:en", "trangThai": "bat", "ghiChu": "100 item, 39 ngay. PHAI dung tu khoa dac trung nghe. Ban dung tu khoa chung (hair OR color OR stylist) tra ve trang su kien 3118 ngay tuoi." },
+    { "ten": "Beauty Independent", "hang": "Nghề", "nhom": "nghe", "url": "https://news.google.com/rss/search?q=site:beautyindependent.com (hair OR salon OR brand)&hl=en-US&gl=US&ceid=US:en", "trangThai": "bat", "ghiChu": "Feed goc tra 403. Vong qua Google News, 100 item, 4 ngay. Manh ve thuong hieu lam dep doc lap." },
+    { "ten": "Cosmetics Business", "hang": "Nghề", "nhom": "nghe", "url": "https://www.cosmeticsbusiness.com/rss", "trangThai": "bat", "ghiChu": "20 item, 0 ngay. Feed CA NGANH my pham (bai dau la kem danh rang), KHONG duoc giuTatCa, phai loc tu khoa." },
+    { "ten": "Google News · kinh doanh salon tóc", "hang": "Tổng hợp", "nhom": "nghe", "url": "https://news.google.com/rss/search?q=\"hair salon\" business OR owner OR revenue&hl=en-US&gl=US&ceid=US:en", "trangThai": "bat", "ghiChu": "100 item, 6 ngay. Lot kha nhieu tin hinh su co chu 'hair salon' (dam xe vao tiem, cuop tiem). Bo loc lac chu de phai chan." },
+    { "ten": "Google News · ngành làm tóc", "hang": "Tổng hợp", "nhom": "nghe", "url": "https://news.google.com/rss/search?q=hairdressing industry OR \"salon industry\" OR \"beauty industry\" salon&hl=en-US&gl=US&ceid=US:en", "trangThai": "bat", "ghiChu": "77 item, 91 ngay. Bao cao thi truong ra theo quy nen cap nhat cham." },
+    { "ten": "Google News · nghề thợ tóc", "hang": "Tổng hợp", "nhom": "nghe", "url": "https://news.google.com/rss/search?q=hairstylist career OR \"booth rent\" OR \"salon staff\" OR \"stylist retention\"&hl=en-US&gl=US&ceid=US:en", "trangThai": "bat", "ghiChu": "78 item, 36 ngay. Mach nhan su: giu tho, hoa hong, thue ghe." },
+    { "ten": "Google News · giá dịch vụ & khách quay lại", "hang": "Tổng hợp", "nhom": "nghe", "url": "https://news.google.com/rss/search?q=salon pricing OR \"client retention\" OR \"salon booking\" hair&hl=en-US&gl=US&ceid=US:en", "trangThai": "bat", "ghiChu": "67 item, 56 ngay. Truy van hep nhat nhom nghe nhung dung trong tam nhat." },
+    { "ten": "Reddit · r/Hairstylist", "hang": "Cộng đồng", "nhom": "nghe", "loai": "reddit", "giuTatCa": true, "soBaiDau": 10, "url": "https://www.reddit.com/r/Hairstylist/top/.rss?t=week", "trangThai": "bat", "ghiChu": "25 item, 7 ngay. Tho toc noi that ve nghe: khach kho, luong, kiet suc. Nguyen lieu that nhat cho bai noi voi chu salon." },
+
+    { "_nhomKhoaHoc": "TAB 2 — KHOA HOC & BANG CHUNG. Chu salon can cho hai viec: dao tao tho, va noi chuyen co can cu voi khach thay vi noi theo to roi cua hang.",
+      "ten": "ScienceDaily · Rụng tóc", "hang": "Khoa học", "nhom": "khoahoc", "giuTatCa": true, "url": "https://www.sciencedaily.com/rss/health_medicine/hair_loss.xml", "trangThai": "bat", "ghiChu": "60 item, 25 ngay. Nguon sach nhat mang nay: viet lai thong cao cua truong dai hoc, bai nao cung dan nghien cuu goc." },
+    { "ten": "ScienceDaily · Chăm sóc da", "hang": "Khoa học", "nhom": "khoahoc", "url": "https://www.sciencedaily.com/rss/health_medicine/skin_care.xml", "trangThai": "bat", "ghiChu": "60 item, 2 ngay. Feed rong (bai dau ve khop), phai loc tu khoa. Giu vi da dau va toc chung nhieu nghien cuu." },
+    { "ten": "Journal of Cosmetic Dermatology", "hang": "Học thuật", "nhom": "khoahoc", "url": "https://onlinelibrary.wiley.com/feed/14732165/most-recent", "trangThai": "bat", "ghiChu": "37 item, 0 ngay. Wiley chan nhieu feed khac nhung ho Wiley nay chay that, da xac nhan lai o app truoc. KHONG giuTatCa: da do that, day la tap chi da lieu THAM MY noi chung, mot lan quet do vao kho toan bai filler, botox, seo mun, tiet mo hoi nach. Loc tu khoa giu lai dung phan toc." },
+    { "ten": "Journal of the European Academy of Dermatology", "hang": "Học thuật", "nhom": "khoahoc", "url": "https://onlinelibrary.wiley.com/feed/14683083/most-recent", "trangThai": "bat", "ghiChu": "117 item, 1 ngay. Feed lon va nhanh nhat nhom hoc thuat, nhung la CA nganh da lieu nen phai loc tu khoa." },
+    { "ten": "International Journal of Dermatology", "hang": "Học thuật", "nhom": "khoahoc", "url": "https://onlinelibrary.wiley.com/feed/13654632/most-recent", "trangThai": "bat", "ghiChu": "109 item, 0 ngay. Rong, loc tu khoa." },
+    { "ten": "Experimental Dermatology", "hang": "Học thuật", "nhom": "khoahoc", "url": "https://onlinelibrary.wiley.com/feed/16000625/most-recent", "trangThai": "bat", "ghiChu": "13 item, 0 ngay. Feed ngan, nghieng ve co che sinh hoc nang toc." },
+    { "ten": "Skin Research and Technology", "hang": "Học thuật", "nhom": "khoahoc", "url": "https://onlinelibrary.wiley.com/feed/16000846/most-recent", "trangThai": "bat", "ghiChu": "4 item, 6 ngay. Feed rat ngan. Thay cho Skin Health and Disease (404). Cung khong giuTatCa: phan lon bai la ve da, chi thinh thoang co bai da dau." },
+    { "ten": "Dermatology Times", "hang": "Chuyên trang", "nhom": "khoahoc", "url": "https://news.google.com/rss/search?q=site:dermatologytimes.com (hair OR alopecia OR scalp)&hl=en-US&gl=US&ceid=US:en", "trangThai": "bat", "ghiChu": "Feed goc tra 403. Vong qua Google News, 100 item, 12 ngay." },
+    { "ten": "Google News · nghiên cứu rụng tóc", "hang": "Tổng hợp", "nhom": "khoahoc", "url": "https://news.google.com/rss/search?q=alopecia study OR \"hair loss\" research OR \"hair regrowth\" trial&hl=en-US&gl=US&ceid=US:en", "trangThai": "bat", "ghiChu": "60 item, 143 ngay. Cap nhat cham nhung bai nao cung co so lieu." },
+    { "ten": "Google News · bệnh rụng tóc theo tên gọi", "hang": "Tổng hợp", "nhom": "khoahoc", "url": "https://news.google.com/rss/search?q=\"alopecia areata\" OR \"androgenetic alopecia\" OR \"telogen effluvium\"&hl=en-US&gl=US&ceid=US:en", "trangThai": "bat", "ghiChu": "100 item, 1 ngay. Thay cho duong site:pubmed (tra ve trang gioi thieu 2713 ngay). Goi thang ten benh thi ra bai that." },
+    { "ten": "Google News · khoa học nang tóc & da đầu", "hang": "Tổng hợp", "nhom": "khoahoc", "url": "https://news.google.com/rss/search?q=\"hair follicle\" OR \"scalp microbiome\" OR \"hair growth\" science&hl=en-US&gl=US&ceid=US:en", "trangThai": "bat", "ghiChu": "100 item, 42 ngay." },
+    { "ten": "Google News · hóa học sản phẩm tóc", "hang": "Tổng hợp", "nhom": "khoahoc", "url": "https://news.google.com/rss/search?q=\"bond builder\" OR keratin treatment OR \"hair dye\" safety study&hl=en-US&gl=US&ceid=US:en", "trangThai": "bat", "ghiChu": "55 item, 139 ngay. Mach an toan hoa chat, rat can khi dao tao tho." },
+    { "ten": "Google News · trichology", "hang": "Tổng hợp", "nhom": "khoahoc", "url": "https://news.google.com/rss/search?q=trichology OR trichologist OR \"hair clinic\" research&hl=en-US&gl=US&ceid=US:en", "trangThai": "bat", "ghiChu": "50 item, 107 ngay. Thay cho International Journal of Trichology (403)." },
+    { "ten": "Google News · tạp chí da liễu", "hang": "Tổng hợp", "nhom": "khoahoc", "url": "https://news.google.com/rss/search?q=\"JAMA Dermatology\" OR \"British Journal of Dermatology\" study hair OR alopecia&hl=en-US&gl=US&ceid=US:en", "trangThai": "bat", "ghiChu": "47 item, 162 ngay. Sat nguong 180 ngay, kiem lai sau vai thang. Thay cho duong site:jamanetwork (tra trang chu 5043 ngay)." },
+    { "ten": "The Conversation · Sức khỏe", "hang": "Khoa học", "nhom": "khoahoc", "url": "https://theconversation.com/us/health/articles.atom", "trangThai": "bat", "ghiChu": "25 item, 1 ngay. Nha khoa hoc tu viet cho nguoi thuong doc. Feed RAT rong, loc tu khoa cat gan het, nhung bai nao lot lai thi rat de dung." },
+    { "ten": "Reddit · r/HaircareScience", "hang": "Cộng đồng", "nhom": "khoahoc", "loai": "reddit", "giuTatCa": true, "soBaiDau": 10, "url": "https://www.reddit.com/r/HaircareScience/top/.rss?t=month", "trangThai": "bat", "ghiChu": "Nhom doi dan nghien cuu khi tra loi nen chat luong cao nhat trong cac sub toc. Dat t=month chu khong phai t=week: kiem that voi t=week chi ra 2 bai, nhom nho." },
+
+    { "_nhomXuHuong": "TAB 3 — XU HUONG & KHACH HANG. Chu salon can biet khach dang doi gi va dang tin gi TRUOC khi khach buoc vao ghe. Day cung la cho de sai nhat nen bai nao cung phai co cau Luu y.",
+      "ten": "Allure", "hang": "Tạp chí", "nhom": "xuhuong", "url": "https://www.allure.com/feed/rss", "trangThai": "bat", "ghiChu": "30 item, 1 ngay. Feed CA TAP CHI (bai dau la mascara), phai loc tu khoa." },
+    { "ten": "Elle · Làm đẹp", "hang": "Tạp chí", "nhom": "xuhuong", "url": "https://www.elle.com/rss/beauty.xml/", "trangThai": "bat", "ghiChu": "50 item, 0 ngay. Muc lam dep nhung van nhieu bai mong va trang diem, loc tu khoa." },
+    { "ten": "Refinery29 · Làm đẹp", "hang": "Tạp chí", "nhom": "xuhuong", "url": "https://www.refinery29.com/en-us/beauty/rss.xml", "trangThai": "bat", "ghiChu": "10 item, 1 ngay. Feed ngan, giong viet gan nguoi tre." },
+    { "ten": "Byrdie", "hang": "Tạp chí", "nhom": "xuhuong", "url": "https://news.google.com/rss/search?q=site:byrdie.com (hair OR scalp OR shampoo)&hl=en-US&gl=US&ceid=US:en", "trangThai": "bat", "ghiChu": "Feed goc tra 402 Payment Required (ca ho Dotdash deu the). Vong qua Google News, 100 item, 8 ngay." },
+    { "ten": "Google News · xu hướng tóc", "hang": "Tổng hợp", "nhom": "xuhuong", "url": "https://news.google.com/rss/search?q=\"hair trend\" OR \"hair color trend\" OR \"haircut trend\"&hl=en-US&gl=US&ceid=US:en", "trangThai": "bat", "ghiChu": "100 item, 1 ngay. Nguon bat xu huong nhanh nhat." },
+    { "ten": "Google News · trend tóc trên mạng xã hội", "hang": "Tổng hợp", "nhom": "xuhuong", "url": "https://news.google.com/rss/search?q=hair TikTok viral OR \"hair hack\" OR \"hair tok\"&hl=en-US&gl=US&ceid=US:en", "trangThai": "bat", "ghiChu": "100 item, 69 ngay. Nhieu meo dan gian sai, bo loc than duoc phai chan ky nhom nay." },
+    { "ten": "Google News · thói quen chăm tóc của khách", "hang": "Tổng hợp", "nhom": "xuhuong", "url": "https://news.google.com/rss/search?q=\"hair care routine\" OR \"scalp care\" OR \"hair porosity\" consumer&hl=en-US&gl=US&ceid=US:en", "trangThai": "bat", "ghiChu": "51 item, 8 ngay. Bai dau la Ulta danh cuoc vao thi truong cham da dau, dung mach kinh doanh." },
+    { "ten": "Google News · tóc bạc & tóc tuổi trung niên", "hang": "Tổng hợp", "nhom": "xuhuong", "url": "https://news.google.com/rss/search?q=\"gray hair\" OR \"grey hair\" OR \"menopause hair\" OR \"thinning hair\" women&hl=en-US&gl=US&ceid=US:en", "trangThai": "bat", "ghiChu": "100 item, 7 ngay. Tep khach chi tieu cao nhat cua salon Viet, ma it noi noi toi." },
+    { "ten": "Reddit · r/Hair", "hang": "Cộng đồng", "nhom": "xuhuong", "loai": "reddit", "soBaiDau": 10, "url": "https://www.reddit.com/r/Hair/top/.rss?t=week", "trangThai": "bat", "ghiChu": "Luc kiem tra tra HTTP 429 vi da bi phat toc do tu cac lan goi truoc trong cung phien. Ba sub khac lay duoc binh thuong. Bo quet nghi 22 giay giua moi lan goi Reddit va thu lai, nen giu bat." },
+    { "ten": "Reddit · r/FancyFollicles", "hang": "Cộng đồng", "nhom": "xuhuong", "loai": "reddit", "soBaiDau": 8, "url": "https://www.reddit.com/r/FancyFollicles/top/.rss?t=week", "trangThai": "bat", "ghiChu": "25 item, 6 ngay. Khach khoe ket qua nhuom, xem duoc gu mau dang thinh." },
+    { "ten": "Reddit · r/femalehairadvice", "hang": "Cộng đồng", "nhom": "xuhuong", "loai": "reddit", "soBaiDau": 8, "url": "https://www.reddit.com/r/femalehairadvice/top/.rss?t=week", "trangThai": "bat", "ghiChu": "429 vi phat toc do, giong r/Hair. Giu bat." },
+
+    { "_nhomVN": "TAB 4 — VIET NAM. Bao Viet mang lam dep la feed RONG (moi thu tu son moi toi mong tay), BAT BUOC loc tu khoa, khong bao gio giuTatCa.",
+      "ten": "Google News VN · chăm sóc tóc", "hang": "Việt Nam", "nhom": "vn", "url": "https://news.google.com/rss/search?q=\"chăm sóc tóc\" OR \"dưỡng tóc\" OR \"tóc hư tổn\"&hl=vi&gl=VN&ceid=VN:vi", "trangThai": "bat", "ghiChu": "100 item, 62 ngay." },
+    { "ten": "Google News VN · rụng tóc & hói", "hang": "Việt Nam", "nhom": "vn", "url": "https://news.google.com/rss/search?q=\"rụng tóc\" OR \"hói đầu\" OR \"tóc thưa\"&hl=vi&gl=VN&ceid=VN:vi", "trangThai": "bat", "ghiChu": "100 item, 10 ngay. Nhom nay nhieu quang cao thuoc moc toc nhat, bo loc than duoc phai chan ky." },
+    { "ten": "Google News VN · nhuộm, uốn, duỗi", "hang": "Việt Nam", "nhom": "vn", "url": "https://news.google.com/rss/search?q=\"nhuộm tóc\" OR \"uốn tóc\" OR \"duỗi tóc\" OR \"ép tóc\"&hl=vi&gl=VN&ceid=VN:vi", "trangThai": "bat", "ghiChu": "100 item, 17 ngay. Dung mach ky thuat, hop de viet bai dao tao tho." },
+    { "ten": "Google News VN · salon & tiệm tóc", "hang": "Việt Nam", "nhom": "vn", "url": "https://news.google.com/rss/search?q=\"salon tóc\" OR \"tiệm tóc\" OR \"cắt tóc\" OR \"thợ làm tóc\" OR \"tạo mẫu tóc\"&hl=vi&gl=VN&ceid=VN:vi", "trangThai": "bat", "ghiChu": "100 item, 0 ngay. Ban hep hon (bo 'cat toc') chi ra bai 187 ngay tuoi. Doi lai: lot nhieu tin cat toc tu thien va tin doan the, bo loc lac chu de phai chan." },
+    { "ten": "Google News VN · phục hồi tóc & keratin", "hang": "Việt Nam", "nhom": "vn", "url": "https://news.google.com/rss/search?q=\"phục hồi tóc\" OR keratin tóc OR \"hấp dầu\" OR \"ủ tóc\"&hl=vi&gl=VN&ceid=VN:vi", "trangThai": "bat", "ghiChu": "50 item, 82 ngay. Rat nhieu bai PR san pham, bo loc than duoc phai chan." },
+    { "ten": "Google News VN · da đầu", "hang": "Việt Nam", "nhom": "vn", "url": "https://news.google.com/rss/search?q=\"da đầu\" gàu OR \"nấm da đầu\" OR \"viêm da đầu\"&hl=vi&gl=VN&ceid=VN:vi", "trangThai": "bat", "ghiChu": "83 item, 4 ngay. Mach nay bao Viet viet kha nghiem tuc, thuong co loi bac si." },
+    { "ten": "Google News VN · dầu gội & mỹ phẩm tóc", "hang": "Việt Nam", "nhom": "vn", "url": "https://news.google.com/rss/search?q=\"dầu gội\" OR \"dầu xả\" OR \"mỹ phẩm tóc\" OR \"serum tóc\"&hl=vi&gl=VN&ceid=VN:vi", "trangThai": "bat", "ghiChu": "100 item, 12 ngay." },
+    { "ten": "Google News VN · kiểu tóc & xu hướng", "hang": "Việt Nam", "nhom": "vn", "url": "https://news.google.com/rss/search?q=\"kiểu tóc\" OR \"mái tóc\" đẹp OR xu hướng&hl=vi&gl=VN&ceid=VN:vi", "trangThai": "bat", "ghiChu": "100 item, 4 ngay." },
+    { "ten": "Google News VN · kinh doanh làm đẹp", "hang": "Việt Nam", "nhom": "vn", "url": "https://news.google.com/rss/search?q=\"ngành làm đẹp\" OR \"chuỗi salon\" OR \"spa làm đẹp\" kinh doanh&hl=vi&gl=VN&ceid=VN:vi", "trangThai": "bat", "ghiChu": "54 item, 55 ngay. Mach hiem: so lieu thi truong lam dep trong nuoc." },
+    { "ten": "Eva · Làm đẹp", "hang": "Việt Nam", "nhom": "vn", "url": "https://news.google.com/rss/search?q=site:eva.vn (tóc OR \"làm đẹp\")&hl=vi&gl=VN&ceid=VN:vi", "trangThai": "bat", "ghiChu": "Ca hai duong feed goc deu 404. Vong qua Google News, 100 item, 1 ngay." },
+    { "ten": "Ngôi Sao · Làm đẹp", "hang": "Việt Nam", "nhom": "vn", "url": "https://ngoisao.vnexpress.net/rss/lam-dep.rss", "trangThai": "bat", "ghiChu": "60 item, 0 ngay. Bai dau dung chu de toc luon. Feed lam dep Viet chay tot nhat." },
+    { "ten": "Kênh 14 · Làm đẹp & Thời trang", "hang": "Việt Nam", "nhom": "vn", "url": "https://kenh14.vn/beauty-fashion.rss", "trangThai": "bat", "ghiChu": "50 item, 0 ngay. Feed gop CA thoi trang, loc tu khoa cat rat nhieu. Giu vi bat trend gioi tre nhanh." },
+    { "ten": "VnExpress · Sức khỏe", "hang": "Việt Nam", "nhom": "vn", "url": "https://vnexpress.net/rss/suc-khoe.rss", "trangThai": "bat", "ghiChu": "60 item, 0 ngay. Feed CA CHUYEN MUC suc khoe, phai loc tu khoa." },
+    { "ten": "Sức khỏe & Đời sống", "hang": "Việt Nam", "nhom": "vn", "url": "https://suckhoedoisong.vn/rss/home.rss", "trangThai": "bat", "ghiChu": "50 item, 0 ngay. Bao cua Bo Y te. Feed trang chu nen rat rong, phai loc tu khoa." },
+    { "ten": "VietnamNet · Sức khỏe", "hang": "Việt Nam", "nhom": "vn", "url": "https://vietnamnet.vn/rss/suc-khoe.rss", "trangThai": "bat", "ghiChu": "1000 item mot lan tai. Feed lon nhat trong nhom, loc tu khoa cat gan het." },
+
+    { "_nhomDaChet": "DA THU THAT NGAY 18/08/2026 VA HONG. Giu lai de khong ai thu lai lan nua. Muon kiem lai thi chay 'node kiem-tra-nguon.js tat-ca' chu dung doan.",
+      "ten": "Modern Salon (feed /feed)", "hang": "Nghề", "nhom": "nghe", "url": "https://www.modernsalon.com/feed", "trangThai": "tat", "lyDo": "HTTP 404. Duong dung la /rss, dang chay tot." },
+    { "ten": "Modern Salon (vòng Google News)", "hang": "Nghề", "nhom": "nghe", "url": "https://news.google.com/rss/search?q=site:modernsalon.com (salon OR stylist OR hair)&hl=en-US&gl=US&ceid=US:en", "trangThai": "tat", "lyDo": "Chay duoc (100 item, 17 ngay) nhung trung voi feed goc dang tot va cham hon. Giu day lam duong lui neu feed goc chet." },
+    { "ten": "American Salon (feed gốc)", "hang": "Nghề", "nhom": "nghe", "url": "https://www.americansalon.com/rss", "trangThai": "tat", "lyDo": "HTTP 403, chan bot. Da thay bang duong vong Google News." },
+    { "ten": "Hairdressers Journal (feed /feed/)", "hang": "Nghề", "nhom": "nghe", "url": "https://www.hji.co.uk/feed/", "trangThai": "tat", "lyDo": "HTTP 404." },
+    { "ten": "Hairdressers Journal (feed /rss)", "hang": "Nghề", "nhom": "nghe", "url": "https://www.hji.co.uk/rss", "trangThai": "tat", "lyDo": "HTTP 200 va co 10 bai that, NHUNG item chi co title, link, description, khong co truong ngay nao. thu-thap.js se gan ngay hom nay cho tat ca. Da thay bang duong vong Google News de lay ngay that." },
+    { "ten": "Professional Beauty (Anh)", "hang": "Nghề", "nhom": "nghe", "url": "https://www.professionalbeauty.co.uk/rss", "trangThai": "tat", "lyDo": "HTTP 200, 10 bai, nhung item khong co truong ngay nao (giong Hairdressers Journal). Va la bao CA nganh lam dep: bai dau la xu huong mong. Hai loi cong lai nen tat." },
+    { "ten": "Behind the Chair (feed gốc)", "hang": "Nghề", "nhom": "nghe", "url": "https://behindthechair.com/feed/", "trangThai": "tat", "lyDo": "HTTP 403, chan bot." },
+    { "ten": "Behind the Chair (site: từ khóa chung)", "hang": "Nghề", "nhom": "nghe", "url": "https://news.google.com/rss/search?q=site:behindthechair.com (hair OR color OR stylist)&hl=en-US&gl=US&ceid=US:en", "trangThai": "tat", "lyDo": "Dung bay site: kem tu khoa chung: tra ve trang lich su kien 3118 ngay tuoi. Ban dung tu khoa dac trung nghe dang chay tot." },
+    { "ten": "Beauty Independent (feed gốc)", "hang": "Nghề", "nhom": "nghe", "url": "https://www.beautyindependent.com/feed/", "trangThai": "tat", "lyDo": "HTTP 403, chan bot. Da thay bang duong vong Google News." },
+    { "ten": "Skin Health and Disease", "hang": "Học thuật", "nhom": "khoahoc", "url": "https://onlinelibrary.wiley.com/feed/26906856/most-recent", "trangThai": "tat", "lyDo": "HTTP 404. Cac feed Wiley khac (14732165, 14683083, 13654632, 16000625, 16000846) deu chay, rieng ma nay khong co feed." },
+    { "ten": "International Journal of Trichology", "hang": "Học thuật", "nhom": "khoahoc", "url": "https://www.ijtrichology.com/rss.asp", "trangThai": "tat", "lyDo": "HTTP 403. Da thay bang truy van noi dung 'trichology OR trichologist'." },
+    { "ten": "Dermatology Times (feed gốc)", "hang": "Chuyên trang", "nhom": "khoahoc", "url": "https://www.dermatologytimes.com/rss", "trangThai": "tat", "lyDo": "HTTP 403, chan bot. Da thay bang duong vong Google News." },
+    { "ten": "JAMA Dermatology (site:jamanetwork.com)", "hang": "Học thuật", "nhom": "khoahoc", "url": "https://news.google.com/rss/search?q=site:jamanetwork.com dermatology (hair OR alopecia OR scalp)&hl=en-US&gl=US&ceid=US:en", "trangThai": "tat", "lyDo": "Dung bay site:. Tra ve trang chu JAMA Network 5043 ngay tuoi. Da thay bang truy van goi thang ten tap chi." },
+    { "ten": "PubMed (site:pubmed.ncbi.nlm.nih.gov)", "hang": "Nghiên cứu", "nhom": "khoahoc", "url": "https://news.google.com/rss/search?q=site:pubmed.ncbi.nlm.nih.gov (alopecia OR \"hair loss\" OR scalp)&hl=en-US&gl=US&ceid=US:en", "trangThai": "tat", "lyDo": "Dung bay site:. Tra ve trang 'About PubMed' 2713 ngay tuoi. Da thay bang truy van goi thang ten benh (alopecia areata, telogen effluvium), ra bai 1 ngay tuoi." },
+    { "ten": "Byrdie (feed gốc)", "hang": "Tạp chí", "nhom": "xuhuong", "url": "https://www.byrdie.com/rss", "trangThai": "tat", "lyDo": "HTTP 402 Payment Required. Ca ho Dotdash (Byrdie, Verywell) deu chan the. Da thay bang duong vong Google News." },
+    { "ten": "Eva · Làm đẹp (feed /lam-dep.rss)", "hang": "Việt Nam", "nhom": "vn", "url": "https://eva.vn/lam-dep.rss", "trangThai": "tat", "lyDo": "HTTP 404. Da thu ca /rss/lam-dep.rss cung 404. Da thay bang duong vong Google News." },
+    { "ten": "aFamily · Làm đẹp", "hang": "Việt Nam", "nhom": "vn", "url": "https://afamily.vn/lam-dep.rss", "trangThai": "tat", "lyDo": "HTTP 404. Da thu ca /rss/lam-dep.rss cung 404." },
+    { "ten": "Google News VN · salon (truy vấn hẹp)", "hang": "Việt Nam", "nhom": "vn", "url": "https://news.google.com/rss/search?q=\"salon tóc\" OR \"tiệm tóc\" OR \"thợ làm tóc\" OR \"nhà tạo mẫu tóc\"&hl=vi&gl=VN&ceid=VN:vi", "trangThai": "tat", "lyDo": "Chay duoc nhung item dau 187 ngay tuoi: bao Viet gan nhu khong viet ve salon toc bang dung cac cum nay. Ban nới rộng them 'cat toc' dang chay, 0 ngay." }
+  ],
+
+  "_ghiChuTuKhoa": "Mot bai duoc giu khi co IT NHAT 1 tu khoa nganh. Nguon co 'giuTatCa' bo qua buoc nay vi ban than nguon da la bo loc chu de. So khop co ranh gioi tu.",
+
+  "_ghiChuDauTiengViet": "TU KHOA TIENG VIET O DAY DUOC KHOP TREN CHUOI CON DAU, khong phai chuoi bo dau. Vi vay phai viet DUNG DAU. Bai hoc do that o lan quet dau: tu khoa 'hoi' khong dau keo ve 65 bai rac vi no khop luon 'hoi tu', 'boc hoi', 'co hoi', 'mang xa hoi'. Trong kho co ca tin bat giu va tin du lich. Tu khoa tieng Anh van khop tren chuoi bo dau nhu cu.",
+
+  "_ghiChuManh": "CHI dat o day nhung dau hieu BANG CHUNG. Chung quyet dinh muc 'Nen doc' va bao cho chu salon biet bai nay co so lieu de trich dan khi dao tao tho hoac khi noi voi khach.",
+
+  "tuKhoaManh": [
+    "study", "studies", "research", "trial", "randomized", "randomised",
+    "meta-analysis", "systematic review", "clinical trial", "cohort",
+    "survey", "report", "findings", "evidence", "data shows", "researchers",
+    "dermatologist", "trichologist", "peer-reviewed",
+    "nghiên cứu", "khảo sát", "thử nghiệm", "bằng chứng", "chuyên gia",
+    "bác sĩ da liễu", "bác sĩ", "thống kê", "báo cáo", "công bố"
+  ],
+
+  "tuKhoaNganh": [
+    "hair", "haircare", "hair care", "hairstyle", "hairstylist", "hairdresser",
+    "hairdressing", "haircut", "hair color", "hair colour", "hair dye",
+    "balayage", "blonding", "bleach", "toner", "perm", "relaxer",
+    "keratin", "bond builder", "olaplex", "hair mask", "conditioner", "shampoo",
+    "hair oil", "leave-in", "heat protectant", "blow dry", "styling",
+    "scalp", "dandruff", "seborrheic", "folliculitis", "sebum",
+    "hair follicle", "follicle", "hair growth", "hair regrowth", "hair loss",
+    "alopecia", "androgenetic", "telogen effluvium", "traction alopecia",
+    "minoxidil", "finasteride", "hair transplant",
+    "thinning hair", "hair breakage", "split ends", "frizz", "porosity",
+    "gray hair", "grey hair", "graying", "curly hair", "textured hair",
+    "extensions", "wig", "trichology", "trichologist",
+    "salon", "barbershop", "barber", "stylist", "colorist", "booth rent",
+    "beauty industry", "salon owner", "client retention", "salon booking",
+    "beauty professional", "beauty pro", "service menu", "salon software",
+
+    "tóc", "làm tóc", "chăm sóc tóc", "dưỡng tóc", "phục hồi tóc",
+    "rụng tóc", "hói", "tóc thưa", "tóc bạc", "tóc hư tổn", "chẻ ngọn",
+    "nhuộm tóc", "uốn tóc", "duỗi tóc", "ép tóc", "tẩy tóc",
+    "cắt tóc", "tạo kiểu", "sấy tóc", "hấp dầu", "ủ tóc", "gội đầu",
+    "dầu gội", "dầu xả", "serum tóc", "keratin", "collagen tóc",
+    "da đầu", "gàu", "nấm da đầu", "viêm da đầu", "bã nhờn", "nang tóc",
+    "salon tóc", "tiệm tóc", "thợ làm tóc", "nhà tạo mẫu tóc", "barber",
+    "ngành làm đẹp", "chuỗi salon", "mỹ phẩm tóc", "cấy tóc", "nối tóc"
+  ],
+
+  "tuKhoaChuDe": [
+    "consultation", "client", "customer", "retention", "loyalty", "upsell",
+    "pricing", "menu", "appointment", "no-show", "walk-in", "rebooking",
+    "training", "apprentice", "education", "certification", "mentor",
+    "staff", "turnover", "commission", "tips", "burnout", "ergonomics",
+    "instagram", "tiktok", "portfolio", "before and after",
+    "khách hàng", "tư vấn", "quay lại", "giữ chân", "giá dịch vụ",
+    "đặt lịch", "nhân sự", "học nghề", "đào tạo", "thợ chính", "thợ phụ",
+    "hoa hồng", "quy trình", "trải nghiệm", "thương hiệu"
+  ],
+
+  "_ghiChuLoaiTru": "Hai nhom rieng biet. Nhom nay chi de LOAI BAI LAC CHU DE. Rieng bai quang cao than duoc va bai co hai ve tam ly duoc chan boi ham rieng trong thu-thap.js, chat hon nhieu.",
+
+  "tuKhoaLoaiTru": [
+    "cancer treatment", "chemotherapy", "tumor", "tumour", "stroke",
+    "vaccine", "covid", "influenza", "dengue", "malaria", "hiv",
+    "car accident", "crash", "shooting", "murder", "arrested for", "robbery",
+    "crypto", "bitcoin", "nft", "casino", "betting", "lottery",
+    "horoscope", "celebrity gossip", "premier league", "world cup",
+    "dog", "cat", "pet food", "pet grooming",
+
+    "ung thư", "hóa trị", "đột quỵ", "tai nạn giao thông", "vắc xin",
+    "sốt xuất huyết", "cúm mùa", "ngộ độc thực phẩm tập thể",
+    "bắt giữ", "khởi tố vụ án giết", "cháy nhà", "xổ số", "tử vi",
+    "bóng đá", "showbiz", "thời trang", "chứng khoán", "bất động sản",
+    "cắt tóc miễn phí", "cắt tóc từ thiện", "chi đoàn", "đoàn thanh niên"
+  ]
+}

@@ -1,0 +1,526 @@
+{
+ "capNhatLuc": "2026-08-22T02:02:22.063Z",
+ "tin": [
+  {
+   "d": "2026-08-22",
+   "src": "Salon Today",
+   "hang": "Nghề",
+   "g": "nghe",
+   "imp": "thap",
+   "t": "Zenoti",
+   "s": "AI-Powered Salon Software",
+   "w": "Tin nghề và vận hành salon. Liên quan tới salon, salon software. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://www.salontoday.com/products/zenoti",
+   "khongPT": false,
+   "khoa": [
+    "salon",
+    "salon software"
+   ]
+  },
+  {
+   "d": "2026-08-22",
+   "src": "Salon Today",
+   "hang": "Nghề",
+   "g": "nghe",
+   "imp": "thap",
+   "t": "Spark Pro Salon",
+   "s": "Virtual Salon Assistants",
+   "w": "Tin nghề và vận hành salon. Liên quan tới salon. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://www.salontoday.com/products/spark-pro-salon",
+   "khongPT": false,
+   "khoa": [
+    "salon"
+   ]
+  },
+  {
+   "d": "2026-08-22",
+   "src": "Salon Today",
+   "hang": "Nghề",
+   "g": "nghe",
+   "imp": "thap",
+   "t": "Shortcuts",
+   "s": "POS, Booking & Salon Management",
+   "w": "Tin nghề và vận hành salon. Liên quan tới salon. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://www.salontoday.com/products/shortcuts",
+   "khongPT": false,
+   "khoa": [
+    "salon"
+   ]
+  },
+  {
+   "d": "2026-08-22",
+   "src": "Salon Today",
+   "hang": "Nghề",
+   "g": "nghe",
+   "imp": "thap",
+   "t": "Salon Symphony",
+   "s": "Team Communication App",
+   "w": "Tin nghề và vận hành salon. Liên quan tới salon. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://www.salontoday.com/products/salon-symphony",
+   "khongPT": false,
+   "khoa": [
+    "salon"
+   ]
+  },
+  {
+   "d": "2026-08-22",
+   "src": "Salon Today",
+   "hang": "Nghề",
+   "g": "nghe",
+   "imp": "thap",
+   "t": "Salonist",
+   "s": "Salon Management",
+   "w": "Tin nghề và vận hành salon. Liên quan tới salon. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://www.salontoday.com/products/salonist",
+   "khongPT": false,
+   "khoa": [
+    "salon"
+   ]
+  },
+  {
+   "d": "2026-08-22",
+   "src": "Salon Today",
+   "hang": "Nghề",
+   "g": "nghe",
+   "imp": "thap",
+   "t": "SalonCloudsPlus",
+   "s": "Salon Management",
+   "w": "Tin nghề và vận hành salon. Liên quan tới salon. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://www.salontoday.com/products/saloncloudsplus",
+   "khongPT": false,
+   "khoa": [
+    "salon"
+   ]
+  },
+  {
+   "d": "2026-08-22",
+   "src": "Salon Today",
+   "hang": "Nghề",
+   "g": "nghe",
+   "imp": "thap",
+   "t": "SalonBiz",
+   "s": "Salon Management",
+   "w": "Tin nghề và vận hành salon. Liên quan tới salon. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://www.salontoday.com/products/salonbiz",
+   "khongPT": false,
+   "khoa": [
+    "salon"
+   ]
+  },
+  {
+   "d": "2026-08-22",
+   "src": "Salon Today",
+   "hang": "Nghề",
+   "g": "nghe",
+   "imp": "thap",
+   "t": "Salon Agent",
+   "s": "AI Receptionist",
+   "w": "Tin nghề và vận hành salon. Liên quan tới salon. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://www.salontoday.com/products/salon-agent",
+   "khongPT": false,
+   "khoa": [
+    "salon"
+   ]
+  },
+  {
+   "d": "2026-08-22",
+   "src": "Salon Today",
+   "hang": "Nghề",
+   "g": "nghe",
+   "imp": "thap",
+   "t": "Rosy Salon Software",
+   "s": "POS Management",
+   "w": "Tin nghề và vận hành salon. Liên quan tới salon, salon software. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://www.salontoday.com/products/rosy-salon-software",
+   "khongPT": false,
+   "khoa": [
+    "salon",
+    "salon software"
+   ]
+  },
+  {
+   "d": "2026-08-22",
+   "src": "Salon Today",
+   "hang": "Nghề",
+   "g": "nghe",
+   "imp": "thap",
+   "t": "Phorest",
+   "s": "Salon & Spa Management",
+   "w": "Tin nghề và vận hành salon. Liên quan tới salon. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://www.salontoday.com/products/phorest",
+   "khongPT": false,
+   "khoa": [
+    "salon"
+   ]
+  },
+  {
+   "d": "2026-08-22",
+   "src": "Salon Today",
+   "hang": "Nghề",
+   "g": "nghe",
+   "imp": "thap",
+   "t": "Mangomint",
+   "s": "Salon Management Software",
+   "w": "Tin nghề và vận hành salon. Liên quan tới salon. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://www.salontoday.com/products/mangomint",
+   "khongPT": false,
+   "khoa": [
+    "salon"
+   ]
+  },
+  {
+   "d": "2026-08-22",
+   "src": "Salon Today",
+   "hang": "Nghề",
+   "g": "nghe",
+   "imp": "thap",
+   "t": "EnvisionNow",
+   "s": "Salon Management System",
+   "w": "Tin nghề và vận hành salon. Liên quan tới salon. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://www.salontoday.com/products/envisionnow",
+   "khongPT": false,
+   "khoa": [
+    "salon"
+   ]
+  },
+  {
+   "d": "2026-08-22",
+   "src": "Salon Today",
+   "hang": "Nghề",
+   "g": "nghe",
+   "imp": "thap",
+   "t": "DoubleBook",
+   "s": "Peer-to-Peer Salon Staffing",
+   "w": "Tin nghề và vận hành salon. Liên quan tới salon. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://www.salontoday.com/products/doublebook",
+   "khongPT": false,
+   "khoa": [
+    "salon"
+   ]
+  },
+  {
+   "d": "2026-08-22",
+   "src": "Salon Today",
+   "hang": "Nghề",
+   "g": "nghe",
+   "imp": "thap",
+   "t": "DaySmart Salon",
+   "s": "Scheduling & Business Management",
+   "w": "Tin nghề và vận hành salon. Liên quan tới salon. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://www.salontoday.com/products/daysmart-salon",
+   "khongPT": false,
+   "khoa": [
+    "salon"
+   ]
+  },
+  {
+   "d": "2026-08-22",
+   "src": "Salon Today",
+   "hang": "Nghề",
+   "g": "nghe",
+   "imp": "thap",
+   "t": "Brook",
+   "s": "AI Salon & Spa Receptionist",
+   "w": "Tin nghề và vận hành salon. Liên quan tới salon. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://www.salontoday.com/products/brook",
+   "khongPT": false,
+   "khoa": [
+    "salon"
+   ]
+  },
+  {
+   "d": "2026-08-22",
+   "src": "Salon Today",
+   "hang": "Nghề",
+   "g": "nghe",
+   "imp": "thap",
+   "t": "BeautyDeskAi",
+   "s": "AI Salon Assistant & Digital Receptionist",
+   "w": "Tin nghề và vận hành salon. Liên quan tới salon. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://www.salontoday.com/products/beautydeskai",
+   "khongPT": false,
+   "khoa": [
+    "salon"
+   ]
+  },
+  {
+   "d": "2026-08-21",
+   "src": "Cosmetics Business",
+   "hang": "Nghề",
+   "g": "nghe",
+   "imp": "thap",
+   "t": "Tangle Teezer launches first major innovation in a decade",
+   "s": "Tangle Teezer’s new Complete Carebrush, which sets out to combine four key benefits in a single tool while providing a range of options for different hair types, lands after five years of development",
+   "w": "Tin nghề và vận hành salon. Liên quan tới hair. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://www.cosmeticsbusiness.com/tangle-teezer-launches-complete-carebrush",
+   "khongPT": false,
+   "khoa": [
+    "hair"
+   ]
+  },
+  {
+   "d": "2026-08-21",
+   "src": "Reddit · r/Hairstylist",
+   "hang": "Cộng đồng",
+   "g": "nghe",
+   "imp": "thap",
+   "t": "$200K take home pay working at Ulta?",
+   "s": "I had someone in my hairdressers podcast TikTok page tell me that she has stylist at ulta that make $200K a year take home pay! Can anyone that works or have worked at ulta confirm this? submitted by /u/Shityoutoldme [link] [comments]",
+   "w": "Tin nghề và vận hành salon. Liên quan tới stylist. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://www.reddit.com/r/hairstylist/comments/1vu5btf/200k_take_home_pay_working_at_ulta/",
+   "khongPT": false,
+   "khoa": [
+    "stylist",
+    "tiktok"
+   ]
+  },
+  {
+   "d": "2026-08-21",
+   "src": "Reddit · r/Hairstylist",
+   "hang": "Cộng đồng",
+   "g": "nghe",
+   "imp": "thap",
+   "t": "Worst part of hairdressing",
+   "s": "Is watching tv and not being able to focus on anything but the uneven haircuts or colors. I really want to post a pic of the hair that inspired this post but it’s teetering breaking the rules. You guys ever just mentally bust in to “fix” the hair? submitted by /u/3catsandcounting [link] [comments]",
+   "w": "Tin nghề và vận hành salon. Liên quan tới hair, hairdressing. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://www.reddit.com/r/hairstylist/comments/1vu3phs/worst_part_of_hairdressing/",
+   "khongPT": false,
+   "khoa": [
+    "hair",
+    "hairdressing"
+   ]
+  },
+  {
+   "d": "2026-08-21",
+   "src": "Reddit · r/Hairstylist",
+   "hang": "Cộng đồng",
+   "g": "nghe",
+   "imp": "thap",
+   "t": "How long is a tub of powder lightener good for?",
+   "s": "I’ve had this redkin lightener power for at least 9months maybe even close to a year. It’s been opened, It’s been stored well and no moisture got inside. I do want to make some money on the side and was wondering if I could still use this? (Fresh developer of course) or at least on my sister who’s a natural level 3, we lift to a 9 usually. I don’t usually have to buy my own product, but Id hate to see this go to w…",
+   "w": "Tin nghề và vận hành salon. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://www.reddit.com/r/hairstylist/comments/1vtx4kf/how_long_is_a_tub_of_powder_lightener_good_for/",
+   "khongPT": false,
+   "khoa": []
+  },
+  {
+   "d": "2026-08-22",
+   "src": "Elle · Làm đẹp",
+   "hang": "Tạp chí",
+   "g": "xuhuong",
+   "imp": "thap",
+   "t": "An Expert Guide to Balayage",
+   "s": "Your hairstylist is the artist. Your hair—the perfect canvas.",
+   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair, hairstylist, balayage. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://www.elle.com/beauty/hair/g44695637/what-is-balayage-hair/",
+   "khongPT": false,
+   "khoa": [
+    "hair",
+    "hairstylist",
+    "balayage"
+   ]
+  },
+  {
+   "d": "2026-08-21",
+   "src": "Allure",
+   "hang": "Tạp chí",
+   "g": "xuhuong",
+   "imp": "thap",
+   "t": "These Hair Loss Treatments Worked Wonders to Slow My Shedding",
+   "s": "It wasn't a single product that helped, but rather a strategic combination.",
+   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair, hair loss. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://www.allure.com/story/hair-loss-treatment-routine",
+   "khongPT": false,
+   "khoa": [
+    "hair",
+    "hair loss"
+   ]
+  },
+  {
+   "d": "2026-08-21",
+   "src": "Elle · Làm đẹp",
+   "hang": "Tạp chí",
+   "g": "xuhuong",
+   "imp": "thap",
+   "t": "The Definitive Guide to Air-Dry Hair",
+   "s": "No heat, no problem.",
+   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://www.elle.com/beauty/a73361103/how-to-air-dry-hair-tips-benefits-explained/",
+   "khongPT": false,
+   "khoa": [
+    "hair"
+   ]
+  },
+  {
+   "d": "2026-08-21",
+   "src": "Reddit · r/femalehairadvice",
+   "hang": "Cộng đồng",
+   "g": "xuhuong",
+   "imp": "thap",
+   "t": "How do I stop my hair from getting so dry?",
+   "s": "I've been trying to take better care of it, but I'm not seeing much improvement. first realized I was shampooing too often, so I cut back from every other day to twice a week. I've also started conditioning my crown as well as my ends, and that's helped make it easier to detangle and I'm not getting as much breakage. That's helped somewhat. At least my hair doesnt feel brittle anymore. I've been super gentle with…",
+   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair, conditioner, shampoo. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://www.reddit.com/r/femalehairadvice/comments/1vu0k3n/how_do_i_stop_my_hair_from_getting_so_dry/",
+   "khongPT": false,
+   "khoa": [
+    "hair",
+    "conditioner",
+    "shampoo"
+   ]
+  },
+  {
+   "d": "2026-08-21",
+   "src": "Reddit · r/femalehairadvice",
+   "hang": "Cộng đồng",
+   "g": "xuhuong",
+   "imp": "thap",
+   "t": "Trans girl unsure what cut to get for hair",
+   "s": "Now that I’m socially transitioning I wanna properly style and cut my hair in a feminine way. I’ve been told I should get curtain bangs with layers, a shag or wolf cut, any ideas or suggestions? submitted by /u/Marisol2524 [link] [comments]",
+   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://www.reddit.com/r/femalehairadvice/comments/1vudal3/trans_girl_unsure_what_cut_to_get_for_hair/",
+   "khongPT": false,
+   "khoa": [
+    "hair"
+   ]
+  },
+  {
+   "d": "2026-08-20",
+   "src": "Reddit · r/Hair",
+   "hang": "Cộng đồng",
+   "g": "xuhuong",
+   "imp": "thap",
+   "t": "My hairdresser just completely ignored me - what should I do?",
+   "s": "I mostly just venting here. I probably should have said something at the time but I just couldn't bring myself to put my foot down. Photo 1 is what I got and photo 2 is what I was asking for. I have very dark here so I acknowledge that it can be difficult to dye and I wasn't expecting magic. But I've left the hairdressers and my hair is not even slightly pink. There is barely a drop of pink. She tested it prior to…",
+   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair, hairdresser. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://www.reddit.com/r/Hair/comments/1vtgwdi/my_hairdresser_just_completely_ignored_me_what/",
+   "khongPT": false,
+   "khoa": [
+    "hair",
+    "hairdresser"
+   ]
+  },
+  {
+   "d": "2026-08-17",
+   "src": "Reddit · r/Hair",
+   "hang": "Cộng đồng",
+   "g": "xuhuong",
+   "imp": "thap",
+   "t": "Hair wax stick literally will NOT wash out of my hair… Help 😭",
+   "s": "I’m actually losing my mind over this and hoping someone has dealt with this before. I used a hair wax stick in my hair and I literally cannot get the residue out. My hair now feels waxy/greasy and is separating into these coated-looking strands even immediately after washing it. So far I have tried: - Regular shampoo - Clarifying shampoo - Shampooing FOUR TIMES in the same wash - Thoroughly rinsing everything out…",
+   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair, shampoo, styling. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://www.reddit.com/r/Hair/comments/1vqgsnm/hair_wax_stick_literally_will_not_wash_out_of_my/",
+   "khongPT": false,
+   "khoa": [
+    "hair",
+    "shampoo",
+    "styling"
+   ]
+  },
+  {
+   "d": "2026-08-20",
+   "src": "VietnamNet · Sức khỏe",
+   "hang": "Việt Nam",
+   "g": "vn",
+   "imp": "cao",
+   "t": "Thu hồi số công bố 362 mỹ phẩm, nhiều loại dầu gội và sữa tắm trong danh sách",
+   "s": "Cục Quản lý Dược (Bộ Y tế) vừa thu hồi 362 số tiếp nhận phiếu công bố sản phẩm mỹ phẩm, trong đó có nhiều sản phẩm chăm sóc tóc, làm sạch cơ thể đang được người tiêu dùng quan tâm.",
+   "w": "Tin trong nước. Có tín hiệu bằng chứng: công bố. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://vietnamnet.vn/thu-hoi-so-cong-bo-362-my-pham-nhieu-loai-dau-goi-va-sua-tam-trong-danh-sach-2547147.html",
+   "khongPT": false,
+   "khoa": [
+    "công bố",
+    "tóc",
+    "chăm sóc tóc",
+    "dầu gội"
+   ]
+  },
+  {
+   "d": "2026-08-14",
+   "src": "VietnamNet · Sức khỏe",
+   "hang": "Việt Nam",
+   "g": "vn",
+   "imp": "cao",
+   "t": "Nhiều người khổ sở vì gàu, bác sĩ chỉ 6 mẹo đơn giản giúp kiểm soát",
+   "s": "Theo bác sĩ da liễu, chỉ với những thay đổi đơn giản trong cách gội đầu, chăm sóc tóc và sinh hoạt hằng ngày, người bệnh có thể kiểm soát triệu chứng và giảm nguy cơ tái phát.",
+   "w": "Tin trong nước. Có tín hiệu bằng chứng: bác sĩ da liễu, bác sĩ. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://vietnamnet.vn/kho-so-vi-gau-bac-si-chi-6-meo-don-gian-giup-kiem-soat-benh-2541497.html",
+   "khongPT": false,
+   "khoa": [
+    "bác sĩ da liễu",
+    "bác sĩ",
+    "tóc",
+    "chăm sóc tóc",
+    "gội đầu",
+    "gàu"
+   ]
+  },
+  {
+   "d": "2026-07-28",
+   "src": "VietnamNet · Sức khỏe",
+   "hang": "Việt Nam",
+   "g": "vn",
+   "imp": "cao",
+   "t": "Thu hồi 2 loại dầu gội đầu chứa chất cấm thuộc nhãn hiệu nổi tiếng",
+   "s": "Cục Quản lý Dược (Bộ Y tế) ngày 1/7 cho biết đã rút 4 số tiếp nhận phiếu công bố mỹ phẩm, yêu cầu thu hồi, tiêu hủy các loại dầu gội đầu nhập khẩu do chứa chất Clotrimazole chống nấm.",
+   "w": "Tin trong nước. Có tín hiệu bằng chứng: công bố. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://vietnamnet.vn/thu-hoi-2-loai-dau-goi-dau-chua-chat-cam-thuoc-nhan-hieu-noi-tieng-2531285.html",
+   "khongPT": false,
+   "khoa": [
+    "công bố",
+    "gội đầu",
+    "dầu gội"
+   ]
+  },
+  {
+   "d": "2026-07-27",
+   "src": "VietnamNet · Sức khỏe",
+   "hang": "Việt Nam",
+   "g": "vn",
+   "imp": "thap",
+   "t": "Thu hồi trên toàn quốc cặp dầu gội xả Nourishing hair care",
+   "s": "Cục Quản lý Dược (Bộ Y tế) ngày 3/7 thông báo đình chỉ lưu hành và thu hồi trên toàn quốc đối với 2 sản phẩm dầu gội đầu và dầu xả Nourishing hair care cùng thuộc nhãn hàng Herba Luxe.",
+   "w": "Tin trong nước. Liên quan tới hair, hair care, gội đầu. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://vietnamnet.vn/thu-hoi-tren-toan-quoc-cap-dau-goi-xa-nourishing-hair-care-2532064.html",
+   "khongPT": false,
+   "khoa": [
+    "hair",
+    "hair care",
+    "gội đầu",
+    "dầu gội",
+    "dầu xả"
+   ]
+  },
+  {
+   "d": "2026-07-06",
+   "src": "VietnamNet · Sức khỏe",
+   "hang": "Việt Nam",
+   "g": "vn",
+   "imp": "thap",
+   "t": "Dùng chung dầu gội, sữa tắm với bố mẹ có khiến trẻ dậy thì sớm?",
+   "s": "Trên nhiều hội nhóm mua bán mỹ phẩm thời gian gần đây xuất hiện thông tin cảnh báo việc cho trẻ dùng chung dầu gội, sữa tắm với người lớn có thể khiến trẻ dậy thì sớm.",
+   "w": "Tin trong nước. Liên quan tới dầu gội. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://vietnamnet.vn/dung-chung-dau-goi-sua-tam-voi-bo-me-co-khien-tre-day-thi-som-2532706.html",
+   "khongPT": false,
+   "khoa": [
+    "dầu gội"
+   ]
+  },
+  {
+   "d": "2026-07-06",
+   "src": "VietnamNet · Sức khỏe",
+   "hang": "Việt Nam",
+   "g": "vn",
+   "imp": "vua",
+   "t": "Phạt 147 triệu đồng, thu hồi 8 loại kem dưỡng, dầu gội Hàn Quốc bán tại Việt Nam",
+   "s": "Hai loại kem dưỡng da, dưỡng mắt của thương hiệu Skinfood cùng nhiều loại tinh chất chăm sóc da, dầu gội đầu, mặt nạ nhập khẩu từ Hàn Quốc khác vừa bị Bộ Y tế yêu cầu thu hồi.",
+   "w": "Tin trong nước. Liên quan tới gội đầu, dầu gội. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://vietnamnet.vn/phat-147-trieu-dong-thu-hoi-8-loai-kem-duong-dau-goi-han-quoc-ban-tai-viet-nam-2522316.html",
+   "khongPT": false,
+   "khoa": [
+    "gội đầu",
+    "dầu gội",
+    "thương hiệu"
+   ]
+  }
+ ]
+}

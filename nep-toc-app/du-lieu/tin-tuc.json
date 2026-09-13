@@ -1,7 +1,7 @@
 {
- "capNhatLuc": "2026-09-12T03:59:20.268Z",
+ "capNhatLuc": "2026-09-13T04:07:08.686Z",
  "soTin": 480,
- "tinMoiLanNay": 27,
+ "tinMoiLanNay": 24,
  "theoNhom": {
   "nghe": 120,
   "khoahoc": 120,
@@ -99,6 +99,61 @@
    ]
   },
   {
+   "d": "2026-09-12",
+   "src": "KOAT",
+   "hang": "Tổng hợp",
+   "g": "nghe",
+   "imp": "thap",
+   "t": "Albuquerque salon owner thanks the pilot that he credits with saving his life on 9/11",
+   "s": "",
+   "w": "Tin nghề và vận hành salon. Liên quan tới salon, salon owner. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNV0o3ek9zdklQOTNTX3BNY0QwWVdjTXN5UmlrTXJNeUlrT0VFLVJKbTd5MktDdUZ1T0NESEVvY3hFN3RaUkw1M3V6Z1VyaWpsbWFuQlBHRXI3Q1FZU3ZLcWhtVzRaeEJST2dNUktHdEtBcVBHLWE2R3M2SW5tcy00RVdIajJCSlctaC0zUmQ3dERHR3hoUUhCYUhfU0tfYklvRGl6UXcwNEwzSGtmeXdJZE5IcXBrb1JNeGpKR21uYw?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "salon",
+    "salon owner"
+   ]
+  },
+  {
+   "d": "2026-09-12",
+   "src": "Reddit · r/Hairstylist",
+   "hang": "Cộng đồng",
+   "g": "nghe",
+   "imp": "vua",
+   "t": "Surprise in dreads..",
+   "s": "I've (34f) been a hairstylist for 16 years now. I love doing hair and I'm a people pleaser. About 7 years ago I worked in a salon in the mountains of Colorado (I'd rather remain vague about the town). I worked there for several years, saw all walks of folks and have many stories. One that has always stuck with me, is also one that haunts my dreams. A man came into our salon, he had long, thick, brown dreads. He sa…",
+   "w": "Tin nghề và vận hành salon. Liên quan tới hair, hairstylist, haircut. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://www.reddit.com/r/hairstylist/comments/1we2pis/surprise_in_dreads/",
+   "khongPT": false,
+   "khoa": [
+    "hair",
+    "hairstylist",
+    "haircut",
+    "salon",
+    "tips",
+    "before and after"
+   ]
+  },
+  {
+   "d": "2026-09-12",
+   "src": "Reddit · r/Hairstylist",
+   "hang": "Cộng đồng",
+   "g": "nghe",
+   "imp": "thap",
+   "t": "i feel like poop from a butt",
+   "s": "i had this client yesterday and she was so sweet and we made good conversation but she emailed the salon after her appointment saying she didn't like her hair :( i think i might have toned her too cool so her hair looked darker (9N 9GI and a little bit of 9V). i also did a root tap with 7n shades eq which i asked if she'd like to try the root tap because she said she likes lived in. i also feel like the way i foil…",
+   "w": "Tin nghề và vận hành salon. Liên quan tới hair, salon, stylist. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://www.reddit.com/r/hairstylist/comments/1we88fa/i_feel_like_poop_from_a_butt/",
+   "khongPT": false,
+   "khoa": [
+    "hair",
+    "salon",
+    "stylist",
+    "client",
+    "appointment"
+   ]
+  },
+  {
    "d": "2026-09-11",
    "src": "American Salon",
    "hang": "Nghề",
@@ -111,22 +166,6 @@
    "khongPT": false,
    "khoa": [
     "salon"
-   ]
-  },
-  {
-   "d": "2026-09-11",
-   "src": "American Salon",
-   "hang": "Nghề",
-   "g": "nghe",
-   "imp": "thap",
-   "t": "Beauty Industry Honors the Legacy of Dominique Ly’Var Tucker",
-   "s": "",
-   "w": "Tin nghề và vận hành salon. Liên quan tới salon, beauty industry. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVmNjeWs5RzN2QWxvNTJfUTFPU0JQZy1NRlhfWEpxclQzQkVTclF2WUd2VDM2RDBzaWVTZ1JfRm9NLWdiX2ZnYThGVy1YS1hiM2JOZ1NCWkd6YmdfM181cjdsNkltNDFWVzVRU0JKYVVSby1zYzdCNDBJMnQyZTl2Q3kzc3dGSmFlN1BISnRiQ09vY1lY?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "salon",
-    "beauty industry"
    ]
   },
   {
@@ -161,22 +200,6 @@
   },
   {
    "d": "2026-09-11",
-   "src": "The Daily News of Newburyport",
-   "hang": "Tổng hợp",
-   "g": "nghe",
-   "imp": "thap",
-   "t": "A cut above: Linda's Alpha Omega Salon owner retiring soon",
-   "s": "",
-   "w": "Tin nghề và vận hành salon. Liên quan tới salon, salon owner. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQS1M4N1dvTWJuVjNJNEtmdEJnSVE1bS1SNUc4WHNXdlJWaTZhRXdSNFoxM3FqWXVFVm5NMlNaOVhKb1dXckMzZ3hSSUxfZi1yYmZNTFRDS0g3VFBhQVo5LTlFSnQxQTJhOWVzanZSd0pDUmRrdVlrbmtJNXZpY3h5dGd1WDJHaVFJS0x3V1VfQ0ZnX25lR0czQjR2bWVwWXhrS3lqLXZwMHVtLXJtcWRaR1FKSmNHU3VoU2ZLcmFOZzAzQlk4QldFSk8wR2gtWmdNNUtxY0pJYmZwZTFLajNVNDBFaE1uYlZNaEE?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "salon",
-    "salon owner"
-   ]
-  },
-  {
-   "d": "2026-09-11",
    "src": "Reddit · r/Hairstylist",
    "hang": "Cộng đồng",
    "g": "nghe",
@@ -205,6 +228,38 @@
    "khoa": []
   },
   {
+   "d": "2026-09-11",
+   "src": "American Salon",
+   "hang": "Nghề",
+   "g": "nghe",
+   "imp": "thap",
+   "t": "Beauty Industry Honors the Legacy of Dominique Ly’Var Tucker",
+   "s": "",
+   "w": "Tin nghề và vận hành salon. Liên quan tới salon, beauty industry. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVmNjeWs5RzN2QWxvNTJfUTFPU0JQZy1NRlhfWEpxclQzQkVTclF2WUd2VDM2RDBzaWVTZ1JfRm9NLWdiX2ZnYThGVy1YS1hiM2JOZ1NCWkd6YmdfM181cjdsNkltNDFWVzVRU0JKYVVSby1zYzdCNDBJMnQyZTl2Q3kzc3dGSmFlN1BISnRiQ09vY1lY?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "salon",
+    "beauty industry"
+   ]
+  },
+  {
+   "d": "2026-09-11",
+   "src": "The Daily News of Newburyport",
+   "hang": "Tổng hợp",
+   "g": "nghe",
+   "imp": "thap",
+   "t": "A cut above: Linda's Alpha Omega Salon owner retiring soon",
+   "s": "",
+   "w": "Tin nghề và vận hành salon. Liên quan tới salon, salon owner. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQS1M4N1dvTWJuVjNJNEtmdEJnSVE1bS1SNUc4WHNXdlJWaTZhRXdSNFoxM3FqWXVFVm5NMlNaOVhKb1dXckMzZ3hSSUxfZi1yYmZNTFRDS0g3VFBhQVo5LTlFSnQxQTJhOWVzanZSd0pDUmRrdVlrbmtJNXZpY3h5dGd1WDJHaVFJS0x3V1VfQ0ZnX25lR0czQjR2bWVwWXhrS3lqLXZwMHVtLXJtcWRaR1FKSmNHU3VoU2ZLcmFOZzAzQlk4QldFSk8wR2gtWmdNNUtxY0pJYmZwZTFLajNVNDBFaE1uYlZNaEE?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "salon",
+    "salon owner"
+   ]
+  },
+  {
    "d": "2026-09-10",
    "src": "Modern Salon",
    "hang": "Nghề",
@@ -221,7 +276,7 @@
   },
   {
    "d": "2026-09-10",
-   "src": "hji.co.uk",
+   "src": "Hairdressers Journal",
    "hang": "Nghề",
    "g": "nghe",
    "imp": "thap",
@@ -367,22 +422,6 @@
   },
   {
    "d": "2026-09-09",
-   "src": "American Salon",
-   "hang": "Nghề",
-   "g": "nghe",
-   "imp": "vua",
-   "t": "Six Standout Education Opportunities for Beauty Pros This Fall",
-   "s": "",
-   "w": "Tin nghề và vận hành salon. Liên quan tới salon. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRExQWlFUVlZ5RWswVF9DUHE2U3NjaWYwRmxkcFJNTmo1TmpXbXpDY1B3NW1DWndlc1M2Q2ZBWGF4YV9RQ2c5LXE4c3BnRVVES2VVX2s2WUhrTnJJVk9GaDJwb2o4VG5KcjJGM3lzd3Y2Mlh3ejJjelFySVRrMnpZY0VwaTFJdWFuMXdLaXpCVzF2Zmt1YWxkVQ?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "salon",
-    "education"
-   ]
-  },
-  {
-   "d": "2026-09-09",
    "src": "Reddit · r/Hairstylist",
    "hang": "Cộng đồng",
    "g": "nghe",
@@ -421,6 +460,22 @@
    "u": "https://www.reddit.com/r/hairstylist/comments/1wbr47a/8_hour_color_correction/",
    "khongPT": false,
    "khoa": []
+  },
+  {
+   "d": "2026-09-09",
+   "src": "American Salon",
+   "hang": "Nghề",
+   "g": "nghe",
+   "imp": "vua",
+   "t": "Six Standout Education Opportunities for Beauty Pros This Fall",
+   "s": "",
+   "w": "Tin nghề và vận hành salon. Liên quan tới salon. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRExQWlFUVlZ5RWswVF9DUHE2U3NjaWYwRmxkcFJNTmo1TmpXbXpDY1B3NW1DWndlc1M2Q2ZBWGF4YV9RQ2c5LXE4c3BnRVVES2VVX2s2WUhrTnJJVk9GaDJwb2o4VG5KcjJGM3lzd3Y2Mlh3ejJjelFySVRrMnpZY0VwaTFJdWFuMXdLaXpCVzF2Zmt1YWxkVQ?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "salon",
+    "education"
+   ]
   },
   {
    "d": "2026-09-09",
@@ -1156,7 +1211,7 @@
   },
   {
    "d": "2026-09-01",
-   "src": "hji.co.uk",
+   "src": "Hairdressers Journal",
    "hang": "Nghề",
    "g": "nghe",
    "imp": "vua",
@@ -1314,7 +1369,7 @@
   },
   {
    "d": "2026-08-31",
-   "src": "KSL.com",
+   "src": "KSL News",
    "hang": "Tổng hợp",
    "g": "nghe",
    "imp": "thap",
@@ -1909,53 +1964,98 @@
    ]
   },
   {
-   "d": "2026-08-27",
-   "src": "Reddit · r/Hairstylist",
-   "hang": "Cộng đồng",
-   "g": "nghe",
+   "d": "2026-09-13",
+   "src": "ScienceDaily · Rụng tóc",
+   "hang": "Khoa học",
+   "g": "khoahoc",
+   "imp": "cao",
+   "t": "Ozempic and Wegovy may raise hair loss risk in some men",
+   "s": "GLP-1 drugs such as Ozempic, Wegovy, and Zepbound may increase hair-loss risk by 7% in men who are already genetically susceptible to male-pattern baldness. The findings suggest thinning hair may not be caused only by rapid weight loss and could also reflect a biological link between GLP-1 activity and hair follicles.",
+   "w": "Bài nghiên cứu hoặc tin khoa học. Có tín hiệu bằng chứng: findings. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://www.sciencedaily.com/releases/2026/09/260911214241.htm",
+   "khongPT": false,
+   "khoa": [
+    "findings",
+    "hair",
+    "hair loss",
+    "thinning hair"
+   ]
+  },
+  {
+   "d": "2026-09-12",
+   "src": "Wiley: International Journal of Dermatology: Table of Contents",
+   "hang": "Học thuật",
+   "g": "khoahoc",
    "imp": "thap",
-   "t": "How do we feel about strangers asking for advice on how to do their own hair?",
-   "s": "Basically how do you even respond to this? submitted by /u/vanillabeaner69 [link] [comments]",
-   "w": "Tin nghề và vận hành salon. Liên quan tới hair. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://www.reddit.com/r/hairstylist/comments/1vzwjr3/how_do_we_feel_about_strangers_asking_for_advice/",
+   "t": "Scalp Dysesthesia: Emerging Pathophysiologic Insights and Therapeutic Implications",
+   "s": "International Journal of Dermatology, EarlyView.",
+   "w": "Bài nghiên cứu hoặc tin khoa học. Liên quan tới scalp. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://onlinelibrary.wiley.com/doi/10.1111/ijd.70675?af=R",
+   "khongPT": false,
+   "khoa": [
+    "scalp"
+   ]
+  },
+  {
+   "d": "2026-09-12",
+   "src": "Wiley: International Journal of Dermatology: Table of Contents",
+   "hang": "Học thuật",
+   "g": "khoahoc",
+   "imp": "thap",
+   "t": "The Gut Microbiome as a Therapeutic Target in Alopecia Areata: Not Yet Part of the Patient Treatment Plan",
+   "s": "International Journal of Dermatology, Volume 65, Issue 10, Page 2001-2004, October 2026.",
+   "w": "Bài nghiên cứu hoặc tin khoa học. Liên quan tới alopecia. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://onlinelibrary.wiley.com/doi/10.1111/ijd.70437?af=R",
+   "khongPT": false,
+   "khoa": [
+    "alopecia"
+   ]
+  },
+  {
+   "d": "2026-09-12",
+   "src": "Wiley: International Journal of Dermatology: Table of Contents",
+   "hang": "Học thuật",
+   "g": "khoahoc",
+   "imp": "thap",
+   "t": "RAF‐Kinase Inhibitor Associated Hair Hypopigmentation",
+   "s": "International Journal of Dermatology, Volume 65, Issue 10, Page 2172-2174, October 2026.",
+   "w": "Bài nghiên cứu hoặc tin khoa học. Liên quan tới hair. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://onlinelibrary.wiley.com/doi/10.1111/ijd.70442?af=R",
    "khongPT": false,
    "khoa": [
     "hair"
    ]
   },
   {
-   "d": "2026-08-27",
-   "src": "Reddit · r/Hairstylist",
-   "hang": "Cộng đồng",
-   "g": "nghe",
+   "d": "2026-09-12",
+   "src": "Wiley: International Journal of Dermatology: Table of Contents",
+   "hang": "Học thuật",
+   "g": "khoahoc",
    "imp": "thap",
-   "t": "45 minute consultation and I still have no idea what we are doing",
-   "s": "I have a client coming in a couple days that I did a consultation with and the more I think about it, the more it breaks my brain. She came in with no inspo photos and no clear direction. She wants blonde and copper highlights. Not copper with blonde highlights, not ribbons of copper, some highlights blonde and some highlights copper. Her natural is like a 6/7. She also wants a pixie but wants to grow her hair out…",
-   "w": "Tin nghề và vận hành salon. Liên quan tới hair, haircut. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://www.reddit.com/r/hairstylist/comments/1vzji0g/45_minute_consultation_and_i_still_have_no_idea/",
+   "t": "Effectiveness and Safety of Topical Finasteride for Male Androgenetic Alopecia: Real World Data",
+   "s": "International Journal of Dermatology, Volume 65, Issue 10, Page 2102-2107, October 2026.",
+   "w": "Bài nghiên cứu hoặc tin khoa học. Liên quan tới alopecia, androgenetic, finasteride. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://onlinelibrary.wiley.com/doi/10.1111/ijd.70394?af=R",
    "khongPT": false,
    "khoa": [
-    "hair",
-    "haircut",
-    "consultation",
-    "client"
+    "alopecia",
+    "androgenetic",
+    "finasteride"
    ]
   },
   {
-   "d": "2026-08-27",
-   "src": "Cosmetics Business",
-   "hang": "Nghề",
-   "g": "nghe",
-   "imp": "vua",
-   "t": "Exclusive: Estée Lauder Companies establishes regional Hair Care Hub led by new VP and GM Kathleen Mitchell",
-   "s": "Newly appointed VP and GM Kathleen Mitchell will lead Estée Lauder Companies new Hair Care Hub, which is based in London, UK. It will serve as ‘a regional centre of excellence’ for the beauty giant’s hair care portfolio",
-   "w": "Tin nghề và vận hành salon. Liên quan tới hair, hair care. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://www.cosmeticsbusiness.com/elc-establishes-global-hair-care-hub",
+   "d": "2026-09-12",
+   "src": "Wiley: International Journal of Dermatology: Table of Contents",
+   "hang": "Học thuật",
+   "g": "khoahoc",
+   "imp": "thap",
+   "t": "Epidemiology, Diagnosis and Management of Alopecia Areata: An Asia‐Pacific Modified Delphi Expert Panel Recommendations",
+   "s": "International Journal of Dermatology, Volume 65, Issue 10, Page 2091-2101, October 2026.",
+   "w": "Bài nghiên cứu hoặc tin khoa học. Liên quan tới alopecia. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://onlinelibrary.wiley.com/doi/10.1111/ijd.70335?af=R",
    "khongPT": false,
    "khoa": [
-    "hair",
-    "hair care",
-    "portfolio"
+    "alopecia"
    ]
   },
   {
@@ -1973,6 +2073,24 @@
     "scalp",
     "alopecia",
     "androgenetic"
+   ]
+  },
+  {
+   "d": "2026-09-12",
+   "src": "Reddit · r/HaircareScience",
+   "hang": "Cộng đồng",
+   "g": "khoahoc",
+   "imp": "thap",
+   "t": "Does oxidative hair color really accelerate the fading of a Brazilian blowout?",
+   "s": "Hi, During my training, I learned that oxidative coloring should be done before a Brazilian blowout (a smoothing treatment using keratin set with formalin or formaldehyde-releasing agents), because otherwise the treatment won't last as long. However, I had previously learned—before discovering it was a myth—that salts and SLS-based shampoos also accelerate fading. I’m now questioning some of what I know, as I have…",
+   "w": "Bài nghiên cứu hoặc tin khoa học. Liên quan tới hair, hair color, keratin. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://www.reddit.com/r/HaircareScience/comments/1wdv60d/does_oxidative_hair_color_really_accelerate_the/",
+   "khongPT": false,
+   "khoa": [
+    "hair",
+    "hair color",
+    "keratin",
+    "training"
    ]
   },
   {
@@ -1995,7 +2113,7 @@
    "src": "Reddit · r/HaircareScience",
    "hang": "Cộng đồng",
    "g": "khoahoc",
-   "imp": "thap",
+   "imp": "vua",
    "t": "Are there any scientifically backed methods or ingredients proven to increase individual hair strand diameter/thickness over time?",
    "s": "As per title. submitted by /u/somerandomname_- [link] [comments]",
    "w": "Bài nghiên cứu hoặc tin khoa học. Liên quan tới hair. Gợi ý content sẽ có sau lần chạy phân tích tới.",
@@ -2039,6 +2157,23 @@
   },
   {
    "d": "2026-09-09",
+   "src": "News9live",
+   "hang": "Tổng hợp",
+   "g": "khoahoc",
+   "imp": "cao",
+   "t": "Hair loss breakthrough? Arthritis drug Rinvoq delivers strong results in Phase 3 trial",
+   "s": "",
+   "w": "Bài nghiên cứu hoặc tin khoa học. Có tín hiệu bằng chứng: trial. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNlNUZ0dpbjNkelBaNS1mNUppMi1MOGRHdkVWdi13aTFLU0JZWlNraklxekxlMTI3bmVlamJGN3AtUDZyMkV0Q3ZVV3BSNHJ6cFc0VzBhQmpqazhKc2RuZ1pQb05uSm1yWkpUUzQ5Y29sNkxuaVlUQ1doRjVLWVpmTGpzcndzSWxaVDlZU0w3dG95ZlZmVHdGaWRjaW1DVFhuakc40gGoAUFVX3lxTE9fWXp5QVVfckx2WnJ5bUN1RTltQ1dITkhtV0VZVFdjN2JqZ1FyTW5MSjYxZWp0S3hxMU1PaEZKTmxzXzhOYUZVRHBGOUNKT0ZXQW9iSjZlSHZpZGVXQVNldzg4RmtJcmc4THlmbDZjNjZIcmM3NmR4M0tIb1VmYTZzX01SSkFRemllS1lla25yb3VMWTRiNjZWR1pFMFlDd3pjdmEzeEpUVw?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "trial",
+    "hair",
+    "hair loss"
+   ]
+  },
+  {
+   "d": "2026-09-09",
    "src": "Reddit · r/HaircareScience",
    "hang": "Cộng đồng",
    "g": "khoahoc",
@@ -2054,23 +2189,6 @@
     "hair mask",
     "shampoo",
     "training"
-   ]
-  },
-  {
-   "d": "2026-09-09",
-   "src": "News9live",
-   "hang": "Tổng hợp",
-   "g": "khoahoc",
-   "imp": "cao",
-   "t": "Hair loss breakthrough? Arthritis drug Rinvoq delivers strong results in Phase 3 trial",
-   "s": "",
-   "w": "Bài nghiên cứu hoặc tin khoa học. Có tín hiệu bằng chứng: trial. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNlNUZ0dpbjNkelBaNS1mNUppMi1MOGRHdkVWdi13aTFLU0JZWlNraklxekxlMTI3bmVlamJGN3AtUDZyMkV0Q3ZVV3BSNHJ6cFc0VzBhQmpqazhKc2RuZ1pQb05uSm1yWkpUUzQ5Y29sNkxuaVlUQ1doRjVLWVpmTGpzcndzSWxaVDlZU0w3dG95ZlZmVHdGaWRjaW1DVFhuakc40gGoAUFVX3lxTE9fWXp5QVVfckx2WnJ5bUN1RTltQ1dITkhtV0VZVFdjN2JqZ1FyTW5MSjYxZWp0S3hxMU1PaEZKTmxzXzhOYUZVRHBGOUNKT0ZXQW9iSjZlSHZpZGVXQVNldzg4RmtJcmc4THlmbDZjNjZIcmM3NmR4M0tIb1VmYTZzX01SSkFRemllS1lla25yb3VMWTRiNjZWR1pFMFlDd3pjdmEzeEpUVw?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "trial",
-    "hair",
-    "hair loss"
    ]
   },
   {
@@ -2240,29 +2358,14 @@
   },
   {
    "d": "2026-09-04",
-   "src": "Yahoo Finance",
+   "src": "Healio",
    "hang": "Tổng hợp",
    "g": "khoahoc",
    "imp": "thap",
-   "t": "New U.S. Treatment Recommendations Published for Severe Alopecia Areata in Adults",
+   "t": "Consensus establishes oral JAKs as first-line treatment for severe alopecia areata",
    "s": "",
    "w": "Bài nghiên cứu hoặc tin khoa học. Liên quan tới alopecia. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSHNkdnNRX3NJRkVIYndOTmptMG94Q2JDZURldkFUU0hHaTYzT0NIczduMVNpallmWGtkUmx2SVFYazVJV3ZmbnNUWktFMjNaRnA0ZHQxMWVUdk9CcGl4SzRsa1otN2VEZ0ZXaHo3cjFVZTRTcU9YN3NQNmNaMHhPNkNNSGVjMjI5aWhfcFkxMWZnaEJna01WODhlSWVhSXpTUWlqVTFiWnM?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "alopecia"
-   ]
-  },
-  {
-   "d": "2026-09-04",
-   "src": "Yahoo Health",
-   "hang": "Tổng hợp",
-   "g": "khoahoc",
-   "imp": "thap",
-   "t": "A bald spot out of nowhere? What dermatologists say about alopecia areata",
-   "s": "",
-   "w": "Bài nghiên cứu hoặc tin khoa học. Liên quan tới alopecia. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTFFSVGV4ZWNFbkFKT0NlR1BWY0Q4dGpzWVU1RENwaW4xWWhlMEh6Q3ZWajlDZk05dHFjSkF1aDBtdi1aenB4N0RjS0ZSd1V2ZVZrTG90ZzU1UWlUT2M3bXVKSXZwMWpaa050UjIyYXV5SllEYmV1dUpLVlpFSkYzbUkzRG8wZ2IyTmhwOXpVbHJjSlBDWW1CaVB4bU1GWF9LNmhyc3RXNUh4dElla3c?oc=5",
+   "u": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNYV9RX3p6YUM1Vl8xdFFNZ2FxcTV6dl9KNHFVWlJrUlRYX1RKcUhEcmllSUREZ0ZvYVFBLTZuNzc4TWVpajZkdk80T2FLeGFKQVdjY3l0Z25ydS1NRTRRNmZiNk04QS1IWDdselNkeTZzUV9IV0l1SkwyczJPMTRTUjdDLXNwc2s4cG15VTFrZmU2eFhGYjBVdnhhT0lQNV93TDVFWE5xMGwyUDA2YXVQVjc4OS1VUV9PUDg3V3ZZZWV0NXd5Vngyekx3?oc=5",
    "khongPT": false,
    "khoa": [
     "alopecia"
@@ -2281,6 +2384,36 @@
    "khongPT": false,
    "khoa": [
     "hair"
+   ]
+  },
+  {
+   "d": "2026-09-03",
+   "src": "Yahoo Finance",
+   "hang": "Tổng hợp",
+   "g": "khoahoc",
+   "imp": "thap",
+   "t": "New U.S. Treatment Recommendations Published for Severe Alopecia Areata in Adults",
+   "s": "",
+   "w": "Bài nghiên cứu hoặc tin khoa học. Liên quan tới alopecia. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSHNkdnNRX3NJRkVIYndOTmptMG94Q2JDZURldkFUU0hHaTYzT0NIczduMVNpallmWGtkUmx2SVFYazVJV3ZmbnNUWktFMjNaRnA0ZHQxMWVUdk9CcGl4SzRsa1otN2VEZ0ZXaHo3cjFVZTRTcU9YN3NQNmNaMHhPNkNNSGVjMjI5aWhfcFkxMWZnaEJna01WODhlSWVhSXpTUWlqVTFiWnM?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "alopecia"
+   ]
+  },
+  {
+   "d": "2026-09-03",
+   "src": "Yahoo Health",
+   "hang": "Tổng hợp",
+   "g": "khoahoc",
+   "imp": "thap",
+   "t": "A bald spot out of nowhere? What dermatologists say about alopecia areata",
+   "s": "",
+   "w": "Bài nghiên cứu hoặc tin khoa học. Liên quan tới alopecia. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTFFSVGV4ZWNFbkFKT0NlR1BWY0Q4dGpzWVU1RENwaW4xWWhlMEh6Q3ZWajlDZk05dHFjSkF1aDBtdi1aenB4N0RjS0ZSd1V2ZVZrTG90ZzU1UWlUT2M3bXVKSXZwMWpaa050UjIyYXV5SllEYmV1dUpLVlpFSkYzbUkzRG8wZ2IyTmhwOXpVbHJjSlBDWW1CaVB4bU1GWF9LNmhyc3RXNUh4dElla3c?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "alopecia"
    ]
   },
   {
@@ -2540,6 +2673,21 @@
   },
   {
    "d": "2026-08-28",
+   "src": "Yahoo Sports",
+   "hang": "Tổng hợp",
+   "g": "khoahoc",
+   "imp": "thap",
+   "t": "WWE’s Thea Hail Confirms Alopecia Areata Diagnosis, Shares New Look",
+   "s": "",
+   "w": "Bài nghiên cứu hoặc tin khoa học. Liên quan tới alopecia. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPbkV4eHRjNGMxNUF0WEJMWEpaQkxpbm1obXg4aHBoRVRXcFNudkRoYzZVaXJEa2ZEM0dUMzVhc215LWNEbGxaR29LVk9rdUR5U3hKM2pwNkdZRFVXaDljNlR2amVSNTUyUlduNHpPcy1YczdDOUVUeWNBZVFhTFJNVU1PUFdFOHM?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "alopecia"
+   ]
+  },
+  {
+   "d": "2026-08-28",
    "src": "Dermatology Times",
    "hang": "Chuyên trang",
    "g": "khoahoc",
@@ -2552,21 +2700,6 @@
    "khoa": [
     "study",
     "scalp"
-   ]
-  },
-  {
-   "d": "2026-08-28",
-   "src": "Yahoo Sports",
-   "hang": "Tổng hợp",
-   "g": "khoahoc",
-   "imp": "thap",
-   "t": "WWE’s Thea Hail Confirms Alopecia Areata Diagnosis, Shares New Look",
-   "s": "",
-   "w": "Bài nghiên cứu hoặc tin khoa học. Liên quan tới alopecia. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPbkV4eHRjNGMxNUF0WEJMWEpaQkxpbm1obXg4aHBoRVRXcFNudkRoYzZVaXJEa2ZEM0dUMzVhc215LWNEbGxaR29LVk9rdUR5U3hKM2pwNkdZRFVXaDljNlR2amVSNTUyUlduNHpPcy1YczdDOUVUeWNBZVFhTFJNVU1PUFdFOHM?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "alopecia"
    ]
   },
   {
@@ -3169,7 +3302,7 @@
   },
   {
    "d": "2026-08-21",
-   "src": "telanganatoday.com",
+   "src": "Telangana Today",
    "hang": "Tổng hợp",
    "g": "khoahoc",
    "imp": "thap",
@@ -3368,7 +3501,7 @@
    "src": "Reddit · r/HaircareScience",
    "hang": "Cộng đồng",
    "g": "khoahoc",
-   "imp": "vua",
+   "imp": "thap",
    "t": "How does metal residue affect hair?",
    "s": "As opposed to metals like copper and iron being deposited from washing with hard water, how does residue from actively working with metals like silver and brass affect hair, and how can the issues it might cause be resolved? submitted by /u/mycutterr [link] [comments]",
    "w": "Bài nghiên cứu hoặc tin khoa học. Liên quan tới hair. Gợi ý content sẽ có sau lần chạy phân tích tới.",
@@ -3461,21 +3594,6 @@
     "hair regrowth",
     "hair loss",
     "alopecia"
-   ]
-  },
-  {
-   "d": "2026-08-18",
-   "src": "Nigeria Communications Week",
-   "hang": "Tổng hợp",
-   "g": "khoahoc",
-   "imp": "thap",
-   "t": "Capelli Institute Commits to Advancing Trichology in Nigeria",
-   "s": "",
-   "w": "Bài nghiên cứu hoặc tin khoa học. Liên quan tới trichology. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSDE4X0x3c0FrdjJ1bkhVSE5TcHRzMERqd2x0S0p4UWlmbkpvUnFseHplZGQ1YW1LWlhKcjVOYzAxWkhDQ1drdm45dV9kdURWR0pHSE92U0luUWt1RXJDZEhDaGFaa200dS11MXlYd0lXWmJRS3J5MERrUzV4eF9zUzhfTjhtRlh1UVlIT2pFamRKRGFyX0QwRTBPc3Jqc1F3TnVJQzdXMDk?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "trichology"
    ]
   },
   {
@@ -3670,6 +3788,36 @@
   },
   {
    "d": "2026-08-13",
+   "src": "Physician's Weekly",
+   "hang": "Tổng hợp",
+   "g": "khoahoc",
+   "imp": "thap",
+   "t": "Upadacitinib for Severe Alopecia Areata",
+   "s": "",
+   "w": "Bài nghiên cứu hoặc tin khoa học. Liên quan tới alopecia. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOWS00SnJuQ1d5c3NfWTlnQ01DNFFBLVpyVHloODF3QXVVTDlSeHNRcTZkQ0FRVndBM24wYTlkY0pZYmpXRUh2eTJBRC1ra01fc0hmMWR1WjV2TGhaRFBRd0dmX0tqS09nN2luVGZSU0V0a1NiWDhPTFNPUWhLRUJmMGVuNDV2VXJGX0N4dkNfSlRMelV5bTRmZ294clZaVDFnbWxpSnp1V05jQm1CTjFMQjJwVWo2RFE?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "alopecia"
+   ]
+  },
+  {
+   "d": "2026-08-13",
+   "src": "MedPage Today",
+   "hang": "Tổng hợp",
+   "g": "khoahoc",
+   "imp": "thap",
+   "t": "JAK Inhibitor Might Be the Most Effective One Yet for Severe Alopecia",
+   "s": "",
+   "w": "Bài nghiên cứu hoặc tin khoa học. Liên quan tới alopecia. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9TeHBWNzNQeGpOWGtCT2VUOTBvOEJRbXM1Sk9McjVndXZYeXk2TG5hMHNHNkxWbnJSOFdFTVJLbDlDS3BLZzVYMEg5YjFaUWZ0US0zZWMxNnIyMFNxczRIQW43MFUyajl4SHo0Q1JJMlFaQU9j?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "alopecia"
+   ]
+  },
+  {
+   "d": "2026-08-13",
    "src": "Dermatology Times",
    "hang": "Chuyên trang",
    "g": "khoahoc",
@@ -3686,21 +3834,6 @@
   },
   {
    "d": "2026-08-13",
-   "src": "physiciansweekly.com",
-   "hang": "Tổng hợp",
-   "g": "khoahoc",
-   "imp": "thap",
-   "t": "Upadacitinib for Severe Alopecia Areata",
-   "s": "",
-   "w": "Bài nghiên cứu hoặc tin khoa học. Liên quan tới alopecia. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOWS00SnJuQ1d5c3NfWTlnQ01DNFFBLVpyVHloODF3QXVVTDlSeHNRcTZkQ0FRVndBM24wYTlkY0pZYmpXRUh2eTJBRC1ra01fc0hmMWR1WjV2TGhaRFBRd0dmX0tqS09nN2luVGZSU0V0a1NiWDhPTFNPUWhLRUJmMGVuNDV2VXJGX0N4dkNfSlRMelV5bTRmZ294clZaVDFnbWxpSnp1V05jQm1CTjFMQjJwVWo2RFE?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "alopecia"
-   ]
-  },
-  {
-   "d": "2026-08-13",
    "src": "Physician's Weekly",
    "hang": "Tổng hợp",
    "g": "khoahoc",
@@ -3712,21 +3845,6 @@
    "khongPT": false,
    "khoa": [
     "report",
-    "alopecia"
-   ]
-  },
-  {
-   "d": "2026-08-13",
-   "src": "medpagetoday.com",
-   "hang": "Tổng hợp",
-   "g": "khoahoc",
-   "imp": "thap",
-   "t": "JAK Inhibitor Might Be the Most Effective One Yet for Severe Alopecia",
-   "s": "",
-   "w": "Bài nghiên cứu hoặc tin khoa học. Liên quan tới alopecia. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9TeHBWNzNQeGpOWGtCT2VUOTBvOEJRbXM1Sk9McjVndXZYeXk2TG5hMHNHNkxWbnJSOFdFTVJLbDlDS3BLZzVYMEg5YjFaUWZ0US0zZWMxNnIyMFNxczRIQW43MFUyajl4SHo0Q1JJMlFaQU9j?oc=5",
-   "khongPT": false,
-   "khoa": [
     "alopecia"
    ]
   },
@@ -3764,113 +3882,18 @@
    ]
   },
   {
-   "d": "2026-08-13",
-   "src": "HCPLive",
-   "hang": "Tổng hợp",
-   "g": "khoahoc",
-   "imp": "thap",
-   "t": "UP-AA: Upadacitinib Attains Primary Endpoint in New Alopecia Areata Data",
-   "s": "",
-   "w": "Bài nghiên cứu hoặc tin khoa học. Liên quan tới alopecia. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPTUp1MnE2VVBmOE5aSjNKNEpyRXZMTXpsa2x5UzhXdnNwZ2tFVENwRDZRNERpWWtFUzRySXVGREFzdG1ZY2lteU5zRmhrdmR0RnJ4LUtVcjZhRWhLU2JGSm8tYXBZTXk0SzRLc0pPUVZfMWZ2RUlPc0gza2dJOXB5V0l0em9ScEdDZUtYeW10LUNtVFBZZmROeQ?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "alopecia"
-   ]
-  },
-  {
-   "d": "2026-08-12",
-   "src": "Medscape",
-   "hang": "Tổng hợp",
-   "g": "khoahoc",
-   "imp": "thap",
-   "t": "Upadacitinib Effective for Severe Alopecia Areata",
-   "s": "",
-   "w": "Bài nghiên cứu hoặc tin khoa học. Liên quan tới alopecia. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNMThnV2ZlOWxkY05uZWl4WURyNkNiMk9vZUJfTnhZZERKSEZ2b0dGS1Y0NmtBVFJQVXBMTTZsVFhReGptZWctejJUT1FnM01QSjRPMTd4ZXNfTUcyelR0YmFMcmNMajYwRmZsRUVzVjc2SDU1c0U3NThuLXFiOTRCOWpFc040eEJiNF9lZUJpYVV0YTYwZG5Kdy1VSUxyTm1PbFhZeldUN2p3MDBaV19j?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "alopecia"
-   ]
-  },
-  {
-   "d": "2026-08-12",
-   "src": "Reddit · r/HaircareScience",
+   "d": "2026-09-13",
+   "src": "Reddit · r/femalehairadvice",
    "hang": "Cộng đồng",
-   "g": "khoahoc",
+   "g": "xuhuong",
    "imp": "thap",
-   "t": "Does Fermented Yeast protein increase DHT leading to hair loss?",
-   "s": "Does Fermented Yeast protein increase DHT leading to hair loss? submitted by /u/potato-chips_ [link] [comments]",
-   "w": "Bài nghiên cứu hoặc tin khoa học. Liên quan tới hair, hair loss. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://www.reddit.com/r/HaircareScience/comments/1vm6f6v/does_fermented_yeast_protein_increase_dht_leading/",
+   "t": "Should I do it?",
+   "s": "Long hair is me now. Short hair is what I’m considering but I’ve never had hair that short before so I’m scared. submitted by /u/Elizabeth_Eton [link] [comments]",
+   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://www.reddit.com/r/femalehairadvice/comments/1wenukd/should_i_do_it/",
    "khongPT": false,
    "khoa": [
-    "hair",
-    "hair loss"
-   ]
-  },
-  {
-   "d": "2026-08-12",
-   "src": "Ovid",
-   "hang": "Tổng hợp",
-   "g": "khoahoc",
-   "imp": "cao",
-   "t": "Application of AFM Technique in the Study of Human Hair – A Narrative Review",
-   "s": "",
-   "w": "Bài nghiên cứu hoặc tin khoa học. Có tín hiệu bằng chứng: study. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNa3NYbU1QLWk1bnJQVkF4T3FCZC1TN2trbXJYM256WWhad2U4ODA3WnQ4eDB5TlFOb2F0U25reFhkTDhRMXdiTW41eGJ4RWdzZ1VSUWJfMXZiODNfamtoQU9Yc1BvcmtYd1UzMTBkSHA0alZaYjdaTkVxLXhNVzNsM2xLN1NRWHdfdVd4UFR1VXpRTnh6a2szb3ZkR1AwRWh5ejNlSUs4UC0yTjJCX0RSU0kwZHNVQmJHeDFv?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "study",
     "hair"
-   ]
-  },
-  {
-   "d": "2026-08-12",
-   "src": "Wiley: Skin Research and Technology: Table of Contents",
-   "hang": "Học thuật",
-   "g": "khoahoc",
-   "imp": "cao",
-   "t": "Physiological Characteristics of Scalp Skin With High Sebum Production and the Impacts of Shampoo Cleansing",
-   "s": "Skin Research and Technology, Volume 32, Issue 8, August 2026.",
-   "w": "Bài nghiên cứu hoặc tin khoa học. Có tín hiệu bằng chứng: research. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://onlinelibrary.wiley.com/doi/10.1111/srt.70376?af=R",
-   "khongPT": false,
-   "khoa": [
-    "research",
-    "shampoo",
-    "scalp",
-    "sebum"
-   ]
-  },
-  {
-   "d": "2026-08-12",
-   "src": "Dermatology Times",
-   "hang": "Chuyên trang",
-   "g": "khoahoc",
-   "imp": "thap",
-   "t": "Oral Minoxidil's Steady-State Release Avoids Cardiotoxic Peaks",
-   "s": "",
-   "w": "Bài nghiên cứu hoặc tin khoa học. Liên quan tới minoxidil. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQS0tSS0c4V3dEYVBvMzZhYmg3anB6cFRwdDlyYkxjVFhrOVFiS0NMcU1iUER0TjRtQmRDNVNPbFF4cjdoZ0prZm44T0dsbElZZ3BYX1pOczVhOGtfVDVXYkRiMkQ4N1lqbmdoUFVwSGhYS2lVeHNnRjJIeVBwSDhPejVuQTBnVWZKOG5ISUdSQ1VITkV1dXNSbVpxMUliMVFrc0E?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "minoxidil"
-   ]
-  },
-  {
-   "d": "2026-08-11",
-   "src": "Dermatology Times",
-   "hang": "Tổng hợp",
-   "g": "khoahoc",
-   "imp": "thap",
-   "t": "Expanding Oral JAK Inhibitor Options for Children With AD and Alopecia Areata",
-   "s": "",
-   "w": "Bài nghiên cứu hoặc tin khoa học. Liên quan tới alopecia. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTVJJRUZEOExaT2x2TU1OT3I3QzFqSmd0Y0RMVUI1RVk4VldORjNrdFZtamY1Qy1mWlVaNWwydnRSeXY2QTlmXzlCajJDMXN2QXlSOV9WSjFBZ0tVeWZNSk5YcUd5LUdrWWFPalhEak1XZEVsRjl0S0FPaGVPNXU4QU9ONVdweE4tNWluNFRfTFo4WHZrZ1M4Mk9TRmhoY3dkR3lpekVhS0FyZURKaEs0T1pXd3hLdw?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "alopecia"
    ]
   },
   {
@@ -3890,10 +3913,58 @@
   },
   {
    "d": "2026-09-12",
+   "src": "stylecaster.com",
+   "hang": "Tổng hợp",
+   "g": "xuhuong",
+   "imp": "thap",
+   "t": "Biggest Hair Trend at the 2026 Emmys, According to Jen Atkin",
+   "s": "",
+   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQVGZqSlU1T0FvT3ZZYXlaV3ozWUZJcy1xNkpEUEFGY29sZHBjUDR6a0xQTFpjc2c2RTVOVkktZ0Q1YjBtQk5namdfT0QzWHNBd0cwdWZCMG1kOTZEdGZZNE9GQ0w5RkZhSmx2VGxGdnh1RzJscEJQNUdGQzZCLURXb1pyU1Y3R2JtZC12V0Viaw?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "hair"
+   ]
+  },
+  {
+   "d": "2026-09-12",
+   "src": "Good Housekeeping",
+   "hang": "Tổng hợp",
+   "g": "xuhuong",
+   "imp": "cao",
+   "t": "This is the best way to treat thinning hair with minoxidil, says trichologist Anabel Kingsley",
+   "s": "",
+   "w": "Tin xu hướng và thói quen của khách. Có tín hiệu bằng chứng: trichologist. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOd0d4TWtBdV94YkotaXY0MlUtSGJmd0xjZmFUM182YVItNXVxMjc0cjRkY2ZxOEtSdFl5MzJZbTVDWGxpX29BOU9jU1J5T1NDbno1cUh5OGtjRUJBUmp4Y0lOVXJaX09SaEhRRTZHdWVOd0FDLU1leTZldE9UR0RFcW5McTk1OXhKMmc?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "trichologist",
+    "hair",
+    "minoxidil",
+    "thinning hair"
+   ]
+  },
+  {
+   "d": "2026-09-12",
    "src": "Reddit · r/Hair",
    "hang": "Cộng đồng",
    "g": "xuhuong",
-   "imp": "thap",
+   "imp": "vua",
+   "t": "Dyed my hair myself and I’m pretty proud of it!",
+   "s": "submitted by /u/spicedteaniall [link] [comments]",
+   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://www.reddit.com/r/Hair/comments/1wdynuj/dyed_my_hair_myself_and_im_pretty_proud_of_it/",
+   "khongPT": false,
+   "khoa": [
+    "hair"
+   ]
+  },
+  {
+   "d": "2026-09-12",
+   "src": "Reddit · r/Hair",
+   "hang": "Cộng đồng",
+   "g": "xuhuong",
+   "imp": "vua",
    "t": "Regretting going dark",
    "s": "I think I regret dyeing my hair darker :( should I go back to being blonde? Or try to fade the brown a bit to be lighter? edit: ok y'all have convinced me🤣 that was quick. Thank you guys for your kind words, I think I was just in shock since I've been blonde for yearsss submitted by /u/Weird-Arrival9942 [link] [comments]",
    "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair. Gợi ý content sẽ có sau lần chạy phân tích tới.",
@@ -3901,6 +3972,22 @@
    "khongPT": false,
    "khoa": [
     "hair"
+   ]
+  },
+  {
+   "d": "2026-09-12",
+   "src": "Reddit · r/femalehairadvice",
+   "hang": "Cộng đồng",
+   "g": "xuhuong",
+   "imp": "thap",
+   "t": "How to make hair look like this??",
+   "s": "Is is mainly hair cut or I can only achieve this by styling?? My hair is the same texture as hers submitted by /u/TrainingElectrical27 [link] [comments]",
+   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair, styling. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://www.reddit.com/r/femalehairadvice/comments/1we0c41/how_to_make_hair_look_like_this/",
+   "khongPT": false,
+   "khoa": [
+    "hair",
+    "styling"
    ]
   },
   {
@@ -3936,19 +4023,18 @@
   },
   {
    "d": "2026-09-11",
-   "src": "Paris Select Book",
-   "hang": "Tổng hợp",
+   "src": "Reddit · r/Hair",
+   "hang": "Cộng đồng",
    "g": "xuhuong",
    "imp": "thap",
-   "t": "Faced with an industry gap in grey hair care, she launched her own brand",
-   "s": "",
-   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair, hair care, grey hair. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5jcGpfVzRIaEY0T3FTWkVxWXgwSElyekdXTmZUVm96bEtDMklsa0pTVVp5M1Q0Z00xSFBqT2U1M3A0RUxzT0wwVHNJNG1CUmtabU04NW4xeE1aODhudlFYU3F0OV9HRFFDMzNNYnZ1YnBDS25ZTHc?oc=5",
+   "t": "Help me please I'm going to cry",
+   "s": "EDIT: to the people say I lie and bs, I have no interest in doing this, I would take full responsibility over if I did something with it, to all the experts in hair that claims that's not the same hair, well you are wrong, in the photo that was my hair after brushing it. I don't know what happened over night, I don't know what products she used. All I did after was walking around and going to sleep. I got my hair…",
+   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair, hairdresser. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://www.reddit.com/r/Hair/comments/1wdev8l/help_me_please_im_going_to_cry/",
    "khongPT": false,
    "khoa": [
     "hair",
-    "hair care",
-    "grey hair"
+    "hairdresser"
    ]
   },
   {
@@ -3971,10 +4057,27 @@
   },
   {
    "d": "2026-09-11",
-   "src": "Reddit · r/femalehairadvice",
+   "src": "Reddit · r/FancyFollicles",
    "hang": "Cộng đồng",
    "g": "xuhuong",
    "imp": "thap",
+   "t": "Is this a normal amount of hair loss right after washing out hair dye?",
+   "s": "submitted by /u/babypetal [link] [comments]",
+   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair, hair dye, hair loss. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://www.reddit.com/r/FancyFollicles/comments/1wcv7ut/is_this_a_normal_amount_of_hair_loss_right_after/",
+   "khongPT": false,
+   "khoa": [
+    "hair",
+    "hair dye",
+    "hair loss"
+   ]
+  },
+  {
+   "d": "2026-09-11",
+   "src": "Reddit · r/femalehairadvice",
+   "hang": "Cộng đồng",
+   "g": "xuhuong",
+   "imp": "vua",
    "t": "Should I get it all cut off?",
    "s": "Every few years I get frustrated with my long hair and chop it off…and regret it. It’s at the stage where it’s unmanageable and doesn’t hold a style. Last weekend I sorry 3 hours styling it with my Airwrap and it fell out almost immediately. It’s very thick and coarse. Should I go for the chop (see the AI images) or just get a decent trim like 4/6 inches? All opinions welcome. submitted by /u/CarryAltruistic2698 […",
    "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair, styling. Gợi ý content sẽ có sau lần chạy phân tích tới.",
@@ -3983,6 +4086,23 @@
    "khoa": [
     "hair",
     "styling"
+   ]
+  },
+  {
+   "d": "2026-09-11",
+   "src": "Paris Select Book",
+   "hang": "Tổng hợp",
+   "g": "xuhuong",
+   "imp": "thap",
+   "t": "Faced with an industry gap in grey hair care, she launched her own brand",
+   "s": "",
+   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair, hair care, grey hair. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5jcGpfVzRIaEY0T3FTWkVxWXgwSElyekdXTmZUVm96bEtDMklsa0pTVVp5M1Q0Z00xSFBqT2U1M3A0RUxzT0wwVHNJNG1CUmtabU04NW4xeE1aODhudlFYU3F0OV9HRFFDMzNNYnZ1YnBDS25ZTHc?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "hair",
+    "hair care",
+    "grey hair"
    ]
   },
   {
@@ -4084,7 +4204,7 @@
    "src": "Reddit · r/Hair",
    "hang": "Cộng đồng",
    "g": "xuhuong",
-   "imp": "vua",
+   "imp": "thap",
    "t": "Went to a professional hair salon. I don't like the result. They told me they will redo it tomorrow but I am scared. What do y'all think?",
    "s": "UPD: Some people are syaing that the references are AI. Tbf I did ask them multiple times if they are sure they can do this. They were super confident that they can. If they would have told me that they cannot do it, I would not have went there And big big thank you for people to posting photoes of themselves having similiar hair color!!! I will show them that tomorrow and will ask if they can do it The hair salon…",
    "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair, hair color, salon. Gợi ý content sẽ có sau lần chạy phân tích tới.",
@@ -4102,7 +4222,7 @@
    "src": "Reddit · r/Hair",
    "hang": "Cộng đồng",
    "g": "xuhuong",
-   "imp": "vua",
+   "imp": "thap",
    "t": "i cut my own bangs very impulsively but i think i pulled it off somehow 🙌",
    "s": "i can’t tell if they look good on me tbh 😭 but i think i like them!! and it saved me a trip to the hair dresser loll submitted by /u/Accomplished-Hat3067 [link] [comments]",
    "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair. Gợi ý content sẽ có sau lần chạy phân tích tới.",
@@ -4257,7 +4377,7 @@
    "src": "Reddit · r/FancyFollicles",
    "hang": "Cộng đồng",
    "g": "xuhuong",
-   "imp": "thap",
+   "imp": "vua",
    "t": "I need advice!",
    "s": "I dyed my hair 2 days ago now. It's a split peek-a-boo dye of copper and green. For the green I used iroiro Forest Green, and the copper was L'Oreal 6R. But I'm not sure what looks better, the red or brown eyebrows. I'm naturally a brunette btw and my hair was bleached blonde beforehand. Edit. Additional note. My eyebrows are blonde naturally. I fill them in because they are very sparse and I normally tint them da…",
    "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair. Gợi ý content sẽ có sau lần chạy phân tích tới.",
@@ -4377,6 +4497,22 @@
   },
   {
    "d": "2026-09-07",
+   "src": "Fashion Times UK",
+   "hang": "Tổng hợp",
+   "g": "xuhuong",
+   "imp": "thap",
+   "t": "Is Balayage Really 'Out'? The Brunette Hair Trend Is Back With a Chic 2026 Makeover",
+   "s": "",
+   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair, balayage. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNd2w2NjNBX2x3bUZKTGpmUUVPcGI3TnNMLVRaaDloMkQ1TFd5UVJiNzZKeU4tR0cyMXZDVGVENXdoS19MczZwVENlQ2hSUzk0LWFqU2ZFRnoyQWNOYzBsTWh5SGRLQ0RDVV9zejZsem0xXzRLYjNQN25Yb1ZYSXFnUnJBZ3A3azdN?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "hair",
+    "balayage"
+   ]
+  },
+  {
+   "d": "2026-09-07",
    "src": "Reddit · r/Hair",
    "hang": "Cộng đồng",
    "g": "xuhuong",
@@ -4414,6 +4550,22 @@
   },
   {
    "d": "2026-09-07",
+   "src": "Reddit · r/FancyFollicles",
+   "hang": "Cộng đồng",
+   "g": "xuhuong",
+   "imp": "thap",
+   "t": "help !! ya girl has a red tint in her hair",
+   "s": "tried to dye my hair from blonde to brown and it turned auburn :( I tried to tone it with L’Oréal toner TWO times and the last time I kept it on for 1/2 hour and I barely saw any change what do I do?! submitted by /u/saraelizabethv [link] [comments]",
+   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair, toner. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://www.reddit.com/r/FancyFollicles/comments/1w95z7d/help_ya_girl_has_a_red_tint_in_her_hair/",
+   "khongPT": false,
+   "khoa": [
+    "hair",
+    "toner"
+   ]
+  },
+  {
+   "d": "2026-09-07",
    "src": "Reddit · r/femalehairadvice",
    "hang": "Cộng đồng",
    "g": "xuhuong",
@@ -4441,38 +4593,6 @@
    "khoa": [
     "hair",
     "frizz"
-   ]
-  },
-  {
-   "d": "2026-09-07",
-   "src": "Fashion Times UK",
-   "hang": "Tổng hợp",
-   "g": "xuhuong",
-   "imp": "thap",
-   "t": "Is Balayage Really 'Out'? The Brunette Hair Trend Is Back With a Chic 2026 Makeover",
-   "s": "",
-   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair, balayage. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNd2w2NjNBX2x3bUZKTGpmUUVPcGI3TnNMLVRaaDloMkQ1TFd5UVJiNzZKeU4tR0cyMXZDVGVENXdoS19MczZwVENlQ2hSUzk0LWFqU2ZFRnoyQWNOYzBsTWh5SGRLQ0RDVV9zejZsem0xXzRLYjNQN25Yb1ZYSXFnUnJBZ3A3azdN?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "hair",
-    "balayage"
-   ]
-  },
-  {
-   "d": "2026-09-07",
-   "src": "Reddit · r/femalehairadvice",
-   "hang": "Cộng đồng",
-   "g": "xuhuong",
-   "imp": "thap",
-   "t": "should I do it",
-   "s": "i’ve never had my hair this long before, and i’m a little traumatized by the idea of cutting it because my mom used to cut my hair very short when i was a kid. at the same time, my hair is pretty damaged, and i’ve been going through a lot of life changes lately, so i’ve been considering a “radical” haircut. i also have a pretty wide back/shoulders, and i like that my long hair covers them, so i’m worried i might r…",
-   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair, haircut. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://www.reddit.com/r/femalehairadvice/comments/1w9ik46/should_i_do_it/",
-   "khongPT": false,
-   "khoa": [
-    "hair",
-    "haircut"
    ]
   },
   {
@@ -5443,7 +5563,7 @@
   },
   {
    "d": "2026-08-28",
-   "src": "Red magazine",
+   "src": "redonline.co.uk",
    "hang": "Tổng hợp",
    "g": "xuhuong",
    "imp": "thap",
@@ -5703,110 +5823,97 @@
    ]
   },
   {
-   "d": "2026-08-27",
-   "src": "Reddit · r/Hair",
-   "hang": "Cộng đồng",
-   "g": "xuhuong",
-   "imp": "thap",
-   "t": "Does this hair style suit me or is it too old-fashioned? (3 pics)",
-   "s": "submitted by /u/North-Friendship-291 [link] [comments]",
-   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://www.reddit.com/r/Hair/comments/1vzet3u/does_this_hair_style_suit_me_or_is_it_too/",
+   "d": "2026-09-13",
+   "src": "Ngôi Sao · Làm đẹp",
+   "hang": "Việt Nam",
+   "g": "vn",
+   "imp": "cao",
+   "t": "Ăn mè đen, đậu đen có hết bạc tóc?",
+   "s": "Nhiều người tìm đến mè đen, đậu đen với hy vọng cải thiện mái tóc bạc, tuy nhiên chuyên gia nói màu sắc thực phẩm không quyết định màu tóc.",
+   "w": "Tin trong nước. Có tín hiệu bằng chứng: chuyên gia. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://ngoisao.vnexpress.net/an-me-den-dau-den-co-het-bac-toc-5119519.html",
    "khongPT": false,
    "khoa": [
-    "hair"
+    "chuyên gia",
+    "tóc",
+    "tóc bạc"
    ]
   },
   {
-   "d": "2026-08-27",
-   "src": "Reddit · r/Hair",
-   "hang": "Cộng đồng",
-   "g": "xuhuong",
+   "d": "2026-09-13",
+   "src": "VietnamNet · Sức khỏe",
+   "hang": "Việt Nam",
+   "g": "vn",
    "imp": "thap",
-   "t": "just went pink!!!",
-   "s": "been thinking of going pink for YEARS! finally went for it bc i was bored lol. it’s semi-permanent so eventually it will wash out but im obsessed with it for the time being 🤭 and ofc the pants have to match the hair! submitted by /u/Super_Chef_9900 [link] [comments]",
-   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://www.reddit.com/r/Hair/comments/1vzwzlc/just_went_pink/",
+   "t": "Khóc nghẹn trong phòng mổ, người mẹ trẻ đón con chào đời sau bao lần thót tim",
+   "s": "Hành trình mang thai, sinh nở của chị N.T.L (sinh năm 2004, Hà Nội) đầy gian nan, trải qua những thời khắc ngàn cân treo sợi tóc .",
+   "w": "Tin trong nước. Liên quan tới tóc. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://vietnamnet.vn/khoc-nghen-trong-phong-mo-nguoi-me-tre-don-con-chao-doi-sau-bao-lan-thot-tim-2554022.html",
    "khongPT": false,
    "khoa": [
-    "hair"
+    "tóc"
    ]
   },
   {
-   "d": "2026-08-26",
-   "src": "Allure",
-   "hang": "Tạp chí",
-   "g": "xuhuong",
+   "d": "2026-09-12",
+   "src": "VTVgo",
+   "hang": "Việt Nam",
+   "g": "vn",
    "imp": "thap",
-   "t": "The 9 Best Products for Low-Porosity Hair Won’t Weigh Down Your Strands",
-   "s": "All the moisture, none of the buildup.",
-   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair, porosity. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://www.allure.com/story/best-products-for-low-porosity-hair",
+   "t": "Chỉ nam giới mới bị hói đầu di truyền, đúng hay sai?",
+   "s": "",
+   "w": "Tin trong nước. Liên quan tới hói. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE1fdE00TlpfWUhNOFVvUWFhbTg1TzFEMENOYkRDZ0pkVWpYeTJvempnOVRXR3gwUV8yclBXdHFmdDE?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "hói"
+   ]
+  },
+  {
+   "d": "2026-09-12",
+   "src": "baoquocte.vn",
+   "hang": "Việt Nam",
+   "g": "vn",
+   "imp": "thap",
+   "t": "Edric Hair Studio — Tiệm tóc tiên phong theo đuổi nghệ thuật thiết kế tóc nam cá nhân hoá tại Việt Nam",
+   "s": "",
+   "w": "Tin trong nước. Liên quan tới hair, tóc, tiệm tóc. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQTmlUdTZLb3dzVlNLQmZOc19ZSHdSYlBXSGN4TllVeDM4LWNnVmN5QnliWlVtbklnZ2tiUXpfbEVMWVhrLTNFSnZxWDk2S3FpRjhsbmo0ZldfY1lyLUl4T0NUcTdkcktTS2UxYXZJZGM0ZHZ3ZHdXakZOTDVTd0JiUTktcS1JeEloN3lpWUQ1bjVNWkV4blY1ZW1mVmdHbHpFcUhnbnlEc0NQSEVITVl4eG5NVzN1SFpWb3RLQ0haNTJNWXhvUlIzSzh3RU8yZw?oc=5",
    "khongPT": false,
    "khoa": [
     "hair",
-    "porosity"
+    "tóc",
+    "tiệm tóc"
    ]
   },
   {
-   "d": "2026-08-26",
-   "src": "Reddit · r/FancyFollicles",
-   "hang": "Cộng đồng",
-   "g": "xuhuong",
-   "imp": "vua",
-   "t": "New haircolour by my magician of a hairdresser!",
-   "s": "submitted by /u/randomsucculent [link] [comments]",
-   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hairdresser. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://www.reddit.com/r/FancyFollicles/comments/1vyqlgf/new_haircolour_by_my_magician_of_a_hairdresser/",
-   "khongPT": false,
-   "khoa": [
-    "hairdresser"
-   ]
-  },
-  {
-   "d": "2026-08-26",
-   "src": "Reddit · r/FancyFollicles",
-   "hang": "Cộng đồng",
-   "g": "xuhuong",
+   "d": "2026-09-12",
+   "src": "VTVgo",
+   "hang": "Việt Nam",
+   "g": "vn",
    "imp": "thap",
-   "t": "I got my dream hair!",
-   "s": "Hopefully it's allowed here, but I got a wig! I normally have no hair and I used to change my hair ALL the time when I had it. I realized I could still do that but with wigs! I can't wait to get more. submitted by /u/SithisWorshiper [link] [comments]",
-   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair, wig. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://www.reddit.com/r/FancyFollicles/comments/1vyduyo/i_got_my_dream_hair/",
+   "t": "Nguy cơ sử dụng dầu gội, sữa tắm không rõ nguồn gốc",
+   "s": "",
+   "w": "Tin trong nước. Liên quan tới dầu gội. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFAtb2RXVXRjT3hjU1dTQmVNZGtYSWV3YUNoazdfTGtRSm0zVDRtdWk0cGdsLWtsR1VtMUJwaVVNOWM?oc=5",
    "khongPT": false,
    "khoa": [
-    "hair",
-    "wig"
+    "dầu gội"
    ]
   },
   {
-   "d": "2026-08-26",
-   "src": "Reddit · r/FancyFollicles",
-   "hang": "Cộng đồng",
-   "g": "xuhuong",
+   "d": "2026-09-12",
+   "src": "Kênh 14 · Làm đẹp & Thời trang",
+   "hang": "Việt Nam",
+   "g": "vn",
    "imp": "thap",
-   "t": "Trout inspired hair",
-   "s": "My new hair that was heavily inspired by a trout! Felt a bit self conscious going to work today since this is the brightest I've had my hair in a while. submitted by /u/Independent-Web-1849 [link] [comments]",
-   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://www.reddit.com/r/FancyFollicles/comments/1vy6u1h/trout_inspired_hair/",
+   "t": "Minh tinh lấn át Son Ye Jin để đầu bù tóc rối ra đường vẫn đươc khen sang",
+   "s": "Hình ảnh \"người qua đường\" chụp Moon Ga Young khiến cộng đồng mạng phải tấm tắc khen ngợi.",
+   "w": "Tin trong nước. Liên quan tới tóc. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://kenh14.vn/minh-tinh-lan-at-son-ye-jin-de-dau-bu-toc-roi-ra-duong-van-duoc-khen-sang-21526091210402229.chn",
    "khongPT": false,
    "khoa": [
-    "hair"
-   ]
-  },
-  {
-   "d": "2026-08-26",
-   "src": "Reddit · r/Hair",
-   "hang": "Cộng đồng",
-   "g": "xuhuong",
-   "imp": "thap",
-   "t": "OBSESSED with this UV wig",
-   "s": "Just finished coloring my wig with UV color and I can’t wait to wear it somewhere!! submitted by /u/PurplePARTYUnicorn [link] [comments]",
-   "w": "Tin xu hướng và thói quen của khách. Liên quan tới wig. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://www.reddit.com/r/Hair/comments/1vybv2v/obsessed_with_this_uv_wig/",
-   "khongPT": false,
-   "khoa": [
-    "wig"
+    "tóc"
    ]
   },
   {
@@ -5949,7 +6056,7 @@
   },
   {
    "d": "2026-09-09",
-   "src": "suckhoedoisong.vn",
+   "src": "Báo Sức khỏe & Đời sống",
    "hang": "Việt Nam",
    "g": "vn",
    "imp": "thap",
@@ -5961,21 +6068,6 @@
    "khoa": [
     "tóc",
     "rụng tóc"
-   ]
-  },
-  {
-   "d": "2026-09-09",
-   "src": "VTVgo",
-   "hang": "Việt Nam",
-   "g": "vn",
-   "imp": "thap",
-   "t": "Chỉ nam giới mới bị hói đầu di truyền, đúng hay sai?",
-   "s": "",
-   "w": "Tin trong nước. Liên quan tới hói. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE1fdE00TlpfWUhNOFVvUWFhbTg1TzFEMENOYkRDZ0pkVWpYeTJvempnOVRXR3gwUV8yclBXdHFmdDE?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "hói"
    ]
   },
   {
@@ -6042,22 +6134,6 @@
   },
   {
    "d": "2026-09-09",
-   "src": "Eva.vn",
-   "hang": "Việt Nam",
-   "g": "vn",
-   "imp": "cao",
-   "t": "Ba năm bác sĩ nội trú: Tóc rụng một nửa, sụt 7kg và điều tiếc nuối nhất",
-   "s": "",
-   "w": "Tin trong nước. Có tín hiệu bằng chứng: bác sĩ. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRnhkOFRIaUVSNkFNT2toZmtpM3FPY3VWV2ZHRjkwbm05RHlPN2J3RVpNUlZtQmh1VTF6bEV3cXYtMW92ZE9USXJ5QzNnUEVDa2dJQ3duaFk4TnBlWld5MUNFbGs2V3RfN0JSaTFfdzUtaEJZcU84UXhtZ1VRaE5rbG5CSVdBNlNZSU03ZmNEVHpVTTVyWGdVRXVkenZoem9GVndtTGs0VW9tVVJF?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "bác sĩ",
-    "tóc"
-   ]
-  },
-  {
-   "d": "2026-09-09",
    "src": "Ngôi Sao · Làm đẹp",
    "hang": "Việt Nam",
    "g": "vn",
@@ -6084,6 +6160,22 @@
    "khongPT": false,
    "khoa": [
     "styling"
+   ]
+  },
+  {
+   "d": "2026-09-09",
+   "src": "Eva.vn",
+   "hang": "Việt Nam",
+   "g": "vn",
+   "imp": "cao",
+   "t": "Ba năm bác sĩ nội trú: Tóc rụng một nửa, sụt 7kg và điều tiếc nuối nhất",
+   "s": "",
+   "w": "Tin trong nước. Có tín hiệu bằng chứng: bác sĩ. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRnhkOFRIaUVSNkFNT2toZmtpM3FPY3VWV2ZHRjkwbm05RHlPN2J3RVpNUlZtQmh1VTF6bEV3cXYtMW92ZE9USXJ5QzNnUEVDa2dJQ3duaFk4TnBlWld5MUNFbGs2V3RfN0JSaTFfdzUtaEJZcU84UXhtZ1VRaE5rbG5CSVdBNlNZSU03ZmNEVHpVTTVyWGdVRXVkenZoem9GVndtTGs0VW9tVVJF?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "bác sĩ",
+    "tóc"
    ]
   },
   {
@@ -6120,7 +6212,7 @@
   },
   {
    "d": "2026-09-08",
-   "src": "Vietnam.vn",
+   "src": "vietnam.vn",
    "hang": "Việt Nam",
    "g": "vn",
    "imp": "thap",
@@ -6201,21 +6293,6 @@
   },
   {
    "d": "2026-09-08",
-   "src": "congdankhuyenhoc.vn",
-   "hang": "Việt Nam",
-   "g": "vn",
-   "imp": "thap",
-   "t": "Bộ Y tế thu hồi hàng loạt sữa tắm, dầu gội",
-   "s": "",
-   "w": "Tin trong nước. Liên quan tới dầu gội. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOazFJNW8tOHRtYndWeG1Nc0JOMUJWSXE4cVhQWmR0RGZnLVNnN1ViLUhyVUttWU8xd1JSdWNmOGdrOGtBZzVrQ0FYTkM2RDg2d1VlX0pqcHJtckRDQXZ3dHZXbWR5SlViSS1SbUI2M1hRUktsWTdyTHlqMjFrX2ZkcjRxWThJTldBX0lCYWFBQ2YtRDg5QkRV?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "dầu gội"
-   ]
-  },
-  {
-   "d": "2026-09-08",
    "src": "Báo Pháp Luật Việt Nam",
    "hang": "Việt Nam",
    "g": "vn",
@@ -6224,6 +6301,21 @@
    "s": "",
    "w": "Tin trong nước. Liên quan tới dầu gội. Gợi ý content sẽ có sau lần chạy phân tích tới.",
    "u": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPYU1NeUdBV3NXdmc4eld4a2FjOTZEbEZCeFNzUWNLZElMLXB0ZmVyOFdYVmZaekk4WlBZRWpGbFRSVnhTN3pUNzlYXzdfYXBIVG5obTl6dzJQczJweU1YSURmQlZkaFVnY1RLZDJtQ0ZzVThWclVmTnlnRDUyUmF6YU8tUlRyTW5jZE9WR1VMc1JhSXQ3?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "dầu gội"
+   ]
+  },
+  {
+   "d": "2026-09-08",
+   "src": "congdankhuyenhoc.vn",
+   "hang": "Việt Nam",
+   "g": "vn",
+   "imp": "thap",
+   "t": "Bộ Y tế thu hồi hàng loạt sữa tắm, dầu gội",
+   "s": "",
+   "w": "Tin trong nước. Liên quan tới dầu gội. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOazFJNW8tOHRtYndWeG1Nc0JOMUJWSXE4cVhQWmR0RGZnLVNnN1ViLUhyVUttWU8xd1JSdWNmOGdrOGtBZzVrQ0FYTkM2RDg2d1VlX0pqcHJtckRDQXZ3dHZXbWR5SlViSS1SbUI2M1hRUktsWTdyTHlqMjFrX2ZkcjRxWThJTldBX0lCYWFBQ2YtRDg5QkRV?oc=5",
    "khongPT": false,
    "khoa": [
     "dầu gội"
@@ -6247,14 +6339,14 @@
   },
   {
    "d": "2026-09-08",
-   "src": "Kenh14.vn",
+   "src": "CafeF",
    "hang": "Việt Nam",
    "g": "vn",
    "imp": "thap",
    "t": "Ai đang dùng loạt sản phẩm dầu gội, sữa tắm, dung dịch vệ sinh này cần kiểm tra ngay: Bộ Y tế yêu cầu thu hồi, tiêu huỷ trên toàn quốc",
    "s": "",
    "w": "Tin trong nước. Liên quan tới dầu gội. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQc2wxS3V0YXNRMkI2ajN1OVZkZHUyMkR0OTlabHFmTDBnNlFRVjhlVExJbE9RaUZtQnlsUkxzU3I5R05PZnhLYUtjdENPNXdOblowQWFJSUswMEt2OTBmcFY5U1pUdG9KZjRZWHpQRll4cHhuVDdLdlRQZFgxWHBNRngzTGZ2R2xKTGpVUGNsMXZrMnBDMEhCUWdybV9HTW02aDJoVXpPcnQzejlFOXpraXRkSU9ybXR1LXJldmpYb3lPUFZyd2pKVmV5MXVJQzZJanlacUY3Z1lTX1g2RlRROXAwcjg1VE8wdVlKMGswd0d3SlBpYWtoU3BkV0NULU0?oc=5",
+   "u": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQQXN6d2JxYWptdnE0amhtNXlvaC1kV1J1NzdlNDBLN21yT1czZzJ4bFlzT0xLY0dPMHF0alcxREFCTE5tSEttWWpvR25hYl9JUjNqMktHZWJBejNYb2tBVnF4THU2SkpXRXpQdGZ1bG9BR1p0b3Q1U0JtWlZKV0ZOT1V3TVpuVkhDVjA1MmF6QzRldnp3Z3licmQ4UlJWeENmRU5zWmw0WS1Hb0hRcnFWVnNmNFp3a3o4NXhuN0thUm1YLXgtbHROaFh1SUozNDFrMFRWUzF5bkNXZnFSaEZ5VmxOeV9ldng1cFpwZ2dPZ25qSjRpcklfTy1yaW1pY28?oc=5",
    "khongPT": false,
    "khoa": [
     "dầu gội"
@@ -6308,7 +6400,7 @@
   },
   {
    "d": "2026-09-07",
-   "src": "cafebiz.vn",
+   "src": "CafeBiz",
    "hang": "Việt Nam",
    "g": "vn",
    "imp": "thap",
@@ -6323,7 +6415,7 @@
   },
   {
    "d": "2026-09-07",
-   "src": "tuoitre.vn",
+   "src": "Báo Tuổi Trẻ",
    "hang": "Việt Nam",
    "g": "vn",
    "imp": "thap",
@@ -6331,21 +6423,6 @@
    "s": "",
    "w": "Tin trong nước. Liên quan tới dầu gội. Gợi ý content sẽ có sau lần chạy phân tích tới.",
    "u": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPOFpFRm5zelJNVk1qT3c4THRzVmVpN3pYa0REZi10RUk5SC1xSDJnelI3UUdDQU5TeGNjOUR1UkxTZzdRTFpJVFJMRVdjSnhqS05lTVpDOHRiWWNDSFV6YlNZdS1Zd3dFbDEzTkVfMU1xZGZJZG9OVTduTjM4dzZhQnJmOGJzUmxaeVdlbFptelA1MGNaQ2VOTWdWSlJtaW1FVU1HVHNITUljMTVaY2dpQS1hdw?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "dầu gội"
-   ]
-  },
-  {
-   "d": "2026-09-07",
-   "src": "VTVgo",
-   "hang": "Việt Nam",
-   "g": "vn",
-   "imp": "thap",
-   "t": "Nguy cơ sử dụng dầu gội, sữa tắm không rõ nguồn gốc",
-   "s": "",
-   "w": "Tin trong nước. Liên quan tới dầu gội. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFAtb2RXVXRjT3hjU1dTQmVNZGtYSWV3YUNoazdfTGtRSm0zVDRtdWk0cGdsLWtsR1VtMUJwaVVNOWM?oc=5",
    "khongPT": false,
    "khoa": [
     "dầu gội"
@@ -6616,7 +6693,7 @@
   },
   {
    "d": "2026-09-01",
-   "src": "afamily.vn",
+   "src": "aFamily",
    "hang": "Việt Nam",
    "g": "vn",
    "imp": "thap",
@@ -6802,7 +6879,7 @@
   },
   {
    "d": "2026-08-30",
-   "src": "afamily.vn",
+   "src": "aFamily",
    "hang": "Việt Nam",
    "g": "vn",
    "imp": "thap",
@@ -6819,7 +6896,7 @@
   },
   {
    "d": "2026-08-30",
-   "src": "VTV.vn",
+   "src": "vtv.vn",
    "hang": "Việt Nam",
    "g": "vn",
    "imp": "thap",
@@ -6851,7 +6928,7 @@
   },
   {
    "d": "2026-08-30",
-   "src": "cafebiz.vn",
+   "src": "CafeBiz",
    "hang": "Việt Nam",
    "g": "vn",
    "imp": "thap",
@@ -6900,7 +6977,7 @@
   },
   {
    "d": "2026-08-29",
-   "src": "afamily.vn",
+   "src": "aFamily",
    "hang": "Việt Nam",
    "g": "vn",
    "imp": "thap",
@@ -6916,7 +6993,7 @@
   },
   {
    "d": "2026-08-28",
-   "src": "afamily.vn",
+   "src": "aFamily",
    "hang": "Việt Nam",
    "g": "vn",
    "imp": "thap",
@@ -6928,6 +7005,22 @@
    "khoa": [
     "tóc",
     "rụng tóc"
+   ]
+  },
+  {
+   "d": "2026-08-28",
+   "src": "Eva.vn",
+   "hang": "Việt Nam",
+   "g": "vn",
+   "imp": "thap",
+   "t": "7 tuyệt chiêu chăm sóc tóc \"0 đồng\", điều cuối cùng chị em thường dễ quên",
+   "s": "",
+   "w": "Tin trong nước. Liên quan tới tóc, chăm sóc tóc. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdC1TNktVNGdPRlUzZWtRdG9zNEZrYVBTX2pwVXhaTzNjNWtqQ2ZNRUM0SHhJeDhBSVVFTEtQNnR1dVJKNDh0Qjc1WVpDbFdVVDBTVzU2eWZNR2hnMlR2azlJX3ROa3hfUzM5Qm9uY1NqNjZpTW1LRXQ3RkFTekpXWDdUaWJYM0p3NnljU0FlUHFudk9ya0JaS3F0bXhodkFiVHBCNThPOUc?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "tóc",
+    "chăm sóc tóc"
    ]
   },
   {
@@ -6960,22 +7053,6 @@
     "tóc",
     "rụng tóc",
     "gội đầu"
-   ]
-  },
-  {
-   "d": "2026-08-28",
-   "src": "Eva.vn",
-   "hang": "Việt Nam",
-   "g": "vn",
-   "imp": "thap",
-   "t": "7 tuyệt chiêu chăm sóc tóc \"0 đồng\", điều cuối cùng chị em thường dễ quên",
-   "s": "",
-   "w": "Tin trong nước. Liên quan tới tóc, chăm sóc tóc. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdC1TNktVNGdPRlUzZWtRdG9zNEZrYVBTX2pwVXhaTzNjNWtqQ2ZNRUM0SHhJeDhBSVVFTEtQNnR1dVJKNDh0Qjc1WVpDbFdVVDBTVzU2eWZNR2hnMlR2azlJX3ROa3hfUzM5Qm9uY1NqNjZpTW1LRXQ3RkFTekpXWDdUaWJYM0p3NnljU0FlUHFudk9ya0JaS3F0bXhodkFiVHBCNThPOUc?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "tóc",
-    "chăm sóc tóc"
    ]
   },
   {
@@ -7276,7 +7353,7 @@
   },
   {
    "d": "2026-08-23",
-   "src": "Báo Thế giới và Việt Nam",
+   "src": "baoquocte.vn",
    "hang": "Việt Nam",
    "g": "vn",
    "imp": "thap",
@@ -7402,7 +7479,7 @@
   },
   {
    "d": "2026-08-20",
-   "src": "Báo Điện tử An ninh Thủ đô",
+   "src": "anninhthudo.vn",
    "hang": "Việt Nam",
    "g": "vn",
    "imp": "cao",
@@ -7606,7 +7683,7 @@
   },
   {
    "d": "2026-08-15",
-   "src": "Báo Thanh Hóa",
+   "src": "baothanhhoa.vn",
    "hang": "Việt Nam",
    "g": "vn",
    "imp": "thap",
@@ -7618,75 +7695,6 @@
    "khoa": [
     "tóc",
     "nhuộm tóc"
-   ]
-  },
-  {
-   "d": "2026-08-15",
-   "src": "Kênh 14 · Làm đẹp & Thời trang",
-   "hang": "Việt Nam",
-   "g": "vn",
-   "imp": "thap",
-   "t": "Muốn tóc ngắn trông dày và có chiều sâu hơn, hãy thử 8 kiểu highlight đang thịnh hành năm 2026",
-   "s": "Một vài đường highlight đúng vị trí đã có thể khiến mái tóc ngắn trông dày, có chiều sâu và hiện đại hơn, đồng thời giúp việc che tóc bạc hay xử lý chân tóc mới mọc trở nên nhẹ nhàng hơn.",
-   "w": "Tin trong nước. Liên quan tới tóc, tóc bạc. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://kenh14.vn/muon-toc-ngan-trong-day-va-co-chieu-sau-hon-hay-thu-8-kieu-highlight-dang-thinh-hanh-nam-2026-215260814171444848.chn",
-   "khongPT": false,
-   "khoa": [
-    "tóc",
-    "tóc bạc"
-   ]
-  },
-  {
-   "d": "2026-08-15",
-   "src": "Kênh 14 · Làm đẹp & Thời trang",
-   "hang": "Việt Nam",
-   "g": "vn",
-   "imp": "thap",
-   "t": "Mới ngoài 30 tuổi, tóc đã bạc nửa đầu, cô gái Hàn Quốc dùng dầu tẩy trang làm sạch tóc, và cái kết bất ngờ",
-   "s": "Theo cô chia sẻ, da đầu cũng cần làm sạch như da mặt, trong khi dầu gội đầu không thể làm sạch bụi bẩn đầu nhờn hiệu quả như dầu tẩy trang.",
-   "w": "Tin trong nước. Liên quan tới tóc, gội đầu, dầu gội. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://kenh14.vn/moi-ngoai-30-tuoi-toc-da-bac-nua-dau-co-gai-han-quoc-dung-dau-tay-trang-lam-sach-toc-va-cai-ket-bat-ngo-215260815104942762.chn",
-   "khongPT": false,
-   "khoa": [
-    "tóc",
-    "gội đầu",
-    "dầu gội",
-    "da đầu"
-   ]
-  },
-  {
-   "d": "2026-08-15",
-   "src": "Kênh 14 · Làm đẹp & Thời trang",
-   "hang": "Việt Nam",
-   "g": "vn",
-   "imp": "thap",
-   "t": "Rosé (BLACKPINK) tiếp tục \"tạo bão\" tại Việt Nam trong chiến dịch mới cùng Levi’s!",
-   "s": "Sau màn xuất hiện phủ sóng tại Việt Nam hồi đầu năm, Rosé tiếp tục trở lại cùng Levi’s trong tháng 8. Lần này, sức nóng được đẩy rộng từ OOH, mạng xã hội đến hệ thống cửa hàng với bộ sưu tập do chính nàng đại sứ styling.",
-   "w": "Tin trong nước. Liên quan tới styling. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://kenh14.vn/rose-blackpink-tiep-tuc-tao-bao-tai-viet-nam-trong-chien-dich-moi-cung-levis-215260815115857572.chn",
-   "khongPT": false,
-   "khoa": [
-    "styling"
-   ]
-  },
-  {
-   "d": "2026-08-14",
-   "src": "VietnamNet · Sức khỏe",
-   "hang": "Việt Nam",
-   "g": "vn",
-   "imp": "cao",
-   "t": "Nhiều người khổ sở vì gàu, bác sĩ chỉ 6 mẹo đơn giản giúp kiểm soát",
-   "s": "Theo bác sĩ da liễu, chỉ với những thay đổi đơn giản trong cách gội đầu, chăm sóc tóc và sinh hoạt hằng ngày, người bệnh có thể kiểm soát triệu chứng và giảm nguy cơ tái phát.",
-   "w": "Tin trong nước. Có tín hiệu bằng chứng: bác sĩ da liễu, bác sĩ. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://vietnamnet.vn/kho-so-vi-gau-bac-si-chi-6-meo-don-gian-giup-kiem-soat-benh-2541497.html",
-   "khongPT": false,
-   "khoa": [
-    "bác sĩ da liễu",
-    "bác sĩ",
-    "tóc",
-    "chăm sóc tóc",
-    "gội đầu",
-    "gàu"
    ]
   }
  ]

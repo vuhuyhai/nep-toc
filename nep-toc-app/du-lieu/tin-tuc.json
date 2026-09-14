@@ -1,7 +1,7 @@
 {
- "capNhatLuc": "2026-09-13T04:07:08.686Z",
+ "capNhatLuc": "2026-09-14T04:14:11.835Z",
  "soTin": 480,
- "tinMoiLanNay": 24,
+ "tinMoiLanNay": 14,
  "theoNhom": {
   "nghe": 120,
   "khoahoc": 120,
@@ -66,6 +66,70 @@
  ],
  "tin": [
   {
+   "d": "2026-09-14",
+   "src": "The Wiltshire Gazette and Herald",
+   "hang": "Tổng hợp",
+   "g": "nghe",
+   "imp": "thap",
+   "t": "Beloved hair salon celebrates three decades in Wiltshire town",
+   "s": "",
+   "w": "Tin nghề và vận hành salon. Liên quan tới hair, salon. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNb1JBbnoycEFYVXdDOTBPUDJJMWlodkg2Ul9JYVp5WTN1djZ6TTU1TEFNZTk1aU53M2tvRjJNV3Naei1sMklSMU14bmZuMnhMcEJlcGxvazBTMkE2a2FKeU5zaHRqalVlNm1jTmJtTmZXRmZKSFhDNmVCMXVwTG16SFZIcjdZNEM3SWtMYVFHZ2dSYlpUMDhPSDVIYzM4X3JSUVpxYVFB?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "hair",
+    "salon"
+   ]
+  },
+  {
+   "d": "2026-09-13",
+   "src": "The Wiltshire Gazette and Herald",
+   "hang": "Tổng hợp",
+   "g": "nghe",
+   "imp": "thap",
+   "t": "Pioneering town centre hair salon celebrates a year in business",
+   "s": "",
+   "w": "Tin nghề và vận hành salon. Liên quan tới hair, salon. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQMjVaYVRBV2ZNdUNvQU51MlhTMFlOQU8tY3NXY3FsTnZpV1JrVkF0Rk45WGI5ZktrbU5MZ0JTNG52VkRLLW41eGRaOEZwRFBtLUhNQlozVHVia3BYbno5SkRWRl9CS01mN3dPTFpSMVpuS3RndnQ1WlBZRDJqdXdqRWEtc0pDcUFqX0hzWGQ2WmdRaG81X284QmNLY3duYjlaUmFjc19Xbw?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "hair",
+    "salon"
+   ]
+  },
+  {
+   "d": "2026-09-13",
+   "src": "Ludlow Advertiser",
+   "hang": "Tổng hợp",
+   "g": "nghe",
+   "imp": "thap",
+   "t": "Hairdresser to open first salon after eight years in the industry",
+   "s": "",
+   "w": "Tin nghề và vận hành salon. Liên quan tới hairdresser, salon. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdEtlOHNEdElUV3RRVDY1X1czNHQ2LW5sbE1XVXVqMzZZenZfbUVHWGZ6bTJmZzNObFlKSmlfM0ZhdmRUT1ZCejY3LVFOaGE5dl9Wc3VWTjhmRURwUWFyVVJYLUdLUmUtYXM1VFh5NHpkb3JpbUtoSXFzbzFfZUtscS1mbXZyVGZJbGdFMEk4ZVIzXzFo?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "hairdresser",
+    "salon"
+   ]
+  },
+  {
+   "d": "2026-09-13",
+   "src": "Reddit · r/Hairstylist",
+   "hang": "Cộng đồng",
+   "g": "nghe",
+   "imp": "vua",
+   "t": "Client used AI to get out of last minute reschedule fee",
+   "s": "posted in the is it AI group before realizing it was so clearly AI. What do I even say back to her? I’m embarrassed for her honestly, but I don’t want to reschedule someone so willing to lie. I’ve done her hair for 2+ years now. She’s definitely been late a few times here and there, but I always assumed her reasons to be legit. I guess I need to fire her, but how? I want to stay respectful, but clearly I’m not bei…",
+   "w": "Tin nghề và vận hành salon. Liên quan tới hair. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://www.reddit.com/r/hairstylist/comments/1wf9r5l/client_used_ai_to_get_out_of_last_minute/",
+   "khongPT": false,
+   "khoa": [
+    "hair",
+    "client"
+   ]
+  },
+  {
    "d": "2026-09-12",
    "src": "Modern Salon",
    "hang": "Nghề",
@@ -119,7 +183,7 @@
    "src": "Reddit · r/Hairstylist",
    "hang": "Cộng đồng",
    "g": "nghe",
-   "imp": "vua",
+   "imp": "thap",
    "t": "Surprise in dreads..",
    "s": "I've (34f) been a hairstylist for 16 years now. I love doing hair and I'm a people pleaser. About 7 years ago I worked in a salon in the mountains of Colorado (I'd rather remain vague about the town). I worked there for several years, saw all walks of folks and have many stories. One that has always stuck with me, is also one that haunts my dreams. A man came into our salon, he had long, thick, brown dreads. He sa…",
    "w": "Tin nghề và vận hành salon. Liên quan tới hair, hairstylist, haircut. Gợi ý content sẽ có sau lần chạy phân tích tới.",
@@ -151,36 +215,6 @@
     "stylist",
     "client",
     "appointment"
-   ]
-  },
-  {
-   "d": "2026-09-11",
-   "src": "American Salon",
-   "hang": "Nghề",
-   "g": "nghe",
-   "imp": "thap",
-   "t": "OPI Revives & Reimagines Cult-Favorite Shades for Fall",
-   "s": "",
-   "w": "Tin nghề và vận hành salon. Liên quan tới salon. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQUms5NVgwdEwwMXFwNFFicTV1aFhaa1hveFVta2xnT2h2YlJjWU5uV1Y5X081TzR6akdfazA0REd1dmQwaEQta3g1NlJhb2pOWk9VOWU1eG1ZU3haZE1tMm9XYnQycmxLLXk2VFlhUTV0RzhWRnoyZVZoUU0wUjFHaDltMkxFSmNtUW5yVQ?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "salon"
-   ]
-  },
-  {
-   "d": "2026-09-11",
-   "src": "American Salon",
-   "hang": "Nghề",
-   "g": "nghe",
-   "imp": "thap",
-   "t": "How a Mother-Son Duo Turned Clippers Into a Purposeful Brand",
-   "s": "",
-   "w": "Tin nghề và vận hành salon. Liên quan tới salon. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNcXJPT29UNC1zQ3FEc1pBTFh4Qmo0eWlPU1hSS2dZZGNRaEVLTDZEcndDUDQ0S1h6Yko5d0tGSnBiRlZSMEE5MGJyUmZHRC1TdUNxWHVLNjdxWkdzbE1yQ05YNHZ1UG9VREhUTEdqQ0RoZXAxQU93VU5ZVUtJZUNYUmhwVnA3cnl2TUZ6ZHFlLWtlNzl0?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "salon"
    ]
   },
   {
@@ -226,6 +260,36 @@
    "u": "https://www.reddit.com/r/hairstylist/comments/1wdiu55/did_you_make_a_purchase_from_hattori_hanzo_shears/",
    "khongPT": false,
    "khoa": []
+  },
+  {
+   "d": "2026-09-11",
+   "src": "American Salon",
+   "hang": "Nghề",
+   "g": "nghe",
+   "imp": "thap",
+   "t": "OPI Revives & Reimagines Cult-Favorite Shades for Fall",
+   "s": "",
+   "w": "Tin nghề và vận hành salon. Liên quan tới salon. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQUms5NVgwdEwwMXFwNFFicTV1aFhaa1hveFVta2xnT2h2YlJjWU5uV1Y5X081TzR6akdfazA0REd1dmQwaEQta3g1NlJhb2pOWk9VOWU1eG1ZU3haZE1tMm9XYnQycmxLLXk2VFlhUTV0RzhWRnoyZVZoUU0wUjFHaDltMkxFSmNtUW5yVQ?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "salon"
+   ]
+  },
+  {
+   "d": "2026-09-11",
+   "src": "American Salon",
+   "hang": "Nghề",
+   "g": "nghe",
+   "imp": "thap",
+   "t": "How a Mother-Son Duo Turned Clippers Into a Purposeful Brand",
+   "s": "",
+   "w": "Tin nghề và vận hành salon. Liên quan tới salon. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNcXJPT29UNC1zQ3FEc1pBTFh4Qmo0eWlPU1hSS2dZZGNRaEVLTDZEcndDUDQ0S1h6Yko5d0tGSnBiRlZSMEE5MGJyUmZHRC1TdUNxWHVLNjdxWkdzbE1yQ05YNHZ1UG9VREhUTEdqQ0RoZXAxQU93VU5ZVUtJZUNYUmhwVnA3cnl2TUZ6ZHFlLWtlNzl0?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "salon"
+   ]
   },
   {
    "d": "2026-09-11",
@@ -338,6 +402,22 @@
     "hair",
     "salon",
     "barbershop"
+   ]
+  },
+  {
+   "d": "2026-09-10",
+   "src": "andoveradvertiser.co.uk",
+   "hang": "Tổng hợp",
+   "g": "nghe",
+   "imp": "thap",
+   "t": "Beauty Salon of the Year winner turned former barber shop into thriving business",
+   "s": "",
+   "w": "Tin nghề và vận hành salon. Liên quan tới salon, barber, barber. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTWphMUljTUZHWFloWHM5aDZzVGRRTXhabXlCdnFHalNCQ3BaaEdBTE5RckxSRTdvNmp6MW1IRDc0NERMaEtfVnhTWTZEUVdWM0NKNkY4ZG1OMGlfZXRlT3hJTVNyVGRoRFJJNXE4cHpOMkYwcHdOQnAyVnBoTnE3Zl9zaEEyM1pfaUZzS3p4NElBaGRoWTNTWTVxVDhidw?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "salon",
+    "barber"
    ]
   },
   {
@@ -938,22 +1018,6 @@
   },
   {
    "d": "2026-09-03",
-   "src": "KTVO",
-   "hang": "Tổng hợp",
-   "g": "nghe",
-   "imp": "thap",
-   "t": "Role Reversal: Kirksville hairstylist buys salon, previous owner now works for her",
-   "s": "",
-   "w": "Tin nghề và vận hành salon. Liên quan tới hairstylist, salon. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNWU9DTHc3SEhyZWFBMjRaOTdnR21jRVBjS1gxbGE5MVp0WGJVYTVPX2RjODRQbzJ2SGRwZVduWk5Gam43VE1lcm1nMTB3ZXp3SnRoREVRelJWZmZOa2xBSUhZaUFVUU5raEswWU1XcjNLNzlVSFJEblZJRXI2Uk4tcXhzWE5FdTA4TlBXQTZjWHpSUTFkd0ZxdlJNWDVPWExURWRES3ZXRGZxTXAwb0RQcnppS2NpbHl0TkF6RVhfMlNJY3c4RngyYWhESUV4UmEtZUdrN3U1UG5hT1pxaG9fTk5OVUpTSkRwblN5UTA3c3owbnNt?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "hairstylist",
-    "salon"
-   ]
-  },
-  {
-   "d": "2026-09-03",
    "src": "Reddit · r/Hairstylist",
    "hang": "Cộng đồng",
    "g": "nghe",
@@ -1113,6 +1177,22 @@
   },
   {
    "d": "2026-09-02",
+   "src": "KTVO",
+   "hang": "Tổng hợp",
+   "g": "nghe",
+   "imp": "thap",
+   "t": "Role Reversal: Kirksville hairstylist buys salon, previous owner now works for her",
+   "s": "",
+   "w": "Tin nghề và vận hành salon. Liên quan tới hairstylist, salon. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNWU9DTHc3SEhyZWFBMjRaOTdnR21jRVBjS1gxbGE5MVp0WGJVYTVPX2RjODRQbzJ2SGRwZVduWk5Gam43VE1lcm1nMTB3ZXp3SnRoREVRelJWZmZOa2xBSUhZaUFVUU5raEswWU1XcjNLNzlVSFJEblZJRXI2Uk4tcXhzWE5FdTA4TlBXQTZjWHpSUTFkd0ZxdlJNWDVPWExURWRES3ZXRGZxTXAwb0RQcnppS2NpbHl0TkF6RVhfMlNJY3c4RngyYWhESUV4UmEtZUdrN3U1UG5hT1pxaG9fTk5OVUpTSkRwblN5UTA3c3owbnNt?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "hairstylist",
+    "salon"
+   ]
+  },
+  {
+   "d": "2026-09-02",
    "src": "Reddit · r/Hairstylist",
    "hang": "Cộng đồng",
    "g": "nghe",
@@ -1193,19 +1273,17 @@
   },
   {
    "d": "2026-09-01",
-   "src": "American Salon",
-   "hang": "Nghề",
+   "src": "WTKR",
+   "hang": "Tổng hợp",
    "g": "nghe",
    "imp": "thap",
-   "t": "Remembering Brad Johns, Hair Color’s Iconic Blonding Visionary",
+   "t": "Treat yourself on a budget: Local salon offers hair services by cosmetology students",
    "s": "",
-   "w": "Tin nghề và vận hành salon. Liên quan tới hair, hair color, blonding. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQX0JSZUU1LVVJMTBaSEZXTGJaU3hkQmVjX2dwRHpsdkhhakZLVFVGb0k0MnFQMFBWSjlpbFlmbFVaTmdqbW9wd1YwMlZIWGluQUQ0UXFEbjFwb1RkcHFTdjBlYzlGN3Zla3hDQ2xHTVRlMmNIWjl5ZHVLd2RSUDZTbW5QYTZVNzZhU3g0TW45UVVoOHdsV3Jpc1VsY01CUTlC?oc=5",
+   "w": "Tin nghề và vận hành salon. Liên quan tới hair, salon. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNcGJfcWN1R2Y0bllFQnhtZGdJTW1yclQ2by1UM21VSmg4b0g2MXFTM1QzRGthU1BBWEZBbEtwSjRVUDA0cmZ4UlAteGJvZkRXOFhjWVBUeHZfeW1BUXo0aFhidUlXT0VsZlkxN2pKSFAxd1V1S0NWbU9oVnQtQmZFRVJCdTRPaEZBVG1OWmJpSllWcEtVVl9BdXgza0hDaU9USnYzTmRlVWhFV0J3RGJrV0o1Y21Nc0ZwSHNDQW94d3M4SDYxMGRPT1hKbHhDNUNHMklnbWxUMUw?oc=5",
    "khongPT": false,
    "khoa": [
     "hair",
-    "hair color",
-    "blonding",
     "salon"
    ]
   },
@@ -1224,22 +1302,6 @@
     "salon",
     "client",
     "retention"
-   ]
-  },
-  {
-   "d": "2026-09-01",
-   "src": "WTKR",
-   "hang": "Tổng hợp",
-   "g": "nghe",
-   "imp": "thap",
-   "t": "Treat yourself on a budget: Local salon offers hair services by cosmetology students",
-   "s": "",
-   "w": "Tin nghề và vận hành salon. Liên quan tới hair, salon. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNcGJfcWN1R2Y0bllFQnhtZGdJTW1yclQ2by1UM21VSmg4b0g2MXFTM1QzRGthU1BBWEZBbEtwSjRVUDA0cmZ4UlAteGJvZkRXOFhjWVBUeHZfeW1BUXo0aFhidUlXT0VsZlkxN2pKSFAxd1V1S0NWbU9oVnQtQmZFRVJCdTRPaEZBVG1OWmJpSllWcEtVVl9BdXgza0hDaU9USnYzTmRlVWhFV0J3RGJrV0o1Y21Nc0ZwSHNDQW94d3M4SDYxMGRPT1hKbHhDNUNHMklnbWxUMUw?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "hair",
-    "salon"
    ]
   },
   {
@@ -1354,6 +1416,38 @@
   },
   {
    "d": "2026-08-31",
+   "src": "americansalon.com",
+   "hang": "Nghề",
+   "g": "nghe",
+   "imp": "thap",
+   "t": "Remembering Brad Johns, Hair Color’s Iconic Blonding Visionary",
+   "s": "",
+   "w": "Tin nghề và vận hành salon. Liên quan tới hair, hair color, blonding. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQX0JSZUU1LVVJMTBaSEZXTGJaU3hkQmVjX2dwRHpsdkhhakZLVFVGb0k0MnFQMFBWSjlpbFlmbFVaTmdqbW9wd1YwMlZIWGluQUQ0UXFEbjFwb1RkcHFTdjBlYzlGN3Zla3hDQ2xHTVRlMmNIWjl5ZHVLd2RSUDZTbW5QYTZVNzZhU3g0TW45UVVoOHdsV3Jpc1VsY01CUTlC?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "hair",
+    "hair color",
+    "blonding"
+   ]
+  },
+  {
+   "d": "2026-08-31",
+   "src": "KSL.com",
+   "hang": "Tổng hợp",
+   "g": "nghe",
+   "imp": "thap",
+   "t": "After 50 years behind the chair, Pocatello hairstylist calls it a career",
+   "s": "",
+   "w": "Tin nghề và vận hành salon. Liên quan tới hairstylist. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPS1lXWW9Oa0dWZ3hhRFN6c1Yzdkx6cVd5X3VCTmJJQTJWSmhGSXY2YWxpMEl4Si1QUHdtUE9oYkRBQWdCVjYzX3oyMWxBYVgwSjZBQW5MU1U3QnVJNHRlbGh1ZHc2Qjl4TzRnd3A2cGFOaVdQdXNuSkpGXzYzcl9uOEJPYkZoM0JUUUJHdG9GaFlpancyTnFKOTRDVzRxczJxX0tzeGwwSl8?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "hairstylist"
+   ]
+  },
+  {
+   "d": "2026-08-31",
    "src": "American Salon",
    "hang": "Nghề",
    "g": "nghe",
@@ -1365,21 +1459,6 @@
    "khongPT": false,
    "khoa": [
     "salon"
-   ]
-  },
-  {
-   "d": "2026-08-31",
-   "src": "KSL News",
-   "hang": "Tổng hợp",
-   "g": "nghe",
-   "imp": "thap",
-   "t": "After 50 years behind the chair, Pocatello hairstylist calls it a career",
-   "s": "",
-   "w": "Tin nghề và vận hành salon. Liên quan tới hairstylist. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPS1lXWW9Oa0dWZ3hhRFN6c1Yzdkx6cVd5X3VCTmJJQTJWSmhGSXY2YWxpMEl4Si1QUHdtUE9oYkRBQWdCVjYzX3oyMWxBYVgwSjZBQW5MU1U3QnVJNHRlbGh1ZHc2Qjl4TzRnd3A2cGFOaVdQdXNuSkpGXzYzcl9uOEJPYkZoM0JUUUJHdG9GaFlpancyTnFKOTRDVzRxczJxX0tzeGwwSl8?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "hairstylist"
    ]
   },
   {
@@ -1607,21 +1686,6 @@
   },
   {
    "d": "2026-08-28",
-   "src": "NBC Los Angeles",
-   "hang": "Tổng hợp",
-   "g": "nghe",
-   "imp": "thap",
-   "t": "No cash? No problem: Pico Rivera salon trades haircuts for skills",
-   "s": "",
-   "w": "Tin nghề và vận hành salon. Liên quan tới salon. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVEJ6ZFAtbWFXUHc3UTBDTWNWTWpFNXlrMWlzbW9nbTRHQXdnZkhXZEN6VzR5VlQ2TE9LY0lyb1FtUnhmbWFmV0NWd3dfUlFpa0JWOXFCam1td3RFSzZPY3ZNaGhacHpLeWg5RkJZblRaaGpNaU1NVFpxeVZ4RFhNanNEYlZyXzhFNUJ6YldHVmZCSTBZUXZFak1aZzRSY190MlVsTk43ajNXOE1GbF94UG5hc9IBuwFBVV95cUxQWXEteEg4empzbEkzdFk0MElTLUFtdDBsOERQZ0JqNUpQYlUza1B0aFpMb3VfNTJtcFFaQ0c5YkxIbjItMkUyMkpaLWdZb0RoZl9zS0N1X3oweG5rMUpqUVA1UE9DYUpXczBXVDN6ZzdhcDNxdWE3ZGRyYzVMdmJYTzVuMHdmT2thWW9tVUtyZ3JicktES0tTbWNWRUs2R0V0aVdqYVhQWHBWTnNVUHBXcjk2dzg3NDBTeTdN?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "salon"
-   ]
-  },
-  {
-   "d": "2026-08-28",
    "src": "Yahoo News UK",
    "hang": "Tổng hợp",
    "g": "nghe",
@@ -1633,6 +1697,21 @@
    "khongPT": false,
    "khoa": [
     "hair",
+    "salon"
+   ]
+  },
+  {
+   "d": "2026-08-28",
+   "src": "NBC Los Angeles",
+   "hang": "Tổng hợp",
+   "g": "nghe",
+   "imp": "thap",
+   "t": "No cash? No problem: Pico Rivera salon trades haircuts for skills",
+   "s": "",
+   "w": "Tin nghề và vận hành salon. Liên quan tới salon. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVEJ6ZFAtbWFXUHc3UTBDTWNWTWpFNXlrMWlzbW9nbTRHQXdnZkhXZEN6VzR5VlQ2TE9LY0lyb1FtUnhmbWFmV0NWd3dfUlFpa0JWOXFCam1td3RFSzZPY3ZNaGhacHpLeWg5RkJZblRaaGpNaU1NVFpxeVZ4RFhNanNEYlZyXzhFNUJ6YldHVmZCSTBZUXZFak1aZzRSY190MlVsTk43ajNXOE1GbF94UG5hc9IBuwFBVV95cUxQWXEteEg4empzbEkzdFk0MElTLUFtdDBsOERQZ0JqNUpQYlUza1B0aFpMb3VfNTJtcFFaQ0c5YkxIbjItMkUyMkpaLWdZb0RoZl9zS0N1X3oweG5rMUpqUVA1UE9DYUpXczBXVDN6ZzdhcDNxdWE3ZGRyYzVMdmJYTzVuMHdmT2thWW9tVUtyZ3JicktES0tTbWNWRUs2R0V0aVdqYVhQWHBWTnNVUHBXcjk2dzg3NDBTeTdN?oc=5",
+   "khongPT": false,
+   "khoa": [
     "salon"
    ]
   },
@@ -1885,85 +1964,6 @@
    ]
   },
   {
-   "d": "2026-08-27",
-   "src": "Salon Today",
-   "hang": "Nghề",
-   "g": "nghe",
-   "imp": "thap",
-   "t": "An Industry Event Committed to Growth, Revenue and Wealth is Coming to Scottsdale",
-   "s": "Terra Harvell, Harper Ellis Hair Co. and Strata Salon Systems are bringing stylists and salon owners into one room to grow revenue, strengthen their business, and build more wealth.",
-   "w": "Tin nghề và vận hành salon. Liên quan tới hair, salon. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://www.salontoday.com/news/an-industry-event-committed-to-growth-revenue-and-wealth-is-coming-to-scottsdale",
-   "khongPT": false,
-   "khoa": [
-    "hair",
-    "salon"
-   ]
-  },
-  {
-   "d": "2026-08-27",
-   "src": "American Salon",
-   "hang": "Nghề",
-   "g": "nghe",
-   "imp": "thap",
-   "t": "Camille Rose Launches Wellness Bevs for Hair Health from Within",
-   "s": "",
-   "w": "Tin nghề và vận hành salon. Liên quan tới hair, salon. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOa0ZxUW5tTkMtTGlCNDVPQzJXUWJOdWRKZllJVEhVaElKVXpGNGF3MkJ6VGRLU1VUYUtlRjI0QTJ6X21TZFB4RlBYSTZZY1NEYkFJUXpqemdtUHRRMEdZT2luNURqbzA3U0NJeEQzaTVwRmIxdXhZLXpBN2dWSGNuNTY1c1c0ZkdPT3BVczMxdGNGdzBBM1h3OUNaWGFXQ3M?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "hair",
-    "salon"
-   ]
-  },
-  {
-   "d": "2026-08-27",
-   "src": "NBC Los Angeles",
-   "hang": "Tổng hợp",
-   "g": "nghe",
-   "imp": "thap",
-   "t": "Salon owner swaps haircuts for customers' skills and services",
-   "s": "",
-   "w": "Tin nghề và vận hành salon. Liên quan tới salon, salon owner. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQNW5kMUZDT3JiS00xWWJRQ2pOYTBKQmVLREVDaXZMVUFoZnpaZ3ZNcnBtS2FRMmZ6cUE4UGFONXdraU8zMmFZWHMzbS1KQVFvaG5kRHRfYV9ieEhSR0QwcmR0YTA0bF9oUkJhdmNIVnFjQzdaVjNibm1vcVhVWG9sRExuRlRLcTZ4NUtRellIdEtPYVZ1czVsUDNxT2puaDJabXR4eEY1WmpGbkpUSTFaRHNVaDJQNkHSAb8BQVVfeXFMTVduc1V6V3JXTXZRTFViMVd4REptcmVoMS1zSEpvUVlFZkdmdF91djBQcWZwbDRUUDFkRnc5allpR1Nvdm5vUGxWbkhNd2lRRlFaS25kUUFUbF84XzUzVDZGMk4wR2stOW5qaWxCODFqTHNaMzdXQmhYRHhJbE5zY3pPc1F5VU1uMzFVc0FKaUhKSXk0akpOenJ1M19jYThVa1R1cG1MRzdPUERoNENQUDl2RkI4SHR0UktmSzlSTms?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "salon",
-    "salon owner"
-   ]
-  },
-  {
-   "d": "2026-08-27",
-   "src": "Hairdressers Journal",
-   "hang": "Nghề",
-   "g": "nghe",
-   "imp": "thap",
-   "t": "The Seasonal Switch-Up: How Hair Salons Can Use Décor to Attract Clients",
-   "s": "",
-   "w": "Tin nghề và vận hành salon. Liên quan tới hair. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5PZko1SThPdHlVWUtydWR5MTdaN1NTSzNrUlZBREtrZ0d4bE81eDk5Vi02cldJc0I1dV94R0tsWEZtMS1zNkI4eHhub3lwUGRGM01Fa1pCbENDVXVPSnZFa1lOT05MblhlVE1uTXhkQS1ITDRERjlaTGFhUGs?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "hair"
-   ]
-  },
-  {
-   "d": "2026-08-27",
-   "src": "Peterborough Telegraph",
-   "hang": "Tổng hợp",
-   "g": "nghe",
-   "imp": "thap",
-   "t": "New hair dressing salon opens on business park in Peterborough",
-   "s": "",
-   "w": "Tin nghề và vận hành salon. Liên quan tới hair, salon. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOUDJ6RVM0OWJ1V2xNNjhHUjJ5YVVtM0JidFZRYWRISE90YklBZTliTGpYOVNxanlMSTRCQ3k4bDA1aExwVVVFWnFqS01ra0hvcWpvS1hjQmN2dkJsemFYWHVHNDRZQlVVOFA3dnJvR0RmaVBxZVJMaFRZQk9IdER5SzI2RzBHdkRVa2hZNHlJa0psN3hUY1NCS25aby00NzR5bVdPQXJzRExKSXF2UjYyaml3bEZmWXpWY0E?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "hair",
-    "salon"
-   ]
-  },
-  {
    "d": "2026-09-13",
    "src": "ScienceDaily · Rụng tóc",
    "hang": "Khoa học",
@@ -2140,6 +2140,25 @@
   },
   {
    "d": "2026-09-09",
+   "src": "Reddit · r/HaircareScience",
+   "hang": "Cộng đồng",
+   "g": "khoahoc",
+   "imp": "thap",
+   "t": "Why must glyoxylic acid straightening treatments be shampooed out same-day, unlike keratin/BB or Japanese straightening",
+   "s": "Hello, I've always been taught in my training that straightening treatments using acids and heat (like glyoxylic acid straightening) should be washed out with shampoo the same day, followed by a hair mask, unlike keratin/BB treatments or Japanese straightening. However, I haven't found any more information on this in the literature, and it's been a while since I've looked into it further, so I've forgotten a lot.…",
+   "w": "Bài nghiên cứu hoặc tin khoa học. Liên quan tới hair, keratin, hair mask. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://www.reddit.com/r/HaircareScience/comments/1wb2xpx/why_must_glyoxylic_acid_straightening_treatments/",
+   "khongPT": false,
+   "khoa": [
+    "hair",
+    "keratin",
+    "hair mask",
+    "shampoo",
+    "training"
+   ]
+  },
+  {
+   "d": "2026-09-09",
    "src": "Good News Network",
    "hang": "Tổng hợp",
    "g": "khoahoc",
@@ -2170,25 +2189,6 @@
     "trial",
     "hair",
     "hair loss"
-   ]
-  },
-  {
-   "d": "2026-09-09",
-   "src": "Reddit · r/HaircareScience",
-   "hang": "Cộng đồng",
-   "g": "khoahoc",
-   "imp": "thap",
-   "t": "Why must glyoxylic acid straightening treatments be shampooed out same-day, unlike keratin/BB or Japanese straightening",
-   "s": "Hello, I've always been taught in my training that straightening treatments using acids and heat (like glyoxylic acid straightening) should be washed out with shampoo the same day, followed by a hair mask, unlike keratin/BB treatments or Japanese straightening. However, I haven't found any more information on this in the literature, and it's been a while since I've looked into it further, so I've forgotten a lot.…",
-   "w": "Bài nghiên cứu hoặc tin khoa học. Liên quan tới hair, keratin, hair mask. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://www.reddit.com/r/HaircareScience/comments/1wb2xpx/why_must_glyoxylic_acid_straightening_treatments/",
-   "khongPT": false,
-   "khoa": [
-    "hair",
-    "keratin",
-    "hair mask",
-    "shampoo",
-    "training"
    ]
   },
   {
@@ -2227,7 +2227,7 @@
   },
   {
    "d": "2026-09-08",
-   "src": "dermatologyadvisor.com",
+   "src": "Dermatology Advisor",
    "hang": "Tổng hợp",
    "g": "khoahoc",
    "imp": "thap",
@@ -2466,7 +2466,7 @@
   },
   {
    "d": "2026-09-01",
-   "src": "The American Journal of Managed Care",
+   "src": "ajmc.com",
    "hang": "Tổng hợp",
    "g": "khoahoc",
    "imp": "thap",
@@ -2482,7 +2482,7 @@
   },
   {
    "d": "2026-09-01",
-   "src": "Healthline",
+   "src": "healthline.com",
    "hang": "Tổng hợp",
    "g": "khoahoc",
    "imp": "thap",
@@ -3014,7 +3014,7 @@
   },
   {
    "d": "2026-08-25",
-   "src": "Health.com",
+   "src": "health.com",
    "hang": "Tổng hợp",
    "g": "khoahoc",
    "imp": "thap",
@@ -3127,7 +3127,7 @@
   },
   {
    "d": "2026-08-24",
-   "src": "Healthline",
+   "src": "healthline.com",
    "hang": "Tổng hợp",
    "g": "khoahoc",
    "imp": "thap",
@@ -3580,7 +3580,7 @@
   },
   {
    "d": "2026-08-18",
-   "src": "Health and Me",
+   "src": "healthandme.com",
    "hang": "Tổng hợp",
    "g": "khoahoc",
    "imp": "thap",
@@ -3882,11 +3882,93 @@
    ]
   },
   {
+   "d": "2026-09-14",
+   "src": "glam.com",
+   "hang": "Tổng hợp",
+   "g": "xuhuong",
+   "imp": "thap",
+   "t": "Side-By-Side Pics Of Celebs Before & After Embracing Their Gray Hair",
+   "s": "",
+   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair, gray hair. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZ2Z6RWtfWjg1NzNTd2lKY2lhYmhvcXF2cmxQZGV5eHJZZlRwQTR0aVc3NV9JUnFhaGRfUjZQRWFmNThsTVp6dzB4dFZsNkhHeThBT1R1SDZEbjVPQWtCcFBrT0I0a1N0M3FnRnBKSGpCN1dPbU9ZdE1PUkp2M21YeHRfN0hUUlN3TnowRjRNTXNJRW9INEE?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "hair",
+    "gray hair"
+   ]
+  },
+  {
+   "d": "2026-09-14",
+   "src": "Reddit · r/FancyFollicles",
+   "hang": "Cộng đồng",
+   "g": "xuhuong",
+   "imp": "thap",
+   "t": "Was this bad? I like dyed hair but my family doesn't.",
+   "s": "I went on vacation so I used it as an opportunity to dye my hair. My parents went before me so I had some time to dye it. I got Manic Panic Enchanted Forest and the first three pics are it fading across a month. I bleached it again for work 1.5 months ago and it normally looks like 4-5 (I try to go for 5 more), 6 is my roots (I don't know what's going on in pic 2). I haven't ever had my hair this long but I'm in c…",
+   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair, hair dye. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://www.reddit.com/r/FancyFollicles/comments/1wfoh7n/was_this_bad_i_like_dyed_hair_but_my_family_doesnt/",
+   "khongPT": false,
+   "khoa": [
+    "hair",
+    "hair dye"
+   ]
+  },
+  {
+   "d": "2026-09-13",
+   "src": "Reddit · r/Hair",
+   "hang": "Cộng đồng",
+   "g": "xuhuong",
+   "imp": "thap",
+   "t": "$478 for this when I asked for platinum white feels…. Like a rip off?",
+   "s": "my hair now inspo my hair a couple of weeks ago to see what we were working with my hair from a full foil bleach last year to color correct red box dye (Done by the same salon , and for half the price) I was quoted at $179+$60+product cost+tax for a haircut and a full foil. The stylist said she could get my desired results with a cheaper method. Great. She did two rounds of something then said I’d have to wait to…",
+   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair, haircut, bleach. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://www.reddit.com/r/Hair/comments/1weti37/478_for_this_when_i_asked_for_platinum_white/",
+   "khongPT": false,
+   "khoa": [
+    "hair",
+    "haircut",
+    "bleach",
+    "salon",
+    "stylist",
+    "appointment"
+   ]
+  },
+  {
+   "d": "2026-09-13",
+   "src": "Reddit · r/Hair",
+   "hang": "Cộng đồng",
+   "g": "xuhuong",
+   "imp": "thap",
+   "t": "Is it possible that I could suit a pixie(ish) cut? I’m terrified of regretting it!",
+   "s": "I have a history on this sub (if I’m not mistaken) of having really long hair, and then hating it when cut. But my long hair just really hasn’t been ‘me’ lately, I use curling rods most of the time on it, and my natural texture is straight and a bit thin, so maybe it’s a matter than I just need my layers redone and I’ll love it again… But I don’t know! I would love something like a pixie, but I have a fairly round…",
+   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://www.reddit.com/r/Hair/comments/1wf36fe/is_it_possible_that_i_could_suit_a_pixieish_cut/",
+   "khongPT": false,
+   "khoa": [
+    "hair"
+   ]
+  },
+  {
+   "d": "2026-09-13",
+   "src": "Reddit · r/Hair",
+   "hang": "Cộng đồng",
+   "g": "xuhuong",
+   "imp": "thap",
+   "t": "Hair transformation",
+   "s": "submitted by /u/littlebubbles17 [link] [comments]",
+   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://www.reddit.com/r/Hair/comments/1wev2ft/hair_transformation/",
+   "khongPT": false,
+   "khoa": [
+    "hair"
+   ]
+  },
+  {
    "d": "2026-09-13",
    "src": "Reddit · r/femalehairadvice",
    "hang": "Cộng đồng",
    "g": "xuhuong",
-   "imp": "thap",
+   "imp": "vua",
    "t": "Should I do it?",
    "s": "Long hair is me now. Short hair is what I’m considering but I’ve never had hair that short before so I’m scared. submitted by /u/Elizabeth_Eton [link] [comments]",
    "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair. Gợi ý content sẽ có sau lần chạy phân tích tới.",
@@ -3913,7 +3995,7 @@
   },
   {
    "d": "2026-09-12",
-   "src": "stylecaster.com",
+   "src": "StyleCaster",
    "hang": "Tổng hợp",
    "g": "xuhuong",
    "imp": "thap",
@@ -4023,18 +4105,19 @@
   },
   {
    "d": "2026-09-11",
-   "src": "Reddit · r/Hair",
-   "hang": "Cộng đồng",
+   "src": "Paris Select Book",
+   "hang": "Tổng hợp",
    "g": "xuhuong",
    "imp": "thap",
-   "t": "Help me please I'm going to cry",
-   "s": "EDIT: to the people say I lie and bs, I have no interest in doing this, I would take full responsibility over if I did something with it, to all the experts in hair that claims that's not the same hair, well you are wrong, in the photo that was my hair after brushing it. I don't know what happened over night, I don't know what products she used. All I did after was walking around and going to sleep. I got my hair…",
-   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair, hairdresser. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://www.reddit.com/r/Hair/comments/1wdev8l/help_me_please_im_going_to_cry/",
+   "t": "Faced with an industry gap in grey hair care, she launched her own brand",
+   "s": "",
+   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair, hair care, grey hair. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5jcGpfVzRIaEY0T3FTWkVxWXgwSElyekdXTmZUVm96bEtDMklsa0pTVVp5M1Q0Z00xSFBqT2U1M3A0RUxzT0wwVHNJNG1CUmtabU04NW4xeE1aODhudlFYU3F0OV9HRFFDMzNNYnZ1YnBDS25ZTHc?oc=5",
    "khongPT": false,
    "khoa": [
     "hair",
-    "hairdresser"
+    "hair care",
+    "grey hair"
    ]
   },
   {
@@ -4077,7 +4160,7 @@
    "src": "Reddit · r/femalehairadvice",
    "hang": "Cộng đồng",
    "g": "xuhuong",
-   "imp": "vua",
+   "imp": "thap",
    "t": "Should I get it all cut off?",
    "s": "Every few years I get frustrated with my long hair and chop it off…and regret it. It’s at the stage where it’s unmanageable and doesn’t hold a style. Last weekend I sorry 3 hours styling it with my Airwrap and it fell out almost immediately. It’s very thick and coarse. Should I go for the chop (see the AI images) or just get a decent trim like 4/6 inches? All opinions welcome. submitted by /u/CarryAltruistic2698 […",
    "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair, styling. Gợi ý content sẽ có sau lần chạy phân tích tới.",
@@ -4090,19 +4173,18 @@
   },
   {
    "d": "2026-09-11",
-   "src": "Paris Select Book",
-   "hang": "Tổng hợp",
+   "src": "Reddit · r/Hair",
+   "hang": "Cộng đồng",
    "g": "xuhuong",
    "imp": "thap",
-   "t": "Faced with an industry gap in grey hair care, she launched her own brand",
-   "s": "",
-   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair, hair care, grey hair. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5jcGpfVzRIaEY0T3FTWkVxWXgwSElyekdXTmZUVm96bEtDMklsa0pTVVp5M1Q0Z00xSFBqT2U1M3A0RUxzT0wwVHNJNG1CUmtabU04NW4xeE1aODhudlFYU3F0OV9HRFFDMzNNYnZ1YnBDS25ZTHc?oc=5",
+   "t": "Help me please I'm going to cry",
+   "s": "EDIT: to the people say I lie and bs, I have no interest in doing this, I would take full responsibility over if I did something with it, to all the experts in hair that claims that's not the same hair, well you are wrong, in the photo that was my hair after brushing it. I don't know what happened over night, I don't know what products she used. All I did after was walking around and going to sleep. I got my hair…",
+   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair, hairdresser. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://www.reddit.com/r/Hair/comments/1wdev8l/help_me_please_im_going_to_cry/",
    "khongPT": false,
    "khoa": [
     "hair",
-    "hair care",
-    "grey hair"
+    "hairdresser"
    ]
   },
   {
@@ -4204,7 +4286,7 @@
    "src": "Reddit · r/Hair",
    "hang": "Cộng đồng",
    "g": "xuhuong",
-   "imp": "thap",
+   "imp": "vua",
    "t": "Went to a professional hair salon. I don't like the result. They told me they will redo it tomorrow but I am scared. What do y'all think?",
    "s": "UPD: Some people are syaing that the references are AI. Tbf I did ask them multiple times if they are sure they can do this. They were super confident that they can. If they would have told me that they cannot do it, I would not have went there And big big thank you for people to posting photoes of themselves having similiar hair color!!! I will show them that tomorrow and will ask if they can do it The hair salon…",
    "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair, hair color, salon. Gợi ý content sẽ có sau lần chạy phân tích tới.",
@@ -4359,21 +4441,6 @@
   },
   {
    "d": "2026-09-08",
-   "src": "Reddit · r/Hair",
-   "hang": "Cộng đồng",
-   "g": "xuhuong",
-   "imp": "thap",
-   "t": "they went ham on the thinning shears and i am so upset",
-   "s": "first pic is before, second is after, and last two are inspiration pictures. i asked for medium length, lots of layers as shown in the last two inspo photos. this guy saw how thick my hair was and then took out the thinning shears and hacked half my hair away, leaving the bottom super stringy. my bun and ponytail is now super small and i’m so upset. i went home and cut another inch and a half off to remove some of…",
-   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://www.reddit.com/r/Hair/comments/1wa12hz/they_went_ham_on_the_thinning_shears_and_i_am_so/",
-   "khongPT": false,
-   "khoa": [
-    "hair"
-   ]
-  },
-  {
-   "d": "2026-09-08",
    "src": "Reddit · r/FancyFollicles",
    "hang": "Cộng đồng",
    "g": "xuhuong",
@@ -4430,6 +4497,21 @@
    "s": "I have to use a bobby pin to pull the hair together so I don't look bald but it's so annoying. Does anyone know what it is or what I can do? submitted by /u/AquaSage_8806 [link] [comments]",
    "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair. Gợi ý content sẽ có sau lần chạy phân tích tới.",
    "u": "https://www.reddit.com/r/femalehairadvice/comments/1warm5w/my_hair_splits_weirdly_at_the_back_and_i_look_bald/",
+   "khongPT": false,
+   "khoa": [
+    "hair"
+   ]
+  },
+  {
+   "d": "2026-09-08",
+   "src": "Reddit · r/Hair",
+   "hang": "Cộng đồng",
+   "g": "xuhuong",
+   "imp": "thap",
+   "t": "they went ham on the thinning shears and i am so upset",
+   "s": "first pic is before, second is after, and last two are inspiration pictures. i asked for medium length, lots of layers as shown in the last two inspo photos. this guy saw how thick my hair was and then took out the thinning shears and hacked half my hair away, leaving the bottom super stringy. my bun and ponytail is now super small and i’m so upset. i went home and cut another inch and a half off to remove some of…",
+   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://www.reddit.com/r/Hair/comments/1wa12hz/they_went_ham_on_the_thinning_shears_and_i_am_so/",
    "khongPT": false,
    "khoa": [
     "hair"
@@ -4497,6 +4579,39 @@
   },
   {
    "d": "2026-09-07",
+   "src": "Reddit · r/Hair",
+   "hang": "Cộng đồng",
+   "g": "xuhuong",
+   "imp": "thap",
+   "t": "Looking for advice for 12 year old daughters hair",
+   "s": "My 12 year old daughter cried for over an hour tonight because she hates her hair. I felt so bad but I didn’t know what to recommend other than to blow dry or straighten it. She currently washes her hair with Tresemme Smooth shampoo and conditioner every other day. Sometimes she will use Biolage smoothing serum. She is fine with the color, it’s mostly the texture and frizziness that she dislikes. I would describe…",
+   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair, conditioner, shampoo. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://www.reddit.com/r/Hair/comments/1w9i0y8/looking_for_advice_for_12_year_old_daughters_hair/",
+   "khongPT": false,
+   "khoa": [
+    "hair",
+    "conditioner",
+    "shampoo",
+    "blow dry"
+   ]
+  },
+  {
+   "d": "2026-09-07",
+   "src": "Reddit · r/femalehairadvice",
+   "hang": "Cộng đồng",
+   "g": "xuhuong",
+   "imp": "thap",
+   "t": "Trans girl with no idea what I'm doing",
+   "s": "I've been growing this out for about two years. I regularly get it cleaned up every 3 or 4 months, but no matter what I do I just don't feel like it's working for me, except when I tie it up which makes it tolerable. Looking for suggestions of styles that would work on me. Edit: omg thank you all so much for your feedback and kind comments, you all really know how to fill a girl with confidence! I am taking all of…",
+   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hairdresser. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://www.reddit.com/r/femalehairadvice/comments/1w9o257/trans_girl_with_no_idea_what_im_doing/",
+   "khongPT": false,
+   "khoa": [
+    "hairdresser"
+   ]
+  },
+  {
+   "d": "2026-09-07",
    "src": "Fashion Times UK",
    "hang": "Tổng hợp",
    "g": "xuhuong",
@@ -4532,24 +4647,6 @@
   },
   {
    "d": "2026-09-07",
-   "src": "Reddit · r/Hair",
-   "hang": "Cộng đồng",
-   "g": "xuhuong",
-   "imp": "thap",
-   "t": "Looking for advice for 12 year old daughters hair",
-   "s": "My 12 year old daughter cried for over an hour tonight because she hates her hair. I felt so bad but I didn’t know what to recommend other than to blow dry or straighten it. She currently washes her hair with Tresemme Smooth shampoo and conditioner every other day. Sometimes she will use Biolage smoothing serum. She is fine with the color, it’s mostly the texture and frizziness that she dislikes. I would describe…",
-   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair, conditioner, shampoo. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://www.reddit.com/r/Hair/comments/1w9i0y8/looking_for_advice_for_12_year_old_daughters_hair/",
-   "khongPT": false,
-   "khoa": [
-    "hair",
-    "conditioner",
-    "shampoo",
-    "blow dry"
-   ]
-  },
-  {
-   "d": "2026-09-07",
    "src": "Reddit · r/FancyFollicles",
    "hang": "Cộng đồng",
    "g": "xuhuong",
@@ -4562,21 +4659,6 @@
    "khoa": [
     "hair",
     "toner"
-   ]
-  },
-  {
-   "d": "2026-09-07",
-   "src": "Reddit · r/femalehairadvice",
-   "hang": "Cộng đồng",
-   "g": "xuhuong",
-   "imp": "thap",
-   "t": "Trans girl with no idea what I'm doing",
-   "s": "I've been growing this out for about two years. I regularly get it cleaned up every 3 or 4 months, but no matter what I do I just don't feel like it's working for me, except when I tie it up which makes it tolerable. Looking for suggestions of styles that would work on me. Edit: omg thank you all so much for your feedback and kind comments, you all really know how to fill a girl with confidence! I am taking all of…",
-   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hairdresser. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://www.reddit.com/r/femalehairadvice/comments/1w9o257/trans_girl_with_no_idea_what_im_doing/",
-   "khongPT": false,
-   "khoa": [
-    "hairdresser"
    ]
   },
   {
@@ -5167,6 +5249,24 @@
   },
   {
    "d": "2026-09-01",
+   "src": "HELLO! Magazine",
+   "hang": "Tổng hợp",
+   "g": "xuhuong",
+   "imp": "thap",
+   "t": "Nicole Kidman's thinning hair was 'transformed' by this hair growth shampoo",
+   "s": "",
+   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair, shampoo, hair growth. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbFJhanFZUC1EeGszSFp5dDB1TVZrbEozbHdzcXZtbUF2cS1faGVwbXV1Mnl5dktlenY3TUhIeEVMS1ZxaW9zYUY5UnpZemVndnBGX0dGc3FoRkVyT0p1R3ZfUjhfdnN4RmhOSXp6RzJEYnM1NFdTREZHLUNrTGQxVFc0Sy16WENQSXFSVld2MGFwYWpDODJoRjFLejdoQQ?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "hair",
+    "shampoo",
+    "hair growth",
+    "thinning hair"
+   ]
+  },
+  {
+   "d": "2026-09-01",
    "src": "Byrdie",
    "hang": "Tạp chí",
    "g": "xuhuong",
@@ -5242,24 +5342,6 @@
     "hair",
     "commission",
     "portfolio"
-   ]
-  },
-  {
-   "d": "2026-09-01",
-   "src": "HELLO! Magazine",
-   "hang": "Tổng hợp",
-   "g": "xuhuong",
-   "imp": "thap",
-   "t": "Nicole Kidman's thinning hair was 'transformed' by this hair growth shampoo",
-   "s": "",
-   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair, shampoo, hair growth. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbFJhanFZUC1EeGszSFp5dDB1TVZrbEozbHdzcXZtbUF2cS1faGVwbXV1Mnl5dktlenY3TUhIeEVMS1ZxaW9zYUY5UnpZemVndnBGX0dGc3FoRkVyT0p1R3ZfUjhfdnN4RmhOSXp6RzJEYnM1NFdTREZHLUNrTGQxVFc0Sy16WENQSXFSVld2MGFwYWpDODJoRjFLejdoQQ?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "hair",
-    "shampoo",
-    "hair growth",
-    "thinning hair"
    ]
   },
   {
@@ -5563,7 +5645,7 @@
   },
   {
    "d": "2026-08-28",
-   "src": "redonline.co.uk",
+   "src": "Red magazine",
    "hang": "Tổng hợp",
    "g": "xuhuong",
    "imp": "thap",
@@ -5744,82 +5826,33 @@
    ]
   },
   {
-   "d": "2026-08-27",
-   "src": "Allure",
-   "hang": "Tạp chí",
-   "g": "xuhuong",
+   "d": "2026-09-14",
+   "src": "VTVgo",
+   "hang": "Việt Nam",
+   "g": "vn",
    "imp": "thap",
-   "t": "‘The Shards’: All the ‘80s Hair Details From Episode 6",
-   "s": "Makeup department head Valerie Jackson used period-accurate products and tools to recreate the retro looks worn by Ivy Wolk, Kaia Gerber, and Homer Gere.",
-   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://www.allure.com/story/the-shards-season-1-lead-hairstylist-interview",
-   "khongPT": false,
-   "khoa": [
-    "hair"
-   ]
-  },
-  {
-   "d": "2026-08-27",
-   "src": "VOI.ID",
-   "hang": "Tổng hợp",
-   "g": "xuhuong",
-   "imp": "thap",
-   "t": "Lazy Hair? Lazy Hair Trend Makes Dry Shampoo More Popular",
+   "t": "Mẹo hay cho bạn | Tự làm dầu gội đơn giản hiệu quả",
    "s": "",
-   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair, shampoo. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE90c1R4WUliRGEtR3FMZTIzQ2p5ZHdyZkxHbUs2ZEg4cGpzZ3A1cXQyT1pPRmJUWG5CMkdQMktZZTNxalBfeTFJWXdR0gFCQVVfeXFMTmc0TkRHYjE1MkZQYkRCUnI1aU5ILXR2TFVmX2ZWaWt5dkZybFFmQ0JubUlMXzhoRVRyMjZHcVU0REtB?oc=5",
+   "w": "Tin trong nước. Liên quan tới dầu gội. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE8wQkpDNTBWczlJQUJ5RWEtMFVVN1RqdGNNX3UzaUFWTFBveTh0TU1qa2xZMWx4c0Z5cDJOWnI5cEs?oc=5",
    "khongPT": false,
    "khoa": [
-    "hair",
-    "shampoo"
+    "dầu gội"
    ]
   },
   {
-   "d": "2026-08-27",
-   "src": "Reddit · r/FancyFollicles",
-   "hang": "Cộng đồng",
-   "g": "xuhuong",
-   "imp": "vua",
-   "t": "I have calico hair and now I never want to have one hair color again",
-   "s": "ITS JUST SO GOOD sorry for the bad photos lol but I’ve had it for about 5 months now and just got it refreshed and its looked so good all the time, even when it was severely grown out. I want to get something different next time that’s not as expensive but I have no clue what to do that would compare to how happy I’ve been with it submitted by /u/throwingaway11532 [link] [comments]",
-   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair, hair color. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://www.reddit.com/r/FancyFollicles/comments/1vzlhbb/i_have_calico_hair_and_now_i_never_want_to_have/",
-   "khongPT": false,
-   "khoa": [
-    "hair",
-    "hair color"
-   ]
-  },
-  {
-   "d": "2026-08-27",
-   "src": "Reddit · r/FancyFollicles",
-   "hang": "Cộng đồng",
-   "g": "xuhuong",
+   "d": "2026-09-13",
+   "src": "aFamily",
+   "hang": "Việt Nam",
+   "g": "vn",
    "imp": "thap",
-   "t": "OBSESSED with CMY hair lately",
-   "s": "You don’t need all the colors of the rainbow to have fun. I’ve been experimenting with only using CYAN, MAGENTA, and YELLOW lately and honestly have been LOVING IT. Which one is your fave?? submitted by /u/PurplePARTYUnicorn [link] [comments]",
-   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://www.reddit.com/r/FancyFollicles/comments/1vz3k8w/obsessed_with_cmy_hair_lately/",
+   "t": "7 kiểu tóc tỉa tầng cao được yêu thích mùa thu 2026: Nhẹ đầu, tôn mặt, không cần uốn vẫn đẹp",
+   "s": "",
+   "w": "Tin trong nước. Liên quan tới tóc. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPMzFia01xU0w0WEpSeVFrVFFHek1FeXRPdU5nSVJTeVVKcjhadk8tMTdJMVlnSlRWMFJFX1VyTzhCUnBRTURtb0pKUHZmVnVwUl82WXJwREgwUVo5MkpUVXFGX29CUnZ2Q0RhOEJYMjd2MzdMdFdNLWlBblk4V05FNVdMTEZ6RDNvVDAzaDhvT09MSV8xeWFaeHBveGNrd2l5TmF3V2hVTkd2YlFKeXZ4MHJJSk8yWWtuRHo0bW9tMVphdGdkS2tTeFNwbw?oc=5",
    "khongPT": false,
    "khoa": [
-    "hair"
-   ]
-  },
-  {
-   "d": "2026-08-27",
-   "src": "Refinery29 · Làm đẹp",
-   "hang": "Tạp chí",
-   "g": "xuhuong",
-   "imp": "vua",
-   "t": "22 Bestsellers Refinery29 Readers Carted Up This Summer",
-   "s": "July was full of great shopping, especially thanks to all the standout deals, from Nordstrom's month-long Anniversary Sale and Lululemon's rare Summer Sale to all the Fourth of July discounts . From a mix of on-sale fashion finds and investment pieces to home upgrades (like loveseats , bath mats, and silk pillowcases) plus unique beauty picks (like banana perfume and \"blonzers\" ), readers found these particular pr…",
-   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair, frizz. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://www.refinery29.com/en-us/most-wanted-best-selling-products-july-2026?utm_source=feed&utm_medium=rss",
-   "khongPT": false,
-   "khoa": [
-    "hair",
-    "frizz",
-    "commission"
+    "tóc"
    ]
   },
   {
@@ -5871,14 +5904,14 @@
   },
   {
    "d": "2026-09-12",
-   "src": "baoquocte.vn",
+   "src": "Vietnam.vn",
    "hang": "Việt Nam",
    "g": "vn",
    "imp": "thap",
    "t": "Edric Hair Studio — Tiệm tóc tiên phong theo đuổi nghệ thuật thiết kế tóc nam cá nhân hoá tại Việt Nam",
    "s": "",
    "w": "Tin trong nước. Liên quan tới hair, tóc, tiệm tóc. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQTmlUdTZLb3dzVlNLQmZOc19ZSHdSYlBXSGN4TllVeDM4LWNnVmN5QnliWlVtbklnZ2tiUXpfbEVMWVhrLTNFSnZxWDk2S3FpRjhsbmo0ZldfY1lyLUl4T0NUcTdkcktTS2UxYXZJZGM0ZHZ3ZHdXakZOTDVTd0JiUTktcS1JeEloN3lpWUQ1bjVNWkV4blY1ZW1mVmdHbHpFcUhnbnlEc0NQSEVITVl4eG5NVzN1SFpWb3RLQ0haNTJNWXhvUlIzSzh3RU8yZw?oc=5",
+   "u": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNSmNGcGhLdnF6eXU5UV9lM21mRWQwOUxBMTlhcHQ2aXBKMlBlR0ZGSElFa1I5QWNHUmFhUVBuT1lxY1dKY2xjYkxJc0xMbjk4d0RHSDFtdnRhczNNeEd4S2stWTUyZHpyOV91Qk5QcHczSWZOZ2lOZUFBNlNTb3czc0ltVTRUV2lNZ1hlMXNSRHgtUk5VVHkwaC1iV0tuUWZCbXFVdno1UldLYWROQXUtc3p2TWhaeDQwT3ZDcGREa0c?oc=5",
    "khongPT": false,
    "khoa": [
     "hair",
@@ -5950,21 +5983,6 @@
   },
   {
    "d": "2026-09-11",
-   "src": "VTVgo",
-   "hang": "Việt Nam",
-   "g": "vn",
-   "imp": "thap",
-   "t": "Mẹo hay cho bạn | Tự làm dầu gội đơn giản hiệu quả",
-   "s": "",
-   "w": "Tin trong nước. Liên quan tới dầu gội. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE8wQkpDNTBWczlJQUJ5RWEtMFVVN1RqdGNNX3UzaUFWTFBveTh0TU1qa2xZMWx4c0Z5cDJOWnI5cEs?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "dầu gội"
-   ]
-  },
-  {
-   "d": "2026-09-11",
    "src": "ELLE",
    "hang": "Việt Nam",
    "g": "vn",
@@ -5973,6 +5991,21 @@
    "s": "",
    "w": "Tin trong nước. Liên quan tới tóc. Gợi ý content sẽ có sau lần chạy phân tích tới.",
    "u": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1ja1RKZ3JQV0Y5WDEyZlA1ZjZqR2xPZE00STFHYUxWTnc0UTRXT3RVdG43OGYxVkxKbE0yY1pZa25UYldfNGlOdjhKRzlwb2lXVXYzS0hXWENCSmkyUUNMUzVQN0wzUmtiWWtNVEh1bWN1MHlJV2kyMXMteFhNX00?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "tóc"
+   ]
+  },
+  {
+   "d": "2026-09-10",
+   "src": "andora.com.vn",
+   "hang": "Việt Nam",
+   "g": "vn",
+   "imp": "thap",
+   "t": "18 màu tóc đẹp nhất năm 2026 cho phái nữ đang HOT TREND",
+   "s": "",
+   "w": "Tin trong nước. Liên quan tới tóc. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9nN1RiWXdPek1YWTFRb1dmSmx6NW91ZzN4dDVkVkVRaEU2QnZYWURiRE96YzBjbG44aFZuZXBqaWdqOWs4bDJXRWFROUNXWS1U?oc=5",
    "khongPT": false,
    "khoa": [
     "tóc"
@@ -6056,7 +6089,7 @@
   },
   {
    "d": "2026-09-09",
-   "src": "Báo Sức khỏe & Đời sống",
+   "src": "suckhoedoisong.vn",
    "hang": "Việt Nam",
    "g": "vn",
    "imp": "thap",
@@ -6072,7 +6105,7 @@
   },
   {
    "d": "2026-09-09",
-   "src": "VietnamBiz",
+   "src": "vietnambiz.vn",
    "hang": "Việt Nam",
    "g": "vn",
    "imp": "thap",
@@ -6212,7 +6245,7 @@
   },
   {
    "d": "2026-09-08",
-   "src": "vietnam.vn",
+   "src": "Vietnam.vn",
    "hang": "Việt Nam",
    "g": "vn",
    "imp": "thap",
@@ -6262,7 +6295,7 @@
   },
   {
    "d": "2026-09-08",
-   "src": "Báo Dân trí",
+   "src": "dantri.com.vn",
    "hang": "Việt Nam",
    "g": "vn",
    "imp": "thap",
@@ -6339,7 +6372,7 @@
   },
   {
    "d": "2026-09-08",
-   "src": "CafeF",
+   "src": "cafef.vn",
    "hang": "Việt Nam",
    "g": "vn",
    "imp": "thap",
@@ -6400,7 +6433,7 @@
   },
   {
    "d": "2026-09-07",
-   "src": "CafeBiz",
+   "src": "cafebiz.vn",
    "hang": "Việt Nam",
    "g": "vn",
    "imp": "thap",
@@ -6553,21 +6586,6 @@
   },
   {
    "d": "2026-09-04",
-   "src": "andora.com.vn",
-   "hang": "Việt Nam",
-   "g": "vn",
-   "imp": "thap",
-   "t": "18 màu tóc đẹp nhất năm 2026 cho phái nữ đang HOT TREND",
-   "s": "",
-   "w": "Tin trong nước. Liên quan tới tóc. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9nN1RiWXdPek1YWTFRb1dmSmx6NW91ZzN4dDVkVkVRaEU2QnZYWURiRE96YzBjbG44aFZuZXBqaWdqOWs4bDJXRWFROUNXWS1U?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "tóc"
-   ]
-  },
-  {
-   "d": "2026-09-04",
    "src": "Eva.vn",
    "hang": "Việt Nam",
    "g": "vn",
@@ -6693,6 +6711,22 @@
   },
   {
    "d": "2026-09-01",
+   "src": "Báo VietNamNet",
+   "hang": "Việt Nam",
+   "g": "vn",
+   "imp": "thap",
+   "t": "Diễn viên Dũng Nhi 'Bí thư tỉnh ủy' tuổi 80 vẫn 'sợ vợ, nghe lời nhuộm tóc đen'",
+   "s": "",
+   "w": "Tin trong nước. Liên quan tới tóc, nhuộm tóc. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNdGZJQS1BMkEzcTYtOGVkMElHdlJDWndKTk5Gc1JuSEdkVjFKa1hYNlUxb1RpMUlyVFRrLWZoY2tjRVg3aHNjYnRyaGZEbkg2dmtSSTVGTl8yQTVtekdOZVZ5dC1ZTFFHVDJCZnluR3FaZWtFVXpybWU2UFdaUWQtdDFuTjg2M3FyTWNDYzhKdW9LLV84WUh5TUtOLWpQb0hwbklybVZ5dTVQazBPbGc?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "tóc",
+    "nhuộm tóc"
+   ]
+  },
+  {
+   "d": "2026-09-01",
    "src": "aFamily",
    "hang": "Việt Nam",
    "g": "vn",
@@ -6704,22 +6738,6 @@
    "khongPT": false,
    "khoa": [
     "tóc"
-   ]
-  },
-  {
-   "d": "2026-09-01",
-   "src": "Vietnam.vn",
-   "hang": "Việt Nam",
-   "g": "vn",
-   "imp": "thap",
-   "t": "Diễn viên Dũng Nhi 'Bí thư tỉnh ủy' tuổi 80 vẫn 'sợ vợ, nghe lời nhuộm tóc đen'",
-   "s": "",
-   "w": "Tin trong nước. Liên quan tới tóc, nhuộm tóc. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMingFBVV95cUxONHE4dnJQM1dOTWQtZ29QTG9yMlFWMDYzX241X2NfdVpnMVh0RmdIdG0yYzNMa1J2Y09OX1RIUDRQbzkxZ3RXTDQ4VW1iWEx3dUh4T05jdkQ5T3dEZjRzX1p3RHJxR29VUHZXQzF6WWVmNUVwa3JqSnRVcGJkNVZERldwdGF1QllMU3hWUlJDWGQ5MU5EX25uMDdXLW9ldw?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "tóc",
-    "nhuộm tóc"
    ]
   },
   {
@@ -6896,7 +6914,7 @@
   },
   {
    "d": "2026-08-30",
-   "src": "vtv.vn",
+   "src": "VTV.vn",
    "hang": "Việt Nam",
    "g": "vn",
    "imp": "thap",
@@ -6912,23 +6930,7 @@
   },
   {
    "d": "2026-08-30",
-   "src": "SOHA",
-   "hang": "Việt Nam",
-   "g": "vn",
-   "imp": "thap",
-   "t": "Việt Nam có 1 loại rau chống rụng tóc, kích thích mọc tóc con: Giá chỉ 15.000 đồng/kg nhưng đem lại vô vàn lợi ích sức khỏe",
-   "s": "",
-   "w": "Tin trong nước. Liên quan tới tóc, rụng tóc. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxObFpIM1FyekQzZGdBR0NQVWVlRHF3MnBTLWRDSUp5elZIUVNVaVFiWmw4M3hkekVGVC12RVFmRDlxTDdmWWdfNzhEbzBkVkFxejZlTkZ5TXN6RUwwT1RCcTVfSjJBU2RtVHFMemVoV2FiUlcyNDhCZFhkMWNmY1BhaEQwdExWWEYwVzYtSUFuaFdaVnRQb1VEVXJXc1ZoSnpSTWUwOWJqeE5SRWxsWWpUNDNCbm9WVDJ6eFRVUEdlZHc3SDdEQjRwaEpQRVhRdGxHLVVGc1lkT0xaLVo4QllNY25CYXZKV3BpMmp4RlpkVUs?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "tóc",
-    "rụng tóc"
-   ]
-  },
-  {
-   "d": "2026-08-30",
-   "src": "CafeBiz",
+   "src": "cafebiz.vn",
    "hang": "Việt Nam",
    "g": "vn",
    "imp": "thap",
@@ -6956,6 +6958,22 @@
     "tóc",
     "tóc bạc",
     "nhuộm tóc"
+   ]
+  },
+  {
+   "d": "2026-08-30",
+   "src": "SOHA",
+   "hang": "Việt Nam",
+   "g": "vn",
+   "imp": "thap",
+   "t": "Việt Nam có 1 loại rau chống rụng tóc, kích thích mọc tóc con: Giá chỉ 15.000 đồng/kg nhưng đem lại vô vàn lợi ích sức khỏe",
+   "s": "",
+   "w": "Tin trong nước. Liên quan tới tóc, rụng tóc. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxObFpIM1FyekQzZGdBR0NQVWVlRHF3MnBTLWRDSUp5elZIUVNVaVFiWmw4M3hkekVGVC12RVFmRDlxTDdmWWdfNzhEbzBkVkFxejZlTkZ5TXN6RUwwT1RCcTVfSjJBU2RtVHFMemVoV2FiUlcyNDhCZFhkMWNmY1BhaEQwdExWWEYwVzYtSUFuaFdaVnRQb1VEVXJXc1ZoSnpSTWUwOWJqeE5SRWxsWWpUNDNCbm9WVDJ6eFRVUEdlZHc3SDdEQjRwaEpQRVhRdGxHLVVGc1lkT0xaLVo4QllNY25CYXZKV3BpMmp4RlpkVUs?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "tóc",
+    "rụng tóc"
    ]
   },
   {
@@ -7337,14 +7355,14 @@
   },
   {
    "d": "2026-08-23",
-   "src": "VnExpress",
+   "src": "Tin tức 24h",
    "hang": "Việt Nam",
    "g": "vn",
    "imp": "thap",
    "t": "Hoa hậu Mỹ gây xúc động khi chia sẻ về chứng rụng tóc tại Miss World",
    "s": "",
    "w": "Tin trong nước. Liên quan tới tóc, rụng tóc. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOb1VJeFhmNlB0RVNMSHFwa045ekh4d29pdS1fSTZpcXcyYjVGeWlWckRiMXVkQlZXeFBmYUMxQXdTUnZGU0dRcVY3LUd4VjRtUGJ4SzBBZDBTVEZUUENZUXNneUUySTZrazBEU0ZJbC12blFhSUlvVVRZUHZfRk05RXE4Y042c2R0SEFwczJvZm1GOXRJQ0t3Z25yX0t3bDR6c2wwM0ttaUd6MFVMeXdwZg?oc=5",
+   "u": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQeDdTdUhyNWIzRE5NUU9razdYVGtSRm9LU0lzcVFXYmlYYkh0M3Z5UUZjMXU3WVN1bTJTQ1BUY0U2dFVrMmdRSE9JbHZpbWFGdWJkcjJtSlBMZDEtN3prWS1BVWtZaUlSOG5jUVR6MTZMLThhcEh6eHpGOEd6R1RnM0ZQM01uVmlwVXI1bzJ6TU1JNm9uazBSZ2VwQ1EwNnkwNHpTOGV0TFpCbnlrekVoUzFn?oc=5",
    "khongPT": false,
    "khoa": [
     "tóc",
@@ -7463,7 +7481,7 @@
   },
   {
    "d": "2026-08-20",
-   "src": "CafeF",
+   "src": "cafef.vn",
    "hang": "Việt Nam",
    "g": "vn",
    "imp": "thap",
@@ -7479,7 +7497,7 @@
   },
   {
    "d": "2026-08-20",
-   "src": "anninhthudo.vn",
+   "src": "Báo Điện tử An ninh Thủ đô",
    "hang": "Việt Nam",
    "g": "vn",
    "imp": "cao",
@@ -7679,22 +7697,6 @@
    "khongPT": false,
    "khoa": [
     "tóc"
-   ]
-  },
-  {
-   "d": "2026-08-15",
-   "src": "baothanhhoa.vn",
-   "hang": "Việt Nam",
-   "g": "vn",
-   "imp": "thap",
-   "t": "CLB Đông Á Thanh Hóa chuẩn bị đổi tên và đón chủ tịch mới; Ronaldo gây sốc với diện mạo trẻ trung, nhuộm tóc vàng",
-   "s": "",
-   "w": "Tin trong nước. Liên quan tới tóc, nhuộm tóc. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNeTNFaXB2aXRoUnNPVlZocHhSVE5udDQxQm1fYjVNX0NiTUQ0M29DY1J4UWFnSk16SFVlZE5uTVJUSzNtcHVIQ0VuSnZ6dFQwSUtsWG9yUm5EOXNsLXByc2c0RUl5TXRZdFBFRjdSQ2VXa09QcllIUXJuc01rc2U1VE5vV3NjRkdqWDB6aE4zUWt3MGpKcURFUFBMSzdlZUowc2YyczRWMWZNd0kyODFVRk4wVl9hV3VfQWE5dmZRQ25OdFNtZ2VRTjZlbHlNS3VxUXpfdlQ5djhZdFNoYkE?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "tóc",
-    "nhuộm tóc"
    ]
   }
  ]

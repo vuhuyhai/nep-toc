@@ -1,7 +1,7 @@
 {
- "capNhatLuc": "2026-10-28T04:57:16.711Z",
+ "capNhatLuc": "2026-10-29T05:06:29.366Z",
  "soTin": 480,
- "tinMoiLanNay": 36,
+ "tinMoiLanNay": 28,
  "theoNhom": {
   "nghe": 120,
   "khoahoc": 120,
@@ -66,6 +66,67 @@
  ],
  "tin": [
   {
+   "d": "2026-10-29",
+   "src": "Modern Salon",
+   "hang": "Nghề",
+   "g": "nghe",
+   "imp": "thap",
+   "t": "Premiere Show Group Launches \"IN FOCUS\" Campaign with Award-Winning Ashlee Norman Hair & Team",
+   "s": "Premiere Show Group has announced IN FOCUS, the creative campaign behind the Premiere 2027 Show Tour, developed in collaboration with award-winning Ashlee Norman Hair & Team.",
+   "w": "Tin nghề và vận hành salon. Liên quan tới hair. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://www.modernsalon.com/articles/premiere-show-group-launches-in-focus-campaign-with-award-winning-ashlee-norman-hair-team",
+   "khongPT": false,
+   "khoa": [
+    "hair"
+   ]
+  },
+  {
+   "d": "2026-10-28",
+   "src": "American Salon",
+   "hang": "Nghề",
+   "g": "nghe",
+   "imp": "thap",
+   "t": "10 Beauty Advent Calendars That Sleigh All Day",
+   "s": "",
+   "w": "Tin nghề và vận hành salon. Liên quan tới salon. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPemkyUEhhVVFmM0EtQjhKQ3JaN1J6YVM3NnFWd1JLUnNnT2JHUm1CRnRPVmVpSWJYN0ptSkRNWmkxZzVWQ0Q5enQtaXdieHQ0SFlWWGRZZGdHSWRsaHo0eTZRRnN6ZVNNdk5CN2RIMTVZM0hhZk51X0d1c01DV3M3TG9MaFVZQW8?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "salon"
+   ]
+  },
+  {
+   "d": "2026-10-28",
+   "src": "Cosmetics Business",
+   "hang": "Nghề",
+   "g": "nghe",
+   "imp": "thap",
+   "t": "Head & Shoulders heads back to school with Derma X Pro Scalp School pop-up",
+   "s": "Head & Shoulders’ two-day Derma X Pro Scalp School pop-up in London, UK, will educate consumers about the science behind healthy scalps",
+   "w": "Tin nghề và vận hành salon. Liên quan tới scalp. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://www.cosmeticsbusiness.com/head-shoulders-scalp-school-pop-up",
+   "khongPT": false,
+   "khoa": [
+    "scalp"
+   ]
+  },
+  {
+   "d": "2026-10-28",
+   "src": "Cosmetics Business",
+   "hang": "Nghề",
+   "g": "nghe",
+   "imp": "thap",
+   "t": "Unilever’s beauty ‘power brands’ Dove and Vaseline help drive Q3 growth",
+   "s": "Double-digit growth at Unilever’s body care brands Dove and Vaseline, as well as prestige hair care brand K18, helped drive third quarter 2026 sales as the conglomerate upgraded its full-year outlook",
+   "w": "Tin nghề và vận hành salon. Liên quan tới hair, hair care. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://www.cosmeticsbusiness.com/unilever-beauty-power-brands-dove-vaseline-k18-drive-growth-q3",
+   "khongPT": false,
+   "khoa": [
+    "hair",
+    "hair care"
+   ]
+  },
+  {
    "d": "2026-10-28",
    "src": "Cosmetics Business",
    "hang": "Nghề",
@@ -79,6 +140,22 @@
    "khoa": [
     "hair",
     "hair care"
+   ]
+  },
+  {
+   "d": "2026-10-28",
+   "src": "News Channel 3-12",
+   "hang": "Tổng hợp",
+   "g": "nghe",
+   "imp": "thap",
+   "t": "Salon Owner Sues the City Over Eminent Domain and Relocation Costs",
+   "s": "",
+   "w": "Tin nghề và vận hành salon. Liên quan tới salon, salon owner. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWUc0eHpYenFUc2Z5NmNSdXBKSVg1djdzd0VQNmNjWFFHQTRJbGtDX3lkcUUyOW5NcldZTjQtZ25NZGlfY2Z3dlA5QndlN2hVWjVUUURwN1R1VTRINVphZjRtVlJFZkNUWEpxZFhuMU9TSFN5R01JeGs1NzAxNzNNYkVRMHRNNG1GY0hsaDV5aGVwV040NTlOZnZUU1ltOVFCQ0N5UkRxSXRVNUdTZzVjdmFOYmd4LVNSdGNIYV9wdDM?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "salon",
+    "salon owner"
    ]
   },
   {
@@ -99,18 +176,64 @@
   },
   {
    "d": "2026-10-28",
-   "src": "News Channel 3-12",
+   "src": "Reading Chronicle",
    "hang": "Tổng hợp",
    "g": "nghe",
    "imp": "thap",
-   "t": "Salon Owner Sues the City Over Eminent Domain and Relocation Costs",
+   "t": "Reading hair salon closes after over 30 years in business",
    "s": "",
-   "w": "Tin nghề và vận hành salon. Liên quan tới salon, salon owner. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWUc0eHpYenFUc2Z5NmNSdXBKSVg1djdzd0VQNmNjWFFHQTRJbGtDX3lkcUUyOW5NcldZTjQtZ25NZGlfY2Z3dlA5QndlN2hVWjVUUURwN1R1VTRINVphZjRtVlJFZkNUWEpxZFhuMU9TSFN5R01JeGs1NzAxNzNNYkVRMHRNNG1GY0hsaDV5aGVwV040NTlOZnZUU1ltOVFCQ0N5UkRxSXRVNUdTZzVjdmFOYmd4LVNSdGNIYV9wdDM?oc=5",
+   "w": "Tin nghề và vận hành salon. Liên quan tới hair, salon. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNam9YXzVlZ2Rha0FFRlVrNFQ0dVJrS2tZY3JZeGpWRm9fQ3JjMGY4WTJqMlVFSlV3ZElWY2wzMHRSbTZuejh0S0RKY2xLbkNrSHpZbHc0c2RiV1V1dEgxTEthT1hmcktnV0U3bXZ1a3ZhSTRHX2lkRlNSSURvcGxVQ3ZBSGFhckJUbU1YVU1OcHc4R3hFUHc?oc=5",
    "khongPT": false,
    "khoa": [
-    "salon",
-    "salon owner"
+    "hair",
+    "salon"
+   ]
+  },
+  {
+   "d": "2026-10-28",
+   "src": "Wharfedale Observer",
+   "hang": "Tổng hợp",
+   "g": "nghe",
+   "imp": "thap",
+   "t": "Ilkley salon celebrates 20 years with major luxury brand deal",
+   "s": "",
+   "w": "Tin nghề và vận hành salon. Liên quan tới salon. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPbkJTWkFXdHZ1dllCZzdmQ2JZYllseWtzRk5ISWtndDZxOFh6UU1wTjk0QkFxb3QyXzloUWlEaUxuWHg0WTRndlFCUkNJX1pRcWRXVkVUQmg4di03U3JzZ2hEcTQzS0JNdExzUEJUOEljMkQ1eWowRjBoTlJTaTNTWXVDang2RTJNcjYtUDM2cllXUm9WVTY3M3JiN3kxSzZ2UTBoUFhyYXFuUDl1SGc?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "salon"
+   ]
+  },
+  {
+   "d": "2026-10-28",
+   "src": "MKFM",
+   "hang": "Tổng hợp",
+   "g": "nghe",
+   "imp": "thap",
+   "t": "Milton Keynes salon challenges industry norms with new roles",
+   "s": "",
+   "w": "Tin nghề và vận hành salon. Liên quan tới salon. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQXzhTNnZBWXVYX2FXZHZTcXdqRFllS21NTFVwVjc5eEFZNVdXVDBhZ1F4cGpqb3VoTWszclZVNUlyeTZTUlEyakl3WlYzM2N3MnFGck04Q2prMmtzZVFCN2tqR3FnYTEzdExYSmlIajRMNUdEd3c0ZmRXSS1tSzNId3ZfQU0tRjVZckxJNjE5bzRldHZNVUpxRmhhVGFWWkU?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "salon"
+   ]
+  },
+  {
+   "d": "2026-10-28",
+   "src": "Reddit · r/Hairstylist",
+   "hang": "Cộng đồng",
+   "g": "nghe",
+   "imp": "vua",
+   "t": "Is it just me or are clients getting worse at sitting?",
+   "s": "I’ve been a stylist for 20 years, and the past year or so I have had to repeat myself so many times durinf a haircut to ‘look down’ “put your hands under the cape’ etc etc. I used to only have to ask once, but now it can be over 5 times in a 2 minute span, which I find INSANE ! It’s not like cutting the back perimeter takes that long, why can’t they look down? Why do I have to ask a grown adult more than once to s…",
+   "w": "Tin nghề và vận hành salon. Liên quan tới haircut, stylist. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://www.reddit.com/r/hairstylist/comments/1xhnfby/is_it_just_me_or_are_clients_getting_worse_at/",
+   "khongPT": false,
+   "khoa": [
+    "haircut",
+    "stylist"
    ]
   },
   {
@@ -135,6 +258,23 @@
    ]
   },
   {
+   "d": "2026-10-28",
+   "src": "Reddit · r/Hairstylist",
+   "hang": "Cộng đồng",
+   "g": "nghe",
+   "imp": "thap",
+   "t": "Actually charging the cancellation policy",
+   "s": "I am somebody that almost never charges my clients for cancelling same day. Completely no showing me is a different story. It seems like same day cancellations are becoming so common though. Today, I had a brand new client cancel her 5 hour long full blonding appointment due to being sick. I don’t want to be greedy or rude, but it’s a huge gap in the middle of my day on a Wednesday that’ll be almost impossible to…",
+   "w": "Tin nghề và vận hành salon. Liên quan tới blonding. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://www.reddit.com/r/hairstylist/comments/1xhoyee/actually_charging_the_cancellation_policy/",
+   "khongPT": false,
+   "khoa": [
+    "blonding",
+    "client",
+    "appointment"
+   ]
+  },
+  {
    "d": "2026-10-27",
    "src": "Salon Today",
    "hang": "Nghề",
@@ -151,22 +291,6 @@
   },
   {
    "d": "2026-10-27",
-   "src": "American Salon",
-   "hang": "Nghề",
-   "g": "nghe",
-   "imp": "vua",
-   "t": "Nearly 300 Beauty Pros Sell Out Waxing Education Event",
-   "s": "",
-   "w": "Tin nghề và vận hành salon. Liên quan tới salon. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQOFZ5azd5NW0yd1JKb19OT3VGOTg1UWlFcHFXSWpkcy1HaXEyTGZNS09XaHBuTmtoMXZ5Y3VoblFBT2hCUWg2T2dmQWo0Z3hOcHR6ZDY5cHQtWjd5d1lhV0JhZFExaFRJV19jOVc1ZEtZZXNjSFNIcnNjekNCTWRqd2JCOURMNXh0UWpwZUxXclFyNlZ4T3c?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "salon",
-    "education"
-   ]
-  },
-  {
-   "d": "2026-10-27",
    "src": "Cosmetics Business",
    "hang": "Nghề",
    "g": "nghe",
@@ -179,23 +303,6 @@
    "khoa": [
     "hair",
     "hair care"
-   ]
-  },
-  {
-   "d": "2026-10-27",
-   "src": "Cosmetics Business",
-   "hang": "Nghề",
-   "g": "nghe",
-   "imp": "thap",
-   "t": "Stop the shedding: Hair care is entering its GLP-1 era",
-   "s": "As consumer appetites quite literally shrink, demand for products and supplements that promise to help with the undesired side effect of hair loss is expanding",
-   "w": "Tin nghề và vận hành salon. Liên quan tới hair, hair care, hair loss. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://www.cosmeticsbusiness.com/stop-the-shedding-hair-care-is-entering-its",
-   "khongPT": false,
-   "khoa": [
-    "hair",
-    "hair care",
-    "hair loss"
    ]
   },
   {
@@ -247,6 +354,39 @@
    ]
   },
   {
+   "d": "2026-10-27",
+   "src": "American Salon",
+   "hang": "Nghề",
+   "g": "nghe",
+   "imp": "vua",
+   "t": "Nearly 300 Beauty Pros Sell Out Waxing Education Event",
+   "s": "",
+   "w": "Tin nghề và vận hành salon. Liên quan tới salon. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQOFZ5azd5NW0yd1JKb19OT3VGOTg1UWlFcHFXSWpkcy1HaXEyTGZNS09XaHBuTmtoMXZ5Y3VoblFBT2hCUWg2T2dmQWo0Z3hOcHR6ZDY5cHQtWjd5d1lhV0JhZFExaFRJV19jOVc1ZEtZZXNjSFNIcnNjekNCTWRqd2JCOURMNXh0UWpwZUxXclFyNlZ4T3c?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "salon",
+    "education"
+   ]
+  },
+  {
+   "d": "2026-10-27",
+   "src": "Cosmetics Business",
+   "hang": "Nghề",
+   "g": "nghe",
+   "imp": "thap",
+   "t": "Stop the shedding: Hair care is entering its GLP-1 era",
+   "s": "As consumer appetites quite literally shrink, demand for products and supplements that promise to help with the undesired side effect of hair loss is expanding",
+   "w": "Tin nghề và vận hành salon. Liên quan tới hair, hair care, hair loss. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://www.cosmeticsbusiness.com/stop-the-shedding-hair-care-is-entering-its",
+   "khongPT": false,
+   "khoa": [
+    "hair",
+    "hair care",
+    "hair loss"
+   ]
+  },
+  {
    "d": "2026-10-26",
    "src": "Salon Today",
    "hang": "Nghề",
@@ -264,18 +404,34 @@
   },
   {
    "d": "2026-10-26",
-   "src": "Cosmetics Business",
+   "src": "American Salon",
    "hang": "Nghề",
    "g": "nghe",
-   "imp": "thap",
-   "t": "Pantene reunites with ‘Ultimate Ambassador’ John Stamos after more than three decades",
-   "s": "Pantene has tapped actor John Stamos as its ‘Ultimate Ambassador’ 30-plus years after his original partnership with the Procter & Gamble-owned hair care brand, fronting a new video series in which he proves his famous hair is a product of the company",
-   "w": "Tin nghề và vận hành salon. Liên quan tới hair, hair care. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://www.cosmeticsbusiness.com/pantene-reunites-with-john-stamos",
+   "imp": "vua",
+   "t": "Texture Mastery Pro Elevates Cultural & Technical Hair Education",
+   "s": "",
+   "w": "Tin nghề và vận hành salon. Liên quan tới hair, salon. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORExtZEZ1QUs1a3hBMFJqQXBpeG91V0k4YnlfVTU2MXB0NXNmX3F5VmVfY1BMOVEyblgxS0gxaEs0c1RYZEhhUmh1Vm9CQUd4TVpKX1NRdUczTkZmZk1UVTZzNEd5c1FkVll4bDI2ZEVWU1hnM3B1QmtrcDE5WkVuejBCTG5pMXhERlpaZEJnVzZlZm56YnJDcUNweGJrMDBwRnc?oc=5",
    "khongPT": false,
    "khoa": [
     "hair",
-    "hair care"
+    "salon",
+    "education"
+   ]
+  },
+  {
+   "d": "2026-10-26",
+   "src": "American Salon",
+   "hang": "Nghề",
+   "g": "nghe",
+   "imp": "thap",
+   "t": "Nurtur Aveda Institute in NC Named 2026 School of the Year",
+   "s": "",
+   "w": "Tin nghề và vận hành salon. Liên quan tới salon. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNZ00yV2d3WDBvYlVmaEZra1BHeHozbzJSY3VsLUhWcjVpV1BwUXFDQmFWQU1vYTlBQVFoQkZhV19qOU45UlRZbDgtT090UkhJZjR6WmxKcVZzbWxXanZfVW1EczNDUDF0b1lNdjF0aGkwTVhpZlQ1MnFxODE4SUxkeEJGV1VsbG9yZ3MzdWpEMTAtQQ?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "salon"
    ]
   },
   {
@@ -349,7 +505,7 @@
    "src": "Reddit · r/Hairstylist",
    "hang": "Cộng đồng",
    "g": "nghe",
-   "imp": "vua",
+   "imp": "thap",
    "t": "I was making $9.50 an hour as an experienced hairstylist. Here’s why I finally left.",
    "s": "I debated posting this because I’m not interested in creating drama, but I think more hairstylists need to talk openly about wages, burnout, and how we’re treated by salon management. I worked at Spa La Posada in McAllen, Texas, for over 2½ years. I was already a licensed, experienced hairstylist specializing in curly and textured hair when I joined the salon. My hourly wage was $9.50. I understand that compensati…",
    "w": "Tin nghề và vận hành salon. Liên quan tới hair, hairstylist, textured hair. Gợi ý content sẽ có sau lần chạy phân tích tới.",
@@ -368,34 +524,18 @@
   },
   {
    "d": "2026-10-26",
-   "src": "American Salon",
-   "hang": "Nghề",
-   "g": "nghe",
-   "imp": "vua",
-   "t": "Texture Mastery Pro Elevates Cultural & Technical Hair Education",
-   "s": "",
-   "w": "Tin nghề và vận hành salon. Liên quan tới hair, salon. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORExtZEZ1QUs1a3hBMFJqQXBpeG91V0k4YnlfVTU2MXB0NXNmX3F5VmVfY1BMOVEyblgxS0gxaEs0c1RYZEhhUmh1Vm9CQUd4TVpKX1NRdUczTkZmZk1UVTZzNEd5c1FkVll4bDI2ZEVWU1hnM3B1QmtrcDE5WkVuejBCTG5pMXhERlpaZEJnVzZlZm56YnJDcUNweGJrMDBwRnc?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "hair",
-    "salon",
-    "education"
-   ]
-  },
-  {
-   "d": "2026-10-26",
-   "src": "American Salon",
+   "src": "Cosmetics Business",
    "hang": "Nghề",
    "g": "nghe",
    "imp": "thap",
-   "t": "Nurtur Aveda Institute in NC Named 2026 School of the Year",
-   "s": "",
-   "w": "Tin nghề và vận hành salon. Liên quan tới salon. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNZ00yV2d3WDBvYlVmaEZra1BHeHozbzJSY3VsLUhWcjVpV1BwUXFDQmFWQU1vYTlBQVFoQkZhV19qOU45UlRZbDgtT090UkhJZjR6WmxKcVZzbWxXanZfVW1EczNDUDF0b1lNdjF0aGkwTVhpZlQ1MnFxODE4SUxkeEJGV1VsbG9yZ3MzdWpEMTAtQQ?oc=5",
+   "t": "Pantene reunites with ‘Ultimate Ambassador’ John Stamos after more than three decades",
+   "s": "Pantene has tapped actor John Stamos as its ‘Ultimate Ambassador’ 30-plus years after his original partnership with the Procter & Gamble-owned hair care brand, fronting a new video series in which he proves his famous hair is a product of the company",
+   "w": "Tin nghề và vận hành salon. Liên quan tới hair, hair care. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://www.cosmeticsbusiness.com/pantene-reunites-with-john-stamos",
    "khongPT": false,
    "khoa": [
-    "salon"
+    "hair",
+    "hair care"
    ]
   },
   {
@@ -506,6 +646,21 @@
   },
   {
    "d": "2026-10-24",
+   "src": "BBC",
+   "hang": "Tổng hợp",
+   "g": "nghe",
+   "imp": "thap",
+   "t": "How the beauty industry is boosting High Streets",
+   "s": "",
+   "w": "Tin nghề và vận hành salon. Liên quan tới beauty industry. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1SRnFMQlVVd1BiNk1ZLVNnN3oyQ3RSTGtUVHVnNDRCUnM1SmU1dU1KU2hqdlYxYXFRbHk3YnVpUG5qeFlSZl9iMDVQbWpWOUxyYzhZSDdHLU5KdzdQZmc?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "beauty industry"
+   ]
+  },
+  {
+   "d": "2026-10-24",
    "src": "St. Albert Gazette",
    "hang": "Tổng hợp",
    "g": "nghe",
@@ -520,18 +675,20 @@
    ]
   },
   {
-   "d": "2026-10-24",
-   "src": "BBC",
+   "d": "2026-10-23",
+   "src": "Daily Mail",
    "hang": "Tổng hợp",
    "g": "nghe",
    "imp": "thap",
-   "t": "How the beauty industry is boosting High Streets",
+   "t": "Glamorous hair salon owner sued after allegedly botching $700 hairdo",
    "s": "",
-   "w": "Tin nghề và vận hành salon. Liên quan tới beauty industry. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1SRnFMQlVVd1BiNk1ZLVNnN3oyQ3RSTGtUVHVnNDRCUnM1SmU1dU1KU2hqdlYxYXFRbHk3YnVpUG5qeFlSZl9iMDVQbWpWOUxyYzhZSDdHLU5KdzdQZmc?oc=5",
+   "w": "Tin nghề và vận hành salon. Liên quan tới hair, salon, salon owner. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQ0g0TXkzWEFmMS0tSF9IZkk2NXdGXzRPWHFwdDY3VE5MUnBwNmFKZ01lYTJBMXZmdjBvMUtjbUFfQlhMa3o1aHlxYTRwRHdtdjlaeVRfZkNTckMtakpBWDZNWVBlbVRKd2JramRzSjhiczRuY3RlOFY0dW5oSDZ2Y2JyM2ZKVDFYVEdQM0ZSb2RkZTIwUURUMVlNUlRYNTlfbHExa190bzE4dVNTc3Bub1oxeUZFbTg?oc=5",
    "khongPT": false,
    "khoa": [
-    "beauty industry"
+    "hair",
+    "salon",
+    "salon owner"
    ]
   },
   {
@@ -592,23 +749,6 @@
    "khoa": [
     "hair",
     "hair care"
-   ]
-  },
-  {
-   "d": "2026-10-23",
-   "src": "Daily Mail",
-   "hang": "Tổng hợp",
-   "g": "nghe",
-   "imp": "thap",
-   "t": "Glamorous hair salon owner sued after allegedly botching $700 hairdo",
-   "s": "",
-   "w": "Tin nghề và vận hành salon. Liên quan tới hair, salon, salon owner. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQ0g0TXkzWEFmMS0tSF9IZkk2NXdGXzRPWHFwdDY3VE5MUnBwNmFKZ01lYTJBMXZmdjBvMUtjbUFfQlhMa3o1aHlxYTRwRHdtdjlaeVRfZkNTckMtakpBWDZNWVBlbVRKd2JramRzSjhiczRuY3RlOFY0dW5oSDZ2Y2JyM2ZKVDFYVEdQM0ZSb2RkZTIwUURUMVlNUlRYNTlfbHExa190bzE4dVNTc3Bub1oxeUZFbTg?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "hair",
-    "salon",
-    "salon owner"
    ]
   },
   {
@@ -1336,6 +1476,22 @@
   },
   {
    "d": "2026-10-15",
+   "src": "American Salon",
+   "hang": "Nghề",
+   "g": "nghe",
+   "imp": "thap",
+   "t": "Oat Husks Could be a Sustainable Substitute for Styling Polymers",
+   "s": "",
+   "w": "Tin nghề và vận hành salon. Liên quan tới styling, salon. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOUW5USWs4REFIMEVyOGFPQkR1cHVXTWlLZ1p0V29VVWUxcWtZZHVlNF9VWm91WjZUWlY4czVhRERwOXYza2hOMDh5R3lITjF4ZjU0SVBkZ0oyUm5KeEdJUFJTWTNFWVVRdnRXZE9yVGZ6YWtjUmQ3QVd1TkVhSlVtbFRBR0hFVGlZTXg0WFNkQzNxMlpOeFdteV96bkRYOERkMURF?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "styling",
+    "salon"
+   ]
+  },
+  {
+   "d": "2026-10-15",
    "src": "MyNewsLA.com",
    "hang": "Tổng hợp",
    "g": "nghe",
@@ -1469,22 +1625,6 @@
    ]
   },
   {
-   "d": "2026-10-15",
-   "src": "American Salon",
-   "hang": "Nghề",
-   "g": "nghe",
-   "imp": "thap",
-   "t": "Oat Husks Could be a Sustainable Substitute for Styling Polymers",
-   "s": "",
-   "w": "Tin nghề và vận hành salon. Liên quan tới styling, salon. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOUW5USWs4REFIMEVyOGFPQkR1cHVXTWlLZ1p0V29VVWUxcWtZZHVlNF9VWm91WjZUWlY4czVhRERwOXYza2hOMDh5R3lITjF4ZjU0SVBkZ0oyUm5KeEdJUFJTWTNFWVVRdnRXZE9yVGZ6YWtjUmQ3QVd1TkVhSlVtbFRBR0hFVGlZTXg0WFNkQzNxMlpOeFdteV96bkRYOERkMURF?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "styling",
-    "salon"
-   ]
-  },
-  {
    "d": "2026-10-14",
    "src": "Modern Salon",
    "hang": "Nghề",
@@ -1519,18 +1659,17 @@
   },
   {
    "d": "2026-10-14",
-   "src": "Behindthechair.com",
+   "src": "American Salon",
    "hang": "Nghề",
    "g": "nghe",
    "imp": "thap",
-   "t": "Hair Extensions · Hot Shot 2025 Finalists · #ONESHOT",
+   "t": "Salon Pros Can Be a Lifeline for Clients Enduring Domestic Abuse",
    "s": "",
-   "w": "Tin nghề và vận hành salon. Liên quan tới hair, extensions. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNZG15RHgtbzZEekxQS0IwQ2JoWFloc1hLLUJRb1hiNWQ5ZFFMWktJZ2p4WmxRUlZmY2pRZ3ByMUlkWG00TFk1OF9BWFFXTWpPVE9PdU5kU2NIS1ZEWlpZVEpiVV9aUEt4bzhsamdEMXZOWHE1MkR5a3c3RXpzdU9GcFJzclBzQQ?oc=5",
+   "w": "Tin nghề và vận hành salon. Liên quan tới salon. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOeUVQQmE4QVpEVEtOMTZnZ3JmbEpLcjFTQkZkZ0k4Vk8xbS0zSlZjVFFBbmcxbHJSVjVuNF94WXloNDB1X0s5N2EwZlh0RHBybnFsOGxQd0FlUHNqUXBDTWFNa3hFeHBYNU1GTzFwMmtEazlOWjNtaWRwalRjbVE2QmVMVFBLTWlWbnJ2eFp5Qk5HM2xHWEkyV3FfaXk4UlU?oc=5",
    "khongPT": false,
    "khoa": [
-    "hair",
-    "extensions"
+    "salon"
    ]
   },
   {
@@ -1539,10 +1678,10 @@
    "hang": "Nghề",
    "g": "nghe",
    "imp": "thap",
-   "t": "2024 Hair Extensions — submitted entries",
+   "t": "Hair Extensions · Hot Shot 2025 Finalists · #ONESHOT",
    "s": "",
    "w": "Tin nghề và vận hành salon. Liên quan tới hair, extensions. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMickFVX3lxTE1SSHNKc0d3Sm9fOVF0SnlFcnE4S2JrR3FQYlAzZkwwTWIyWU5BLUVzMXdBSWlHM0xpWXg4UjdHSWlXNU0xNWtUNW0zLWNCVzdWSERIWnZtVGV6T3VRVUFUUzE4anlJb25ndFcyWmJ4dEdXQQ?oc=5",
+   "u": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUFhHaDF5cGJ0WEk1b2hraGpmOVJiTjRTMkZGMnV3QWlMclczRVlKZUd0NXl4eGVRd19iQTI1QkxHMVpjZWphZTdvS2lEcTNqejhEa2EzUUFpcklhMXBISFMxaFZSYnZNMHFaRDBsaHdFalQ5UEY0RkRTMXdyeTFtbUZ2dTRFSG8?oc=5",
    "khongPT": false,
    "khoa": [
     "hair",
@@ -1583,38 +1722,6 @@
   },
   {
    "d": "2026-10-14",
-   "src": "Fortune",
-   "hang": "Tổng hợp",
-   "g": "nghe",
-   "imp": "thap",
-   "t": "Tina Knowles launched hair care line Cécred with daughter Beyoncé after years of mixing custom hair treatments",
-   "s": "",
-   "w": "Tin nghề và vận hành salon. Liên quan tới hair, hair care. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNbTNKYjhHSEZOempiUDF2b3loS0R6ZlRGWnV1TVRLMjg4WDFDRzMwOGl5X3Q2VUo1a1QyLU95YzVBYTlFVG9FTHBHMUZYZFlSNFNXdHc4dVFrQlhLTnVWWE1ZTXZkU1Z3anRQbERwTEQyZm01R2g2WUZoYzNLc2F1SV8xUHFhZw?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "hair",
-    "hair care"
-   ]
-  },
-  {
-   "d": "2026-10-14",
-   "src": "Wide Open Country",
-   "hang": "Tổng hợp",
-   "g": "nghe",
-   "imp": "thap",
-   "t": "BMW Plows Through Florida Hair Salon, Pinning Three People Against Counter",
-   "s": "",
-   "w": "Tin nghề và vận hành salon. Liên quan tới hair, salon. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUXZ6TzgxWFBUbmMwb29rVEliZGtTc2QxbG5LeUg3eUQzZ2Y3T2VSUzhHTVA1cVRLOHdoMi1xYW9FU1JOdzBuZDU5ZVFhX1RfTXc4OXhOdDNOT3BIR2RJTWNOUWNpclVKcjdQU1U4YXYzQmdRa1lXUDNDR1piQnVkN0tER3hmXzFEbnVhUzg0TG9YVUV5YmRuVlhQemJIVGJmdUxpNjNRQUxZQQ?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "hair",
-    "salon"
-   ]
-  },
-  {
-   "d": "2026-10-14",
    "src": "Future Market Insights",
    "hang": "Tổng hợp",
    "g": "nghe",
@@ -1645,16 +1752,49 @@
   },
   {
    "d": "2026-10-14",
-   "src": "American Salon",
+   "src": "Behindthechair.com",
    "hang": "Nghề",
    "g": "nghe",
    "imp": "thap",
-   "t": "Salon Pros Can Be a Lifeline for Clients Enduring Domestic Abuse",
+   "t": "2024 Hair Extensions — submitted entries",
    "s": "",
-   "w": "Tin nghề và vận hành salon. Liên quan tới salon. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOeUVQQmE4QVpEVEtOMTZnZ3JmbEpLcjFTQkZkZ0k4Vk8xbS0zSlZjVFFBbmcxbHJSVjVuNF94WXloNDB1X0s5N2EwZlh0RHBybnFsOGxQd0FlUHNqUXBDTWFNa3hFeHBYNU1GTzFwMmtEazlOWjNtaWRwalRjbVE2QmVMVFBLTWlWbnJ2eFp5Qk5HM2xHWEkyV3FfaXk4UlU?oc=5",
+   "w": "Tin nghề và vận hành salon. Liên quan tới hair, extensions. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMickFVX3lxTE1SSHNKc0d3Sm9fOVF0SnlFcnE4S2JrR3FQYlAzZkwwTWIyWU5BLUVzMXdBSWlHM0xpWXg4UjdHSWlXNU0xNWtUNW0zLWNCVzdWSERIWnZtVGV6T3VRVUFUUzE4anlJb25ndFcyWmJ4dEdXQQ?oc=5",
    "khongPT": false,
    "khoa": [
+    "hair",
+    "extensions"
+   ]
+  },
+  {
+   "d": "2026-10-14",
+   "src": "Fortune",
+   "hang": "Tổng hợp",
+   "g": "nghe",
+   "imp": "thap",
+   "t": "Tina Knowles launched hair care line Cécred with daughter Beyoncé after years of mixing custom hair treatments",
+   "s": "",
+   "w": "Tin nghề và vận hành salon. Liên quan tới hair, hair care. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNbTNKYjhHSEZOempiUDF2b3loS0R6ZlRGWnV1TVRLMjg4WDFDRzMwOGl5X3Q2VUo1a1QyLU95YzVBYTlFVG9FTHBHMUZYZFlSNFNXdHc4dVFrQlhLTnVWWE1ZTXZkU1Z3anRQbERwTEQyZm01R2g2WUZoYzNLc2F1SV8xUHFhZw?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "hair",
+    "hair care"
+   ]
+  },
+  {
+   "d": "2026-10-14",
+   "src": "Wide Open Country",
+   "hang": "Tổng hợp",
+   "g": "nghe",
+   "imp": "thap",
+   "t": "BMW Plows Through Florida Hair Salon, Pinning Three People Against Counter",
+   "s": "",
+   "w": "Tin nghề và vận hành salon. Liên quan tới hair, salon. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUXZ6TzgxWFBUbmMwb29rVEliZGtTc2QxbG5LeUg3eUQzZ2Y3T2VSUzhHTVA1cVRLOHdoMi1xYW9FU1JOdzBuZDU5ZVFhX1RfTXc4OXhOdDNOT3BIR2RJTWNOUWNpclVKcjdQU1U4YXYzQmdRa1lXUDNDR1piQnVkN0tER3hmXzFEbnVhUzg0TG9YVUV5YmRuVlhQemJIVGJmdUxpNjNRQUxZQQ?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "hair",
     "salon"
    ]
   },
@@ -1827,152 +1967,35 @@
    ]
   },
   {
-   "d": "2026-10-13",
-   "src": "Taipei Times",
+   "d": "2026-10-28",
+   "src": "Dermatology Times",
+   "hang": "Chuyên trang",
+   "g": "khoahoc",
+   "imp": "thap",
+   "t": "Case 3: Managing a Radiation-Refractory Patient with Recurrent Scalp BCC",
+   "s": "",
+   "w": "Bài nghiên cứu hoặc tin khoa học. Liên quan tới scalp. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQR2xnazZFQ1RUYjJrTjVpa1E1M0l4dlJmNUlIMS15REcyTUlnVHM2b1NOcUtlaW9uaDliQkYycFIxSmVfdWJwZW8tbEFBLW1iSXY5aFllZk9jWXlyVV9FZ01BUlhtZk15TVVGbC1yQzNTOEtaVFNHSlIxMnV0QVk0dXN0UGFxX3NvM3QxQUZzLVJ4dU1FQ3ItZ1phWW1VdTFkenRWOFJzVXljM1hUeWc?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "scalp"
+   ]
+  },
+  {
+   "d": "2026-10-28",
+   "src": "openPR.com",
    "hang": "Tổng hợp",
-   "g": "nghe",
-   "imp": "thap",
-   "t": "Salon owner sentenced to 12.5 years for sexual assault leading to suicide",
+   "g": "khoahoc",
+   "imp": "cao",
+   "t": "Alopecia Areata Pipeline 2026: Inside the Clinical Trial",
    "s": "",
-   "w": "Tin nghề và vận hành salon. Liên quan tới salon, salon owner. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMiekFVX3lxTE8xUXo3TGxST1FabDk3b0d3RVR3MzdhX1dDeWpmOEVOdzc5T2JXVzJSMGhEZ3l1dFJzN1F5SDlJU3dfUGZYLV9HdHljdWpTQ1ZocnZIazM4eXQxemJMSXZocVNsWmlRRThjT1gtY2ZrRS1tbFhNeXFCZ2tn?oc=5",
+   "w": "Bài nghiên cứu hoặc tin khoa học. Có tín hiệu bằng chứng: trial, clinical trial. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQOFlISzlQdUI4aU5XZlNoSWJnemxvZDRkSnVUT09rQUFMajhuTVl1QkpKUnR5eEdkUkU2WjR1eTM5RkdUeXdOVEJwZlZBeTRvMFJCSTNSUDlMZHAwUVNXS0QzRlZmRUhfQ0hWRHRObmRoZzZqTTExclNyYlVQaldYZzFjcGtxU3hoS3ZtTzhZWlRKVWI3dmc?oc=5",
    "khongPT": false,
    "khoa": [
-    "salon",
-    "salon owner"
-   ]
-  },
-  {
-   "d": "2026-10-13",
-   "src": "American Salon",
-   "hang": "Nghề",
-   "g": "nghe",
-   "imp": "vua",
-   "t": "New Education Series by BELLAMI Pro Tackles the Business of Hair",
-   "s": "",
-   "w": "Tin nghề và vận hành salon. Liên quan tới hair, salon. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTzRfc1dTSXhIbnRTeUJmQmhHZmdTZnpYNWoxS0FueU12Tmk1eGx3STk5U2VwSHpXeF96MnRVNkJxYjB5TnNWMVNKUnJnY3BSdjgyeEdKbFA2dFBveEJtbFktOTdnZDlxeW1TVlA4b2VlLWpFTG9oRFN5Y0lFbFhwTE9LNVlWSnFOOWc3OG5GSVA3QVJnaGtOU1I0NA?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "hair",
-    "salon",
-    "education"
-   ]
-  },
-  {
-   "d": "2026-10-13",
-   "src": "American Salon",
-   "hang": "Nghề",
-   "g": "nghe",
-   "imp": "thap",
-   "t": "Get the Formula: Devon Lee Carlson's \"2000s Blonde\"",
-   "s": "",
-   "w": "Tin nghề và vận hành salon. Liên quan tới salon. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNT3I1MHk0cmNqWWQ1X19UMy1wemJHYkJCSlEwQXN0WjhTWW9WeUt4UVRqeEJPZWlJTjdQeXdaN0tEWHI0cFVqeDk4WDZ6ZU11TURmQm9pZXBMZ2oxMm0zZjV1Qi1VNzg2SDRIVU52UkVvRkxsUDBRMXlNUG9ZREQxdnR1SXo4ZmRrMTVjeXdvSEE?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "salon"
-   ]
-  },
-  {
-   "d": "2026-10-13",
-   "src": "Reddit · r/Hairstylist",
-   "hang": "Cộng đồng",
-   "g": "nghe",
-   "imp": "thap",
-   "t": "How to get over losing a client you loved",
-   "s": "I’ve been doing hair 6 years and it is always a GUT PUNCH! I usually see it coming out of absolutely nowhere, and it always hurts. I have lost 2 clients recently that I adored, and didn’t see it coming at all. One reached out, let me know she was going in a different direction, and said she’d let me know if she would ever come back my way, and thanked me for the years. The other one canceled her appointment and I…",
-   "w": "Tin nghề và vận hành salon. Liên quan tới hair. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://www.reddit.com/r/hairstylist/comments/1x4n101/how_to_get_over_losing_a_client_you_loved/",
-   "khongPT": false,
-   "khoa": [
-    "hair",
-    "client",
-    "appointment"
-   ]
-  },
-  {
-   "d": "2026-10-13",
-   "src": "Reddit · r/Hairstylist",
-   "hang": "Cộng đồng",
-   "g": "nghe",
-   "imp": "vua",
-   "t": "So I was lazy and I threw a wig into the dryer.",
-   "s": "This isn’t really meant to be a discussion. It’s just suppose to be dumb and funny and I’m not sure what tag to use. So I have to start off by saying that this is 100% my own wig. I’ve had it for a while, and I’m using it to try out a new coloring technique. I bleached it last night, gave it a quick blow dry, and then left it to air dry overnight. Well, I went to work on it again today, and it was STILL pretty wet…",
-   "w": "Tin nghề và vận hành salon. Liên quan tới blow dry, wig. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://www.reddit.com/r/hairstylist/comments/1x4hbaa/so_i_was_lazy_and_i_threw_a_wig_into_the_dryer/",
-   "khongPT": false,
-   "khoa": [
-    "blow dry",
-    "wig"
-   ]
-  },
-  {
-   "d": "2026-10-13",
-   "src": "Reddit · r/Hairstylist",
-   "hang": "Cộng đồng",
-   "g": "nghe",
-   "imp": "thap",
-   "t": "Judgement in charging by the hour and pricing",
-   "s": "I’m an independent hairstylist. I rent my booth and I work with 4 other women. One being the lady I rent from, I’ll call her Zoe. Yesterday was my day off and I got a text in the group chat asking if anyone can come in for a last minute “hair emergency” color correction. I said I would and Zoe sent me the photo of the client (the attached photo) it wasn’t what I would consider a correction so I asked how she would…",
-   "w": "Tin nghề và vận hành salon. Có tín hiệu bằng chứng: research. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://www.reddit.com/r/hairstylist/comments/1x4b8az/judgement_in_charging_by_the_hour_and_pricing/",
-   "khongPT": false,
-   "khoa": [
-    "research",
-    "hair",
-    "hairstylist",
-    "client",
-    "pricing"
-   ]
-  },
-  {
-   "d": "2026-10-13",
-   "src": "Lancaster Guardian",
-   "hang": "Tổng hợp",
-   "g": "nghe",
-   "imp": "thap",
-   "t": "Lancaster hair salon prides itself on putting clients first",
-   "s": "",
-   "w": "Tin nghề và vận hành salon. Liên quan tới hair, salon. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQN3k5YnduS3ZiY1kybGNUUTN5REk3M2ROSWFGQjlBbEVCUXBCRnE2MlpWREhzaXNUTDE4RzlWY1FIQkxZeVNXXzMxY3FlVXh4bWJmLXZqMWRieENqU2RFVDlGWS1VbmtkVW5SQndkQ3FTRThyVVE3a3hDMGM1VVZWS0hFcE5fc1VNZFl5N0dzTjBaUDVaRjc5NWQ0X3d4bWhBUnNySzgzYk92MTdfT09vdUFtbThrTnZU?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "hair",
-    "salon"
-   ]
-  },
-  {
-   "d": "2026-10-13",
-   "src": "Cosmetics Business",
-   "hang": "Nghề",
-   "g": "nghe",
-   "imp": "thap",
-   "t": "Spice Girls’ Mel B teases launch of her own curl-focused hair care brand",
-   "s": "Melanie Janine Brown, who went by ‘Scary Spice’ in award-winning UK girl group Spice Girls, has teamed up with celebrity hairdresser Rory McPhee to create a hair range, MPWR, focused on ‘achieving healthy curls, simplified’, which will debut next year",
-   "w": "Tin nghề và vận hành salon. Liên quan tới hair, hair care, hairdresser. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://www.cosmeticsbusiness.com/spice-girls-mel-b-teases-launch-of-her-own-hair-care-brand",
-   "khongPT": false,
-   "khoa": [
-    "hair",
-    "hair care",
-    "hairdresser"
-   ]
-  },
-  {
-   "d": "2026-10-13",
-   "src": "Doncaster Free Press",
-   "hang": "Tổng hợp",
-   "g": "nghe",
-   "imp": "thap",
-   "t": "A furious beauty salon owner has been plagued with problems at her new business",
-   "s": "",
-   "w": "Tin nghề và vận hành salon. Liên quan tới salon, salon owner. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQaVpaTFNoRkN4ZjJxXzBKMVBBXzY4MVRKUmJjLVcySEw3U3NJSDhmaVJYMzM4WmJRNlpBSWNuTUVtbUhVeU9rdVlTT2FHNTF1bTJ6eVludGpkVEJ2eDB1ZWZ2ZHFhWTM2anEyRFEza0RnbkJiSFdpbW85SWZ3V2dkUnB6VmRxczRuRUF1LUEzdThDUzdhcXVVRDhOZmRySXlmNDNjanZEbFU1UXI3TmhuYg?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "salon",
-    "salon owner"
+    "trial",
+    "clinical trial",
+    "alopecia"
    ]
   },
   {
@@ -1999,22 +2022,7 @@
    "t": "Alopecia Areata Patient-Reported Outcomes: Defining Treatment Success and Monitoring Response",
    "s": "",
    "w": "Bài nghiên cứu hoặc tin khoa học. Liên quan tới alopecia. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcVllRWthOUhyazhWdzFtTnlxYVlON3NPYVVUMm1XaHFEd2xuYXBrcU51T1NyN3Vpc2dQTnhqRmdGTk9YT3Zad2VMekw0Q2QwNmxTSUxvVEVURUQteElqbHYxRVR4TlJkWnQ1akJSc2xnVHlfYWlUOF9idjFCTDlFcE1GOXlnQndSVXBfZXV2NW51M0VFbGhKa014N2ZaU05WZ2JPblRqMmR1Nm5SMmJQQkdvLWp0czlpT0V6TUhxTGM0LUE?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "alopecia"
-   ]
-  },
-  {
-   "d": "2026-10-27",
-   "src": "The American Journal of Managed Care",
-   "hang": "Tổng hợp",
-   "g": "khoahoc",
-   "imp": "thap",
-   "t": "New APAC Consensus Guides Alopecia Areata Care Across 8 Countries",
-   "s": "",
-   "w": "Bài nghiên cứu hoặc tin khoa học. Liên quan tới alopecia. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQU1J0MGM5N0xkZ0JsbEY3b3AzcEFrUDhpcDdab3FiUlJXQXl4ekZxNHVTQy1wSWpTME9tRTNJNnBCNTVPX3psT1NTbExZZU9KaXBocjJjX2pob1AxcmF4UzNETzRUUjZveUxwU1o1MmdtUmJOZm5LZzJEZDdJcHZ2bWNFUzZydUpPQ1JZSl9Hay1ac2FRekE?oc=5",
+   "u": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOZWo5b1hPWGFVUzd4UzZyWjdlMm9nQkhjZkRZd0l3S2ZlUTRRcURjSmdraFNQeDdhX3NCbEZfWWlON1R4VWFneTVFaUlFbm9YNFpiUGJabVFBaVc0RHJ1allubHh5LVRtXzNKUjhWaGJXaWdXLUU2YWJsVGRxV2ZTTnBOZ3RLM05ZMWR1VDd5a2tnd1V1M3IyMFFja0dPbi1Zam5XZ3N2RU9YZU9hRkdZcGlmakQyMVRjeWx2WjhZMVJUa1JmeHJSN1V3?oc=5",
    "khongPT": false,
    "khoa": [
     "alopecia"
@@ -2053,6 +2061,21 @@
   },
   {
    "d": "2026-10-27",
+   "src": "The American Journal of Managed Care",
+   "hang": "Tổng hợp",
+   "g": "khoahoc",
+   "imp": "thap",
+   "t": "New APAC Consensus Guides Alopecia Areata Care Across 8 Countries",
+   "s": "",
+   "w": "Bài nghiên cứu hoặc tin khoa học. Liên quan tới alopecia. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQU1J0MGM5N0xkZ0JsbEY3b3AzcEFrUDhpcDdab3FiUlJXQXl4ekZxNHVTQy1wSWpTME9tRTNJNnBCNTVPX3psT1NTbExZZU9KaXBocjJjX2pob1AxcmF4UzNETzRUUjZveUxwU1o1MmdtUmJOZm5LZzJEZDdJcHZ2bWNFUzZydUpPQ1JZSl9Hay1ac2FRekE?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "alopecia"
+   ]
+  },
+  {
+   "d": "2026-10-27",
    "src": "yankton.net",
    "hang": "Tổng hợp",
    "g": "khoahoc",
@@ -2061,21 +2084,6 @@
    "s": "",
    "w": "Bài nghiên cứu hoặc tin khoa học. Liên quan tới alopecia. Gợi ý content sẽ có sau lần chạy phân tích tới.",
    "u": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbVV1TldBZnB6b2FtTHBTaG1kOVRadUZKSGs1ZVphS3M4UG5Va2M1SjdBenNmV3dnSHZJaHFTdFFyODJWWkxxaXZRYUdDd3BxX1VUNE5pMFBndVNKN0MxNVByTlZvSC1zdVRnSUh1WlNzaWtLbHppcEktY2JhdmJXbjBFekZrbEpLNE44MjIyT1h0NWxhVmxWM0Nxd1c0aU5DS0JUdFhrTUhnczJVTGc?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "alopecia"
-   ]
-  },
-  {
-   "d": "2026-10-26",
-   "src": "Open Access Government",
-   "hang": "Tổng hợp",
-   "g": "khoahoc",
-   "imp": "thap",
-   "t": "MHRA approves a new treatment for severe alopecia areata in adults",
-   "s": "",
-   "w": "Bài nghiên cứu hoặc tin khoa học. Liên quan tới alopecia. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNcUg3M2MtN1JRX3lhRlZkNnVSUUM3T21pWGlONzVTMDhoX2RwcnZ5Q3VXTnJYWWJWSHI5YVBDSFhhN0VaUXQ2Nnc5ZVJfbHZPMVBuRV9mamxFcl9tcjdlU3dLTmFONmh0dEk2TkZ5Qml4VjZWWU81WFFsM1RidlljR2ZrVnZwcXdaUkN2c3ZDdDRvT1ROaVVRUzB1djlhSTM1MXZEbThGOUNkQVlyYkk1eQ?oc=5",
    "khongPT": false,
    "khoa": [
     "alopecia"
@@ -2095,6 +2103,21 @@
    "khoa": [
     "hair",
     "hair loss"
+   ]
+  },
+  {
+   "d": "2026-10-26",
+   "src": "Open Access Government",
+   "hang": "Tổng hợp",
+   "g": "khoahoc",
+   "imp": "thap",
+   "t": "MHRA approves a new treatment for severe alopecia areata in adults",
+   "s": "",
+   "w": "Bài nghiên cứu hoặc tin khoa học. Liên quan tới alopecia. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNcUg3M2MtN1JRX3lhRlZkNnVSUUM3T21pWGlONzVTMDhoX2RwcnZ5Q3VXTnJYWWJWSHI5YVBDSFhhN0VaUXQ2Nnc5ZVJfbHZPMVBuRV9mamxFcl9tcjdlU3dLTmFONmh0dEk2TkZ5Qml4VjZWWU81WFFsM1RidlljR2ZrVnZwcXdaUkN2c3ZDdDRvT1ROaVVRUzB1djlhSTM1MXZEbThGOUNkQVlyYkk1eQ?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "alopecia"
    ]
   },
   {
@@ -2180,6 +2203,21 @@
    "hang": "Chuyên trang",
    "g": "khoahoc",
    "imp": "thap",
+   "t": "Antihistamines for Alopecia Areata?",
+   "s": "",
+   "w": "Bài nghiên cứu hoặc tin khoa học. Liên quan tới alopecia. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5XVzVlLUpHTUhmWm5nWl9jMmVJcjhZbXN0bkZ5UndYVVZOeHZxQ2NQNWZmdjZNQ0k3M3A3RkpQZnU3MmhqR3hURUNMLXJVREhHQk9nMUgtVlh0MUU5UUkzazQtTldqQmR2VzVBaVdJYmt4YjhMTXRNbTFtV0k?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "alopecia"
+   ]
+  },
+  {
+   "d": "2026-10-24",
+   "src": "Dermatology Times",
+   "hang": "Chuyên trang",
+   "g": "khoahoc",
+   "imp": "thap",
    "t": "A Clear Road Map for Severe Alopecia Areata",
    "s": "",
    "w": "Bài nghiên cứu hoặc tin khoa học. Liên quan tới alopecia. Gợi ý content sẽ có sau lần chạy phân tích tới.",
@@ -2237,21 +2275,6 @@
   },
   {
    "d": "2026-10-23",
-   "src": "Dermatology Times",
-   "hang": "Chuyên trang",
-   "g": "khoahoc",
-   "imp": "thap",
-   "t": "The Derm Files: When Is Alopecia Areata Severe Enough?",
-   "s": "",
-   "w": "Bài nghiên cứu hoặc tin khoa học. Liên quan tới alopecia. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQYmR3cEg1TE0xU3FaTDFheUdsT0NSZnlhNEdVMGQ4c0FPLUdxbEdubkJBR3ZmSDJ3UTlfSGdncEhPVWN5RDIyQnBtTGlhdVZNeTFldmYwNGpIT04zdmlsbTRDVE03akJGZjN3d2JwYUxBWG1hQTB2OW8taXltZTdMTnYtZzdadFhBRktVR3ltY0ZyREQ0OFE?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "alopecia"
-   ]
-  },
-  {
-   "d": "2026-10-23",
    "src": "Yahoo Lifestyle Canada",
    "hang": "Tổng hợp",
    "g": "khoahoc",
@@ -2281,6 +2304,21 @@
    "khoa": [
     "hair",
     "grey hair"
+   ]
+  },
+  {
+   "d": "2026-10-23",
+   "src": "Dermatology Times",
+   "hang": "Chuyên trang",
+   "g": "khoahoc",
+   "imp": "thap",
+   "t": "The Derm Files: When Is Alopecia Areata Severe Enough?",
+   "s": "",
+   "w": "Bài nghiên cứu hoặc tin khoa học. Liên quan tới alopecia. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQYmR3cEg1TE0xU3FaTDFheUdsT0NSZnlhNEdVMGQ4c0FPLUdxbEdubkJBR3ZmSDJ3UTlfSGdncEhPVWN5RDIyQnBtTGlhdVZNeTFldmYwNGpIT04zdmlsbTRDVE03akJGZjN3d2JwYUxBWG1hQTB2OW8taXltZTdMTnYtZzdadFhBRktVR3ltY0ZyREQ0OFE?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "alopecia"
    ]
   },
   {
@@ -2318,14 +2356,13 @@
    "src": "Dermatology Times",
    "hang": "Chuyên trang",
    "g": "khoahoc",
-   "imp": "cao",
-   "t": "JAK Inhibitors for Alopecia Areata: Selectivity and Pivotal Trial Efficacy",
+   "imp": "thap",
+   "t": "Starting JAK Inhibitors for Alopecia Areata: Safety Counseling and Choosing an Agent",
    "s": "",
-   "w": "Bài nghiên cứu hoặc tin khoa học. Có tín hiệu bằng chứng: trial. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOT1JmLTBnOHJUZzBiR0NwaVZ4eVlCT1ZBakRraDQ4ckpsaDBCc3pRNkc5RkJtUElna290dkZqdFlYcEdJZXFCMlBZSWZFWnUzbFZUbi1ud1BDSlYzTzBnWXpTM1czdklTTmliUXVOZTJfSGtMOVdMNXFpV2FOejFOblhBc2JpdnlmNFIzcHdfOFJrbWREY3E1R0V4ZEdBcDhnODE2U1BhRTctaVdLVzRYRg?oc=5",
+   "w": "Bài nghiên cứu hoặc tin khoa học. Liên quan tới alopecia. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPdmtrWlhMRVFWQkhrcW01LUsxLXhRZm44aEtERkp0ZFlhMGZwcjZnY2RuZlhxLUYzWXVLbVpiWVNXMWpNMUhvLU81NDJ5NHN5ZE9RalFtQmJlM0xydDVvNnJ3ZHBzSmRDY004RER1bzNzalhibENxRTlwZTNRWkotbUtlczE1NnVBNWJybjlfNW1xNUVHSkRkQmQyeXdMVHNSYXF6bE5EWWgyY2hvS3M5eHRrdm1rLUhVYlNVbFN3?oc=5",
    "khongPT": false,
    "khoa": [
-    "trial",
     "alopecia"
    ]
   },
@@ -2339,21 +2376,6 @@
    "s": "",
    "w": "Bài nghiên cứu hoặc tin khoa học. Liên quan tới alopecia. Gợi ý content sẽ có sau lần chạy phân tích tới.",
    "u": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUV9kVHl0SUZ1REQyVHMtbFZmamhBS2pIMDVFeGVpSjVFQmhmcjM2Z0VCZHZoVGU4NzVPZTFwUU5wY2xpZ0pjbWlHeVhrQm9RVklweXF2bTNBcmFDNUVhVk9KbW4wejVzMW4wamlnX1F4ZzBQVXVxc3c4c3h3WVRjcGtOSWlwaFlfT1JQNWJQMWV1dkFQZHNqMXlXMUIxVjhCT3BJc2RvY3Q?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "alopecia"
-   ]
-  },
-  {
-   "d": "2026-10-21",
-   "src": "Dermatology Times",
-   "hang": "Chuyên trang",
-   "g": "khoahoc",
-   "imp": "thap",
-   "t": "Starting JAK Inhibitors for Alopecia Areata: Safety Counseling and Choosing an Agent",
-   "s": "",
-   "w": "Bài nghiên cứu hoặc tin khoa học. Liên quan tới alopecia. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPdmtrWlhMRVFWQkhrcW01LUsxLXhRZm44aEtERkp0ZFlhMGZwcjZnY2RuZlhxLUYzWXVLbVpiWVNXMWpNMUhvLU81NDJ5NHN5ZE9RalFtQmJlM0xydDVvNnJ3ZHBzSmRDY004RER1bzNzalhibENxRTlwZTNRWkotbUtlczE1NnVBNWJybjlfNW1xNUVHSkRkQmQyeXdMVHNSYXF6bE5EWWgyY2hvS3M5eHRrdm1rLUhVYlNVbFN3?oc=5",
    "khongPT": false,
    "khoa": [
     "alopecia"
@@ -2401,6 +2423,22 @@
    "u": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOVFVpTVlTVVh5YVdkUW9hWnl1a1E3RnVFS3NSbW1TSDU3aGRmeGhXYXVoNzJVTXVQR1BhbkpKNTZwV3FidDd5RWRUcnI2WWlIdFFCZXA1YWxqS1FiNllaOGRDQmRGQlRQMkVveEJrS1pxZ2FXNXdLTV9VTlgyNjVoM0d6OU5uT1dBRG1yR1VHcWdZQmpv?oc=5",
    "khongPT": false,
    "khoa": [
+    "alopecia"
+   ]
+  },
+  {
+   "d": "2026-10-20",
+   "src": "Dermatology Times",
+   "hang": "Chuyên trang",
+   "g": "khoahoc",
+   "imp": "cao",
+   "t": "JAK Inhibitors for Alopecia Areata: Selectivity and Pivotal Trial Efficacy",
+   "s": "",
+   "w": "Bài nghiên cứu hoặc tin khoa học. Có tín hiệu bằng chứng: trial. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOT1JmLTBnOHJUZzBiR0NwaVZ4eVlCT1ZBakRraDQ4ckpsaDBCc3pRNkc5RkJtUElna290dkZqdFlYcEdJZXFCMlBZSWZFWnUzbFZUbi1ud1BDSlYzTzBnWXpTM1czdklTTmliUXVOZTJfSGtMOVdMNXFpV2FOejFOblhBc2JpdnlmNFIzcHdfOFJrbWREY3E1R0V4ZEdBcDhnODE2U1BhRTctaVdLVzRYRg?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "trial",
     "alopecia"
    ]
   },
@@ -2663,22 +2701,6 @@
   },
   {
    "d": "2026-10-10",
-   "src": "Dermatology Times",
-   "hang": "Chuyên trang",
-   "g": "khoahoc",
-   "imp": "vua",
-   "t": "Aesthetic Patient Screening and Alopecia Care Tips",
-   "s": "",
-   "w": "Bài nghiên cứu hoặc tin khoa học. Liên quan tới alopecia. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORE5PZnpEYjcxcEhpQlE2VjJhVUhfWFVqQW9DZ0xnRU13RzEwaG5MdlRRa0JEaUVwSk9GbkJGS3E0c1BtTU9DdUZybUJMMXZ2Q0NjSXhneVp4MjdqM1FjSmctQ2lCckN0Y0Fja2VzeXpGbnZyTWxoa0ZaX3lqQ1htWGFtS0ZrUFRvckJDNmRMY2o3aFFMajM3X1UtVHl6WWVxXzBiUWlySnJfdjA?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "alopecia",
-    "tips"
-   ]
-  },
-  {
-   "d": "2026-10-10",
    "src": "Reddit · r/HaircareScience",
    "hang": "Cộng đồng",
    "g": "khoahoc",
@@ -2713,6 +2735,22 @@
    "khoa": [
     "hair",
     "conditioner"
+   ]
+  },
+  {
+   "d": "2026-10-10",
+   "src": "Dermatology Times",
+   "hang": "Chuyên trang",
+   "g": "khoahoc",
+   "imp": "vua",
+   "t": "Aesthetic Patient Screening and Alopecia Care Tips",
+   "s": "",
+   "w": "Bài nghiên cứu hoặc tin khoa học. Liên quan tới alopecia. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORE5PZnpEYjcxcEhpQlE2VjJhVUhfWFVqQW9DZ0xnRU13RzEwaG5MdlRRa0JEaUVwSk9GbkJGS3E0c1BtTU9DdUZybUJMMXZ2Q0NjSXhneVp4MjdqM1FjSmctQ2lCckN0Y0Fja2VzeXpGbnZyTWxoa0ZaX3lqQ1htWGFtS0ZrUFRvckJDNmRMY2o3aFFMajM3X1UtVHl6WWVxXzBiUWlySnJfdjA?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "alopecia",
+    "tips"
    ]
   },
   {
@@ -3485,21 +3523,6 @@
    "hang": "Chuyên trang",
    "g": "khoahoc",
    "imp": "thap",
-   "t": "FDA Approves Baricitinib for Adolescents With Severe Alopecia Areata",
-   "s": "",
-   "w": "Bài nghiên cứu hoặc tin khoa học. Liên quan tới alopecia. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOUjdPX0hHaFctcGNPc1hpbkh1d040RE1HWWFzeVVMcm94enBtWHpYOGJETW54NXpuWE9sSXRVOEhGZ25RY1pzelVHeVlLUnlab0lBNEdjeDk0cFZQd0ZzcTVwRThVVmwwcTZGcWR4LTcwSzNXTkxRWGFaT015WUFJdnNHaW9NNFQ1a2d1TE9KQzFlLU1mdHBCOXRRZUVtQ3RZR0RncUpPWXl2QQ?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "alopecia"
-   ]
-  },
-  {
-   "d": "2026-09-25",
-   "src": "Dermatology Times",
-   "hang": "Chuyên trang",
-   "g": "khoahoc",
-   "imp": "thap",
    "t": "From Mechanism to Management: Navigating Male Pattern Hair Loss and New Topical Therapies",
    "s": "",
    "w": "Bài nghiên cứu hoặc tin khoa học. Liên quan tới hair, hair loss. Gợi ý content sẽ có sau lần chạy phân tích tới.",
@@ -3508,6 +3531,21 @@
    "khoa": [
     "hair",
     "hair loss"
+   ]
+  },
+  {
+   "d": "2026-09-25",
+   "src": "Dermatology Times",
+   "hang": "Chuyên trang",
+   "g": "khoahoc",
+   "imp": "thap",
+   "t": "FDA Approves Baricitinib for Adolescents With Severe Alopecia Areata",
+   "s": "",
+   "w": "Bài nghiên cứu hoặc tin khoa học. Liên quan tới alopecia. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOUjdPX0hHaFctcGNPc1hpbkh1d040RE1HWWFzeVVMcm94enBtWHpYOGJETW54NXpuWE9sSXRVOEhGZ25RY1pzelVHeVlLUnlab0lBNEdjeDk0cFZQd0ZzcTVwRThVVmwwcTZGcWR4LTcwSzNXTkxRWGFaT015WUFJdnNHaW9NNFQ1a2d1TE9KQzFlLU1mdHBCOXRRZUVtQ3RZR0RncUpPWXl2QQ?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "alopecia"
    ]
   },
   {
@@ -3814,55 +3852,94 @@
    ]
   },
   {
-   "d": "2026-09-16",
-   "src": "Business Wire",
-   "hang": "Tổng hợp",
-   "g": "khoahoc",
-   "imp": "cao",
-   "t": "Rubedo Life Sciences Announces Clinical Study to Treat Hair Loss with GPX4 Modulator RLS-1496, First Human Ex Vivo Evidence Demonstrates Robust Hair Follicle Growth",
-   "s": "",
-   "w": "Bài nghiên cứu hoặc tin khoa học. Có tín hiệu bằng chứng: study, evidence. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxPTU9hWVVrUDYwZnR0Ul92aTNnVzdOWGszRWR5aTRHWjBpX2YwNkMyRElLRE92TngtamlxclZkNnFieWNqbk5nbjh1ckVOeW8yS2pXSzFSVmpNQkNmNjg3UWpabVNnbVNnb1ZFUXBoSmdJeXpuV0U3aGtDZDk3bmFKZ0FPNkVsM0JBMUt5cTBudDZXZ1V0dGV1TVNNZEVzalR1MDlndTYzLTRXX0xLOEVrR0lWSF84cWJRclp2NjNYN25OcjFYYkk0dzVzbS1lN2k5cjQ3ZG5BOC10NGhjeWlDb1ZTM2gwdThXempZQWxxN1FnNlM2V0RIbUZyTTU3UDY2NVc1ZWFUaXc3VjZfNHZFa3hnUmJ5ZmhWa0hpNDQ4em52TXpvbmg5S29waWNYTGxMZDd2eEFwNl9JWXlZaUZ3bzV3?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "study",
-    "evidence",
-    "hair",
-    "hair follicle",
-    "follicle",
-    "hair loss"
-   ]
-  },
-  {
-   "d": "2026-09-16",
-   "src": "Wiley: Journal of Cosmetic Dermatology: Table of Contents",
-   "hang": "Học thuật",
-   "g": "khoahoc",
-   "imp": "cao",
-   "t": "Trichoscopic Markers as Predictors of Treatment Response in Androgenetic Alopecia: A Systematic Review",
-   "s": "Journal of Cosmetic Dermatology, Volume 25, Issue 9, September 2026.",
-   "w": "Bài nghiên cứu hoặc tin khoa học. Có tín hiệu bằng chứng: systematic review. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://onlinelibrary.wiley.com/doi/10.1111/jocd.71193?af=R",
-   "khongPT": false,
-   "khoa": [
-    "systematic review",
-    "alopecia",
-    "androgenetic"
-   ]
-  },
-  {
-   "d": "2026-09-15",
-   "src": "Contemporary Pediatrics",
-   "hang": "Tổng hợp",
-   "g": "khoahoc",
+   "d": "2026-10-29",
+   "src": "Elle · Làm đẹp",
+   "hang": "Tạp chí",
+   "g": "xuhuong",
    "imp": "thap",
-   "t": "Disease severity, phenotype predict systemic treatment response in pediatric alopecia areata",
-   "s": "",
-   "w": "Bài nghiên cứu hoặc tin khoa học. Liên quan tới alopecia. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNOUxILUR4RGViWVJNQ3JQalR6UlRDWkFkNVRORHo3TEwwMzNFX193WUJHNmlJTDdkTHZDN2x5a2ctWmpXaTFiQ3NpS2dVWVVuMWEyLWE4YkxOM24yTzBfT3BpT3NyYjVBbW96NUFvNHhwWjFTZVVsZnlsaTgtVkpfVm8tclc0UzJ4elF6dG1TQkNGYzBna28xUTB6MnBuMGxRSnFSVndHeE5uNkEzZzdUcTJYRjg1TElCUkw1WElBdjR6X190aFZDZzU0c1hFZ2VV?oc=5",
+   "t": "Meghann Fahy Debuted a Sharp New Bob With a Geometric Twist",
+   "s": "The actress stepped out in her boldest hairstyle yet.",
+   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hairstyle. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://www.elle.com/beauty/hair/a74272285/meghann-fahy-geometric-caramel-bob-hair-transformation/",
    "khongPT": false,
    "khoa": [
-    "alopecia"
+    "hairstyle"
+   ]
+  },
+  {
+   "d": "2026-10-28",
+   "src": "Byrdie",
+   "hang": "Tạp chí",
+   "g": "xuhuong",
+   "imp": "thap",
+   "t": "13 Short Haircuts for Gray Hair, From Soft Bobs to Classic Pixies",
+   "s": "",
+   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair, gray hair. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1tMC1YLXljUXZkQ3hDblJzUG43MklyWnhkaDFLcmdNUVdIM1RSaEoySHlaaTV0dTRSRW9jQ1BmVnFRdHNLejZQbUxZWUZQSFlvbDctUnRKNlZRNU9LdkpqWlYybw?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "hair",
+    "gray hair"
+   ]
+  },
+  {
+   "d": "2026-10-28",
+   "src": "Vogue India",
+   "hang": "Tổng hợp",
+   "g": "xuhuong",
+   "imp": "thap",
+   "t": "The iconic 2000s crimped hair trend is making a comeback and we have thoughts",
+   "s": "",
+   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOeWNkMnp6ODV2N1NaYllDck1mZXBEYUpCNk4zdk0za1o3b215VzA1NzdScTQtakVfOEpaNzEwQTF1VHE0QmE5WTVRUUJfUGk2UmVTM1JmWUdJVlNLVW9Vakw3dDBTUTVIYUhzVU9IUXMtS0RBT2Z5bzItNWRpNFM3YUxLdHdlRlJOcGdaZDBpZ0ZyV0hvWEk5OFNlYVpmTl9DRTMwYXA3MC03VXg3UXBDczJURTFmZw?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "hair"
+   ]
+  },
+  {
+   "d": "2026-10-28",
+   "src": "Reddit · r/Hair",
+   "hang": "Cộng đồng",
+   "g": "xuhuong",
+   "imp": "thap",
+   "t": "Did I make a mistake?",
+   "s": "A friend convinced me to have them cut my hair, and I folded, mistake? submitted by /u/Lordtouchme9990 [link] [comments]",
+   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://www.reddit.com/r/Hair/comments/1xh2nxy/did_i_make_a_mistake/",
+   "khongPT": false,
+   "khoa": [
+    "hair"
+   ]
+  },
+  {
+   "d": "2026-10-28",
+   "src": "Reddit · r/femalehairadvice",
+   "hang": "Cộng đồng",
+   "g": "xuhuong",
+   "imp": "thap",
+   "t": "Shag or play it safe and stick with the basics?",
+   "s": "I kind of like this style - but 1. It may not be right for my aging face 2. It seems to maybe take a specialist to get it right 3. No one else in my spheres has a style like it (might be too rock n roll) 4. My hair is extremely lifeless and flat. Sample #1 is my fave - then maybe #3 but I don't have that poofy volume My various short styles in recent years - current = upper LH - growing it out for a cut. I used to…",
+   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://www.reddit.com/r/femalehairadvice/comments/1xh8sng/shag_or_play_it_safe_and_stick_with_the_basics/",
+   "khongPT": false,
+   "khoa": [
+    "hair"
+   ]
+  },
+  {
+   "d": "2026-10-28",
+   "src": "Reddit · r/femalehairadvice",
+   "hang": "Cộng đồng",
+   "g": "xuhuong",
+   "imp": "thap",
+   "t": "Help my horrible bangs",
+   "s": "I got these yesterday and I am so upset. I wanted wispy curtain bangs that blended into long layers... and I got whatever this is. I am trying to find a stylist to fix it bc I refuse to go back to the lady who did it in the first place. How can this be fixed? 😭 submitted by /u/Careless-Plant-3564 [link] [comments]",
+   "w": "Tin xu hướng và thói quen của khách. Liên quan tới stylist. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://www.reddit.com/r/femalehairadvice/comments/1xh30qu/help_my_horrible_bangs/",
+   "khongPT": false,
+   "khoa": [
+    "stylist"
    ]
   },
   {
@@ -3942,48 +4019,17 @@
   },
   {
    "d": "2026-10-27",
-   "src": "Red magazine",
+   "src": "Yahoo Life UK",
    "hang": "Tổng hợp",
    "g": "xuhuong",
    "imp": "thap",
    "t": "Lily James proves 'truffle brunette' is winter's richest, most expensive-looking hair trend: get the look",
    "s": "",
    "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPVUpmUFNvT1lXSEJmOTRCeWdFWDBnSlBjZVJLOWRqalZTVEJRU2dUNnk1T1BUdXo2NU40Z2lCQ0lQVlRLa2tvT3kxNUpDa2ZVaDA4eDZWd3ZKYU1iY1gtNkw4NERYcENHWFJkWllCQWZxeFZoZndFOVhNZ3JLS1FfQldJVmJOOUZsNTRIQVpqWEdha2s?oc=5",
+   "u": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPYUU5LWt6VkFueXBTZUNnamJMSXY1OHl5WC1aaXVWNXE4anNaSXVJbnpnMUhhNGlmQ2pxSmtQTnBMZHdZLWFiS2dsMm5DOHlfMktsbi00SXBENmpoRFVpUG1uZkdKckJnTGVCV2hwMmZMODFDc2FNQ1RLc1RPUTB1MDZB?oc=5",
    "khongPT": false,
    "khoa": [
     "hair"
-   ]
-  },
-  {
-   "d": "2026-10-27",
-   "src": "Parade Magazine",
-   "hang": "Tổng hợp",
-   "g": "xuhuong",
-   "imp": "thap",
-   "t": "Thinking About Bangs? This Trend Will 'Frame the Face Beautifully,' According to a Celebrity Hairstylist",
-   "s": "",
-   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hairstylist. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1pR3V2dUtSZmRDQmQ3OS1tVFE1MGRtWWc5cmR0aFlIbW00SDN3bG8wVFVHdUNIRl9qb3Y4ZWlmeG03SHgyU285VGJ2Q1luTWJLRUFhNTdQeXBCX1ZSdTdNemttdkt1b1BZS3pLVEFIS1Ftd3g4bjVONA?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "hairstylist"
-   ]
-  },
-  {
-   "d": "2026-10-27",
-   "src": "Yahoo Finance",
-   "hang": "Tổng hợp",
-   "g": "xuhuong",
-   "imp": "thap",
-   "t": "Korean Scalp Care for Dry, Itchy Scalps: MOGAM Serum Ranked No. 1 in Amazon.com's Hair Tonic New Releases",
-   "s": "",
-   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair, scalp. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPM3VqVUVHMGRyLVFwcDBIM1ZUY1EtdEV3LTAtN2pFYU1nZ0R6MU9hUkZGNVl1WHVMZ2s5QWd0anpIcHFCc1lweXFMMHRkamZKQVE3WWJHNkZ3YU54VmlGVlA2YmFGMm1WUVV1LXJuRkFwNTJlSUhQX3dGN2o2enFzSWR4T0pwYWh0Y2JGazVnOHQ2LW5sQ2FQWVpvZw?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "hair",
-    "scalp"
    ]
   },
   {
@@ -4024,7 +4070,7 @@
    "src": "Reddit · r/FancyFollicles",
    "hang": "Cộng đồng",
    "g": "xuhuong",
-   "imp": "thap",
+   "imp": "vua",
    "t": "Limecrime&GoodDyeYoung",
    "s": "Genie in Limecrime Unicorn Hair (full coverage) Ex Girl in Good Dye Young (bangs added conditioner to for pastel, hair was platinum prior) submitted by /u/pretzelandcheese588 [link] [comments]",
    "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair, conditioner. Gợi ý content sẽ có sau lần chạy phân tích tới.",
@@ -4052,6 +4098,37 @@
   },
   {
    "d": "2026-10-27",
+   "src": "Parade Magazine",
+   "hang": "Tổng hợp",
+   "g": "xuhuong",
+   "imp": "thap",
+   "t": "Thinking About Bangs? This Trend Will 'Frame the Face Beautifully,' According to a Celebrity Hairstylist",
+   "s": "",
+   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hairstylist. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1pR3V2dUtSZmRDQmQ3OS1tVFE1MGRtWWc5cmR0aFlIbW00SDN3bG8wVFVHdUNIRl9qb3Y4ZWlmeG03SHgyU285VGJ2Q1luTWJLRUFhNTdQeXBCX1ZSdTdNemttdkt1b1BZS3pLVEFIS1Ftd3g4bjVONA?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "hairstylist"
+   ]
+  },
+  {
+   "d": "2026-10-27",
+   "src": "Yahoo Finance",
+   "hang": "Tổng hợp",
+   "g": "xuhuong",
+   "imp": "thap",
+   "t": "Korean Scalp Care for Dry, Itchy Scalps: MOGAM Serum Ranked No. 1 in Amazon.com's Hair Tonic New Releases",
+   "s": "",
+   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair, scalp. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPM3VqVUVHMGRyLVFwcDBIM1ZUY1EtdEV3LTAtN2pFYU1nZ0R6MU9hUkZGNVl1WHVMZ2s5QWd0anpIcHFCc1lweXFMMHRkamZKQVE3WWJHNkZ3YU54VmlGVlA2YmFGMm1WUVV1LXJuRkFwNTJlSUhQX3dGN2o2enFzSWR4T0pwYWh0Y2JGazVnOHQ2LW5sQ2FQWVpvZw?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "hair",
+    "scalp"
+   ]
+  },
+  {
+   "d": "2026-10-27",
    "src": "Reddit · r/femalehairadvice",
    "hang": "Cộng đồng",
    "g": "xuhuong",
@@ -4064,6 +4141,22 @@
    "khoa": [
     "hair",
     "hairstyle"
+   ]
+  },
+  {
+   "d": "2026-10-26",
+   "src": "Byrdie",
+   "hang": "Tạp chí",
+   "g": "xuhuong",
+   "imp": "thap",
+   "t": "These 9 Shampoos Keep Color-Treated Hair Looking Fresh Between Salon Visits",
+   "s": "",
+   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair, salon. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9nbW9aWjJab2p3VlMtbzc1aW9NUFc5OWUzMW1obmVtcTcxM283Rzk5d2pSLVBFWmpIX1FIWWJoemE3ZWd1Sm5KbC15UlFTZkFOVHN6Rnp4NUM4TEUzVnZjbWdOWDBoa3R4ZVlDNGtB?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "hair",
+    "salon"
    ]
   },
   {
@@ -4088,7 +4181,7 @@
    "src": "Reddit · r/femalehairadvice",
    "hang": "Cộng đồng",
    "g": "xuhuong",
-   "imp": "thap",
+   "imp": "vua",
    "t": "What hairstyle would help me look more feminine?",
    "s": "I'm a MTF trans woman, and I've been trying to figure out what style would be best for me to be as feminine as I can be. What style(s) would y'all suggest? submitted by /u/Stray007 [link] [comments]",
    "w": "Tin xu hướng và thói quen của khách. Liên quan tới hairstyle. Gợi ý content sẽ có sau lần chạy phân tích tới.",
@@ -4147,17 +4240,21 @@
   },
   {
    "d": "2026-10-24",
-   "src": "AOL.com",
-   "hang": "Tổng hợp",
+   "src": "Refinery29 · Làm đẹp",
+   "hang": "Tạp chí",
    "g": "xuhuong",
-   "imp": "thap",
-   "t": "Scarlett Johansson's Blonde Bob Is the Fall Hair Trend Everyone Will Be Asking For: Get the Look",
-   "s": "",
-   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNbWF0OHdiM0pJTGVmakFFSEJQeXd2V1VxV1FqaktmQmcwYnVxem5lRll4RnZRVWJhUllSaFJUUnlYTU1OdWhlUTBqN2swc2x1TkpLbTExOFNlb1dOU1Z4c1FyX1RVSXpfRmkzamgyaXY0TUlyanZYdTRhTzZfZm0xTnVaelJBQQ?oc=5",
+   "imp": "vua",
+   "t": "The Best Collabs This Week From Gap, ACOTAR & More",
+   "s": "If there's one thing we've learned from Refinery29 readers' shopping habits, it's that you love a good brand collaboration (just like us). But among a sea of new partnerships, it can be hard to fish out the best of the best collabs. That's why we're sharing the best lifestyle, beauty, and fashion partnerships worth carting up. This week, there are many, many exciting launches from reader-favorite retailers like Ga…",
+   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair, styling, stylist. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://www.refinery29.com/en-us/best-new-collaborations?utm_source=feed&utm_medium=rss",
    "khongPT": false,
    "khoa": [
-    "hair"
+    "hair",
+    "styling",
+    "stylist",
+    "loyalty",
+    "commission"
    ]
   },
   {
@@ -4170,6 +4267,21 @@
    "s": "I use to get free dye and had the patience to dye this myself 2 time a month. Now I’m lazy and just have pink hair. submitted by /u/_Riahboflavin_ [link] [comments]",
    "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair. Gợi ý content sẽ có sau lần chạy phân tích tới.",
    "u": "https://www.reddit.com/r/FancyFollicles/comments/1xdwixt/i_had_this_color_for_7_years_and_now_im_missing_it/",
+   "khongPT": false,
+   "khoa": [
+    "hair"
+   ]
+  },
+  {
+   "d": "2026-10-24",
+   "src": "AOL.com",
+   "hang": "Tổng hợp",
+   "g": "xuhuong",
+   "imp": "thap",
+   "t": "Scarlett Johansson's Blonde Bob Is the Fall Hair Trend Everyone Will Be Asking For: Get the Look",
+   "s": "",
+   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNbWF0OHdiM0pJTGVmakFFSEJQeXd2V1VxV1FqaktmQmcwYnVxem5lRll4RnZRVWJhUllSaFJUUnlYTU1OdWhlUTBqN2swc2x1TkpLbTExOFNlb1dOU1Z4c1FyX1RVSXpfRmkzamgyaXY0TUlyanZYdTRhTzZfZm0xTnVaelJBQQ?oc=5",
    "khongPT": false,
    "khoa": [
     "hair"
@@ -4225,6 +4337,22 @@
   },
   {
    "d": "2026-10-23",
+   "src": "Byrdie",
+   "hang": "Tạp chí",
+   "g": "xuhuong",
+   "imp": "cao",
+   "t": "How to Stop Excessive Hair Shedding, According to a Dermatologist",
+   "s": "",
+   "w": "Tin xu hướng và thói quen của khách. Có tín hiệu bằng chứng: dermatologist. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1USW5lTnpzT0xEcDRHVzYwZkdFcjR0LVI0Uk9sVXF2RDlPUnI2cGJNY1FPeWI4T28zX19WX0IzeThPRkVfM0dUTkRkWlJVS01KaUFGNGpMMUtpXzloZjZQQXBKUFpNMDQ?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "dermatologist",
+    "hair"
+   ]
+  },
+  {
+   "d": "2026-10-23",
    "src": "Yahoo",
    "hang": "Tổng hợp",
    "g": "xuhuong",
@@ -4236,55 +4364,6 @@
    "khongPT": false,
    "khoa": [
     "hair"
-   ]
-  },
-  {
-   "d": "2026-10-23",
-   "src": "Market.us",
-   "hang": "Tổng hợp",
-   "g": "xuhuong",
-   "imp": "cao",
-   "t": "Scalp Care Market Size, Growth Report 2025-2035 | CAGR of 7.8%",
-   "s": "",
-   "w": "Tin xu hướng và thói quen của khách. Có tín hiệu bằng chứng: report. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB2T0MwZ1FGMGltb3dHck9EamlTWngweURtX2lUZm91UFBhMkl4azVVcGViMnAwMEFlcTA0REJRbmpXbTVZd0dpdTZnWWFsN2hHWUlzYlRB?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "report",
-    "scalp"
-   ]
-  },
-  {
-   "d": "2026-10-23",
-   "src": "The Irish Times",
-   "hang": "Tổng hợp",
-   "g": "xuhuong",
-   "imp": "thap",
-   "t": "I’ve changed my mind about extensions. They can be great for women with thinning hair",
-   "s": "",
-   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair, thinning hair, extensions. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQeFFuNTZXbTBoOElkQTlmWjFQNFg4dDVsOTNIZ1E2SEs1cjNCd2xBQTllM21fSXRBWmhyNGRLM1BxVlFjcGI0WEFQYnJkVGtqMk9icWR3RzV1aWMxMVQyOFAyX2oxWmZpWW5Kanh2RWdVNWRXMDZrcnRXdnlidGFZVmpjM1R1WXF0NzZxMmNNQjZQQm84bFU3QW4zQm55TVlXYnRKc0tWV3pXejlUOVJJSEw2aXNKeVJsSFdvdXpyZWdjR2w3VFBrRVBhODVpbV9OMjdRQWFYbF8?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "hair",
-    "thinning hair",
-    "extensions"
-   ]
-  },
-  {
-   "d": "2026-10-23",
-   "src": "AOL.com",
-   "hang": "Tổng hợp",
-   "g": "xuhuong",
-   "imp": "thap",
-   "t": "The 3 Best Dollar Tree Hairbrushes for Thinning Hair—Just $1.25 Each!",
-   "s": "",
-   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair, thinning hair. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9XNFp1c2RqV1IyVE1yRXhMbnlqY283X2I2QlVJTmU0dS02UGdJSnhKOV84cHFaYi1UdUJ2SGhKZnkxNTdKVFJ5RjhvTmhLcVg4VnB1eXBGSExMSlk5bUpqVnI5dmpVZ3ZsY21WSzB1cF9kbmhfWTVUQ29FVTdSUzQ?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "hair",
-    "thinning hair"
    ]
   },
   {
@@ -4381,18 +4460,51 @@
   },
   {
    "d": "2026-10-23",
-   "src": "Byrdie",
-   "hang": "Tạp chí",
+   "src": "Market.us",
+   "hang": "Tổng hợp",
    "g": "xuhuong",
    "imp": "cao",
-   "t": "How to Stop Excessive Hair Shedding, According to a Dermatologist",
+   "t": "Scalp Care Market Size, Growth Report 2025-2035 | CAGR of 7.8%",
    "s": "",
-   "w": "Tin xu hướng và thói quen của khách. Có tín hiệu bằng chứng: dermatologist. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1USW5lTnpzT0xEcDRHVzYwZkdFcjR0LVI0Uk9sVXF2RDlPUnI2cGJNY1FPeWI4T28zX19WX0IzeThPRkVfM0dUTkRkWlJVS01KaUFGNGpMMUtpXzloZjZQQXBKUFpNMDQ?oc=5",
+   "w": "Tin xu hướng và thói quen của khách. Có tín hiệu bằng chứng: report. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB2T0MwZ1FGMGltb3dHck9EamlTWngweURtX2lUZm91UFBhMkl4azVVcGViMnAwMEFlcTA0REJRbmpXbTVZd0dpdTZnWWFsN2hHWUlzYlRB?oc=5",
    "khongPT": false,
    "khoa": [
-    "dermatologist",
-    "hair"
+    "report",
+    "scalp"
+   ]
+  },
+  {
+   "d": "2026-10-23",
+   "src": "The Irish Times",
+   "hang": "Tổng hợp",
+   "g": "xuhuong",
+   "imp": "thap",
+   "t": "I’ve changed my mind about extensions. They can be great for women with thinning hair",
+   "s": "",
+   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair, thinning hair, extensions. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQeFFuNTZXbTBoOElkQTlmWjFQNFg4dDVsOTNIZ1E2SEs1cjNCd2xBQTllM21fSXRBWmhyNGRLM1BxVlFjcGI0WEFQYnJkVGtqMk9icWR3RzV1aWMxMVQyOFAyX2oxWmZpWW5Kanh2RWdVNWRXMDZrcnRXdnlidGFZVmpjM1R1WXF0NzZxMmNNQjZQQm84bFU3QW4zQm55TVlXYnRKc0tWV3pXejlUOVJJSEw2aXNKeVJsSFdvdXpyZWdjR2w3VFBrRVBhODVpbV9OMjdRQWFYbF8?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "hair",
+    "thinning hair",
+    "extensions"
+   ]
+  },
+  {
+   "d": "2026-10-23",
+   "src": "AOL.com",
+   "hang": "Tổng hợp",
+   "g": "xuhuong",
+   "imp": "thap",
+   "t": "The 3 Best Dollar Tree Hairbrushes for Thinning Hair—Just $1.25 Each!",
+   "s": "",
+   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair, thinning hair. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9XNFp1c2RqV1IyVE1yRXhMbnlqY283X2I2QlVJTmU0dS02UGdJSnhKOV84cHFaYi1UdUJ2SGhKZnkxNTdKVFJ5RjhvTmhLcVg4VnB1eXBGSExMSlk5bUpqVnI5dmpVZ3ZsY21WSzB1cF9kbmhfWTVUQ29FVTdSUzQ?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "hair",
+    "thinning hair"
    ]
   },
   {
@@ -4442,22 +4554,6 @@
    "khongPT": false,
    "khoa": [
     "hairdresser"
-   ]
-  },
-  {
-   "d": "2026-10-22",
-   "src": "Allure",
-   "hang": "Tạp chí",
-   "g": "xuhuong",
-   "imp": "thap",
-   "t": "How Hair and Makeup Transform Florence Pugh From Cathy Ames to Kate in \"East of Eden\"",
-   "s": "Pugh’s personal hairstylist, Jaime Leigh McIntosh, and makeup artist, Heba Thorisdottir, share how Cathy’s flushed cheeks and innocent waves become Kate’s striking red lip and commanding crown.",
-   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair, hairstylist. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://www.allure.com/story/netflix-east-of-eden-florence-pugh-hair-makeup-details",
-   "khongPT": false,
-   "khoa": [
-    "hair",
-    "hairstylist"
    ]
   },
   {
@@ -4538,22 +4634,6 @@
   },
   {
    "d": "2026-10-22",
-   "src": "Vogue Singapore",
-   "hang": "Tổng hợp",
-   "g": "xuhuong",
-   "imp": "thap",
-   "t": "Should we embrace our grey hair?",
-   "s": "",
-   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair, grey hair. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBYZkNGMi1yT3NwbW8zYnZPN3BObEUyV05xSWNDLWVuOS1zQmVIRW83UzJlelJ3Y1FZWm5vWWVZSllFQ1lXakM4ek5XTWFhXzVlbmM3QUgtclpuMERobUE?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "hair",
-    "grey hair"
-   ]
-  },
-  {
-   "d": "2026-10-22",
    "src": "Reddit · r/Hair",
    "hang": "Cộng đồng",
    "g": "xuhuong",
@@ -4581,6 +4661,38 @@
    "khongPT": false,
    "khoa": [
     "hair"
+   ]
+  },
+  {
+   "d": "2026-10-22",
+   "src": "Allure",
+   "hang": "Tạp chí",
+   "g": "xuhuong",
+   "imp": "thap",
+   "t": "How Hair and Makeup Transform Florence Pugh From Cathy Ames to Kate in \"East of Eden\"",
+   "s": "Pugh’s personal hairstylist, Jaime Leigh McIntosh, and makeup artist, Heba Thorisdottir, share how Cathy’s flushed cheeks and innocent waves become Kate’s striking red lip and commanding crown.",
+   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair, hairstylist. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://www.allure.com/story/netflix-east-of-eden-florence-pugh-hair-makeup-details",
+   "khongPT": false,
+   "khoa": [
+    "hair",
+    "hairstylist"
+   ]
+  },
+  {
+   "d": "2026-10-22",
+   "src": "Vogue Singapore",
+   "hang": "Tổng hợp",
+   "g": "xuhuong",
+   "imp": "thap",
+   "t": "Should we embrace our grey hair?",
+   "s": "",
+   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair, grey hair. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBYZkNGMi1yT3NwbW8zYnZPN3BObEUyV05xSWNDLWVuOS1zQmVIRW83UzJlelJ3Y1FZWm5vWWVZSllFQ1lXakM4ek5XTWFhXzVlbmM3QUgtclpuMERobUE?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "hair",
+    "grey hair"
    ]
   },
   {
@@ -4636,21 +4748,6 @@
   },
   {
    "d": "2026-10-21",
-   "src": "Allure",
-   "hang": "Tạp chí",
-   "g": "xuhuong",
-   "imp": "thap",
-   "t": "Olivia Colman Is the Indisputable New Queen of Quiet Silver",
-   "s": "Her gorgeous gray blending confirms why it's one of the biggest hair-color trends of the year.",
-   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://www.allure.com/story/olivia-colman-quiet-silver-blending-wicker-premiere",
-   "khongPT": false,
-   "khoa": [
-    "hair"
-   ]
-  },
-  {
-   "d": "2026-10-21",
    "src": "Elle · Làm đẹp",
    "hang": "Tạp chí",
    "g": "xuhuong",
@@ -4670,6 +4767,24 @@
    "hang": "Tạp chí",
    "g": "xuhuong",
    "imp": "vua",
+   "t": "No Glam Teams, No Stylists: The R29 Fall/Winter Lookbook Is Here",
+   "s": "let ProdMobile = false; if (navigator.userAgent.match(/Android|BlackBerry|iPhone|iPad|iPod|Opera Mini|IEMobile/i)) { ProdMobile = true; } function ProdLeft(id) { let w = (window.innerWidth)/2; let i = [\"PROD__scroller\" + id]; let o = document.getElementById(i); o.scrollLeft += -(w); } function ProdRight(id) { let w = (window.innerWidth)/2; let i = [\"PROD__scroller\" + id]; let o = document.getElementById(i); o.scro…",
+   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair, styling, stylist. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://www.refinery29.com/en-us/fall-winter-2026-fashion-beauty-lookbook?utm_source=feed&utm_medium=rss",
+   "khongPT": false,
+   "khoa": [
+    "hair",
+    "styling",
+    "stylist",
+    "instagram"
+   ]
+  },
+  {
+   "d": "2026-10-21",
+   "src": "Refinery29 · Làm đẹp",
+   "hang": "Tạp chí",
+   "g": "xuhuong",
+   "imp": "vua",
    "t": "Ulta Beauty’s Gift Sets Are Holiday Sparkle In A Box",
    "s": "Glittery eyelids reminiscent of powdery snow, ruby-red lips that rival holly leaves, cheekbones glowing like New Year's fireworks — it's like the holiday seasons were tailor-made for makeup magic. One destination for making beauty dreams come true is Ulta, and they've outdone themselves with their holiday gift sets this year . From festive MAC lipsticks to a Sol de Janeiro fragrance haul, Ulta's holiday beauty set…",
    "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair, frizz. Gợi ý content sẽ có sau lần chạy phân tích tới.",
@@ -4679,6 +4794,37 @@
     "hair",
     "frizz",
     "commission"
+   ]
+  },
+  {
+   "d": "2026-10-21",
+   "src": "Byrdie",
+   "hang": "Tạp chí",
+   "g": "xuhuong",
+   "imp": "thap",
+   "t": "Glycolic Acid Is Quietly Revolutionizing Hair and Scalp Health",
+   "s": "",
+   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair, scalp. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMickFVX3lxTE9rTzlha0VnR2ZyMjQ1dDZHTUtxTkxkRzhmdTRRaWNWQzNhdXdEUWNRcUtaZjVOVGNFeWxTdVVBUUotX1hFSjhzOVY4SXF5aWFTS0puY0Y2d3VlU1c4aTM0S0xURTBRVURlS0RxUWcwQUFWQQ?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "hair",
+    "scalp"
+   ]
+  },
+  {
+   "d": "2026-10-21",
+   "src": "Allure",
+   "hang": "Tạp chí",
+   "g": "xuhuong",
+   "imp": "thap",
+   "t": "Olivia Colman Is the Indisputable New Queen of Quiet Silver",
+   "s": "Her gorgeous gray blending confirms why it's one of the biggest hair-color trends of the year.",
+   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://www.allure.com/story/olivia-colman-quiet-silver-blending-wicker-premiere",
+   "khongPT": false,
+   "khoa": [
+    "hair"
    ]
   },
   {
@@ -4710,22 +4856,6 @@
    "khongPT": false,
    "khoa": [
     "hair"
-   ]
-  },
-  {
-   "d": "2026-10-21",
-   "src": "Byrdie",
-   "hang": "Tạp chí",
-   "g": "xuhuong",
-   "imp": "thap",
-   "t": "Glycolic Acid Is Quietly Revolutionizing Hair and Scalp Health",
-   "s": "",
-   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair, scalp. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMickFVX3lxTE9rTzlha0VnR2ZyMjQ1dDZHTUtxTkxkRzhmdTRRaWNWQzNhdXdEUWNRcUtaZjVOVGNFeWxTdVVBUUotX1hFSjhzOVY4SXF5aWFTS0puY0Y2d3VlU1c4aTM0S0xURTBRVURlS0RxUWcwQUFWQQ?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "hair",
-    "scalp"
    ]
   },
   {
@@ -4860,6 +4990,21 @@
   },
   {
    "d": "2026-10-20",
+   "src": "Harper's BAZAAR",
+   "hang": "Tổng hợp",
+   "g": "xuhuong",
+   "imp": "thap",
+   "t": "5 modern ways to highlight hair for women over 50, from elegant grey blending to subtle ‘babylights’",
+   "s": "",
+   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOeE1zaDg2Z19HbUt1S3NsOWlYdkwxRV9zYVBnQ1E4ZEszeU5fcGF3MUFsalFqUm11Yk96eThORGhidXFEMWJ3Y3dmcnFBT1YtREthTzJIcnJSZGktNmY4aEpFSC1IcTR4d3laRUlaU3lhN0gxLXhPMFNLU1NBNGZycjRCVUV5U1RsU3RGSklhZXI5bXJmNmFvWE1n?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "hair"
+   ]
+  },
+  {
+   "d": "2026-10-20",
    "src": "Woman's World",
    "hang": "Tổng hợp",
    "g": "xuhuong",
@@ -4904,21 +5049,6 @@
    "khoa": [
     "hair",
     "gray hair"
-   ]
-  },
-  {
-   "d": "2026-10-20",
-   "src": "Harper's BAZAAR",
-   "hang": "Tổng hợp",
-   "g": "xuhuong",
-   "imp": "thap",
-   "t": "5 modern ways to highlight hair for women over 50, from elegant grey blending to subtle ‘babylights’",
-   "s": "",
-   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOeE1zaDg2Z19HbUt1S3NsOWlYdkwxRV9zYVBnQ1E4ZEszeU5fcGF3MUFsalFqUm11Yk96eThORGhidXFEMWJ3Y3dmcnFBT1YtREthTzJIcnJSZGktNmY4aEpFSC1IcTR4d3laRUlaU3lhN0gxLXhPMFNLU1NBNGZycjRCVUV5U1RsU3RGSklhZXI5bXJmNmFvWE1n?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "hair"
    ]
   },
   {
@@ -5423,21 +5553,6 @@
   },
   {
    "d": "2026-10-17",
-   "src": "ELLE",
-   "hang": "Tổng hợp",
-   "g": "xuhuong",
-   "imp": "thap",
-   "t": "The ‘Waterfall Bob’ Is Autumn’s Most Elegant Hair Trend: 4 Fresh, Modern Ways To Wear It Now",
-   "s": "",
-   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE52Q1JnUmFJdVpGaTdfdUlPeU54VFZ6SEtjaGF4VUtiU09CdW9jMHExbVZzY0JiYlJ6TXJLUmx4RHZHTUdJTmMyNFM2Q0dpN0FhRkFNVDYxelU4dHd3N1lrcVp5M1h2TWlaN0pXSA?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "hair"
-   ]
-  },
-  {
-   "d": "2026-10-17",
    "src": "Parade Magazine",
    "hang": "Tổng hợp",
    "g": "xuhuong",
@@ -5531,6 +5646,52 @@
   },
   {
    "d": "2026-10-16",
+   "src": "Allure",
+   "hang": "Tổng hợp",
+   "g": "xuhuong",
+   "imp": "thap",
+   "t": "The Cherry Cola Hair Color Trend Is Bubbling Up Yet Again—See Photos",
+   "s": "",
+   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair, hair color. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1xQ014Zm1PZTFtaU55VE51VENJN0tWY3F2ai1pY01pUElPaGNKbGdjUEl3TGlGblR4V2RaTU9TclpGS0F6VzktMExRVllrS0Jtb3hVTUxWM2dGRHVNbGJWNGo2UnZRNFk?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "hair",
+    "hair color"
+   ]
+  },
+  {
+   "d": "2026-10-16",
+   "src": "ELLE",
+   "hang": "Tổng hợp",
+   "g": "xuhuong",
+   "imp": "thap",
+   "t": "The ‘Waterfall Bob’ Is Autumn’s Most Elegant Hair Trend: 4 Fresh, Modern Ways To Wear It Now",
+   "s": "",
+   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMibEFVX3lxTE52Q1JnUmFJdVpGaTdfdUlPeU54VFZ6SEtjaGF4VUtiU09CdW9jMHExbVZzY0JiYlJ6TXJLUmx4RHZHTUdJTmMyNFM2Q0dpN0FhRkFNVDYxelU4dHd3N1lrcVp5M1h2TWlaN0pXSA?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "hair"
+   ]
+  },
+  {
+   "d": "2026-10-16",
+   "src": "Harper's Bazaar Australia",
+   "hang": "Tổng hợp",
+   "g": "xuhuong",
+   "imp": "thap",
+   "t": "Aje Spring/Summer 2027: How To Create Luxury Hair Trend",
+   "s": "",
+   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMiekFVX3lxTE00bHZETWdtMmtLWWJJekpjMjlfSVZNWUFtTDVzTzVYcnEybE95emIyWnllV2pPWG5qNHFIalBzNW9sYy04bFE4akpsSXp2V1BRZTU1SWRTSHpjcVhMVWVqeUFUWDd4c3FuMDhpbU9fQ1RhcnRqemVaM0dR?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "hair"
+   ]
+  },
+  {
+   "d": "2026-10-16",
    "src": "MiNDFOOD",
    "hang": "Tổng hợp",
    "g": "xuhuong",
@@ -5561,22 +5722,6 @@
   },
   {
    "d": "2026-10-16",
-   "src": "Allure",
-   "hang": "Tổng hợp",
-   "g": "xuhuong",
-   "imp": "thap",
-   "t": "The Cherry Cola Hair Color Trend Is Bubbling Up Yet Again—See Photos",
-   "s": "",
-   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair, hair color. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1xQ014Zm1PZTFtaU55VE51VENJN0tWY3F2ai1pY01pUElPaGNKbGdjUEl3TGlGblR4V2RaTU9TclpGS0F6VzktMExRVllrS0Jtb3hVTUxWM2dGRHVNbGJWNGo2UnZRNFk?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "hair",
-    "hair color"
-   ]
-  },
-  {
-   "d": "2026-10-16",
    "src": "Bustle",
    "hang": "Tổng hợp",
    "g": "xuhuong",
@@ -5589,160 +5734,6 @@
    "khoa": [
     "hair",
     "tiktok"
-   ]
-  },
-  {
-   "d": "2026-10-16",
-   "src": "Allure",
-   "hang": "Tạp chí",
-   "g": "xuhuong",
-   "imp": "thap",
-   "t": "6 Best Hair-Straightening Brushes 2026 for Salon-Smooth Blowouts",
-   "s": "Your shortcut to glossy, polished strands.",
-   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair, salon. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://www.allure.com/story/best-hair-straightening-brushes",
-   "khongPT": false,
-   "khoa": [
-    "hair",
-    "salon"
-   ]
-  },
-  {
-   "d": "2026-10-16",
-   "src": "Allure",
-   "hang": "Tạp chí",
-   "g": "xuhuong",
-   "imp": "thap",
-   "t": "Olivia Colman's Hairstylist Shares the Secrets Behind Her \"Wicker\" Curls—See the Photos",
-   "s": "The “big, sexy romantic curls” are a nod to the unconventional romance in the film.",
-   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hairstylist. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://www.allure.com/story/olivia-colman-wicker-curls",
-   "khongPT": false,
-   "khoa": [
-    "hairstylist"
-   ]
-  },
-  {
-   "d": "2026-10-16",
-   "src": "Harper's Bazaar Australia",
-   "hang": "Tổng hợp",
-   "g": "xuhuong",
-   "imp": "thap",
-   "t": "Aje Spring/Summer 2027: How To Create Luxury Hair Trend",
-   "s": "",
-   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMiekFVX3lxTE00bHZETWdtMmtLWWJJekpjMjlfSVZNWUFtTDVzTzVYcnEybE95emIyWnllV2pPWG5qNHFIalBzNW9sYy04bFE4akpsSXp2V1BRZTU1SWRTSHpjcVhMVWVqeUFUWDd4c3FuMDhpbU9fQ1RhcnRqemVaM0dR?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "hair"
-   ]
-  },
-  {
-   "d": "2026-10-16",
-   "src": "Reddit · r/Hair",
-   "hang": "Cộng đồng",
-   "g": "xuhuong",
-   "imp": "thap",
-   "t": "Do these bangs flatter my face shape?",
-   "s": "I’ve had bangs for a while now, but I’m experimenting a bit with different things. Dakota Johnson and Allison Brie are always my hair inspiration, and this time I wanted to try a bit shorter.. does this style suit my face and the rest of my hair? Could I try even a tiny bit shorter? submitted by /u/Square_Difference706 [link] [comments]",
-   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://www.reddit.com/r/Hair/comments/1x7itq3/do_these_bangs_flatter_my_face_shape/",
-   "khongPT": false,
-   "khoa": [
-    "hair"
-   ]
-  },
-  {
-   "d": "2026-10-16",
-   "src": "Reddit · r/FancyFollicles",
-   "hang": "Cộng đồng",
-   "g": "xuhuong",
-   "imp": "thap",
-   "t": "[Update] Not So Edgy Coloring - Please Help!",
-   "s": "Thank you for everyone’s help. I decided to go in with a pair of scissors tonight and correct the “style” issue before touching anything related to color. Last photo is the original hair I needed help with. Unfortunately, I was feeling more soccer mom than rockstar mom. 😂 The updates are the first time I’m styling the new cut, so improvement is much needed… but here we go! Thanks again!! [edit to add] I still am…",
-   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair, styling. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://www.reddit.com/r/FancyFollicles/comments/1x760kg/update_not_so_edgy_coloring_please_help/",
-   "khongPT": false,
-   "khoa": [
-    "hair",
-    "styling"
-   ]
-  },
-  {
-   "d": "2026-10-16",
-   "src": "The Malaysian Reserve",
-   "hang": "Tổng hợp",
-   "g": "xuhuong",
-   "imp": "vua",
-   "t": "PEMANDU Group's first consumer brand, from Aeternia Sdn. Bhd., a PEMANDU Capital portfolio company, debuts with a Malaysian-made shampoo and serum that publish the percentages of their headline actives.",
-   "s": "",
-   "w": "Tin xu hướng và thói quen của khách. Liên quan tới shampoo. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMi3gJBVV95cUxPY25NZEZDRjl2X09yUnhFc3NzOXB4NC1VUFVudVpMZWo0aXZtUjRSRW85Vm1GWExucWlzZXJleFh2eUppVTlqV0ZUbUlfanJya0l0VUpGOTRMd0doei1LWU1yX0NhV2ZFUGVPMlhpTFNvTG51SlhXRzVZeE55TWdLNXJJUC1oMGRkX2x6YzRCUGZGQ3M4Um9QT1lybHpFWFdYYTYzc21JaHZxamxXbmpLRlBSLUVfd2RkTVlISTVKaW9tdXdoZGxMbzQzaVpyWGxSdzN6aW5DcC00enZ4LUNJR0NwUTFjcjFrUXNHYlR3RFJEWTl4SWdUdDBJUjZnRUI1dk5IUXI0Sll5VFZ6RF9TdWRKUTZ4SkU4TmF3a3d4U1NoZjhmQUcxenFxM1lrYjVsb2Z4QTVNTFJuaGY2S3RuRTl2cWMteG51OGt6YUQwUFFzblJsWXhLZ1lRUUR3dw?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "shampoo",
-    "portfolio"
-   ]
-  },
-  {
-   "d": "2026-10-15",
-   "src": "Elle · Làm đẹp",
-   "hang": "Tạp chí",
-   "g": "xuhuong",
-   "imp": "thap",
-   "t": "This Young Hairstylist Refused to Let Eczema Define Her",
-   "s": "Years of painful flares affected her work, sleep, and confidence before she finally found a treatment that helped.",
-   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hairstylist. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://www.elle.com/beauty/makeup-skin-care/a73244659/this-young-hairstylist-refused-to-let-eczema-define-her/",
-   "khongPT": false,
-   "khoa": [
-    "hairstylist"
-   ]
-  },
-  {
-   "d": "2026-10-15",
-   "src": "Trend Hunter",
-   "hang": "Tổng hợp",
-   "g": "xuhuong",
-   "imp": "thap",
-   "t": "Scalp Care Routine Trend: Crown Care",
-   "s": "",
-   "w": "Tin xu hướng và thói quen của khách. Liên quan tới scalp. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VcmhHX0hSVXNEelNjTWpUWkpmSld2Smc4TllkM3ZVLVQzbjNVdDVDRURtb2FKTUszUW5ia09UUlBTX3F0S0FXMFRNYkg3Vk8wNDlRU0U2RlhiWXJfR09tZGlVdzNwYTg?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "scalp"
-   ]
-  },
-  {
-   "d": "2026-10-15",
-   "src": "Allure",
-   "hang": "Tạp chí",
-   "g": "xuhuong",
-   "imp": "thap",
-   "t": "The Top Winter Hair Trends of 2026 Are Major Power Moves—See Photos",
-   "s": "Blunt, no-nonsense bobs, polished pixies, grown-up red, and icy blonde welcome a more confident era.",
-   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://www.allure.com/story/winter-hair-trends-2026",
-   "khongPT": false,
-   "khoa": [
-    "hair"
-   ]
-  },
-  {
-   "d": "2026-10-15",
-   "src": "Allure",
-   "hang": "Tạp chí",
-   "g": "xuhuong",
-   "imp": "thap",
-   "t": "Jenna Ortega Is Warming Up to Fall With the Trendy Maple Cinnamon Hair Color — Photos",
-   "s": "The unexpected auburn looks especially pretty in this elegant ponytail.",
-   "w": "Tin xu hướng và thói quen của khách. Liên quan tới hair, hair color. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://www.allure.com/story/jenna-ortega-auburn-hair-color",
-   "khongPT": false,
-   "khoa": [
-    "hair",
-    "hair color"
    ]
   },
   {
@@ -5795,6 +5786,22 @@
   },
   {
    "d": "2026-10-28",
+   "src": "Vietnam.vn",
+   "hang": "Việt Nam",
+   "g": "vn",
+   "imp": "thap",
+   "t": "Giá điện theo giờ: Quán ăn, tiệm tóc có nguy cơ ‘đội’ hóa đơn",
+   "s": "",
+   "w": "Tin trong nước. Liên quan tới tóc, tiệm tóc. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQVlBveXUwY0pwUEw5MWhldkY1enhJUzBPTV9wSGFzbGJuMDZfUURqWWFhR2YwckhTa24tV3VUZk5jZm1BaWpXUEJ2ZUFpa3pseHc1LWlhLTJkVGJGaEVTMmJ0VWFzOXlReTcwRElMNFp1R0t1MTBtZnZNM0czQlhwTjJ4ZHNvM1U?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "tóc",
+    "tiệm tóc"
+   ]
+  },
+  {
+   "d": "2026-10-28",
    "src": "Báo VietNamNet",
    "hang": "Việt Nam",
    "g": "vn",
@@ -5812,19 +5819,18 @@
    ]
   },
   {
-   "d": "2026-10-27",
-   "src": "VTVgo",
+   "d": "2026-10-28",
+   "src": "Kênh 14 · Làm đẹp & Thời trang",
    "hang": "Việt Nam",
    "g": "vn",
    "imp": "thap",
-   "t": "Làm hồng môi, hết rụng tóc bằng Laser Dynamis 4D",
-   "s": "",
-   "w": "Tin trong nước. Liên quan tới tóc, rụng tóc. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE45VmVfbkc0MkRlWEZFcW9IdXlLZXp2S0l6bTNfWDFyOVdGTnJtWjVUcDRTTGF5Q245QmNXMl9VUEg?oc=5",
+   "t": "Chỉ còn 4 tháng nữa là Tết 2027: Chị em U40 muốn da dẻ hồng hào, tóc đen mượt thì đừng bỏ qua 4 bước dưỡng nhan này!",
+   "s": "Với 4 thói quen chăm sóc cơ thể đơn giản học từ TikToker Hồng Khấn, các chị em có thể từng bước nuôi dưỡng làn da khỏe đẹp, mái tóc chắc khỏe và thần sắc tươi tắn để tự tin, rạng rỡ đón Tết Nguyên Đán sắp tới.",
+   "w": "Tin trong nước. Liên quan tới tóc. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://kenh14.vn/chi-con-4-thang-nua-la-tet-2027-chi-em-u40-muon-da-de-hong-hao-toc-den-muot-thi-dung-bo-qua-4-buoc-duong-nhan-nay-21526102810113853.chn",
    "khongPT": false,
    "khoa": [
-    "tóc",
-    "rụng tóc"
+    "tóc"
    ]
   },
   {
@@ -6030,6 +6036,21 @@
   },
   {
    "d": "2026-10-23",
+   "src": "andora.com.vn",
+   "hang": "Việt Nam",
+   "g": "vn",
+   "imp": "thap",
+   "t": "8 xu hướng tóc đẹp 2026 cho nữ phù hợp đi làm, đi chơi, đi dự tiệc, đi sự kiện,…",
+   "s": "",
+   "w": "Tin trong nước. Liên quan tới tóc. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1TQnFBTEpnYzQ5dkU1VGZUYVUyanZidGpQY21FX3ZLNXRDSm1NQ2hZY1dxNkdGRDEwZzZQeXh4TURyaU90Y3ZPMHRTcw?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "tóc"
+   ]
+  },
+  {
+   "d": "2026-10-23",
    "src": "스타뉴스",
    "hang": "Việt Nam",
    "g": "vn",
@@ -6042,6 +6063,22 @@
    "khoa": [
     "tóc",
     "tiệm tóc"
+   ]
+  },
+  {
+   "d": "2026-10-22",
+   "src": "ELLE",
+   "hang": "Việt Nam",
+   "g": "vn",
+   "imp": "thap",
+   "t": "Nâng tầm diện mạo mùa thu cùng tóc đỏ và cách dưỡng tóc chắc khỏe và lâu phai",
+   "s": "",
+   "w": "Tin trong nước. Liên quan tới tóc, dưỡng tóc. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMy1oRWFrNk5jM1JJRGhNMzREU1VmbG02NW4tWV9CMVh5cEJLSDF6d2N5VXJLYXk0RFBMYjczNm9STGItWFcxd1dzOHc5OEhrMnl6U21TdXpPWXh4NnBBMkMtaWFGaVFJQXJHT09ZaTZzaGE3c2NCcmxrbGp6NHdnMzlkams?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "tóc",
+    "dưỡng tóc"
    ]
   },
   {
@@ -6074,40 +6111,6 @@
     "công bố",
     "tóc",
     "chăm sóc tóc"
-   ]
-  },
-  {
-   "d": "2026-10-22",
-   "src": "Tin tức 24h",
-   "hang": "Việt Nam",
-   "g": "vn",
-   "imp": "thap",
-   "t": "Acerpure ra mắt bộ đôi máy sấy tóc BEAUTY HD1 và HD3, kết hợp chăm sóc tóc và tạo kiểu linh hoạt",
-   "s": "",
-   "w": "Tin trong nước. Liên quan tới tóc, chăm sóc tóc, tạo kiểu. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPUGRrVHZ2aWt2c2xyaXYtcTROa0hDMGFaVjREVWtTc2hueEtCOFQxQWx3dzdfcFNoWXNDZ0w2bmNrUzdBUmpiUHBndVVDX2dvdmlyMTg3QW9rZ3BGNFh6bGE2Tlk2ZURMNnFDSDFJTHNjODdxX2JRNzJob0RrNFdiYTZMY1VTLXo1eDAydW9ITVRUbWo3NThyWFhKVjVaV0JpbG5BOGktZ3BJUmVwOWVsUGNSeHE3LVd3ZFhRWnVaampaY2FEcEVJcWZUZWNYWEwzWVpLT2dQdXBjcXhxbml2MDVaOTBrZmNiVlN3?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "tóc",
-    "chăm sóc tóc",
-    "tạo kiểu",
-    "sấy tóc"
-   ]
-  },
-  {
-   "d": "2026-10-22",
-   "src": "ELLE",
-   "hang": "Việt Nam",
-   "g": "vn",
-   "imp": "thap",
-   "t": "Nâng tầm diện mạo mùa thu cùng tóc đỏ và cách dưỡng tóc chắc khỏe và lâu phai",
-   "s": "",
-   "w": "Tin trong nước. Liên quan tới tóc, dưỡng tóc. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMy1oRWFrNk5jM1JJRGhNMzREU1VmbG02NW4tWV9CMVh5cEJLSDF6d2N5VXJLYXk0RFBMYjczNm9STGItWFcxd1dzOHc5OEhrMnl6U21TdXpPWXh4NnBBMkMtaWFGaVFJQXJHT09ZaTZzaGE3c2NCcmxrbGp6NHdnMzlkams?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "tóc",
-    "dưỡng tóc"
    ]
   },
   {
@@ -6227,6 +6230,24 @@
    "hang": "Việt Nam",
    "g": "vn",
    "imp": "thap",
+   "t": "Acerpure ra mắt bộ đôi máy sấy tóc BEAUTY HD1 và HD3, kết hợp chăm sóc tóc và tạo kiểu linh hoạt",
+   "s": "",
+   "w": "Tin trong nước. Liên quan tới tóc, chăm sóc tóc, tạo kiểu. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPT2dKY283TktjV1k4aXZKSWhKUTdiMzlQclBIQlBrZWxDYk1nX1JVZFo1Y0xnRGxuZERVQm1KdU53TVp0Y0tMemlqNFlGc1l4Q1VOTmN3S20teWN4elQ0bXFJRGRWSS1BMXNzTlB6X21UbDdfVTJVQllxRk9OeDBRVzdySl9zY3RBZmpNOXNlMHRHV09DQlJqU0NfU1BsWld5cmlXbElsSHFsWUdheUFhRlhWSjZMYjg3MjN2eWt1OXhFbmxoQnVycjBMN2hfT3Fn?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "tóc",
+    "chăm sóc tóc",
+    "tạo kiểu",
+    "sấy tóc"
+   ]
+  },
+  {
+   "d": "2026-10-20",
+   "src": "Eva.vn",
+   "hang": "Việt Nam",
+   "g": "vn",
+   "imp": "thap",
    "t": "Kiểu tóc này đang được lòng phái đẹp: Giúp mặt trông thon gọn, visual thăng hạng thấy rõ",
    "s": "",
    "w": "Tin trong nước. Liên quan tới tóc. Gợi ý content sẽ có sau lần chạy phân tích tới.",
@@ -6263,6 +6284,24 @@
    "u": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNeGxZYXNzOHJ4WE9ydW5heU9pelVRMUc0Zno2MDV3QVluQ01TcWlaZXd5MzZBbDh6bkNuYUZrejQ5cW9yVEpZMVRsRGxZblNreHJuOUZ1ZzRaV0FCUl9FWkMwRXU2NnVXT3VESkN0SjJGZW1GX2FzSkxYVkRJUVFzdmZSdUpFaGlKMzJjQ3I5d0huZ3hmVEo2cUpTWmExQVhNbkQ4b0s0MWJYWFhiblJVQ05RaDFwYnk4ZWVXVXAxQVpuOGJRMDYwSmhHcjBtclE?oc=5",
    "khongPT": false,
    "khoa": [
+    "tóc",
+    "rụng tóc"
+   ]
+  },
+  {
+   "d": "2026-10-19",
+   "src": "Investing.com Việt Nam",
+   "hang": "Việt Nam",
+   "g": "vn",
+   "imp": "cao",
+   "t": "Veradermics công bố kết quả thử nghiệm giai đoạn 3 về rụng tóc",
+   "s": "",
+   "w": "Tin trong nước. Có tín hiệu bằng chứng: thử nghiệm, công bố. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQSTk3bWlrcnNXLXd1dlFpbXhYS1dVMFFncEtsQ1hQVTBoaHpjXzJ1d1MteGFaZlNlOGdNM3c0MUItMDlLU3RVVnNmTm5RN0VsVU5xeUFFWU5kUFB2cnkxc0ZWaERxd21zN0JZSGJoLUVuQy1ESFRrSFVOenRsSTJrRlpOTDBrZE1wTzB5VUstSFFFY2ZTa2E5aGN1ZFFERVNVcmVRZVF2NDd6U1F4RHlwTlMwRkF4OW9CR3c?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "thử nghiệm",
+    "công bố",
     "tóc",
     "rụng tóc"
    ]
@@ -6405,21 +6444,6 @@
    "khoa": [
     "tóc",
     "tạo kiểu"
-   ]
-  },
-  {
-   "d": "2026-10-17",
-   "src": "andora.com.vn",
-   "hang": "Việt Nam",
-   "g": "vn",
-   "imp": "thap",
-   "t": "8 xu hướng tóc đẹp 2026 cho nữ phù hợp đi làm, đi chơi, đi dự tiệc, đi sự kiện,…",
-   "s": "",
-   "w": "Tin trong nước. Liên quan tới tóc. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1TQnFBTEpnYzQ5dkU1VGZUYVUyanZidGpQY21FX3ZLNXRDSm1NQ2hZY1dxNkdGRDEwZzZQeXh4TURyaU90Y3ZPMHRTcw?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "tóc"
    ]
   },
   {
@@ -6771,22 +6795,6 @@
   },
   {
    "d": "2026-10-10",
-   "src": "Eva.vn",
-   "hang": "Việt Nam",
-   "g": "vn",
-   "imp": "thap",
-   "t": "Tóc rụng thưa đến lộ cả da đầu, tôi kiên trì áp dụng 5 quy tắc chăm sóc để tóc đen dày trở lại",
-   "s": "",
-   "w": "Tin trong nước. Liên quan tới tóc, da đầu. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQWlNGbVhGTUk4M0NFejBfZmNqcnJ1OWZnZnJ6SUtuUmU1Y1BOclQyMnFoMWtZcmlQMUk4bjhZWEtISW1hQmJlMGIzeF9ZVzJla0hjYzhfazVzQkt3aXdSVmFYODZZSl9meGhSNHl1ZFZLbV9xUXZ2QzJNQ1FKcXVUSlUyeEx1c1M2eGlfcHBvR0Zha1g4c2V3cllVZkN0MnJqc0IxMWNYYlZjcVZhclFaSkMzeGNGMTlRSkNxSlZlRjFfSjVzRmI4?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "tóc",
-    "da đầu"
-   ]
-  },
-  {
-   "d": "2026-10-10",
    "src": "Ngôi Sao · Làm đẹp",
    "hang": "Việt Nam",
    "g": "vn",
@@ -6799,6 +6807,22 @@
    "khoa": [
     "tóc",
     "tóc bạc"
+   ]
+  },
+  {
+   "d": "2026-10-10",
+   "src": "Eva.vn",
+   "hang": "Việt Nam",
+   "g": "vn",
+   "imp": "thap",
+   "t": "Tóc rụng thưa đến lộ cả da đầu, tôi kiên trì áp dụng 5 quy tắc chăm sóc để tóc đen dày trở lại",
+   "s": "",
+   "w": "Tin trong nước. Liên quan tới tóc, da đầu. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQWlNGbVhGTUk4M0NFejBfZmNqcnJ1OWZnZnJ6SUtuUmU1Y1BOclQyMnFoMWtZcmlQMUk4bjhZWEtISW1hQmJlMGIzeF9ZVzJla0hjYzhfazVzQkt3aXdSVmFYODZZSl9meGhSNHl1ZFZLbV9xUXZ2QzJNQ1FKcXVUSlUyeEx1c1M2eGlfcHBvR0Zha1g4c2V3cllVZkN0MnJqc0IxMWNYYlZjcVZhclFaSkMzeGNGMTlRSkNxSlZlRjFfSjVzRmI4?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "tóc",
+    "da đầu"
    ]
   },
   {
@@ -6850,21 +6874,6 @@
   },
   {
    "d": "2026-10-09",
-   "src": "Ngôi Sao VN – Chuyển động cùng Sao",
-   "hang": "Việt Nam",
-   "g": "vn",
-   "imp": "thap",
-   "t": "Năm nay, tóc ngắn đang là xu hướng hot! Loạt sao nữ Trung - Hàn đồng loạt đổi kiểu tóc, IU cùng 3 mỹ nhân hướng dẫn cách để có tóc ngắn chuẩn đẹp",
-   "s": "",
-   "w": "Tin trong nước. Liên quan tới tóc. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNeUptNlNXdGVONzdSWFFoNG5GYmQzWEhKZkh6ZFVXcDJ0OVV1ak43N3g0SzM4Wm9RSk41LXhDZm5NTUVoUktfRnY2c0hQaEtHQTJLZkZlOENWQy12a1c2REJMQy1HZUVOVUNldzRWMlhyazd0UXBiTTlURHVkWGFjeWFrSC1OaVVvOGJoRWlOUm10VWhUb2xDcXZyZG01d2xWeDFoV2Z6MXNDdWVQUDU3UmFhMnpzWVNWZWhTUGVDUk1NNm83cF91cm05ZFhGenBlMXlFYWFvTmtWR05iN2xzemt4N0hlS3lOUDJWZ1JOeHBCaEsySDVMOVhsNnlheDg4VU1mNUlkS2N1V3cwRXU0Zm52Vkd0bGxq?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "tóc"
-   ]
-  },
-  {
-   "d": "2026-10-09",
    "src": "SOHA",
    "hang": "Việt Nam",
    "g": "vn",
@@ -6877,6 +6886,21 @@
    "khoa": [
     "tóc",
     "nhuộm tóc"
+   ]
+  },
+  {
+   "d": "2026-10-09",
+   "src": "Ngôi Sao VN – Chuyển động cùng Sao",
+   "hang": "Việt Nam",
+   "g": "vn",
+   "imp": "thap",
+   "t": "Năm nay, tóc ngắn đang là xu hướng hot! Loạt sao nữ Trung - Hàn đồng loạt đổi kiểu tóc, IU cùng 3 mỹ nhân hướng dẫn cách để có tóc ngắn chuẩn đẹp",
+   "s": "",
+   "w": "Tin trong nước. Liên quan tới tóc. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNeUptNlNXdGVONzdSWFFoNG5GYmQzWEhKZkh6ZFVXcDJ0OVV1ak43N3g0SzM4Wm9RSk41LXhDZm5NTUVoUktfRnY2c0hQaEtHQTJLZkZlOENWQy12a1c2REJMQy1HZUVOVUNldzRWMlhyazd0UXBiTTlURHVkWGFjeWFrSC1OaVVvOGJoRWlOUm10VWhUb2xDcXZyZG01d2xWeDFoV2Z6MXNDdWVQUDU3UmFhMnpzWVNWZWhTUGVDUk1NNm83cF91cm05ZFhGenBlMXlFYWFvTmtWR05iN2xzemt4N0hlS3lOUDJWZ1JOeHBCaEsySDVMOVhsNnlheDg4VU1mNUlkS2N1V3cwRXU0Zm52Vkd0bGxq?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "tóc"
    ]
   },
   {
@@ -7136,7 +7160,7 @@
   },
   {
    "d": "2026-10-07",
-   "src": "Báo Tuổi Trẻ",
+   "src": "Tuổi Trẻ",
    "hang": "Việt Nam",
    "g": "vn",
    "imp": "thap",
@@ -7168,22 +7192,6 @@
   },
   {
    "d": "2026-10-07",
-   "src": "Báo Dân trí",
-   "hang": "Việt Nam",
-   "g": "vn",
-   "imp": "thap",
-   "t": "Thu hồi xịt dưỡng tóc hương nước hoa",
-   "s": "",
-   "w": "Tin trong nước. Liên quan tới tóc, dưỡng tóc. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOS0R2ckxEM0Mta25abmI1QVludUNVNktzaC02OS04WjlYOUNWU1ZKR3dLaU5KM2hkRUt2T2dEcy0zTDJDNG9VTENWNFZfdFJwMjdRRmlxZ21qa1pUX2I2Ums2UjRxYk1xdEo5YkUtU3F6dTlfdjVTbnZMZ3dPdlloVndjUlk0X205LTlYeFJnckVLcjQ?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "tóc",
-    "dưỡng tóc"
-   ]
-  },
-  {
-   "d": "2026-10-07",
    "src": "Báo Gia Lai điện tử",
    "hang": "Việt Nam",
    "g": "vn",
@@ -7195,6 +7203,22 @@
    "khongPT": false,
    "khoa": [
     "hair",
+    "tóc",
+    "dưỡng tóc"
+   ]
+  },
+  {
+   "d": "2026-10-07",
+   "src": "Báo Dân trí",
+   "hang": "Việt Nam",
+   "g": "vn",
+   "imp": "thap",
+   "t": "Thu hồi xịt dưỡng tóc hương nước hoa",
+   "s": "",
+   "w": "Tin trong nước. Liên quan tới tóc, dưỡng tóc. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOS0R2ckxEM0Mta25abmI1QVludUNVNktzaC02OS04WjlYOUNWU1ZKR3dLaU5KM2hkRUt2T2dEcy0zTDJDNG9VTENWNFZfdFJwMjdRRmlxZ21qa1pUX2I2Ums2UjRxYk1xdEo5YkUtU3F6dTlfdjVTbnZMZ3dPdlloVndjUlk0X205LTlYeFJnckVLcjQ?oc=5",
+   "khongPT": false,
+   "khoa": [
     "tóc",
     "dưỡng tóc"
    ]
@@ -7376,22 +7400,6 @@
   },
   {
    "d": "2026-10-04",
-   "src": "Kenh14.vn",
-   "hang": "Việt Nam",
-   "g": "vn",
-   "imp": "thap",
-   "t": "10 kiểu tóc uốn mềm hợp mùa thu 2026: Tự nhiên, không mất công tạo kiểu mỗi sáng",
-   "s": "",
-   "w": "Tin trong nước. Liên quan tới tóc, tạo kiểu. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOX2h0d0RMa3FDVjVPQzFWazY4S1NTblZQaHJkSl9zbkNOWUtFeHkxOGtXV0FyZjdVRHptX3hpLWRtRGxuc3Zaa1lpTHJYSXQ4cnpEYU1tOUI1LU9keGtRLU9mTDVXczhEREkwOFVZS0NtZThJWk5ZRkRTTXZiQmsyT2RteDFUVFlyeFQ3anVwd280LS1TSzk1N0FjVzJQUjhrSnJzUDVPS0RqMlVMYk9zSzRTUEoyOW41azVv?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "tóc",
-    "tạo kiểu"
-   ]
-  },
-  {
-   "d": "2026-10-04",
    "src": "Báo Dân Việt",
    "hang": "Việt Nam",
    "g": "vn",
@@ -7404,6 +7412,22 @@
    "khoa": [
     "tóc",
     "nhuộm tóc"
+   ]
+  },
+  {
+   "d": "2026-10-04",
+   "src": "Kenh14.vn",
+   "hang": "Việt Nam",
+   "g": "vn",
+   "imp": "thap",
+   "t": "10 kiểu tóc uốn mềm hợp mùa thu 2026: Tự nhiên, không mất công tạo kiểu mỗi sáng",
+   "s": "",
+   "w": "Tin trong nước. Liên quan tới tóc, tạo kiểu. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOX2h0d0RMa3FDVjVPQzFWazY4S1NTblZQaHJkSl9zbkNOWUtFeHkxOGtXV0FyZjdVRHptX3hpLWRtRGxuc3Zaa1lpTHJYSXQ4cnpEYU1tOUI1LU9keGtRLU9mTDVXczhEREkwOFVZS0NtZThJWk5ZRkRTTXZiQmsyT2RteDFUVFlyeFQ3anVwd280LS1TSzk1N0FjVzJQUjhrSnJzUDVPS0RqMlVMYk9zSzRTUEoyOW41azVv?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "tóc",
+    "tạo kiểu"
    ]
   },
   {
@@ -7484,21 +7508,6 @@
   },
   {
    "d": "2026-10-03",
-   "src": "Eva.vn",
-   "hang": "Việt Nam",
-   "g": "vn",
-   "imp": "thap",
-   "t": "3 màu tóc được hội chị em \"săn đón\" dịp Thu - Đông 2026: Vừa tôn da lại \"ăn gian\" tuổi khéo",
-   "s": "",
-   "w": "Tin trong nước. Liên quan tới tóc. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdEtSMlpvR2xNS0hEdERqYno3QmVacGFVY29LQ25vbC1iYmVCN05mdFIxNkIwSWl6b3hOZUtQWFV5ZFRUNmhXWDB0Z3JYc0REdGhKUk1TdFprYmR4ckVaZ0ZvM3JITXRfU2NwdTdOdVB1MnRjMS1hUXVNZy16c0JiUk9EQklOcmx0WW5NNTZtMHFCUm9jS3dPT0RxLTNLOU9XMUFIRFctbEZMcEYtQjVDN0c0a2tDenl4N3Vz?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "tóc"
-   ]
-  },
-  {
-   "d": "2026-10-03",
    "src": "Ngôi Sao · Làm đẹp",
    "hang": "Việt Nam",
    "g": "vn",
@@ -7527,6 +7536,21 @@
    "khoa": [
     "tóc",
     "gội đầu"
+   ]
+  },
+  {
+   "d": "2026-10-03",
+   "src": "Eva.vn",
+   "hang": "Việt Nam",
+   "g": "vn",
+   "imp": "thap",
+   "t": "3 màu tóc được hội chị em \"săn đón\" dịp Thu - Đông 2026: Vừa tôn da lại \"ăn gian\" tuổi khéo",
+   "s": "",
+   "w": "Tin trong nước. Liên quan tới tóc. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdEtSMlpvR2xNS0hEdERqYno3QmVacGFVY29LQ25vbC1iYmVCN05mdFIxNkIwSWl6b3hOZUtQWFV5ZFRUNmhXWDB0Z3JYc0REdGhKUk1TdFprYmR4ckVaZ0ZvM3JITXRfU2NwdTdOdVB1MnRjMS1hUXVNZy16c0JiUk9EQklOcmx0WW5NNTZtMHFCUm9jS3dPT0RxLTNLOU9XMUFIRFctbEZMcEYtQjVDN0c0a2tDenl4N3Vz?oc=5",
+   "khongPT": false,
+   "khoa": [
+    "tóc"
    ]
   },
   {
@@ -7578,39 +7602,6 @@
   },
   {
    "d": "2026-10-02",
-   "src": "Báo Dân trí",
-   "hang": "Việt Nam",
-   "g": "vn",
-   "imp": "thap",
-   "t": "Nguyên Xuân phối hợp Bệnh viện Da liễu TPHCM tổ chức hội thảo chăm sóc tóc và da đầu",
-   "s": "",
-   "w": "Tin trong nước. Liên quan tới tóc, chăm sóc tóc, da đầu. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPbWRjN3ZzNWZnMHk0ZXEtOU1lRFlvc0VQcjFNZTZERHc4cEtkdy1TUEVrQ1A4a3dXM0hSS3lpS09ObzE2eFJvSlFWZEpaQnBfQ1RSZkJvX3ZhSWI5bEF2LUNWRGpDMkdaSi1kbV94VWpCQU9yWkc2NlRQdjBYVGZ4TzV4bFdYckt1QlR3TnQ1NE5wUTlWZzNtWlluWUVyWUlXbHRIOGpmaGpCSm9GQ1hhNUdnb3Q2alAxZy1TR0dBR0VUcXRLX091ZzZpZWx1RDVWTHlR?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "tóc",
-    "chăm sóc tóc",
-    "da đầu"
-   ]
-  },
-  {
-   "d": "2026-10-02",
-   "src": "Khoa học và Đời sống",
-   "hang": "Việt Nam",
-   "g": "vn",
-   "imp": "thap",
-   "t": "Dụng cụ chăm sóc tóc xa xỉ ngày càng thu hút người tiêu dùng",
-   "s": "",
-   "w": "Tin trong nước. Liên quan tới tóc, chăm sóc tóc. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWjJkemVyWmNXbmN4YXlYc2dIUHhPVi0ybDdzQUoycTB5MktjaFlBcHlMaUNIMkVIRWVtTU5FazBTaEh4ODd4SUJrTWxhUEJXSFJMWjZTeU1LR1V1b1p4WlpmM0hvOEtCakZhaGNFSlBFQVV1YzVISDItbnNoa3NKTjdUWVNYc2lYV3RTZHU0ZjhjeVIxM2tBUVpqSTdDTDBwSFNhWTlOMkZSdw?oc=5",
-   "khongPT": false,
-   "khoa": [
-    "tóc",
-    "chăm sóc tóc"
-   ]
-  },
-  {
-   "d": "2026-10-02",
    "src": "Tạp chí Đẹp",
    "hang": "Việt Nam",
    "g": "vn",
@@ -7625,18 +7616,20 @@
    ]
   },
   {
-   "d": "2026-10-01",
-   "src": "Bệnh viện Đa khoa Tâm Anh",
+   "d": "2026-10-02",
+   "src": "Báo Dân trí",
    "hang": "Việt Nam",
    "g": "vn",
    "imp": "thap",
-   "t": "Tưởng đầu bị gàu hóa viêm da mạn tính",
+   "t": "Nguyên Xuân phối hợp Bệnh viện Da liễu TPHCM tổ chức hội thảo chăm sóc tóc và da đầu",
    "s": "",
-   "w": "Tin trong nước. Liên quan tới gàu. Gợi ý content sẽ có sau lần chạy phân tích tới.",
-   "u": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1FWEJVa0JraTNXb3hmUHVORkFabTBVeGRjQmZBWV9MNWhtVTBWb1RjaGRtc0RjaGZ1TGlCZ3BLdk9zaGpsX2ZRZzk2eTlrRC1EWU9JcjBuc0hFRHF2SkZzd3NyX1h6alpLMVBzaXM4WWJ3WEhvMHdOc2JyUDM?oc=5",
+   "w": "Tin trong nước. Liên quan tới tóc, chăm sóc tóc, da đầu. Gợi ý content sẽ có sau lần chạy phân tích tới.",
+   "u": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPbWRjN3ZzNWZnMHk0ZXEtOU1lRFlvc0VQcjFNZTZERHc4cEtkdy1TUEVrQ1A4a3dXM0hSS3lpS09ObzE2eFJvSlFWZEpaQnBfQ1RSZkJvX3ZhSWI5bEF2LUNWRGpDMkdaSi1kbV94VWpCQU9yWkc2NlRQdjBYVGZ4TzV4bFdYckt1QlR3TnQ1NE5wUTlWZzNtWlluWUVyWUlXbHRIOGpmaGpCSm9GQ1hhNUdnb3Q2alAxZy1TR0dBR0VUcXRLX091ZzZpZWx1RDVWTHlR?oc=5",
    "khongPT": false,
    "khoa": [
-    "gàu"
+    "tóc",
+    "chăm sóc tóc",
+    "da đầu"
    ]
   }
  ]

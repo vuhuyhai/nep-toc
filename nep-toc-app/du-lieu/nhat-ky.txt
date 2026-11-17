@@ -6568,3 +6568,129 @@
 [2026-11-16 05:42:52] SSR: đã chèn 30 tin tĩnh vào index.html.
 [2026-11-16 05:42:52] Xong. 15 tin mới, tổng 480 tin (nghề 120, khoa học 120, xu hướng 120, Việt Nam 120).
 [2026-11-16 05:42:52] Tin mới nổi bật:
+[2026-11-17 07:14:04] Bắt đầu quét 54 nguồn
+[2026-11-17 07:14:04]   Modern Salon: 100 tin
+[2026-11-17 07:14:04]   Salon Today: 100 tin
+[2026-11-17 07:14:12]     bị chặn tốc độ (503), nghỉ 15s rồi thử lại
+[2026-11-17 07:14:35]     bị chặn tốc độ (503), nghỉ 30s rồi thử lại
+[2026-11-17 07:15:14]   American Salon: LỖI — HTTP 503
+[2026-11-17 07:15:22]     bị chặn tốc độ (503), nghỉ 15s rồi thử lại
+[2026-11-17 07:15:37]     bị chặn tốc độ (429), nghỉ 30s rồi thử lại
+[2026-11-17 07:16:08]   Hairdressers Journal: LỖI — HTTP 429
+[2026-11-17 07:16:18]     bị chặn tốc độ (503), nghỉ 15s rồi thử lại
+[2026-11-17 07:16:39]     bị chặn tốc độ (503), nghỉ 30s rồi thử lại
+[2026-11-17 07:17:09]   Behind the Chair: LỖI — HTTP 429
+[2026-11-17 07:17:10]     bị chặn tốc độ (429), nghỉ 15s rồi thử lại
+[2026-11-17 07:17:25]     bị chặn tốc độ (429), nghỉ 30s rồi thử lại
+[2026-11-17 07:17:55]   Beauty Independent: LỖI — HTTP 429
+[2026-11-17 07:17:56]   Cosmetics Business: 20 tin
+[2026-11-17 07:18:01]     bị chặn tốc độ (503), nghỉ 15s rồi thử lại
+[2026-11-17 07:18:17]     bị chặn tốc độ (429), nghỉ 30s rồi thử lại
+[2026-11-17 07:18:56]   Google News · kinh doanh salon tóc: LỖI — HTTP 503
+[2026-11-17 07:19:03]     bị chặn tốc độ (503), nghỉ 15s rồi thử lại
+[2026-11-17 07:19:26]     bị chặn tốc độ (503), nghỉ 30s rồi thử lại
+[2026-11-17 07:19:57]   Google News · ngành làm tóc: LỖI — HTTP 429
+[2026-11-17 07:20:04]     bị chặn tốc độ (503), nghỉ 15s rồi thử lại
+[2026-11-17 07:20:19]     bị chặn tốc độ (429), nghỉ 30s rồi thử lại
+[2026-11-17 07:20:49]   Google News · nghề thợ tóc: LỖI — HTTP 429
+[2026-11-17 07:20:57]     bị chặn tốc độ (503), nghỉ 15s rồi thử lại
+[2026-11-17 07:21:13]     bị chặn tốc độ (429), nghỉ 30s rồi thử lại
+[2026-11-17 07:21:43]   Google News · giá dịch vụ & khách quay lại: LỖI — HTTP 429
+[2026-11-17 07:21:44]   Reddit · r/Hairstylist: 10 tin
+[2026-11-17 07:21:44]   ScienceDaily · Rụng tóc: 60 tin
+[2026-11-17 07:21:44]   ScienceDaily · Chăm sóc da: 60 tin
+[2026-11-17 07:21:44]   Journal of Cosmetic Dermatology: 39 tin
+[2026-11-17 07:21:44]   Journal of the European Academy of Dermatology: 105 tin
+[2026-11-17 07:21:44]   International Journal of Dermatology: 106 tin
+[2026-11-17 07:21:44]   Experimental Dermatology: 13 tin
+[2026-11-17 07:21:44]   Skin Research and Technology: 6 tin
+[2026-11-17 07:21:51]     bị chặn tốc độ (503), nghỉ 15s rồi thử lại
+[2026-11-17 07:22:14]     bị chặn tốc độ (503), nghỉ 30s rồi thử lại
+[2026-11-17 07:22:45]   Dermatology Times: LỖI — HTTP 429
+[2026-11-17 07:22:55]     bị chặn tốc độ (503), nghỉ 15s rồi thử lại
+[2026-11-17 07:23:17]     bị chặn tốc độ (503), nghỉ 30s rồi thử lại
+[2026-11-17 07:23:54]   Google News · nghiên cứu rụng tóc: LỖI — HTTP 503
+[2026-11-17 07:23:54]     bị chặn tốc độ (429), nghỉ 15s rồi thử lại
+[2026-11-17 07:24:09]     bị chặn tốc độ (429), nghỉ 30s rồi thử lại
+[2026-11-17 07:24:47]   Google News · bệnh rụng tóc theo tên gọi: LỖI — HTTP 503
+[2026-11-17 07:24:54]     bị chặn tốc độ (503), nghỉ 15s rồi thử lại
+[2026-11-17 07:25:18]     bị chặn tốc độ (503), nghỉ 30s rồi thử lại
+[2026-11-17 07:25:48]   Google News · khoa học nang tóc & da đầu: LỖI — HTTP 429
+[2026-11-17 07:25:48]     bị chặn tốc độ (429), nghỉ 15s rồi thử lại
+[2026-11-17 07:26:04]     bị chặn tốc độ (429), nghỉ 30s rồi thử lại
+[2026-11-17 07:26:34]   Google News · hóa học sản phẩm tóc: LỖI — HTTP 429
+[2026-11-17 07:26:40]     bị chặn tốc độ (503), nghỉ 15s rồi thử lại
+[2026-11-17 07:27:01]     bị chặn tốc độ (503), nghỉ 30s rồi thử lại
+[2026-11-17 07:27:40]   Google News · trichology: LỖI — HTTP 503
+[2026-11-17 07:27:48]     bị chặn tốc độ (503), nghỉ 15s rồi thử lại
+[2026-11-17 07:28:13]     bị chặn tốc độ (503), nghỉ 30s rồi thử lại
+[2026-11-17 07:28:51]   Google News · tạp chí da liễu: LỖI — HTTP 503
+[2026-11-17 07:28:51]   The Conversation · Sức khỏe: 25 tin
+[2026-11-17 07:28:51]   Reddit · r/HaircareScience: 6 tin
+[2026-11-17 07:28:51]   Allure: 30 tin
+[2026-11-17 07:28:52]   Elle · Làm đẹp: 50 tin
+[2026-11-17 07:28:52]   Refinery29 · Làm đẹp: 10 tin
+[2026-11-17 07:29:00]     bị chặn tốc độ (503), nghỉ 15s rồi thử lại
+[2026-11-17 07:29:24]     bị chặn tốc độ (503), nghỉ 30s rồi thử lại
+[2026-11-17 07:29:54]   Byrdie: LỖI — HTTP 429
+[2026-11-17 07:30:00]     bị chặn tốc độ (503), nghỉ 15s rồi thử lại
+[2026-11-17 07:30:16]     bị chặn tốc độ (429), nghỉ 30s rồi thử lại
+[2026-11-17 07:30:51]   Google News · xu hướng tóc: LỖI — HTTP 503
+[2026-11-17 07:30:58]     bị chặn tốc độ (503), nghỉ 15s rồi thử lại
+[2026-11-17 07:31:20]     bị chặn tốc độ (503), nghỉ 30s rồi thử lại
+[2026-11-17 07:31:50]   Google News · trend tóc trên mạng xã hội: LỖI — HTTP 429
+[2026-11-17 07:31:58]     bị chặn tốc độ (503), nghỉ 15s rồi thử lại
+[2026-11-17 07:32:20]     bị chặn tốc độ (503), nghỉ 30s rồi thử lại
+[2026-11-17 07:32:59]   Google News · thói quen chăm tóc của khách: LỖI — HTTP 503
+[2026-11-17 07:33:07]     bị chặn tốc độ (503), nghỉ 15s rồi thử lại
+[2026-11-17 07:33:23]     bị chặn tốc độ (429), nghỉ 30s rồi thử lại
+[2026-11-17 07:34:01]   Google News · tóc bạc & tóc tuổi trung niên: LỖI — HTTP 503
+[2026-11-17 07:34:01]   Reddit · r/Hair: 10 tin
+[2026-11-17 07:34:23]     bị chặn tốc độ (429), nghỉ 25s rồi thử lại
+[2026-11-17 07:34:48]     bị chặn tốc độ (429), nghỉ 50s rồi thử lại
+[2026-11-17 07:35:39]   Reddit · r/FancyFollicles: 8 tin
+[2026-11-17 07:35:39]     bị chặn tốc độ (429), nghỉ 25s rồi thử lại
+[2026-11-17 07:36:04]   Reddit · r/femalehairadvice: 8 tin
+[2026-11-17 07:36:11]     bị chặn tốc độ (503), nghỉ 15s rồi thử lại
+[2026-11-17 07:36:33]     bị chặn tốc độ (503), nghỉ 30s rồi thử lại
+[2026-11-17 07:37:03]   Google News VN · chăm sóc tóc: LỖI — HTTP 429
+[2026-11-17 07:37:04]     bị chặn tốc độ (429), nghỉ 15s rồi thử lại
+[2026-11-17 07:37:26]     bị chặn tốc độ (503), nghỉ 30s rồi thử lại
+[2026-11-17 07:37:57]   Google News VN · rụng tóc & hói: LỖI — HTTP 429
+[2026-11-17 07:38:07]     bị chặn tốc độ (503), nghỉ 15s rồi thử lại
+[2026-11-17 07:38:28]     bị chặn tốc độ (503), nghỉ 30s rồi thử lại
+[2026-11-17 07:39:08]   Google News VN · nhuộm, uốn, duỗi: LỖI — HTTP 503
+[2026-11-17 07:39:15]     bị chặn tốc độ (503), nghỉ 15s rồi thử lại
+[2026-11-17 07:39:40]     bị chặn tốc độ (503), nghỉ 30s rồi thử lại
+[2026-11-17 07:40:17]   Google News VN · salon & tiệm tóc: LỖI — HTTP 503
+[2026-11-17 07:40:17]     bị chặn tốc độ (429), nghỉ 15s rồi thử lại
+[2026-11-17 07:40:41]     bị chặn tốc độ (503), nghỉ 30s rồi thử lại
+[2026-11-17 07:41:11]   Google News VN · phục hồi tóc & keratin: LỖI — HTTP 429
+[2026-11-17 07:41:20]     bị chặn tốc độ (503), nghỉ 15s rồi thử lại
+[2026-11-17 07:41:35]     bị chặn tốc độ (429), nghỉ 30s rồi thử lại
+[2026-11-17 07:42:06]   Google News VN · da đầu: LỖI — HTTP 429
+[2026-11-17 07:42:15]     bị chặn tốc độ (503), nghỉ 15s rồi thử lại
+[2026-11-17 07:42:31]     bị chặn tốc độ (429), nghỉ 30s rồi thử lại
+[2026-11-17 07:43:01]   Google News VN · dầu gội & mỹ phẩm tóc: LỖI — HTTP 429
+[2026-11-17 07:43:07]     bị chặn tốc độ (503), nghỉ 15s rồi thử lại
+[2026-11-17 07:43:22]     bị chặn tốc độ (429), nghỉ 30s rồi thử lại
+[2026-11-17 07:44:01]   Google News VN · kiểu tóc & xu hướng: LỖI — HTTP 503
+[2026-11-17 07:44:10]     bị chặn tốc độ (503), nghỉ 15s rồi thử lại
+[2026-11-17 07:44:32]     bị chặn tốc độ (503), nghỉ 30s rồi thử lại
+[2026-11-17 07:45:03]   Google News VN · kinh doanh làm đẹp: LỖI — HTTP 429
+[2026-11-17 07:45:03]     bị chặn tốc độ (429), nghỉ 15s rồi thử lại
+[2026-11-17 07:45:27]     bị chặn tốc độ (503), nghỉ 30s rồi thử lại
+[2026-11-17 07:45:58]   Eva · Làm đẹp: LỖI — HTTP 429
+[2026-11-17 07:45:59]   Ngôi Sao · Làm đẹp: 60 tin
+[2026-11-17 07:46:00]   Kênh 14 · Làm đẹp & Thời trang: 50 tin
+[2026-11-17 07:46:01]   VnExpress · Sức khỏe: 60 tin
+[2026-11-17 07:46:02]   Sức khỏe & Đời sống: 50 tin
+[2026-11-17 07:46:05]   VietnamNet · Sức khỏe: 1000 tin
+[2026-11-17 07:46:05] Bộ lọc an toàn đã bỏ: 3 bài quảng cáo thần dược, 0 bài hại tâm lý, 71 bài lạc chủ đề.
+[2026-11-17 07:46:05] Viết gợi ý qua hàm nền https://nep-toc.netlify.app/.netlify/functions/phan-tich. Còn 480 bài chưa có, lần này làm tối đa 60.
+[2026-11-17 07:48:20] Dừng bước viết gợi ý: 8 bài liên tiếp không xong. Lỗi cuối: chua_dat_khoa_noi_bo
+[2026-11-17 07:48:20]   Chưa đặt ANTHROPIC_API_KEY ở máy, mà hàm nền trên Netlify cũng chưa trả lời. Xem HUONG-DAN.md mục 5.
+[2026-11-17 07:48:20] SSR: đã chèn 30 tin tĩnh vào index.html.
+[2026-11-17 07:48:20] Xong. 12 tin mới, tổng 480 tin (nghề 120, khoa học 120, xu hướng 120, Việt Nam 120).
+[2026-11-17 07:48:20] Tin mới nổi bật:
+[2026-11-17 07:48:20]   · Thu hồi số công bố 227 loại dầu gội đầu, sữa tắm, chăm sóc da tóc
